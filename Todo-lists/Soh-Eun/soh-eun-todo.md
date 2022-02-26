@@ -2,7 +2,7 @@
 
 Given the variety of languages which are not based on strong prefix and suffixation, it would be desirable to find an alternative that does not rely on the alignment of the infix. My attempt will therefore reframe the multiclass classification problem by substituting the infix with the longest common subsequence (LCS). This draws heavily on prior work by Prof. Mans Hulden, although this work has not, to my knowledge, been applied to morphological inflection as multiclass classification. An example of Prof. Hulden's procedure for extracting the LCS is shown below:
 
-![Paradigm extraction procedure](/public/LCS.png)
+![Paradigm extraction procedure](/Todo-lists/Soh-Eun/public/LCS.png)
 
 The immediate utility of this approach can be seen in languages such as Arabic, where two example inflection tables are shown as below:
 
