@@ -3,7 +3,8 @@
 
 from pathlib import Path
 import pandas as pd
-from paradigm import Paradigm
+
+# from paradigm import Paradigm
 
 task = "part1"
 # task = "part2"
@@ -64,12 +65,16 @@ def main():
 
     # To-Do:
     # - need LCS? generate variable stem representation like s t ei:{ei|ie} g, associate with tag???
-    # - s t ei:TENSE g en:NUMBER+PERSON ???
+    # - um: PART s t ei:TENSE g en:NUMBER+PERSON ???
     # - generate rules by comparing tags and forms within a paradigm
+    # - or deduce affixes and morphophonemes
     # - (prioritize paradigms with more entries)
     # ==== Language-specific? ====
     # - define C, V
     # - if trennbar, strip particle, merge two paradigms, hallucinate more separable verbs
+    # ==== Producing lexc files====
+    # precedence rule?
+    # tbc....
 
     # Use case from paradigm.py
     # paradigm = Paradigm(lemma, forms)
