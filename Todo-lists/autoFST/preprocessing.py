@@ -8,7 +8,7 @@ import pandas as pd
 
 task = "part1"
 # task = "part2"
-data_dir = Path("2021Task0", "part1", "development_languages")
+data_dir = Path("2021Task0", task, "development_languages")
 
 
 def get_files(data_dir=None, iso=None, test=False):
