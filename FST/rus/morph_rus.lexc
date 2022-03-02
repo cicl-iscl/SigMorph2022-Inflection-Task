@@ -1,0 +1,37 @@
+Multichar_Symbols %+N
+        %+NOM%+SG %+NOM%+PL
+        %+GEN%+SG %+GEN%+PL
+        %+DAT%+SG %+DAT%+PL
+        %+INS%+SG %+INS%+PL
+        %+ESS%+SG %+ESS%+PL
+        %+ACC%+ANIM%+SG %+ACC%+ANIM%+PL
+        %+ACC%+INAN%+SG %+ACC%+INAN%+PL
+
+LEXICON Root
+noun_roots;
+
+LEXICON noun_roots
+кошка   noun;
+собака  noun;
+крот    noun;
+кот     noun;
+собеседница     noun;
+
+LEXICON noun
+%+N     n_inf;
+
+LEXICON n_inf
+%+NOM%+SG       #;
+%+NOM%+PL       #;
+%+GEN%+SG       #;
+%+GEN%+PL       #;
+%+DAT%+SG       #;
+%+DAT%+PL       #;
+%+INS%+SG       #;
+%+INS%+PL       #;
+%+ESS%+SG       #;
+%+ESS%+PL       #;
+%+ACC%+ANIM%+SG #;
+%+ACC%+ANIM%+PL #;
+%+ACC%+INAN%+SG #;
+%+ACC%+INAN%+PL #;
