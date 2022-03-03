@@ -1,6 +1,3 @@
-define buffer I -> i n i z || l e r _ ,, I -> n ü z || ü _ ,, M -> i m i z || l e r _ ,, M -> m ü z || ü _ ,, O -> n || ü _ ,, O -> i n || l e r _ ,, Q -> s ü || ü,, Q -> i || l e r,, Q -> s ü n || ü_d ,, Q -> i n || l e r_d;
-
-
 regex %+N -> 0,,
       %+SG -> 0,,
       %+PL -> l e r,,
