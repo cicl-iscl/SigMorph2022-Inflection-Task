@@ -1,3 +1,10 @@
+
+
+
+define buffer I -> i n i z || l e r _ ,, I -> n ü z || ü _ ,, M -> i m i z || l e r _ ,, M -> m ü z || ü _ ,, O -> n || ü _ ,, O -> i n || l e r _ ,, Q -> s ü || _ ü .#.,, Q -> i || _ l e r .#.,, Q -> s ü n || ü _ ,, Q -> i n || l e r _;
+
+define GenetiveCase %+GEN -> n ü n || _ ü .#.
+                .o. %+GEN -> n i n || m _ e .#.; 
 regex %+N -> 0,,
       %+SG -> 0,,
       %+PL -> l e r,,
@@ -8,11 +15,14 @@ regex %+N -> 0,,
       %+NOM -> 0,,
       %+DAT -> y e || %+SG _ ,,
       %+DAT -> e || %+PL _ ,,
-      %+DAT -> e || [%+PSS2P | %+PSS2S],,
+      %+DAT -> n e || %+PSS3S_ ,,
+      %+DAT -> e || [%+PSS2P | %+PSS2S]_ ,,
       %+LOC -> d e,,
-      %+LOC ->  n d e || %PSS3S,,
-      %+GEN -> n ü n || %+SG _ ,,
+      %+LOC -> n || %+PSS3P,,
+     
       %+GEN -> i n || %+PL _ ,,
+     
+      %+GEN -> n || %+PL %+PSS3P_ ,,
       %+GEN -> ü n || %+SG [%+PSS2P | %+PSS1P | %+PSS2S]_ ,,
       %+GEN -> i n || %+PL [%+PSS2P | %+PSS1P | %+PSS2S]_ ,,
       %+ACC -> y ü || %+SG _ ,,

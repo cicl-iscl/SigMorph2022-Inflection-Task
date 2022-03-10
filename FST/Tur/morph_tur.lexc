@@ -5,6 +5,7 @@ Multichar_Symbols %+N
 
 LEXICON Root
 gözlükçü   noun;
+gözleme    noun;
 
 LEXICON noun
 %+N    noun_number;
