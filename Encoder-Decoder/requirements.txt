@@ -1,0 +1,6 @@
+numpy
+OpenNMT-py==2.2.0
+tensorboard==2.8.0
+torch==1.10.2
+torchtext==0.5.0
+tqdm==4.63.0
