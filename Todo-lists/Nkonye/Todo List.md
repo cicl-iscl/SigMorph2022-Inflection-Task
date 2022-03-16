@@ -8,4 +8,10 @@
       **PSS3S**
 - [ ] Verbs
 - [ ] Adjectives
+
+### Finnish
+
+- [ ] Nouns
+- [ ] Verbs
+- [ ] Adjectives
 © 2022 GitHub, Inc.
