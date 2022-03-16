@@ -9,13 +9,3 @@
 - [ ] Verbs
 - [ ] Adjectives
 
-### Czech
-
-- [ ] Nouns
-- [ ] Verbs
-- [ ] Adjectives
-
-### Finnish
-- [ ] Nouns
-- [ ] Verbs
-- [ ] Adjectives
