@@ -1,0 +1,17 @@
+regex %+N -> 0,,
+        %+SG -> 0,,
+        %+PL -> л а р,,
+        %+PSS1S -> в ы с,,
+        %+PSS2S -> ы ң,,
+        %+PSS3S/PSS3P -> з ы,,
+        %+PSS1P -> в ы с,,
+        %+PSS2P -> ң а р,,
+
+! Gen and Acc only with psor, check pror + GEN
+        %+NOM -> 0,,
+        %+GEN -> т ы ң,,
+        %+ACC -> н ы,,
+        %+DAT -> г а,,
+        %+LOC -> д а,,
+        %+ABL -> д а н,,
+        %+ALL -> д а а ҕ а р;
