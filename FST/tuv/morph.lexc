@@ -1,0 +1,40 @@
+Multichar_Symbols %+N
+        %+SG %+PL
+        %+PSS1S
+        %+PSS2S
+        %+PSS3S/PSS3P
+        %+PSS1P
+        %+PSS2P
+        %+NOM %+GEN %+ACC %+DAT %+LOC %+ABL %+ALL
+
+LEXICON Root
+аажы    noun;
+аажылал noun;
+оор     noun;
+кожаң   noun;
+колбаса noun;
+психиатр noun;  
+
+LEXICON noun
+%+N     noun_number;
+
+LEXICON noun_number
+%+SG    noun_posessive;
+%+PL    noun_posessive;
+
+LEXICON noun_posessive
+        noun_case;
+%+PSS1S noun_case;
+%+PSS2S noun_case;
+%+PSS3S/PSS3P noun_case;
+%+PSS1P noun_case;
+%+PSS2P noun_case;
+
+LEXICON noun_case
+%+NOM   #;
+%+GEN   #;
+%+ACC   #;
+%+DAT   #;
+%+LOC   #;
+%+ABL   #;
+%+ALL   #;
