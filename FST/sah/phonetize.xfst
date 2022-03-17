@@ -1,0 +1,30 @@
+define cons1 й;
+define cons2 л;
+define cons3 с|а;
+
+define buffer I -> д || cons1 _,, I -> л || cons2 _,, I -> т || cons3 _;
+
+regex %+N -> 0,,
+        %+SG -> 0,,
+        %+PL -> л а р,,
+        %+PSS1S -> б ы,,
+        %+PSS2S -> г ы,,
+        %+PSS3S -> т ы,,
+        %+NOM -> 0,,
+        %+LOC -> д а,,
+        %+PRT -> т а,,
+        %+DAT -> г а,,
+        %+ABL -> т а н,,
+        %+INS -> н а н,,
+        %+COM -> т ы ы н,,
+        %+COMPV -> д а а ҕ а р,,
+
+        %+VCVB -> 0,,
+        %+COND -> 0,,
+        %+NEG -> б а,,
+        %+1%+SG -> I а р б ы н,,
+        %+1%+PL -> I а р б ы т,,
+        %+2%+SG -> I а р г ы н,,
+        %+2%+PL -> I а р г ы т,,
+        %+3%+SG -> д а р,,
+        %+3%+PL -> д а р д а р;
