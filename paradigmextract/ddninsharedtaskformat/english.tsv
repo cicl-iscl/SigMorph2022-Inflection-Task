@@ -1,0 +1,8 @@
+car	case=nom,num=sg
+cars	case=nom,num=pl
+	
+bar	case=nom,num=sg
+bars	case=nom,num=pl
+	
+cheese	case=nom,num=sg
+cheeses	case=nom,num=pl
