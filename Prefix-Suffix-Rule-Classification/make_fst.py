@@ -50,7 +50,7 @@ class ProposalGenerator:
                 succ = [(successor, self.states[successor]) for successor in successors]
                 print(f"{state}: {self.states[state]}: {succ}")
 
-            for state, tags in sorted(self.state_allowed_tags.items(), key= lambda s: s[0]):
+            for state, tags in sorted(self.state_allowed_tags.items(), key=lambda s: s[0]):
                 print(f"{state}: {self.states[state]}: {tags}")
 
         time.sleep(0.1)
@@ -210,7 +210,7 @@ class ProposalGenerator:
                         self.successors[prefix_indices[-1][0]].add(first_state_index)
 
                 elif field_name == "suffix":
-                    self.successors[last_state_index].add(-2)
+                    self.successors[last_state_index].add(self.FINAL_STATE)
 
                     for base_indices in self.field_alignment_indices["base"].keys():
                         self.successors[base_indices[-1][0]].add(first_state_index)
@@ -266,7 +266,7 @@ class ProposalGenerator:
 
     def propose_templates(self, condition_tags: Iterable[str]):
         """Generate possible templates for given tags by BFS"""
-        condition_tags, queue, templates = set(condition_tags), [(-1, [])], []
+        condition_tags, queue, templates = set(condition_tags), [(self.START_STATE, [])], []
 
         # Perform BFS
         while queue:
@@ -293,7 +293,7 @@ class ProposalGenerator:
             successors = self.successors[state]
 
             # If we can transition to final state, accept path
-            if -2 in successors:
+            if self.FINAL_STATE in successors:
                 templates.append(path)
 
             # Only transition to successors that allow given tag sequence
