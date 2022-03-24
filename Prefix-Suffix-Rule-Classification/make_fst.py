@@ -17,89 +17,194 @@ class ProposalGenerator:
     def __init__(self, form_regexes: List[str], tags: List[List[str]]):
         assert len(form_regexes) == len(tags)
 
-        # Align generator regexes
-        # Warning! May be very costly if many regexes are used
-        # TODO: make this more efficient, e.g. by divide-and-conquer
-        start_regex = form_regexes.pop(0)
-        regex_alignment = [(c,) for c in start_regex]
-        for regex in tqdm(form_regexes, desc="Aligning generator regexes"):
-            regex_alignment = align_form(regex_alignment, regex)
+        # Separate regexes into prefix, base, and stem parts:
+        # Prefix is everything before the first stem variable (BASECHAR)
+        # Stem is everything between the first and last stem variables (inclusive)
+        # Suffix is everything following the last stem variable
+        regexes = form_regexes
+        prefix_regexes, base_regexes, suffix_regexes = [], [], []
 
-        self.regex_alignments = np.array(regex_alignment).T
-        logger.info(f"Generator FST has {self.regex_alignments.shape[1]} states")
+        for regex in regexes:
+            # Ignore constant regexes
+            if BASECHAR not in regex:
+                continue
 
-        # Make states
-        # Each states represents 1 char in the aligned form regexes
-        state_chars = [set(column) for column in self.regex_alignments.T]
-        for column in state_chars:
-            column.discard(BLANK)
+            # Get indices of stem variables
+            gap_indices = [idx for idx, c in enumerate(regex) if c == BASECHAR]
+            base_start_index = gap_indices[0]
+            suffix_start_index = gap_indices[-1] + 1
 
-        assert all(len(chars) == 1 for chars in state_chars)
-        state_chars = [str(list(chars)[0]) for chars in state_chars]
-        self.states = {k: char for k, char in enumerate(state_chars)}
+            # Split regexes
+            prefix = regex[:base_start_index]
+            base = regex[base_start_index:suffix_start_index]
+            suffix = regex[suffix_start_index:]
+
+            prefix_regexes.append(prefix)
+            base_regexes.append(base)
+            suffix_regexes.append(suffix)
+
+        # Compute alignments for prefix, base, suffix regexes separately
+        # This is much faster than the combined step and hopefully makes some linguistic sense
+        alignments = dict()
+        for name, segments in [('prefix', prefix_regexes), ('base', base_regexes), ('suffix', suffix_regexes)]:
+            # Filter empty segments
+            segments = [regex.strip() for regex in set(segments) if regex.strip()]
+            if len(segments) == 0:
+                alignments[name] = None
+                continue
+
+            # Sort by length
+            # (improves performance, because MSA is slower with longer sequences)
+            segments = list(sorted(segments, key=len))
+
+            # Sequencially compute MSAs
+            start_regex = segments[0]
+            regex_alignment = [(c,) for c in start_regex]
+            for regex in tqdm(segments[1:], desc="Aligning generator regexes"):
+                regex_alignment = align_form(regex_alignment, regex)
+
+            alignments[name] = np.array(regex_alignment).T
+
+        # Convert alignments to indices:
+        # For each regex, we want the non-gap indices
+        indices = dict()
+        for name, field_alignments in alignments.items():
+            if field_alignments is None:
+                indices[name] = []
+                continue
+
+            field_indices = [[idx for idx, c in enumerate(alignment) if c != BLANK] for alignment in field_alignments]
+            indices[name] = field_indices
+
+        # Make graph:
+        # Here, we generate the FST graph
+        # States are characters that appear in the regexes
+        self.states = dict()
         self.states[-1] = "<START>"
         self.states[-2] = "<END>"
+        # Store FST transitions
+        self.successors = {-1: set(), -2: set()}
 
-        # Get tags for every state
-        # We store with which tags each character has been observed in the training data
-        # We can use this information later to constrain the form generation templates
-        self.state_tags = {-1: set(), -2: set()}
-        for state_idx in self.states:
-            if state_idx < 0:
+        state_counter = 0
+        state_counter_offsets = [0]
+
+        for name in ["prefix", "base", "suffix"]:
+            field_alignments = alignments[name]
+            if field_alignments is None:
                 continue
 
-            # Extract forms for which the current state is not a gap
-            column = self.regex_alignments[:, state_idx].reshape(-1)
-            non_blank_indices = [idx for idx, char in enumerate(column) if char not in (BLANK, BASECHAR)]
-            # Get tags of relevant forms
-            column_tags = [set(tags[idx]) for idx in non_blank_indices]
-            if not column_tags:
-                self.state_tags[state_idx] = set()
-            else:
-                self.state_tags[state_idx] = set.union(*column_tags)
+            for column in field_alignments.T:
+                state_chars = list(set([char for char in column if char != BLANK]))
+                assert len(state_chars) == 1
+                state_char = state_chars[0]
+                self.states[state_counter] = state_char
+                self.successors[state_counter] = set()
+                state_counter += 1
 
-        # Make neighbours
-        # For each state, store successors in graph
-        self.successors = {k: set() for k in self.states}
+            state_counter_offsets.append(state_counter)
+            offset = state_counter_offsets[-2]
 
-        # For each form, find states != gap
-        non_blank_indices = []
-        for regex_alignment in self.regex_alignments:
-            non_blank_indices.append([idx for idx, char in enumerate(regex_alignment) if char != BLANK])
+            field_indices = indices[name]
+            for regex_indices in field_indices:
+                for start, end in zip(regex_indices[:-1], regex_indices[1:]):
+                    start, end = start + offset, end + offset
+                    self.successors[start].add(end)
 
-        # Find & store successors
-        for indices in non_blank_indices:
-            # Connect start to all first states
-            self.successors[-1].add(indices[0])
-            # Connect all finishing states to end state
-            self.successors[indices[-1]].add(-2)
+                if name == "prefix":
+                    self.successors[-1].add(offset + regex_indices[0])
 
-            for start, end in zip(indices[:-1], indices[1:]):
-                self.successors[start].add(end)
+                elif name == "base":
+                    self.successors[-1].add(offset + regex_indices[0])
+                    self.successors[offset + regex_indices[-1]].add(-2)
 
-    def propose_templates(self, tags: Iterable[str], start_state=-1):
-        """Recursively generate possible templates for given tags"""
-        # End of recursion (end state reached)
-        if start_state == -2:
-            return [[]]
+                    for prefix_regex_indices in indices["prefix"]:
+                        self.successors[prefix_regex_indices[-1]].add(offset + regex_indices[0])
 
-        tags, templates = set(tags), []
-        state_char = self.states[start_state] if start_state >= 0 else ''
-        successors = self.successors[start_state]
+                elif name == "suffix":
+                    self.successors[offset + regex_indices[-1]].add(-2)
 
-        # Recursively follow all possible successors
-        for successor in successors:
-            # Define criteria for excluding paths through template graph
-            if (
-                    successor != -2 and
-                    self.states[successor] != BASECHAR and
-                    not set.issubset(tags, self.state_tags[successor])
-            ):
+                    for base_regex_indices in indices["base"]:
+                        base_idx = state_counter_offsets[1] + base_regex_indices[-1]
+                        self.successors[base_idx].add(offset + regex_indices[0])
+
+        # Add tag constraints:
+        # Currently, we only check for each state which tags are assigned to regexes
+        # that use the state. This local checking is not very effective at reducing over-generation.
+        self.state_tags = {state: set() for state in self.states}
+        self.allowed_sequences = set()
+
+        # For each regex, we collect all paths through the graph (by BFS)
+        for regex, regex_tags in zip(form_regexes, tags):
+            state_sequences = []
+            # Initialise queue for BFS
+            queue = [(-1, regex, [])]
+
+            # Perform BFS
+            while queue:
+                state, remaining_regex, path = queue.pop(0)
+                successors = self.successors[state]
+
+                # If we have consumed the complete regex and can transition to final state, accept path
+                if len(remaining_regex) == 0 and -2 in successors:
+                    state_sequences.append(path)
+                    continue
+
+                # If we have consumed the complete regex but cannot transition to final state, reject path
+                elif len(remaining_regex) == 0:
+                    continue
+
+                # Visit all successors whith matching states
+                for successor in self.successors[state]:
+                    if self.states[successor] == remaining_regex[0]:
+                        queue.append((successor, remaining_regex[1:], path + [successor]))
+
+            # Add tags to every visited state
+            for state_sequence in state_sequences:
+                # Also store allowed path prefixes (will be used as constrained for template generation)
+                for stop in range(len(state_sequence)+1):
+                    self.allowed_sequences.add(tuple(state_sequence[:stop]))
+
+                for state in state_sequence:
+                    if state < 0:
+                        continue
+
+                    self.state_tags[state].update(set(regex_tags))
+
+        # Optional printing code
+        """
+        for state, successors in self.successors.items():
+            succ = [(successor, self.states[successor]) for successor  in successors]
+            print(f"{state}: {self.states[state]}: {succ}")
+
+        for state, tags in self.state_tags.items():
+            print(f"{state}: {self.states[state]}: {tags}")
+        """
+
+    def propose_templates(self, tags: Iterable[str]):
+        """Generate possible templates for given tags by BFS"""
+        tags, queue, templates = set(tags), [(-1, [])], []
+
+        # Perform BFS
+        while queue:
+            state, path = queue.pop(0)
+            successors = self.successors[state]
+
+            # Discard illegal paths
+            if len(path) > 0 and tuple(path) not in self.allowed_sequences:
                 continue
 
-            recursive_templates = self.propose_templates(tags, start_state=successor)
-            for template in recursive_templates:
-                templates.append([state_char] + template)
+            # If we can transition to final state, accept path
+            if -2 in successors:
+                templates.append(path)
+
+            # Only transition to successors that allow given tag sequence
+            for successor in successors:
+                if set.issubset(tags, self.state_tags[successor]) or self.states[successor] == BASECHAR:
+                    queue.append((successor, path + [successor]))
+
+        # Decode regex chars from state sequences
+        templates = [template for template in templates if tuple(template) in self.allowed_sequences]
+        templates = [[self.states[state] for state in template] for template in templates]
 
         return templates
 
@@ -148,7 +253,7 @@ def make_candidates(stem_decompositions: List[Tuple[str]], templates: List[str])
 
 
 if __name__ == '__main__':
-    language_code = "deu"
+    language_code = "spa"
     path = f"../../inflection/data/part1/development_languages/{language_code}.train"
     data = pd.read_csv(path, sep='\t', names=["lemma", "form", "tag"])
 
@@ -161,7 +266,7 @@ if __name__ == '__main__':
     for tag in tags:
         all_tags.update(set(tag.split(';')))
 
-    all_regexes, form2regexes = get_regexes(lemmas, forms, paradigm_size_threshold=3, regex_count_threshold=10)
+    all_regexes, form2regexes = get_regexes(lemmas, forms, paradigm_size_threshold=3, regex_count_threshold=1)
     regex2tags = defaultdict(set)
     for form, form_tags in zip(forms, tags):
         form_regexes = form2regexes[form]
@@ -195,7 +300,7 @@ if __name__ == '__main__':
     logger.info(f"Correct form in candidates: {forms[test_item] in candidates}")
 
     covered = 0
-    num_samples = 10000
+    num_samples = 1000
     for k in trange(num_samples):
         test_tags = tags[k].split(';')
         templates = generator.propose_templates(test_tags)
