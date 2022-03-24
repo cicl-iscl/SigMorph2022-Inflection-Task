@@ -21,6 +21,7 @@ class ProposalGenerator:
     """Class for generating (deterministically) templates for generating forms based on a set of tags"""
     def __init__(self, form_regexes: List[str], tags: List[List[str]], verbose=True):
         assert len(form_regexes) == len(tags)
+
         self.regexes = form_regexes.copy()
         self.tags = tags.copy()
 
@@ -220,8 +221,19 @@ class ProposalGenerator:
         self.required_ngram_tags = defaultdict(lambda: self.all_tags.copy())
 
         for regex in self.regexes:
+            if BASECHAR not in regex:
+                continue
+
             regex_states = list(sorted(self.regex2states[regex]))
-            assert "".join([self.states[state] for state in regex_states]) == regex
+            try:
+                assert "".join([self.states[state] for state in regex_states]) == regex
+            except AssertionError as e:
+                print(regex_states)
+                print(regex)
+                print("".join([self.states[state] for state in regex_states]) == regex)
+
+                raise e
+
             regex_tags = self.regex2tags[regex]
             # print(regex, regex_states)
 
@@ -237,14 +249,17 @@ class ProposalGenerator:
     def _check_transition_graph(self):
         fail = 0
         for regex, tags in zip(self.regexes, self.tags):
+            if BASECHAR not in regex:
+                continue
+
             templates = self.propose_templates(tags)
             try:
                 assert regex in templates
             except AssertionError as e:
                 fail += 1
-                # print(regex)
-                # print(tags)
-                # print(self.regex2states[regex])
+                print(regex)
+                print(tags)
+                print(self.regex2states[regex])
 
                 # raise e
         logger.warning(f"Failed to reconstruct {fail} of {len(self.regexes)} regexes")
@@ -342,7 +357,7 @@ def make_candidates(stem_decompositions: List[Tuple[str]], templates: List[str])
 
 
 if __name__ == '__main__':
-    language_code = "spa"
+    language_code = "ame"
     path = f"../../inflection/data/part1/development_languages/{language_code}.train"
     data = pd.read_csv(path, sep='\t', names=["lemma", "form", "tag"])
 
@@ -355,7 +370,7 @@ if __name__ == '__main__':
     for tag in tags:
         all_tags.update(set(tag.split(';')))
 
-    all_regexes, form2regexes = get_regexes(lemmas, forms, paradigm_size_threshold=3, regex_count_threshold=3)
+    all_regexes, form2regexes = get_regexes(lemmas, forms, paradigm_size_threshold=2, regex_count_threshold=1)
     regex2tags = defaultdict(set)
     for form, form_tags in zip(forms, tags):
         form_regexes = form2regexes[form]
@@ -371,7 +386,7 @@ if __name__ == '__main__':
     generator = ProposalGenerator(regexes, regex_tags, verbose=False)
     analyser = LemmaAnalyser(list(set([regex[0] for regex in all_regexes])))
 
-    test_item = 10002
+    test_item = 78
     test_tags = tags[test_item].split(';')
     logger.info(f"Test tags: {test_tags}")
     templates = generator.propose_templates(test_tags)
@@ -392,7 +407,7 @@ if __name__ == '__main__':
     logger.info(f"Correct form in candidates: {forms[test_item] in candidates}")
 
     covered = 0
-    num_samples = 1000
+    num_samples = min(1000, len(lemmas))
     for k in trange(num_samples):
         test_tags = tags[k].split(';')
         templates = generator.propose_templates(test_tags)
