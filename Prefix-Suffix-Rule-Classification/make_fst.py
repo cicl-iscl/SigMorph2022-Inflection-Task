@@ -1,17 +1,14 @@
-import re
 import nltk
 import time
 import numpy as np
-import pandas as pd
 
 from logger import logger
+from tqdm.auto import tqdm
 from make_regex import BASECHAR
 from paradigm_align import BLANK
-from tqdm.auto import tqdm, trange
-from make_regex import get_regexes
+from typing import List, Iterable
 from collections import defaultdict
 from paradigm_align import align_form
-from typing import List, Iterable, Tuple, Set
 
 
 class ProposalGenerator:
@@ -27,7 +24,7 @@ class ProposalGenerator:
 
         self.regex2tags = {regex: set(tags) for regex, tags in zip(self.regexes, self.tags)}
         self.all_tags = set.union(*(set(t) for t in tags))
-        self.ngram_constraint_order = 3
+        self.ngram_constraint_order = 0
 
         logger.info("FST: Prepare fields")
         time.sleep(0.01)
@@ -41,14 +38,15 @@ class ProposalGenerator:
         time.sleep(0.01)
         self._make_transition_graph()
         time.sleep(0.01)
+        logger.info(f"Transition graph has {len(self.states)} states")
         logger.info("FST: Make constraints")
         time.sleep(0.01)
         self._make_constraints()
 
         if verbose:
             for state, successors in sorted(self.successors.items(), key=lambda s: s[0]):
-                succ = [(successor, self.states[successor]) for successor in successors]
-                print(f"{state}: {self.states[state]}: {succ}")
+                flattened_successors = [(successor, self.states[successor]) for successor in successors]
+                print(f"{state}: {self.states[state]}: {flattened_successors}")
 
             for state, tags in sorted(self.state_allowed_tags.items(), key=lambda s: s[0]):
                 print(f"{state}: {self.states[state]}: {tags}")
@@ -253,15 +251,10 @@ class ProposalGenerator:
                 continue
 
             templates = self.propose_templates(tags)
-            try:
-                assert regex in templates
-            except AssertionError as e:
-                fail += 1
-                print(regex)
-                print(tags)
-                print(self.regex2states[regex])
 
-                # raise e
+            if regex not in templates:
+                fail += 1
+
         logger.warning(f"Failed to reconstruct {fail} of {len(self.regexes)} regexes")
 
     def propose_templates(self, condition_tags: Iterable[str]):
@@ -311,113 +304,3 @@ class ProposalGenerator:
         # templates = [template for template in templates if self._check_template(template, tags)]
 
         return templates
-
-
-class LemmaAnalyser:
-    """Class for extracting possible subsequences of lemmas that can be inserted into form templates"""
-    def __init__(self, lemma_regexes: List[str]):
-        # Map BASECHAR to any contiguous subsequence
-        # $ makes sure that we always match the entire lemma
-        self.lemma_regexes = [re.sub(re.compile(BASECHAR), '(.+?)', regex) + '$' for regex in lemma_regexes]
-        self.lemma_regexes = [re.compile(regex) for regex in self.lemma_regexes]
-
-    def analyse_lemma(self, lemma: str):
-        # TODO: Find way to get all possible analyses, not just the ones (greedily) calculated by re
-        stems = []
-        for regex in self.lemma_regexes:
-            for groups in re.finditer(regex, lemma):
-                stems.append(tuple([str(group) for group in groups.groups()]))
-
-        return stems
-
-
-def make_candidates(stem_decompositions: List[Tuple[str]], templates: List[str]) -> List[str]:
-    """
-    Given a list of stem subsequences and form templates, fill in stem subsequences into templates, where possible,
-    and return exhaustive list of candidate forms.
-    """
-    candidates = []
-    for stem_decomposition in stem_decompositions:
-        for template in templates:
-            # Can only fill in if we have the same number of stem subsequences and gaps in template
-            if len(stem_decomposition) == template.count(BASECHAR):
-                idx = 0
-                candidate = []
-                for char in template:
-                    if char != BASECHAR:
-                        candidate.append(char)
-                    else:
-                        stem = stem_decomposition[idx]
-                        candidate.append(stem)
-                        idx += 1
-
-                candidates.append("".join(candidate))
-
-    return candidates
-
-
-if __name__ == '__main__':
-    language_code = "ame"
-    path = f"../../inflection/data/part1/development_languages/{language_code}.train"
-    data = pd.read_csv(path, sep='\t', names=["lemma", "form", "tag"])
-
-    # Extract lemmas, forms, and tags
-    lemmas = [str(lemma) for lemma in data["lemma"].tolist()]
-    forms = [str(form) for form in data["form"].tolist()]
-    tags = [str(tag) for tag in data["tag"].tolist()]
-
-    all_tags = set()
-    for tag in tags:
-        all_tags.update(set(tag.split(';')))
-
-    all_regexes, form2regexes = get_regexes(lemmas, forms, paradigm_size_threshold=2, regex_count_threshold=1)
-    regex2tags = defaultdict(set)
-    for form, form_tags in zip(forms, tags):
-        form_regexes = form2regexes[form]
-        form_tags = form_tags.split(";")
-
-        for regex in form_regexes:
-            regex2tags[regex[1]].update(set(form_tags))
-
-    regexes = list(set([regex[1] for regex in all_regexes]))
-    # for regex in regexes:
-    #     print(regex)
-    regex_tags = [list(regex2tags[regex]) for regex in regexes]
-    generator = ProposalGenerator(regexes, regex_tags, verbose=False)
-    analyser = LemmaAnalyser(list(set([regex[0] for regex in all_regexes])))
-
-    test_item = 78
-    test_tags = tags[test_item].split(';')
-    logger.info(f"Test tags: {test_tags}")
-    templates = generator.propose_templates(test_tags)
-    logger.info(f"Collected {len(templates)} templates")
-    # logger.info(f"{[''.join(template) for template in templates]}")
-
-    stem_decompositions = analyser.analyse_lemma(lemmas[test_item])
-    # print(stem_decompositions)
-    logger.info(f"Collected {len(stem_decompositions)} stem decompositions")
-
-    candidates = make_candidates(stem_decompositions, templates)
-
-    # for candidate in candidates:
-    #    print(candidate)
-
-    logger.info(f"Collected {len(candidates)} candidates")
-    logger.info(f"Correct form: {forms[test_item]}")
-    logger.info(f"Correct form in candidates: {forms[test_item] in candidates}")
-
-    covered = 0
-    num_samples = min(1000, len(lemmas))
-    for k in trange(num_samples):
-        test_tags = tags[k].split(';')
-        templates = generator.propose_templates(test_tags)
-        # logger.info(f"Collected {len(templates)} templates")
-
-        stem_decompositions = analyser.analyse_lemma(lemmas[k])
-        # logger.info(f"Collected {len(stem_decompositions)} stem decompositions")
-        candidates = make_candidates(stem_decompositions, templates)
-
-        if forms[k] in candidates:
-            covered += 1
-
-    logger.info(f"Covered {100 * covered / num_samples}% of forms")
