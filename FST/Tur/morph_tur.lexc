@@ -1,30 +1,43 @@
-Multichar_Symbols %+N
-  %+SG %+PL
-  %+PSS2P %+PSS1P %+PSS2S %+PSS3S
-  %+NOM  %+DAT %+LOC %+GEN %+ACC %+ABL
+Multichar_Symbols %+N %+SG %+PL %+PSS2P %+PSS1P %+PSS2S %+PSS3S %+NOM %+DAT %+LOC %+GEN %+ACC %+ABL
 
 LEXICON Root
-gözlükçü   noun;
-gözleme    noun;
 
-LEXICON noun
-%+N    noun_number;
+Noun ;
 
-LEXICON noun_number
-%+SG   noun_possessive;
-%+PL   noun_possessive;
+LEXICON Noun
+futbolcu  Ninf;
+göbek     Ninf;
+göç       Ninf;
+gölge     Ninf;
+gömlek    Ninf;
+gözlükçü  Ninf;
+gözyaşı   Ninf;
+gözleme   Ninf;
+gözlem    Ninf;
+gökada    Ninf;
+geçmiş    Ninf;
+gri kedi  Ninf;
+hamak     Ninf;
+hipotalamus Ninf;
+hukuk     Ninf;
+hamol     Ninf;
+helva     Ninf;
+heyet     Ninf;
+keş       Ninf;
+keçi      Ninf;
+oda       Ninf;
+ev        Ninf;
 
-LEXICON noun_possessive
-          noun_case;
-%+PSS2P   noun_case;
-%+PSS1P   noun_case;
-%+PSS2S   noun_case;
-%+PSS3S   noun_case;
 
-LEXICON noun_case
-%+NOM    #;
-%+DAT    #;
-%+LOC    #;
-%+GEN    #;
-%+ACC    #;
-%+ABL    #;
+LEXICON Ninf
+
+%+N%+SG%+NOM:0       #;
+%+N%+PL%+NOM:^lar    #;
+%+N%+SG%+DAT:^ye     #;
+%+N%+PL%+DAT:^lere   #;
+%+N%+SG%+LOC:^de     #;
+%+N%+PL%+LOC:^lerde  #;
+%+N%+SG%+GEN:^un     #;
+%+N%+PL%+GEN:^lerin  #;
+%+N%+SG%+ACC:^i      #;
+%+N%+PL%+ACC:^leri   #; 
