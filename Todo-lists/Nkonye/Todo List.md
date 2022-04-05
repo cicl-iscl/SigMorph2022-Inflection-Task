@@ -1,7 +1,7 @@
 ### Turkish
 
 -  Nouns: \
-      [x] **NOM**\
+      - [x] **NOM**\
       **DAT**\
       **GEN**\
       **LOC**\
