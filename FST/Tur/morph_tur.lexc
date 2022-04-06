@@ -1,0 +1,42 @@
+Multichar_Symbols %+N %+SG %+PL %+PSS2P %+PSS1P %+PSS2S %+PSS3S %+NOM %+DAT %+LOC %+GEN %+ACC %+ABL
+
+LEXICON Root
+
+Noun ;
+
+LEXICON Noun
+masör     Ninf;
+giysi     Ninf;
+ahtapot   Ninf;
+şemsiye   Ninf;
+kale      Ninf;
+öküz      Ninf;
+dilsizlik  Ninf;
+göt       Ninf;
+kloroplast  Ninf;
+cemaat	  Ninf;
+bölge	  Ninf;
+sözlükçü  Ninf;
+çiçek% tozu  Ninf;
+gerzek    Ninf;
+gözlem    Ninf;
+oda       Ninf;
+ev        Ninf;
+olmazsa% olmaz Ninf;
+
+LEXICON Ninf
+
+%+N%+SG%+NOM:0       #;
+%+N%+PL%+NOM:^lar    #;
+%+N%+SG%+DAT:^ye     #;
+%+N%+PL%+DAT:^lere   #;
+%+N%+SG%+LOC:^de     #;
+%+N%+PL%+LOC:^lerde  #;
+%+N%+SG%+GEN:^un     #;
+%+N%+PL%+GEN:^lerin  #;
+%+N%+SG%+ACC:^i      #;
+%+N%+PL%+ACC:^leri   #;
+%+N%+SG%+ABL:^den    #;
+%+N%+PL%+ABL:^lerden #;
+%+N%+SG%+NOM%+PSS1P:^miz #;
+%+N%+PL%+NOM%+PSS1P:^lerimiz  #;
