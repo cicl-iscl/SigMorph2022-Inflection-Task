@@ -1,0 +1,224 @@
+# Define Vowel Categories
+
+# Define front vowels
+define Vf [ e | i | ö | ü | E | İ | Ö | Ü | î | Î ];
+
+# Define back vowels
+define Vb  [ a | ı | o | u | A | I | O | U | â | Â | û | Û ];
+
+# Define high vowels
+define Vh  [ i | ü | ı | u | İ | Ü | I | U | î | Î | û | Û | %^si | %^sü | %^sı | %^sus ];
+
+# Define low vowels
+define Vl  [ e | ö | a | o | E | Ö | A | O | â | Â | %^se | %^sö | %^sa | %^so ];
+
+# Define front-round vowels
+define Vfr  [ ö | ü | Ö | Ü ];
+
+# Define front-unrounded vowels
+define Vfu  [ e | i | E | İ | î | Î ];
+
+# Define back-round vowels
+define Vbr [ o | u | O | U | û | Û ];
+
+# Define back-unrounded vowels
+define Vbu  [ a | ı | A | I | â | Â ];
+
+define Vowel  Vf | Vb;
+
+# Define surface vowels
+define Vsurface  [ e | i | ö | ü | E | İ | Ö | Ü | î | Î |
+                  a | ı | o | u | A | I | O | U | â | Â | û | Û ];
+
+#Define Buffer Vowels
+define bufI [ı | i | u | ü ];
+
+define bufA [ a | e ];
+
+#Define Palatal Vowels
+define Vpal %^pA | %^pI | %^pO | %^pU | %^pÂ | %^pÎ | %^pÔ |%^pÛ;
+
+define Vxx  %^A | %^I ;
+
+define Vsilent %^sFRV | %^sFUV | %^sBRV | %^sBUV ; 
+
+#Define all Vowels
+define Vall Vowel | Vxx | Vpal | Vsilent; ! except buffer vowels
+
+# define consonant categories
+define ConsV [ b | d | c | g | v | z | j | f | ğ | l | m | n | r | w | y | 
+             B | D | C | G | V | Z | J | F | Ğ | L | M | N | R | W | Y ];
+
+define ConsUV [ p | t | ç | k | f | s | ş | h | 
+	      P | T | Ç | K | F | S | Ş | H ];
+
+#Define Consonants
+define Cons  ConsV | ConsUV;
+
+#Define Consonant Buffers
+define ConsBuf %^%(y%) | %^%(s%) | %^%(ş%) | %^%(n%);
+
+define ConsXX    %^c | %^p | %^t | %^k | %^g | %^K | %^D | %^C | %@LN ;
+
+define Cbuf [ c | ç ];
+
+define Dbuf [ d | t ];
+
+#Define Silent Consonant
+define ConsSilent %^sVC |  %^sUC;
+
+# Define all consonant categories except buffers
+define ConsAll  Cons | ConsXX |ConsSilent; ! except buffers
+
+# Define Surface Consonants
+define ConsSurface [ b | d | c | g | v | z | j | f | ğ | l | m | n | r | w | y | 
+B | D | C | G | V | Z | J | F | Ğ | L | M | N | R | W | Y |
+p | t | ç | k | f | s | ş | h | 
+P | T | Ç | K | F | S | Ş | H ];
+
+read lexc morph_tur.lexc
+define Lexicon;
+
+#Define Plural morpheme alternations
+define PluralAlternation l a r -> l e r || Vf "^" _ ,,
+                         l a r -> l e r || Vf ConsAll "^" _;
+
+#Define K Alternations
+define KAlternations k -> ğ || _ "^" Vall;
+
+#Define Dative Singular Case Alternations
+define DativeSgAlternations y e -> y a || Vb "^" _ ,,
+                                  y e -> e || Vf ConsAll "^" _ ,,
+         		          y e -> a || Vb ConsAll "^" _ ,,
+				  y e -> e || Vf ConsAll ConsAll"^" _ ,,
+				  y e -> a || Vb ConsAll ConsAll "^" _;
+                                  
+#Define Dative Plural Case Alternations
+define DativePlAlternations l e r e -> l a r a || Vb "^" _;
+
+
+#Define Locative Plural Alternations
+define LocativePl l e r d e -> l a r d a || Vb "^" _ ,,
+                  l e r d e -> l a r d a || Vb ConsAll "^" _ ,,
+		  l e r d e -> l a r d a || Vb ConsAll ConsAll "^" _;
+
+#Define Locative Singular Alternations
+define LocativeSg d e -> d a || Vb "^" _ ,,
+                  d e -> t e || Vf ConsUV "^" _ ,,
+		  d e -> t a || Vb ConsUV "^" _;
+
+#Define Genetive Alternations
+define GenetiveSg u n -> i n || Vfu ConsAll "^" _ ,,
+                  u n -> ı n || Vbu ConsAll "^" _ ,,
+		  u n -> ü n || Vfr ConsAll "^" _ ,,
+	          u n -> i n || Vfu ConsAll ConsAll "^" _ ,,
+                  u n -> ı n || Vbu ConsAll ConsAll "^" _ ,,
+	          u n -> ü n || Vfr ConsAll ConsAll "^" _ ,,
+		  u n -> n u n || ConsAll Vbr "^" _ ,,
+		  u n -> n ü n || ConsAll Vfr "^" _ ,,
+		  u n -> n i n || ConsAll Vfu "^" _ ,,
+		  u n -> n ı n || ConsAll Vbu "^" _;
+
+define GenetivePl l e r i n -> l a r ı n || Vb ConsAll "^" _ ,,
+                  l e r i n -> l a r ı n || Vb "^" _;
+                 #Compound nouns: larının and lerinin
+
+
+#Define Accusative Alternations
+define AccusativeSg i -> ü || Vfr ConsAll "^" _ ,,
+                    i -> u || Vbr ConsAll "^" _ ,,
+		    i -> ı || Vbu ConsAll "^" _ ,,
+		    i -> ü || Vfr ConsAll ConsAll "^" _ ,,
+		    i -> u || Vbr ConsAll ConsAll "^" _ ,,
+		    i -> ı || Vbu ConsAll ConsAll "^" _ ,,
+		    i -> y ı || [ b | d | c | g | v | z | j | f | l | m | n | r | w | y ] Vbu "^" _ ,,
+		    i -> y i || [ b | d | c | g | v | z | j | f | l | m | n | r | w | y ] Vfu "^" _ ,,
+		    i -> n ı || ğ ı "^" _ ,,
+		    i -> n i || ğ i "^" _ ,,
+		    i -> y u || ConsAll Vbr "^" _ ,,
+		    i -> y ü || ConsAll Vfr "^" _;
+
+     # Note: It's not very clear what condition determines a y insertion and an n insertion when marking accussative singular case. 
+     #As 'ni', 'nu', nı, nü
+
+
+define AccusativePl l e r i -> l a r ı || Vb "^" _ ,,
+                    l e r i -> l a r ı || Vb ConsAll "^" _ ,,
+		    l e r i -> l a r ı || Vb ConsAll ConsAll "^" _;
+                    #Whenever 'n' is inserted for singular case, an 'ni' is added to the plural case e.g., lerini or larını.
+                                                             
+
+#Define Abulative case alternations
+define AbulativeSg d e n -> d a n || Vb "^" _ ,,
+                   d e n -> d a n || Vb ConsAll "^" _ ,,
+		   d e n -> d a n || Vb ConsAll ConsAll "^" _;
+
+define AbulativePl l e r d e n -> l a r d a n || Vb "^" _ ,,
+                   l e r d e n -> l a r d a n || Vb ConsAll "^" _ ,,
+		   l e r d e n -> l a r d a n || Vb ConsAll ConsAll "^" _;
+
+#define first person possessive alternations for nominative case
+define Pss1pNomSg m i z -> ı m ı z || Vbu ConsAll "^" _ ,,
+                  m i z -> ı m ı z || Vbu ConsAll ConsAll "^" _ ,,
+		  m i z -> u m u z || Vbr ConsAll "^" _ ,,
+		  m i z -> i m i z || Vfu ConsAll "^" _ ,,
+		  m i z -> u m u z || Vbr ConsAll ConsAll "^"_ ,,
+		  m i z -> m u z || ConsAll Vbr "^" _ ,,
+		  m i z -> m ı z || ConsAll Vbu "^" _ ,,
+		  m i z -> m ü z || ConsAll Vfr "^" _ ,,
+		  m i z -> ü m ü z || Vfr ConsAll "^" _ ,,
+		  m i z -> ü m ü z || Vfr ConsAll ConsAll "^" _;
+		
+define Pss1pNomPl l e r i m i z -> l a r ı m ı z || Vb "^" _ ,,
+                  l e r i m i z -> l a r ı m ı z || Vb ConsAll "^" _ ,,
+		  l e r i m i z -> l a r ı m ı z || Vb ConsAll ConsAll "^" _;
+
+
+#Define CI alternations
+define CIalternations Cbuf bufI -> ç ı || ConsUV "^" _ ,,
+                      Cbuf bufI -> c i || Vall "^" _;
+
+#Define D Alternations
+define DAlternation Dbuf -> t || ConsUV "^" _ ,,
+                    Dbuf -> d || ConsV "^" _;
+
+#Delete (S)I in some cases
+define SIdeletion s bufI -> 0 || _ "^" s bufI ,,
+                  s bufI -> 0 || _ "^" l bufA r bufI ,,
+		  s bufI -> 0 || [ l bufI | l bufI k | s bufI z | Cbuf I ] "^" _ ,,
+                  s bufI -> 0 || %^%(y%) bufA s bufI "^" _;
+
+#Looks like 'er' combination can pass for a back vowel in some cases.
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+
+read lexc morph_tur.lexc
+define Lexicon
+
+define Grammar Lexicon                 .o.
+               PluralAlternation       .o.
+	       DativeSgAlternations    .o.
+	       DativePlAlternations    .o.
+	       KAlternations           .o.
+	       LocativePl              .o.
+	       LocativeSg              .o.
+	       GenetiveSg              .o.
+	       GenetivePl              .o.
+	       AccusativeSg            .o.
+	       AccusativePl            .o.
+	       AbulativeSg             .o.
+	       AbulativePl             .o.
+	       Pss1pNomSg              .o.
+	       Pss1pNomPl              .o.
+	       CIalternations          .o.
+	       DAlternation            .o.
+	       SIdeletion              .o.
+               Cleanup;
+
+regex Grammar;
+
+#Define K Alternations
+#define KAlternations k -> ğ || Vall "^" _;
+#regex KAltenations .P. Grammar;
