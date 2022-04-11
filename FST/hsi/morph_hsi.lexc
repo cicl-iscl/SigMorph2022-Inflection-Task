@@ -1,0 +1,74 @@
+Multichar_Symbols
+	%+N
+	%+NOM %+non{NOM}
+	%+MASC %+FEM
+	%+SG %+PL
+	%+PSS1S %+PSS2S %+PSS3S %+PSS1P %+PSS2P %+PSS3P
+
+	%+V
+	%+NFIN %+IND %+SBJV
+	%+PRS %+PST
+	%+PFV %+IPFV %+PROG
+	%+1%+SG
+	%+1%+PL
+	%+2%+SG
+	%+2%+PL
+	%+3%+SG
+	%+3%+PL
+	%+MASC %+FEM
+
+	%+PRO
+	%+NOM %+ACC %+non{NOM/ACC}
+	! %+non{NOM/ACC} for oblique case
+	%+SG %+PL
+
+	%+NUM
+	%+MASC %+FEM
+	%+SG %+PL
+
+	%+ADJ
+	%+MASC %+FEM
+	%+SG %+PL
+
+
+LEXICON Root
+! zayfā noun;
+gohro noun;
+ačen verb;
+! karen verb;
+noko adjective;
+māy pronoun;
+tereṛā numeral;
+
+LEXICON noun
+%+N noun_case;
+
+LEXICON noun_case
+%+NOM noun_gender;
+%+NOM noun_number;  ! does not specify gender
+%+non{NOM} noun_gender;
+
+LEXICON noun_gender
+%+MASC noun_number;
+%+FEM noun_number;
+
+LEXICON noun_number
+%+SG noun_possesive;
+%+PL noun_possesive;
+
+LEXICON noun_possesive
+	#;
+%+PSS1S #;
+%+PSS2S #;
+%+PSS3S #;
+%+PSS1P #;
+%+PSS2P #;
+%+PSS3P #;
+
+LEXICON verb
+
+LEXICON adjective
+
+LEXICON pronoun
+
+LEXICON numeral

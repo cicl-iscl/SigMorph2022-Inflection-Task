@@ -3,12 +3,14 @@
 
 from pathlib import Path
 import pandas as pd
+from logger import logger
 
-# from paradigm import Paradigm
+from paradigm import Paradigm
 
 task = "part1"
 # task = "part2"
-data_dir = Path("2021Task0", task, "development_languages")
+# data_dir = Path("2021Task0", task, "development_languages")
+data_dir = Path("..", "..", "2022InflectionST", task, "development_languages")
 
 
 def get_files(data_dir=None, iso=None, test=False):
@@ -39,55 +41,42 @@ def decompose_group(group):
 
 def main():
     # print(get_files(data_dir))
-    files = get_files(data_dir, "deu")
-    print(files)
-    print()
-    print()
+    language_code = "hsi"  # Kholosi
+
+    # Needs transliteration:
+    # language_code = "bra"  # Braj
+    # language_code = "mag"  # Magahi
+
+    files = get_files(data_dir, language_code)
+
+    logger.info(f"Found {len(files)} files for {language_code}:")
+    for f in files:
+        logger.info(f"\t{f.name}")
     grouped = group_by_lemma(files)
     lemmata = grouped.groups.keys()
     groups = [grouped.get_group(x) for x in grouped.groups]
-    print(f"{len(lemmata)} lemmas")
-    print(groups[0])
-    print()
-    print()
-    umsteigen = grouped.get_group("umsteigen")
-    print(umsteigen)
-    print()
-    print()
-    umsteigen = sort_tags(umsteigen)
-    print(umsteigen)
-    trennbar = any(" " in x for x in umsteigen["form"].tolist())
-    print(trennbar)  # potentially useful for data augmentation
-    lemma, forms, tags = decompose_group(umsteigen)
-    print(lemma)
-    print(forms)
-    print(tags)
+    logger.info(f"Collected {len(lemmata)} lemmas.")
 
-    # To-Do:
-    # - need LCS? generate variable stem representation like s t ei:{ei|ie} g, associate with tag???
-    # - um: PART s t ei:TENSE g en:NUMBER+PERSON ???
-    # - generate rules by comparing tags and forms within a paradigm
-    # - or deduce affixes and morphophonemes
-    # - (prioritize paradigms with more entries)
-    # ==== Language-specific? ====
-    # - define C, V
-    # - if trennbar, strip particle, merge two paradigms, hallucinate more separable verbs
-    # ==== Producing lexc files====
-    # precedence rule?
-    # tbc....
+    for grp in groups:
+        lem = grp["lemma"].iloc[0]
+        logger.debug(lem)
+        sorted_grp = sort_tags(grouped.get_group(lem))
+        logger.debug(f"\n{sorted_grp}")
 
-    # Use case from paradigm.py
-    # paradigm = Paradigm(lemma, forms)
+        lemma, forms, tags = decompose_group(sorted_grp)
+        logger.info(f"\n\n{lemma}")
+        logger.info(forms)
+        logger.info(tags)
 
-    # print()
-    # print(paradigm.alignment)
-    # print()
-    # print(paradigm.segments)
-    # print()
+        # # Use case from paradigm.py
+        # paradigm = Paradigm(lemma, forms)
+        # logger.debug("Paradigm:\n")
+        # logger.info(f"\t{paradigm.alignment}")
+        # logger.info(f"\t{paradigm.segments}\n\n")
 
-    # for form in forms:
-    #     print(paradigm.form2segments(form))
-    #     print()
+        # logger.debug("Forms:\n")
+        # for form in forms:
+        #     logger.info(paradigm.form2segments(form))
 
 
 if __name__ == "__main__":
