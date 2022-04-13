@@ -13,12 +13,12 @@
       - [x] **LOC PSS1P**
       - [x] **ACC PSS1P**
       - [x] **ABL PSS1P**
-      - [ ] **NOM PSS2P**
-      - [ ] **DAT PSS2P**
-      - [ ] **GEN PSS2P**
-      - [ ] **LOC PSS2P**
-      - [ ] **ACC PSS2P**
-      - [ ] **ABL PSS2P**
+      - [x] **NOM PSS2P**
+      - [x] **DAT PSS2P**
+      - [x] **GEN PSS2P**
+      - [x] **LOC PSS2P**
+      - [x] **ACC PSS2P**
+      - [x] **ABL PSS2P**
       - [ ] **NOM PSS2S**
       - [ ] **DAT PSS2S**
       - [ ] **GEN PSS2S**
