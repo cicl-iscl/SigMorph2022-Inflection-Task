@@ -1,9 +1,5 @@
 define vowel ā|a|e|i|o|u;
-define consonant b|c|č|čʰ|d|f|g|h|j|k|l|m|n|p|pʰ|q|r|ṛ|s|š|t|tʰ|v|w|x|y|z;
-
-
-! gemination problem: how to refer to the same consonant instead of using any consonant
-! exception: miri -> miriyus
+define consonant b|c|č|d|f|g|h|j|k|l|m|n|p|q|r|ṛ|s|š|t|ʰ|v|w|x|y|z;
 
 regex %+N -> "^",,
 		%+non%{NOM%} -> 0,,
