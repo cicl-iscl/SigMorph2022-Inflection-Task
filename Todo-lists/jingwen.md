@@ -1,12 +1,12 @@
 Kholosi
 ----
-- noun
+### Noun
 
 - [x] basic
 - [x] exceptions
 - [ ] tag order
 
-- verb
+### Verb
 
 - [ ] PRS;PROG
 - [ ] IPFV;PST;FEM
@@ -18,14 +18,14 @@ Kholosi
 - [ ] PFV;PRS;MASC
 - [ ] exceptions
 
-- pronoun
+### Pronoun
 
 - [ ] 1.P
 - [ ] 2.P
 - [ ] 3.P Prox.
 - [ ] 3.P Dist
 
-- misc
+### Misc
 
 - [x] adjectives
 - [x] numerals
