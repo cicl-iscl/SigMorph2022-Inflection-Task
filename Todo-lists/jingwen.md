@@ -6,7 +6,7 @@ Kholosi
 - [ ] nouns-double check tag order
 - [ ] verbs
 - [ ] pronouns
-- [ ] adjectives
-- [ ] numerals
+- [x] adjectives
+- [x] numerals
 - [ ] remove duplicate Multichar_Symbols
 - [ ] automate testing?
