@@ -1,19 +1,29 @@
 define vowel ā|a|e|i|o|u;
 define consonant b|c|č|čʰ|d|f|g|h|j|k|l|m|n|p|pʰ|q|r|ṛ|s|š|t|tʰ|v|w|x|y|z;
 
-! define replacement vowel -> ā || _ "^";
+! define replace vowel -> ā || _ "^";
 ! define clean "^" -> 0;
+define buffer PL1 -> y e n || vowel "^" _,,PL1 -> e n || consonant consonant "^" _,, PL1 -> consonant e n || consonant "^" _;
+! gemination problem: how to refer to the same consonant instead of using any consonant
 
-regex %+N -> 0,,  ! %+N -> "^",,
-        "+non{NOM}"%+PL -> y e n,,  ! not accurate, just for testing
-        %+NOM%+SG -> 0,,
-        %+NOM%+FEM%+SG -> 0,,
-        %+NOM%+MASC%+SG -> 0,,
-            %+PSS1S -> y,,
-            %+PSS2S -> 0,,
-            %+PSS3S -> s,,
-            %+PSS1P -> m,,
-            %+PSS2P -> m,,
-            %+PSS3P -> ā n;  ! not accurate, just for testing
-        ! clean;
+! define buffer PL2 -> replace || vowel "^" _,, PL2 -> ā s|| consonant "^" _;
+define buffer PL3 -> y u || vowel "^" _,, PL3 -> u || consonant "^" _,, PL3 -> y u s || m i r i "^" _;
+! exception: miri -> miriyus
+
+regex %+N -> "^",,
+		%+non%{NOM%} -> 0,,
+		%+PL -> PL1 || %+non%{NOM%} (%+FEM) _,,
+		%+PL -> PL2 || %+NOM %+MASC _,,
+		%+PL -> PL3 || %+NOM %+FEM _,,
+		%+NOM -> 0,,
+		%+SG -> 0,,
+		%+MASC -> 0,,
+		%+FEM -> 0,,
+		%+PSS1S -> y,,
+		%+PSS2S -> 0,,
+		%+PSS3S -> s,,
+		%+PSS1P -> m,,
+		%+PSS2P -> m,,
+		%+PSS3P -> ā n,,  ! not accurate, just for testing
+		clean;
 

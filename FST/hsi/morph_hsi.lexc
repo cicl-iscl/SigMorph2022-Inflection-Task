@@ -32,8 +32,27 @@ Multichar_Symbols
 
 
 LEXICON Root
-! zayfā noun;
+! ---- nouns ----
+! zayfā noun; ! exception -> zayfen	N;non{NOM};PL;FEM
 gohro noun;
+miri noun; ! exception -> miriyus instead of miriyu
+viyāv noun; ! exception, insert k -> viyāvkā	N;NOM;PL
+tʰal noun; ! gemination -> tʰallen
+peter noun;
+šorko noun;
+šurki noun;
+kozoro noun;
+mers noun;
+kotoro noun;
+gārbo noun;
+fil noun;
+gazzi noun;
+āno noun;
+čuki noun;
+olu noun;
+ambo noun;
+tāffo noun; ! exception
+! ---------------
 ačen verb;
 ! karen verb;
 noko adjective;
@@ -46,7 +65,16 @@ LEXICON noun
 LEXICON noun_case
 %+NOM noun_gender;
 %+NOM noun_number;  ! does not specify gender
-%+non{NOM} noun_gender;
+%+non{NOM} noun_oblique_number;
+
+LEXICON noun_oblique_number
+%+SG noun_oblique_gender;
+%+PL noun_oblique_gender;
+
+LEXICON noun_oblique_gender
+	#;
+%+MASC #;
+%+FEM #;
 
 LEXICON noun_gender
 %+MASC noun_number;
@@ -54,7 +82,7 @@ LEXICON noun_gender
 
 LEXICON noun_number
 %+SG noun_possesive;
-%+PL noun_possesive;
+%+PL #;
 
 LEXICON noun_possesive
 	#;
