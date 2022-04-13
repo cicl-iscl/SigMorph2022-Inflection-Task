@@ -1,0 +1,23 @@
+Multichar_Symbols
+    %+ADJ
+    %+MASC %+FEM
+    %+SG %+PL
+
+LEXICON Root
+noko adjective;
+tʰāṛgo adjective;
+parono adjective;
+sokolo adjective;
+sākko adjective;
+tʰāllo adjective;
+
+LEXICON adjective
+%+ADJ adj_gender;
+
+LEXICON adj_gender
+%+MASC adj_number;
+%+FEM adj_number;
+
+LEXICON adj_number
+%+SG #;
+%+PL #;
