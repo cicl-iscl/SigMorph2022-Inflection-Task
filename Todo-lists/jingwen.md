@@ -1,12 +1,12 @@
 Kholosi
 ----
-[x] nouns-basic
-[] nouns-gemination
-[] nouns-exceptions
-[] nouns-double check tag order
-[] verbs
-[] pronouns
-[] adjectives
-[] numerals
-[] remove duplicate Multichar_Symbols
-[] automate testing?
+- [x] nouns-basic
+- [ ] nouns-gemination
+- [ ] nouns-exceptions
+- [ ] nouns-double check tag order
+- [ ] verbs
+- [ ] pronouns
+- [ ] adjectives
+- [ ] numerals
+- [ ] remove duplicate Multichar_Symbols
+- [ ] automate testing?
