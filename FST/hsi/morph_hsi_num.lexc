@@ -1,0 +1,22 @@
+Multichar_Symbols
+	%+NUM
+	%+MASC %+FEM
+	%+SG %+PL
+
+LEXICON Root
+hoko numeral;
+barā numeral;
+tereṛā numeral;
+čāllā numeral;
+panjerā numeral;
+
+LEXICON numeral
+%+NUM num_gender;
+
+LEXICON num_gender
+%+MASC num_number;
+%+FEM num_number;
+
+LEXICON num_number
+%+SG #;
+%+PL #;

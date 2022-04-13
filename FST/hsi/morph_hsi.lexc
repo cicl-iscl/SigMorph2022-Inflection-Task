@@ -54,10 +54,17 @@ ambo noun;
 tāffo noun; ! exception
 ! ---------------
 ačen verb;
-! karen verb;
+vanen verb;
+karen verb;
+xāyen verb;
+vadden verb;
 noko adjective;
 māy pronoun;
+hoko numeral;
+barā numeral;
 tereṛā numeral;
+čāllā numeral;
+panjerā numeral;
 
 LEXICON noun
 %+N noun_case;
@@ -100,3 +107,12 @@ LEXICON adjective
 LEXICON pronoun
 
 LEXICON numeral
+%+NUM num_gender;
+
+LEXICON num_gender
+%+MASC num_number;
+%+FEM num_number;
+
+LEXICON num_number
+%+SG #;
+%+PL #;

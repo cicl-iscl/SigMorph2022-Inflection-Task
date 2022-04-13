@@ -1,0 +1,9 @@
+define vowel ā|a|e|i|o|u;
+define consonant b|c|č|čʰ|d|f|g|h|j|k|l|m|n|p|pʰ|q|r|ṛ|s|š|t|tʰ|v|w|x|y|z;
+
+! define gender vowel -> i || _ "^",, e -> i,, o -> i;
+
+regex %+NUM -> "^",,
+	%+MASC -> 0,,
+	%+SG -> 0,,
+	%+PL -> 0;
