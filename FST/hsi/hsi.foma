@@ -4,7 +4,7 @@ define morph
 source phonetize_hsi.xfst
 define phon
 
-define plural PL1 -> y e n || vowel "^" _,,PL1 -> e n || consonant consonant "^" _,,PL1 -> consonant e n || consonant "^" _,,PL2 -> ā s|| consonant "^" _,,PL2 -> ā || vowel "^" _;
+define plural PL1 -> y e n || vowel "^" _,,PL1 -> e n || consonant consonant "^" _,,PL1 -> consonant e n || consonant "^" _,,PL2 -> ā s|| consonant "^" _,,PL2 -> ā || vowel "^" _,,PL3 -> y u || vowel "^" _,, PL3 -> u || consonant "^" _,, PL3 -> y u s || m i r i "^" _;
 define clean "^" -> 0;
 define tidy vowel -> 0 || _ ā;
 
@@ -16,3 +16,4 @@ down šorko+N+NOM+MASC+PL
 down peter+N+NOM+MASC+PL
 down gohro+N+NOM+MASC+PL
 down miri+N+NOM+FEM+PL
+down gohro+N+NOM+MASC+SG+PSS3P
