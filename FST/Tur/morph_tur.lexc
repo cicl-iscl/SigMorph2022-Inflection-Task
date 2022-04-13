@@ -1,0 +1,106 @@
+Multichar_Symbols %+N %+SG %+PL %+PSS2P %+PSS1P %+PSS2S %+PSS3S %+NOM %+DAT %+LOC %+GEN %+ACC %+ABL
+
+LEXICON Root
+
+Noun ;
+
+LEXICON Noun
+masör     Ninf;
+giysi     Ninf;
+ahtapot   Ninf;
+şemsiye   Ninf;
+kale      Ninf;
+öküz      Ninf;
+dilsizlik  Ninf;
+göt       Ninf;
+kloroplast  Ninf;
+cemaat	  Ninf;
+bölge	  Ninf;
+sözlükçü  Ninf;
+çiçek% tozu  Ninf;
+gerzek    Ninf;
+gözlem    Ninf;
+oda       Ninf;
+ev        Ninf;
+olmazsa% olmaz Ninf;
+ilâç      Ninf;
+hudut     Ninf;
+
+LEXICON Ninf
+
+%+N%+SG%+NOM:0       #;
+%+N%+PL%+NOM:^lar    #;
+%+N%+SG%+DAT:^ye     #;
+%+N%+PL%+DAT:^lere   #;
+%+N%+SG%+LOC:^de     #;
+%+N%+PL%+LOC:^lerde  #;
+%+N%+SG%+GEN:^un     #;
+%+N%+PL%+GEN:^lerin  #;
+%+N%+SG%+ACC:^i      #;
+%+N%+PL%+ACC:^leri   #;
+%+N%+SG%+ABL:^den    #;
+%+N%+PL%+ABL:^lerden #;
+%+N%+SG%+NOM%+PSS1P:^miz #;
+%+N%+PL%+NOM%+PSS1P:^lerimiz  #;
+%+N%+SG%+DAT%+PSS1P:^mize  #;
+%+N%+PL%+DAT%+PSS1P:^lerimize  #;
+%+N%+SG%+GEN%+PSS1P:^ümüzün  #;
+%+N%+PL%+GEN%+PSS1P:^lerimizin  #;
+%+N%+SG%+ACC%+PSS1P:^ümüzü  #;
+%+N%+PL%+ACC%+PSS1P:^lerimizi  #;
+%+N%+SG%+ABL%+PSS1P:^ümüzden   #;
+%+N%+PL%+ABL%+PSS1P:^mızdan  #;
+%+N%+SG%+LOC%+PSS1P:^ümüzde   #;
+%+N%+PL%+LOC%+PSS1P:^lerimizde #;
+%+N%+SG%+NOM%+PSS2P:^niz  #;
+%+N%+PL%+NOM%+PSS2P:^leriniz  #;
+%+N%+SG%+DAT%+PSS2P:^ünüze  #;
+%+N%+PL%+DAT%+PSS2P:^o  #;
+%+N%+SG%+ACC%+PSS2P:^ünüzü  #;
+%+N%+PL%+ACC%+PSS2P:^z  #;
+%+N%+SG%+GEN%+PSS2P:^ünüzün  #;
+%+N%+PL%+GEN%+PSS2P:^q  #;
+%+N%+SG%+ABL%+PSS2P:^ünüzden  #;
+%+N%+PL%+ABL%+PSS2P:^w  #;
+%+N%+SG%+LOC%+PSS2P:^ünüzde  #;
+%+N%+PL%+LOC%+PSS2P:^x   #;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
