@@ -76,7 +76,7 @@ B | D | C | G | V | Z | J | F | Ğ | L | M | N | R | W | Y |
 p | t | ç | k | f | s | ş | h | 
 P | T | Ç | K | F | S | Ş | H ];
 
-read lexc morph_tur.lexc
+read lexc tur_nouns.lexc
 define Lexicon;
 
 #Define Plural morpheme alternations
@@ -379,7 +379,57 @@ define Pss2pLOCPl x -> l e r i n i z d e || Vf "^" _ ,,
 		  x -> l a r ı n ı z d a || Vb ConsAll ConsAll "^" _;
 
 
+#Define PSS2S for Nominative Case
+define Pss2sNOMSg ü n -> i n || Vfu ConsAll "^" _ ,,
+                  ü n -> i n || Vfu ConsAll ConsAll "^" _ ,,
+		  ü n -> n || ConsAll [ Vf | Vb ] "^" _ ,,
+		  ü n -> ı n || Vbu ConsAll "^" _ ,,
+		  ü n -> ı n || Vbu ConsAll ConsAll "^" _ ,,
+		  ü n -> u n || Vbr ConsAll "^" _ ,,
+		  ü n -> u n || Vbr ConsAll ConsAll "^" _;
 
+define Pss2sNOMPl r ı n -> l e r i n || Vf "^" _ ,,
+                  r ı n -> l e r i n || Vf ConsAll "^" _ ,,
+		  r ı n -> l e r i n || Vf ConsAll ConsAll "^" _ ,,
+		  r ı n -> l a r ı n || Vb "^" _ ,,
+		  r ı n -> l a r ı n || Vb ConsAll "^" _ ,,
+		  r ı n -> l a r ı n || Vb ConsAll ConsAll "^" _;
+
+#Define PSS2S for Dative Case
+define Pss2sDATSg m -> n e || ConsAll Vf "^" _ ,,
+                  m -> ı n a || Vbu ConsAll "^" _ ,,
+		  m -> ı n a || Vbu ConsAll ConsAll "^" _ ,,
+		  m -> n a || ConsAll Vbu "^" _ ,,
+		  m -> i n e || Vfu ConsAll "^" _ ,,
+		  m -> i n e || Vfu ConsAll ConsAll "^" _ ,,
+		  m -> n a || ConsAll Vb "^" _ ,,
+		  m -> ü n e || Vfr ConsAll "^" _ ,,
+		  m -> ü n e || Vfr ConsAll ConsAll "^" _;
+
+define Pss2sDATPl l e r i n e -> l a r ı n a || Vb "^" _ ,,
+                  l e r i n e -> l a r ı n a || Vb ConsAll "^" _ ,,
+		  l e r i n e -> l a r ı n a || Vb ConsAll ConsAll "^" _;
+
+#Define PSS2S for Genetive Case
+define Pss2sGENSg n -> n i n || ConsAll Vfu "^" _ ,,
+                  n -> i n i n || Vfu ConsAll ConsAll "^" _ ,,
+		  n -> i n i n || Vfu ConsAll "^" _ ,,
+		  n -> ı n ı n || Vbu ConsAll "^" _ ,,
+		  n -> ı n ı n || Vbu ConsAll ConsAll "^" _ ,,
+		  n -> n ı n || ConsAll Vbu "^" _ ,,
+		  n -> n u n || ConsAll Vbr "^" _ ,,
+		  n -> u n u n || Vbr ConsAll "^" _ ,,
+		  n -> u n u n || Vbr ConsAll ConsAll "^" _ ,,
+		  n -> ü n ü n || Vfr ConsAll "^" _ ,,
+		  n -> ü n ü n || Vfr ConsAll ConsAll "^" _ ,,
+		  n -> n ü n || ConsAll Vfr "^" _;
+
+define Pss2sGENPl l -> l a r ı n ı n || Vb "^" _ ,,
+                  l -> l a r ı n ı n || Vb ConsAll "^" _ ,,
+		  l -> l a r ı n ı n || Vb ConsAll ConsAll "^" _ ,,
+		  l -> l e r i n i n || Vf "^" _ ,,
+		  l -> l e r i n i n || Vf ConsAll "^" _ ,,
+		  l -> l e r i n i n || Vf ConsAll ConsAll "^" _; 
 
 
 
@@ -405,7 +455,7 @@ define SIdeletion s bufI -> 0 || _ "^" s bufI ,,
 define Cleanup "^" -> 0;
 
 
-read lexc morph_tur.lexc
+read lexc tur_nouns.lexc
 define Lexicon
 
 define Grammar Lexicon                 .o.
@@ -444,6 +494,12 @@ define Grammar Lexicon                 .o.
 	       Pss2pABLPl              .o.
 	       Pss2pLOCSg              .o.
 	       Pss2pLOCPl              .o.
+	       Pss2sNOMSg              .o.
+	       Pss2sNOMPl              .o.
+	       Pss2sDATSg              .o.
+	       Pss2sDATPl              .o.
+	       Pss2sGENSg              .o.
+	       Pss2sGENPl              .o.
 	       CIalternations          .o.
 #	       DAlternation            .o.
  	       KAlternations           .o.
