@@ -1,4 +1,4 @@
-ar_Symbols %+N %+SG %+PL %+PSS2P %+PSS1P %+PSS2S %+PSS3S %+NOM %+DAT %+LOC %+GEN %+ACC %+ABL
+Multichar_Symbols %+N %+SG %+PL %+PSS2P %+PSS1P %+PSS2S %+PSS3S %+NOM %+DAT %+LOC %+GEN %+ACC %+ABL
 
 LEXICON Root
 
@@ -76,7 +76,6 @@ orangutan	Ninf;
 papa	Ninf;
 dolmuş	Ninf;
 sansar	Ninf;
-;
 mühendislik	Ninf;
 borç	Ninf;
 tek% sayı	Ninf;
