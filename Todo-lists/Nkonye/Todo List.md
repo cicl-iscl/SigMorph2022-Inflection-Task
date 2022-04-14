@@ -19,10 +19,10 @@
       - [x] **LOC PSS2P**
       - [x] **ACC PSS2P**
       - [x] **ABL PSS2P**
-      - [ ] **NOM PSS2S**
-      - [ ] **DAT PSS2S**
-      - [ ] **GEN PSS2S**
-      - [ ] **LOC PSS2S**
+      - [x] **NOM PSS2S**
+      - [x] **DAT PSS2S**
+      - [x] **GEN PSS2S**
+      - [x] **LOC PSS2S**
       - [ ] **ACC PSS2S**
       - [ ] **ABL PSS2S**
       - [ ] **NOM PSS3S**
