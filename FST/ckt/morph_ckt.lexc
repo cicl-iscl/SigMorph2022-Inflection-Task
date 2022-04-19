@@ -1,0 +1,35 @@
+Multichar_Symbols %+N %+SG %+PL %+DAT %+ABS %+ANIM %+ESS %+EQTV %+INS
+
+
+LEXICON Root
+
+Noun ;
+
+LEXICON Noun
+
+вэԓыткоран Ninf;
+нымным     Ninf;
+ытԓя       Ninf;
+эԓек       Ninf;
+яраӈы      Ninf;
+ынпыначгын Ninf;
+ытԓыгын    Ninf;
+чакэттомгын  Ninf;
+танӈын     Ninf;
+ӄорагынрэтыԓьын  Ninf;
+иʼгын      Ninf;
+тыркыԓьын  Ninf;
+тумгытум   Ninf;
+кԓюп       Ninf;
+нутэнут    Ninf;
+
+LEXICON Ninf
+
+%+N%+ANIM:0       #;
+%+N%+ESS:^t       #;
+%+N%+ANIM%+ABS%+PL:^т   #;
+%+N%+ABS%+PL:^т   #;
+%+N%+EQTV%+SG:^о  #;
+%+N%+INS:^э   #;
+%+N%+INS%+SG:^э   #;
+%+N%+ESS%+SG:^к   #;

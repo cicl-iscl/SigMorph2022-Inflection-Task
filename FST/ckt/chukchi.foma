@@ -1,0 +1,108 @@
+### Chukchi.foma ###
+
+# Define Alphabets
+define Alphabet [ А | Б | В | Г | Д | Е | Ё | Ж | З | И | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | О | П | Р | С | Т | У | Ф | Х | Ц | Ч | Ш | Щ | Ъ | Ы | Ь | Э | Ю | Я   
+                | а | б | в | г | д | e | ё | ж | з | и | й | к | ӄ | л | ԓ | м | н | ӈ | о | п | р | с | т | у | ф | х | ц | ч | ш | щ | ъ | ы | ь | э | ю | я | ʼ ]; 
+
+# Define Vowels
+define Vow [ А | Е | Ё | И | О | У | Ы | Э | Ю | Я | %{Æ%}| 
+             а | е | ё | и | о | у | ы | э | ю | я ];
+        
+
+# Define dominant vowels
+define Vd [ А | О | Я | Ё | 
+            а | о | я | ё ];
+
+# Define recessive vowels
+define Vr [ и | у | э | i | u | e ]; 
+
+# Define Yots 
+define Yot [ Е | е | Ё | ё | Ю | ю | Я | я ];
+
+# Define Consonants 
+define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ 
+             б | в | г | д | ж | з | й | к | ӄ | л | ԓ | м | н | ӈ | п | р | с | т | ф | х | ц | ч | ш | щ ];  
+
+# Define Coronals
+define Coronal [ т | н | й | ч | р | ԓ | 
+                 Т | Н | Й | Ч | Р | Ԓ ];
+
+# Define Glottals
+define Glottal [ ʼ | Ъ | Ь | ъ | ь ];
+
+# Define Nasals
+define Nasal [ М | Н | Ӈ | 
+               м | н | ӈ ];
+				   
+# Define Anteriors
+define Anterior [ П | Т | С | Ч | М | Н | В |
+                  п | т | с | ч | м | н | в ];
+				         
+# Define Alveolars 
+define Alveolar [ Т | Н | Р | С | Ч | Ԓ | Л | 
+                  т | н | р | с | ч | ԓ | л ];
+
+# Define Bilabials
+define Bilabial [ П | М | В
+	          п | м | в ] ;
+
+# Define Backs	
+define Back [ К | Ӄ | Ӈ | Г |
+              к | ӄ | ӈ | г ];
+
+read lexc morph_ckt.lexc
+define Lexicon;
+
+# Define ӈ deletion
+#define ӈDel ӈ [ Cns | Vow ] -> 0 | _ "^" k;
+
+# Define H deletion
+define HDel ӈ Vow -> k || _ "^" t;
+            #н Vow -> 0 | _ "^" k ,,
+            #н Cns Cns -> 0 | _ "^" k ,,
+	    #н Vow Vow ] -> 0 | _ "^" k;
+            #ӈ Cns -> 0 | _ "^" [ k | й п ы | т ] ,,
+	    #ӈ Vow -> 0 | _ "^" [ k | й п ы | т ] ,,
+	    #ӈ Cns Cns -> 0 | _ "^" [ k | й п ы | т ] ,,
+	    #ӈ Vow Vow -> 0 | _ "^" [ k | й п ы | т ] ,,
+            #Vow н -> 0 | _ "^" [ k | й п ы | т | о ] ,,
+	    #Vow ӈ -> 0 | _ "^" [ k | й п ы | т | о ];
+
+define HDelete н -> 0 || _ "^" т ,,
+               н -> 0 || _ "^" k;
+
+define VHdeletion Vow н -> 0 || _ "^" о ,,
+                  Vow н -> 0 || _ "^" э;
+
+define Muldel ы т у м -> 0 || _ "^" э;
+
+define HConsDel н Cns Cns -> 0 || _ "^" k;
+
+# Define я alternation
+define Alternation я -> а || _ "^" т;
+
+#Define Essive case
+define Essive t -> 0 || k "^" t;
+
+#Define Vowel Insertion
+define Vinsert [..] -> ы || п _ "^" к;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+
+read lexc morph_ckt.lexc
+define Lexicon
+
+define Grammar Lexicon       .o.
+               HDel          .o.
+    	       Essive        .o.
+	       HDelete       .o.
+	       Alternation   .o.
+	       VHdeletion    .o.
+	       Muldel        .o.
+	       HConsDel      .o.
+	       Vinsert       .o.
+	       Cleanup;
+
+regex Grammar;
