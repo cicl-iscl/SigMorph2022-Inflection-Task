@@ -1,9 +1,17 @@
+"""
+This script evaluate your FST on the dev set.
+
+Usage:
+    python3 evaluate.py -d [directory for task's dev files] -l [language code]
+Prerequisites:
+    - your language FST in .bin format (save stack xxx.bin)
+    - place this file in the same dir as your FST files or change the path to relevant files
+"""
+
 import subprocess
 import argparse
 from pathlib import Path
 from logger import logger
-
-# data_dir = Path("..", "..", "2022InflectionST", "part1", "development_languages")
 
 
 def get_dev(data_dir=None, iso=None):
@@ -16,7 +24,7 @@ def get_dev(data_dir=None, iso=None):
     else:
         logger.info("Please specify the language code.")
         return ""
-    return dev[0]
+    return dev[0]  # only one dev file per language
 
 
 def generate_test_strings(dev_file, iso):
@@ -48,7 +56,7 @@ def get_accuracy(targets, predictions):
     assert len(targets) == len(predictions)
     score_all = sum(1 for x, y in zip(targets, predictions) if x == y) / len(targets)
     score_predictions = sum(1 for x, y in zip(targets, predictions) if x == y) / len(
-        [x for x in predictions if x != "+?"]
+        [x for x in predictions if x != "+?"]  # unimplemented or out-of-vocab
     )
     return score_all, score_predictions
 
