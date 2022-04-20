@@ -1,5 +1,5 @@
 """
-This script evaluate your FST on the dev set.
+This script evaluates your FST on the dev set.
 
 Usage:
     python3 evaluate.py -d [directory for task's dev files] -l [language code]
