@@ -68,18 +68,30 @@ define HDel ӈ Vow -> k || _ "^" t;
             #Vow н -> 0 | _ "^" [ k | й п ы | т | о ] ,,
 	    #Vow ӈ -> 0 | _ "^" [ k | й п ы | т | о ];
 
-define HDelete н -> 0 || _ "^" т ,,
-               н -> 0 || _ "^" k;
+define HDelete н -> 0 || _ "^" [ т | к | й п ы ];
+
+#define HDelt н -> 0 || а н "^" k;	       
 
 define VHdeletion Vow н -> 0 || _ "^" о ,,
                   Vow н -> 0 || _ "^" э;
 
 define Muldel ы т у м -> 0 || _ "^" э;
 
-define HConsDel н Cns Cns -> 0 || _ "^" k;
+#define Multdel н у т .#. -> 0 || "^" k;
 
 # Define я alternation
 define Alternation я -> а || _ "^" т;
+
+#Define ABL case alternation
+define AblativeSg й п ы -> г ы п ы || м "^" _;	
+
+#Define Dative singular case
+define datSg н у т э н у т -> н о т а || _ "^" г т ы ,,
+             и ԓ и р -> э ԓ е р э т ы || _ "^" г т ы;	 
+
+define datdel ԓ г ы н -> 0 || _ "^" г т ы;
+
+define datsufdel г т ы -> 0 || э ԓ е р э т ы "^" _;
 
 #Define Essive case
 define Essive t -> 0 || k "^" t;
@@ -103,6 +115,11 @@ define Grammar Lexicon       .o.
 	       Muldel        .o.
 	       HConsDel      .o.
 	       Vinsert       .o.
+#	       Multdel       .o.
+	       AblativeSg    .o.
+	       datSg         .o.
+	       datdel        .o.
+	       datsufdel     .o.
 	       Cleanup;
 
 regex Grammar;
