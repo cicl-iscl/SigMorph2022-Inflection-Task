@@ -16,6 +16,8 @@ define tidy vowel -> 0 || _ ā;
 
 regex morph .o. phon .o. shorten .o. exceptions .o. plural .o. clean .o. tidy;
 
+save stack hsi.bin
+
 
 down peter+N+NOM+MASC+PL
 down šorko+N+NOM+MASC+PL
