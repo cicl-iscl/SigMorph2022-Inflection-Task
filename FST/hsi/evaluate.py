@@ -84,35 +84,39 @@ def make_predictions(iso):
 
 def get_accuracy(targets, predictions, both_seen, seen_lemma, seen_feats, unseen):
     assert len(targets) == len(predictions)
-    score_all = sum(1 for x, y in zip(targets, predictions) if x == y) / len(targets)
-    score_predictions = sum(1 for x, y in zip(targets, predictions) if x == y) / len(
-        [x for x in predictions if x != "+?"]  # unimplemented or out-of-vocab
+    score_all = (
+        sum(1 for x, y in zip(targets, predictions) if x == y) / len(targets) * 100
+    )
+    score_predictions = (
+        sum(1 for x, y in zip(targets, predictions) if x == y)
+        / len([x for x in predictions if x != "+?"])  # unimplemented or out-of-vocab
+        * 100
     )
 
     both_seen_pairs = [(targets[i], predictions[i]) for i in both_seen]
     score_both_seen = (
-        sum(1 for x, y in both_seen_pairs if x == y) / len(both_seen_pairs)
+        sum(1 for x, y in both_seen_pairs if x == y) / len(both_seen_pairs) * 100
         if len(both_seen_pairs) != 0
         else 0
     )
 
     seen_lemma_pairs = [(targets[i], predictions[i]) for i in seen_lemma]
     score_seen_lemma = (
-        sum(1 for x, y in seen_lemma_pairs if x == y) / len(seen_lemma_pairs)
+        sum(1 for x, y in seen_lemma_pairs if x == y) / len(seen_lemma_pairs) * 100
         if len(seen_lemma_pairs) != 0
         else 0
     )
 
     seen_feats_pairs = [(targets[i], predictions[i]) for i in seen_feats]
     score_seen_feats = (
-        sum(1 for x, y in seen_feats_pairs if x == y) / len(seen_feats_pairs)
+        sum(1 for x, y in seen_feats_pairs if x == y) / len(seen_feats_pairs) * 100
         if len(seen_feats_pairs) != 0
         else 0
     )
 
     unseen_pairs = [(targets[i], predictions[i]) for i in unseen]
     score_unseen = (
-        sum(1 for x, y in unseen_pairs if x == y) / len(unseen_pairs)
+        sum(1 for x, y in unseen_pairs if x == y) / len(unseen_pairs) * 100
         if len(unseen_pairs) != 0
         else 0
     )
