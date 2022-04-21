@@ -167,13 +167,20 @@ def main():
         score_seen_feats,
         score_unseen,
     ) = get_accuracy(targets, predictions, both_seen, seen_lemma, seen_feats, unseen)
-    logger.info(f"Accuracy on dev: {acc_score:.3f}")
-    logger.info(f"Accuracy for predicted items: {score_predictions:.3f}")
+    # logger.info(f"Accuracy on dev: {acc_score:.3f}")
+    # logger.info(f"Accuracy for predicted items: {score_predictions:.3f}")
 
-    logger.info(f"both:\t{score_both_seen:.3f}")
-    logger.info(f"lemma:\t{score_seen_lemma:.3f}")
-    logger.info(f"feats:\t{score_seen_feats:.3f}")
-    logger.info(f"unseen:\t{score_unseen:.3f}")
+    # logger.info(f"both:\t{score_both_seen:.3f}")
+    # logger.info(f"lemma:\t{score_seen_lemma:.3f}")
+    # logger.info(f"feats:\t{score_seen_feats:.3f}")
+    # logger.info(f"unseen:\t{score_unseen:.3f}")
+
+    print(
+        "Lang\tall acc\tboth\tlemma\tfeats\tunseen\t#total\t#both\t#lemma\t#feats\t#unseen\n"
+    )
+    print(
+        f"{language_code}\t{acc_score:.3f}\t{score_both_seen:.3f}\t{score_seen_lemma:.3f}\t{score_seen_feats:.3f}\t{score_unseen:.3f}\t{len(targets)}\t{len(both_seen)}\t{len(seen_lemma)}\t{len(seen_feats)}\t{len(unseen)}\n"
+    )
 
 
 if __name__ == "__main__":
