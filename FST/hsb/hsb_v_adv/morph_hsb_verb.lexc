@@ -1,0 +1,136 @@
+Multichar_Symbols %+ADV %+VERB %+VPTCP %+CVB %+NFIN %+ACT %+PASS %+PRS %+PST %+SG %+PL %+DU %+1 %+2 %+3 %+MASC %+FEM %+NEUT %+ACC %+GEN %+INS %+NOM
+
+LEXICON Root
+Adv ;
+Verb ;
+Vptcp;
+
+LEXICON Adv
+wjele   Advinf;
+kedźbliwje   Advinf;
+přichodny   Advinf;
+němski   Advinf;
+serbski   Advinf;
+twarskoprawnisce   Advinf;
+
+LEXICON Verb
+hladać	 Verbinf;
+měć	 Verbinf;
+być	 Verbinf;
+hić	 Verbinf;
+skedźbnjeć	 Verbinf;
+pohłubšować	 Verbinf;
+koncentrować	 Verbinf;
+přeměnić	 Verbinf;
+znosyć	 Verbinf;
+zeznajomić	 Verbinf;
+přisudźić	 Verbinf;
+předstajeć	 Verbinf;
+stajeć	 Verbinf;
+wotmołwjeć	 Verbinf;
+napominać	 Verbinf;
+přińć	 Verbinf;
+přinjesć	 Verbinf;
+wuběžeć	 Verbinf;
+wzać	 Verbinf;
+poskićić	 Verbinf;
+chcyć	 Verbinf;
+činić	 Verbinf;
+wothłosować	 Verbinf;
+wostać	 Verbinf;
+rěčeć	 Verbinf;
+wuknyć	 Verbinf;
+namakać	 Verbinf;
+prajić	 Verbinf;
+zdać	 Verbinf;
+spytać	 Verbinf;
+organizować	 Verbinf;
+wědźeć	 Verbinf;
+prajic	 Verbinf;
+ležeć	 Verbinf;
+ržeć	 Verbinf;
+přisłušeć	 Verbinf;
+bydlić	 Verbinf;
+poskićeć	 Verbinf;
+móc	 Verbinf;
+přihłosować	 Verbinf;
+pochadźeć	 Verbinf;
+dźěłać	 Verbinf;
+spać	 Verbinf;
+njebyć	 Verbinf;
+wudźěleć	 Verbinf;
+stać	 Verbinf;
+přeswědčić	 Verbinf;
+wuswětleč	 Verbinf;
+nabyć	 Verbinf;
+přeslědźować	 Verbinf;
+sćahać	 Verbinf;
+sćělesnjeć	 Verbinf;
+woprašeć	 Verbinf;
+pohłušeć	 Verbinf;
+załožić	 Verbinf;
+přepodać	 Verbinf;
+wobdźěleć	 Verbinf;
+tutać	 Verbinf;
+wjeselić	 Verbinf;
+wotpokazać	 Verbinf;
+myslić	 Verbinf;
+nastać	 Verbinf;
+přijěć	 Verbinf;
+zahorić	 Verbinf;
+dyrbjeć	 Verbinf;
+podšmórnyć	 Verbinf;
+přizamknyć	 Verbinf;
+njetrać	 Verbinf;
+nańć	 Verbinf;
+předać	 Verbinf;
+přiwzać	 Verbinf;
+chwalić	 Verbinf;
+přehrać	 Verbinf;
+přisadźić	 Verbinf;
+wuradźować	 Verbinf;
+
+LEXICON Vptcp
+zwisować	 Vptcpinf;
+předwidźeć	 Vptcpinf;
+zańć	 Vptcpinf;
+wusměrić	 Vptcpinf;
+podhódnoćić	 Vptcpinf;
+přićahnyć	 Vptcpinf;
+slubić	 Vptcpinf;
+šokować	 Vptcpinf;
+popadnyć	 Vptcpinf;
+zranić	 Vptcpinf;
+popisać	 Vptcpinf;
+
+LEXICON Advinf
+%+ADV   #;
+
+LEXICON Verbinf
+%+VERB%+CVB%+PRS:+jo #;
+%+VERB%+NFIN:0  #;
+%+VERB%+PRS%+1%+SG:^u  #;
+%+VERB%+PRS%+1%+DU:^imoj #;
+%+VERB%+PRS%+1%+PL:*my  #;        ! соед гласные
+%+VERB%+PRS%+2%+PL:=e  #; !check
+%+VERB%+PRS%+3%+PL:^a  #; !write exceptions!
+%+VERB%+PRS%+3%+SG:?a   #; !write exceptions!
+%+VERB%+PST:+li #; ! works
+%+VERB%+PST%+2%+SG:\0   #; !check
+%+VERB%+PST%+3%+PL:/chu #; !check
+%+VERB%+PST%+3%+SG:.0   #; !check
+%+VERB%+PST%+SG%+FEM:+ła   #; !check
+%+VERB%+PST%+SG%+MASC:+ł   #; !check
+%+VERB%+PST%+SG%+NEUT:+ło   #; !check
+
+
+LEXICON Vptcpinf
+%+VPTCP%+ACT%+ACC%+SG:+ce   #;
+%+VPTCP%+ACT%+GEN%+MASC%+PL:)anych   #;
+%+VPTCP%+PASS%+ACC%+FEM%+SG:+dźenu      #;
+%+VPTCP%+PASS%+ACC%+NEUT%+SG:)jene  #;
+%+VPTCP%+PASS%+GEN%+PL:&   #; ! FIX přićahnyć
+%+VPTCP%+PASS%+INS%+MASC%+SG:)jenym   #;
+%+VPTCP%+PASS%+NOM%+FEM%+SG:§   #;
+%+VPTCP%+PASS%+NOM%+MASC%+SG:)jeny   #;
+%+VPTCP%+PASS%+NOM%+NEUT%+PL:+ne   #;

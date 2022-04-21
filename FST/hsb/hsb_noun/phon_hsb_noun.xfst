@@ -1,0 +1,63 @@
+define cons [r|c|m|n|k|l|t|j];
+define vowl [a|o|e];
+
+define genPL "^" -> o w || cons _,, "^" -> a || s _,,"^" -> o w || m _,,  č i n -> č i n a || _ "^",, e j a -> e j a c h || _ "^",,
+             d n a -> d n y c h || _ "^",,
+             č i n a -> č i n  || _ "^",,
+             y -> 0 || _ "^";
+
+define genPL2  [a|o|e] -> o w || _ "^";
+
+
+define genSG "§" -> a || cons _,,"§" -> a || [s|d] _,,
+             "§" -> e || [c|č|ć] _,, o -> a || _ "§",,
+             z -> z u || _ "§",,
+             k a -> k i || _ "§",, w i n a -> w i n y || _ "§",,
+             i j a -> i j e || _ "§",, c a -> c y || _ "§",,
+             i n a -> i n y || _ "§",, b a -> b y || _ "§",,
+             m s k a -> m s k e j e || _ "§",, e s c a -> e s k i || _ "§";
+
+
+define vocSG "$" -> o || [k|l] _,, "$" -> o || [k|l] _,, h -> ž o || _ "$",,
+             z -> ž e || _ "$",, t -> ć e || _ "$",, d -> d ź e || _ "$";
+
+define nomLP "%" -> y || [s|z|c|p] _,, o -> i || _ "%",,
+             "%" -> o j o || o n _,, y -> y j e || _ "%",,
+             "%" -> j o || [r|n] _,, "%" -> i || k _,, t -> ć a || _ "%";
+
+
+define locSG [t o|t] -> ć e || _ "&",, "&" -> j e || i n _,, g a -> z e || _ "&",,
+             "&" -> m || i _,, d o -> d ź e || _ "&",, "&" -> u || [n c|j|k] _,,
+             s t w o -> s t w j e || _ "&",, r a -> r j e || _ "&",,
+             "&" -> y || o c _,, l a -> l i || _ "&";
+
+define locSG2 [n a|n] -> n j e || _ "&",, "&" -> u || c _;
+
+define locPL "/" -> a c h || [j|k] _,, "/" -> c h || a _,, o -> a c h || _ "/";
+
+
+define datPL e -> a m || _ ")";
+
+define datSG "(" -> u || [s ć|ě ć] _,, k a -> k e j || _ "(",, j a -> j i || _ "(",,
+        "(" -> u || ě ć u _,, "(" -> e j || l _,, e -> u || _ "(",,
+        i -> e m u || _ "(",, n a -> n j e || _ "(",, "(" -> a || r _,,
+        b a -> b j e || _ "(";
+
+define datSG2 "(" -> i || [ć|č] _;
+
+define insPL "=" -> m i || [a|e] _,, o -> a m i ||_ "=",,  "=" -> a m i || [cons|d|b] _ ;
+
+define insSG "?" -> m || o _,, a -> u || _ "?",, "?" -> o m || [cons|d|b|w|ć] _;
+
+define accSG  j a -> j u ||_ "`",,c a -> c u ||  _ "`",,t a -> t u ||  _ "`",,j u -> j a|| _ "`",,
+             i n a -> i n y || _ "`",, a w a -> a w y || _ "`";
+
+define accPL c a-> c y || _ "´",, k a -> k i || _ "´",, j a -> j e || _ "´",, j e -> j a || _ "´",, k o -> k a || _ "´",, "´" -> ow || n _,, "´" -> i || k _,, "´" -> j e || r _,, "´" -> y || t _;
+
+define clean ["^"|"§"|"$"|"%"|"&"|"/"|"("|")"|"="|"?"|"´"|"`"] -> 0;
+
+define all genPL .o. genPL2 .o. genSG .o. vocSG .o. nomLP .o. locSG .o. locSG2 .o. locPL .o. datSG
+         .o. datSG2 .o. datPL .o. insPL .o. insSG .o. accSG .o. accPL .o. clean;
+
+
+regex   %+N -> 0;

@@ -1,0 +1,7 @@
+read lexc morph_hsb_verb.lexc
+define morph
+
+source phon_hsb_verb.xfst
+define phon
+
+regex morph .o. phon .o. all;
