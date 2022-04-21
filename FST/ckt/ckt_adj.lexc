@@ -1,0 +1,42 @@
+Multichar_Symbols %+ADJ %+SG %+PL %+ADV %+ADP %+DAT %+ABS %+ALL %+ABL
+
+
+LEXICON Root
+
+Adjective ;
+Adverb ;
+Adp  ;
+
+LEXICON Adjective
+
+джинчыӄонагыԓьын   Ainf;
+миӈкыри	           Ainf;
+Вытгытчьэн         Ainf;
+ыннэнчьэн          Ainf;
+ӈаргыно	           Ainf;
+ынпычьын	   Ainf;
+нанӈэнчьан	   Ainf;
+ӈирэӄычьын         Ainf;
+гыргочайпы	   Ainf;
+
+
+LEXICON Ainf
+%+ADJ%+ABS%+SG:0   #;
+%+ADJ%+ABS%+PL:^чьыт   #;
+%+ADJ%+DAT:^гты  #;
+
+LEXICON Adverb 
+
+миӈкыри            Avinf;
+
+LEXICON Avinf
+%+ADV%+ALL:0    #;
+
+LEXICON Adp 
+
+гыргочайпы         Adinf;
+
+
+LEXICON Adinf
+%+ADP%+ABL:0   #;
+

@@ -1,0 +1,72 @@
+#Define Alphabets
+define Alphabet [ А | Б | В | Г | Д | Е | Ё | Ж | З | И | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | О | П | Р | С | Т | У | Ф | Х | Ц | Ч | Ш | Щ | Ъ | Ы | Ь | Э | Ю | Я
+                | а | б | в | г | д | e | ё | ж | з | и | й | к | ӄ | л | ԓ | м | н | ӈ | о | п | р | с | т | у | ф | х | ц | ч | ш | щ | ъ | ы | ь | э | ю | я | ʼ ];
+
+# Define Vowels
+define Vow [ А | Е | Ё | И | О | У | Ы | Э | Ю | Я | %{Æ%}|
+             а | е | ё | и | о | у | ы | э | ю | я ];
+
+
+# Define dominant vowels
+define Vd [ А | О | Я | Ё |
+            а | о | я | ё ];
+
+# Define recessive vowels
+define Vr [ и | у | э | i | u | e ];
+
+# Define Yots 
+define Yot [ Е | е | Ё | ё | Ю | ю | Я | я ];
+
+# Define Consonants 
+define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ
+             б | в | г | д | ж | з | й | к | ӄ | л | ԓ | м | н | ӈ | п | р | с | т | ф | х | ц | ч | ш | щ ];
+
+# Define Coronals
+define Coronal [ т | н | й | ч | р | ԓ |
+                 Т | Н | Й | Ч | Р | Ԓ ];
+
+# Define Glottals
+define Glottal [ ʼ | Ъ | Ь | ъ | ь ];
+
+# Define Nasals
+define Nasal [ М | Н | Ӈ |
+               м | н | ӈ ];
+
+# Define Anteriors
+define Anterior [ П | Т | С | Ч | М | Н | В |										                         п | т | с | ч | м | н | в ];
+
+# Define Alveolars 
+define Alveolar [ Т | Н | Р | С | Ч | Ԓ | Л |
+                  т | н | р | с | ч | ԓ | л ];
+
+# Define Bilabials
+define Bilabial [ П | М | В
+                  п | м | в ] ;
+
+# Define Backs  
+define Back [ К | Ӄ | Ӈ | Г |
+              к | ӄ | ӈ | г ];
+
+read lexc ckt_adj.lexc
+define Lexicon;
+
+# Define Alternations
+define Alternat г -> э || Cns "^" _;
+
+# Define Vowel Elision
+define Elision ы н -> 0 || _ "^" э т ы;
+
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+read lexc ckt_adj.lexc
+define Lexicon
+
+ define Grammar Lexicon       .o.
+                Alternat      .o.
+		Elision       .o.
+		Cleanup;
+
+ regex Grammar;
+
