@@ -8,15 +8,15 @@ Kholosi
 
 ### Verb
 
-- [ ] PRS;PROG
-- [ ] IPFV;PST;FEM
-- [ ] IPFV;PST;MASC
-- [ ] IPFV;PRS
-- [ ] PFV;PST
-- [ ] SBJV;PRS
-- [ ] PFV;PRS;FEM
-- [ ] PFV;PRS;MASC
-- [ ] exceptions
+- [x] PRS;PROG
+- [x] IPFV;PST;FEM
+- [x] IPFV;PST;MASC
+- [x] IPFV;PRS
+- [x] PFV;PST
+- [x] SBJV;PRS
+- [x] PFV;PRS;FEM
+- [x] PFV;PRS;MASC
+- [x] exceptions
 
 ### Pronoun
 
