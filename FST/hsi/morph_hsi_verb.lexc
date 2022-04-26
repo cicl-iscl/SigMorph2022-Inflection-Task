@@ -1,0 +1,56 @@
+Multichar_Symbols
+	%+V
+	%+NFIN %+IND %+SBJV
+	%+PRS %+PST
+	%+PFV %+IPFV %+PROG
+	%+SG
+	%+PL
+	%+1
+	%+2
+	%+3
+	%+MASC %+FEM
+
+
+LEXICON Root
+ačen verb;
+vanen verb;
+karen verb;
+xāyen verb;
+vadden verb;
+
+LEXICON verb
+%+V infinitive;
+%+V aspect;
+%+V mood;
+
+LEXICON infinitive
+%+NFIN #;
+
+LEXICON aspect
+%+PFV gender;
+%+PFV mood;
+%+IPFV gender;
+%+IPFV mood;
+%+PROG%+IND%+PRS #;
+
+LEXICON gender
+%+MASC mood;
+%+FEM mood;
+
+LEXICON mood
+%+IND numberperson;
+%+SBJV numberperson;
+
+LEXICON numberperson
+%+SG%+1 tense;
+%+SG%+2 tense;
+%+SG%+3 tense;
+%+PL%+1 tense;
+%+PL%+2 tense;
+%+PL%+3 tense;
+
+LEXICON tense
+%+PRS #;
+%+PST #;
+
+
