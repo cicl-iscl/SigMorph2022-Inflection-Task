@@ -27,11 +27,15 @@ semen verb;
 ačen verb;
 vanen verb;
 pʰenden verb;
+! ---- unseen, taken from dictionary ----
+pačen verb;
+čayen verb;
+maren verb;
 
 LEXICON verb
 %+V infinitive;
 %+V aspect;
-%+V mood;
+%+V%+SBJV numberperson;
 
 LEXICON infinitive
 %+NFIN #;
@@ -49,7 +53,6 @@ LEXICON gender
 
 LEXICON mood
 %+IND numberperson;
-%+SBJV numberperson;
 
 LEXICON numberperson
 %+SG%+1 tense;

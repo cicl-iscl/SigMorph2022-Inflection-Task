@@ -1,0 +1,49 @@
+read lexc morph_hsi_verb.lexc
+define morph
+
+source phonetize_hsi_verb.xfst
+define phon
+
+define exceptions x ā y e n -> x ā || _ "^" "progstem",,
+	x ā y e n -> x ā n|| _ "^" %<imperfstem (?)+ %+PST;
+
+define prog [vowel - ā] -> e || _ (consonant)+ e n "^" "progstem" ,, e n -> e || _ "^" "progstem";
+define suffix %+progsuffix -> may;
+
+define stem e n -> 0 || _ "^" [%<imperfstem|%<imperfstem2] (?)+ %+PRS,,
+	e n -> 0 || .#. ~[a č] _ "^" %<imperfstem (?)+ %+PST;
+
+define inflect %+A-> i || %<imperfstem _ %+PRS,,
+	%+B-> e || %<imperfstem _ %+PRS,,
+	%<imperfstem -> %<imperfstem2, %+C-> a w|| _ %+C %+PRS, %<imperfstem _ %+PRS,,
+	%+D-> ā || %<imperfstem _ %+PRS,,
+	%+E-> e s || %<imperfstem _ %+PRS,,
+	%+F-> e n || %<imperfstem _ %+PRS,,
+	%+A-> d u s u || %<imperfstem %+M _ %+PST,,
+	%+A-> d i y o s u || %<imperfstem %+W _ %+PST,,
+	%+B-> d i y u || %<imperfstem [%+M|%+W] _ %+PST,,
+	%+C-> d u || %<imperfstem %+M _ %+PST,,
+	%+C-> d i y u || %<imperfstem %+W _ %+PST,,
+	%+D-> d e s a i y a v|| %<imperfstem [%+M|%+W] _ %+PST,,
+	%+E-> d ā s u || %<imperfstem [%+M|%+W] _ %+PST,,
+	%+F-> d a i y a v || %<imperfstem [%+M|%+W] _ %+PST;
+
+define changeV [vowel - ā] -> e || _ (consonant)+ "^" %<imperfstem2;
+
+define cleanC d d d -> d d;
+define clean [progstem|"^"|%<imperfstem|%<imperfstem2|%+M|%+W|%+PST|%+PRS] -> 0;
+
+
+regex morph .o. phon .o. exceptions .o. prog .o. suffix .o. inflect .o. stem .o. changeV .o. clean .o. cleanC;
+
+
+down ačen+V+PROG+IND+PRS
+down xāyen+V+PROG+IND+PRS
+down vanen+V+PROG+IND+PRS
+down vadden+V+PROG+IND+PRS
+down pačen+V+PROG+IND+PRS
+down ačen+V+IPFV+IND+SG+3+PRS
+down xāyen+V+IPFV+IND+SG+3+PRS
+down ačen+V+IPFV+MASC+IND+SG+3+PST
+down xāyen+V+IPFV+MASC+IND+SG+1+PST
+down vadden+V+IPFV+MASC+IND+SG+1+PST
