@@ -12,11 +12,21 @@ Multichar_Symbols
 
 
 LEXICON Root
-ačen verb;
-vanen verb;
 karen verb;
 xāyen verb;
 vadden verb;
+čʰiyen verb;
+paren verb;
+diyen verb;
+liyen verb;
+sagen verb;
+vezen verb;
+kadden verb;
+genen verb;
+semen verb;
+ačen verb;
+vanen verb;
+pʰenden verb;
 
 LEXICON verb
 %+V infinitive;
@@ -52,5 +62,3 @@ LEXICON numberperson
 LEXICON tense
 %+PRS #;
 %+PST #;
-
-
