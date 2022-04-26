@@ -26,7 +26,8 @@ define suffix %+progsuffix -> may;
 define stem e n -> 0 || _ "^" [%<imperfstem|%<imperfstem2] (?)+ %+PRS,,
 	e n -> 0 || .#. ~[a č] _ "^" %<imperfstem (?)+ %+PST,,
 	e n -> 0 || _ "^" %<perfstem (?)+ %+PRS,,
-	e n -> 0 || .#. ~[č ʰ] _ "^" %<perfstem (?)+ %+PST;
+	e n -> 0 || .#. ~[č ʰ] _ "^" %<perfstem (?)+ %+PST,,
+	e n -> 0 || _ "^" %<sbjvstem (?)+ %+PRS;
 
 define inflect %+A-> i || %<imperfstem _ %+PRS,,
 	%+B-> e || %<imperfstem _ %+PRS,,
@@ -54,18 +55,23 @@ define inflect %+A-> i || %<imperfstem _ %+PRS,,
 	%+A-> o y || .#. ~[k] "^" %<perfstem _ %+PST,,
 	%+A-> ā y || k "^" %<perfstem _ %+PST,,
 	%+B-> o v || %<perfstem _ %+PST,,
-	s a g e n-> s e g, %+C-> a y i||_ "^" %<perfstem (?)+ %+PST, %<perfstem _ %+PST,,
+	s a g e n-> s e g, %+C-> a y i||_ "^" %<perfstem %+C %+PST, %<perfstem _ %+PST,,
 	%+D-> ā m|| %<perfstem _ %+PST,,
 	%+E-> ā m || %<perfstem _ %+PST,,
-	%+F-> ā v a n|| %<perfstem _ %+PST;
+	%+F-> ā v a n|| %<perfstem _ %+PST,,
+	x ā y e n -> x ā , %+A-> i y a || _ "^" %<sbjvstem %+A %+PRS, %<sbjvstem _ %+PRS,,
+	%+B-> e y a || %<sbjvstem _ %+PRS,,
+	k a r e n -> k e r, %+C-> a i y a|| _ "^" %<sbjvstem %+C %+PRS, %<sbjvstem _ %+PRS,,
+	%+D-> o i y a || %<sbjvstem _ %+PRS,,
+	%+E-> i s i y a || %<sbjvstem _ %+PRS,,
+	%+F-> a y a || %<sbjvstem _ %+PRS;
 
 define changeV [vowel - ā] -> e || _ (consonant)+ "^" %<imperfstem2;
 
 define cleanC d d d -> d d;
-define clean [progstem|"^"|%<imperfstem|%<imperfstem2|%<perfstem|%+M|%+W|%+PST|%+PRS] -> 0;
+define clean [progstem|"^"|%<imperfstem|%<imperfstem2|%<perfstem|%<sbjvstem|%+M|%+W|%+PST|%+PRS] -> 0;
 
 regex morph .o. phon .o. exceptions .o. prog .o. suffix .o. inflect .o. stem .o. changeV .o. clean .o. cleanC;
-! regex morph .o. phon .o. exceptions .o. prog .o. suffix .o. inflect .o. stem .o. changeV .o. clean .o. cleanC;
 
 
 down ačen+V+PROG+IND+PRS
@@ -92,3 +98,8 @@ down diyen+V+PFV+IND+SG+1+PST
 down sagen+V+PFV+IND+SG+3+PST
 down čʰiyen+V+PFV+IND+SG+3+PST
 down pʰenden+V+PFV+IND+SG+1+PST
+down karen+V+SBJV+SG+3+PRS
+down xāyen+V+SBJV+SG+1+PRS
+down xāyen+V+SBJV+SG+3+PRS
+down semen+V+SBJV+SG+1+PRS
+down maren+V+SBJV+PL+3+PRS
