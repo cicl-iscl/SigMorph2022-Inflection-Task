@@ -1,5 +1,5 @@
 clear stack
-source hsi.foma
+source hsi_noun.foma
 define hsi_noun.a
 source hsi_verb.foma
 define hsi_verb.a
