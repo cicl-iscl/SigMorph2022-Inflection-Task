@@ -1,0 +1,80 @@
+Multichar_Symbols %+V %+SG %+PL %+PTCP %+SBJV %+NFIN %+OPT %+DAT %+ABS %+GEN %+ABL %+PROPN %+INS %+PRO %+2 %+1 %+3 %+ARGAB3S +ARGER1P %+IND %+FUT %+IND %+PST %+ITER %+ESS %+PFV
+
+
+LEXICON Root
+мытрa    Realroot;
+мыԓ      Realroot;
+         Realroot;   ! jump to root without any prefixes
+
+LEXICON Realroot
+
+итык	        Vinf;
+раԓечетык	Vinf;
+ԓьук	        Vinf;
+камэԓгыӈав	Vinf;
+Камэԓгыӈав	Vinf;
+ԓьук	        Vinf;
+тэйкык	        Vinf;
+эквэтык	        Vinf;
+айкоԓятԓьын	Vinf;
+кэԓиныгйивэтыԓьын	Vinf;
+ӄытык	        Vinf;
+тэйкык	        Vinf;
+паак	        Vinf;
+рытчык	        Vinf;
+амыԓӄыкваԓьын	Vinf;
+каԓеткоран	Vinf;
+йъок	        Vinf;
+итык	        Vinf;
+ръыԓик	        Vinf;
+раԓек	        Vinf;
+пинтыӄэтыԓьын	Vinf;
+ывинтык	        Vinf;
+йыток	        Vinf;
+ивкэ	        Vinf;
+эймэвыԓьын	Vinf;
+каӈэтваԓьын	Vinf;
+рырынгиивык	Vinf;
+ривԓык	        Vinf;
+ԓьук	        Vinf;
+эйпык	        Vinf;
+йыԓӄэтык	Vinf;
+йъок	        Vinf;
+раԓечетыԓьын	Vinf;
+гитэк	        Vinf;
+ивԓыԓьуԓӄыԓԓьын	Vinf;
+чичевык	        Vinf;
+агтак	        Vinf;
+рытымӈэвык	Vinf;
+рытриԓык	Vinf;
+тароӈыԓьын	Vinf;
+панрэватык	Vinf;
+рыпыткынтэвык	Vinf;
+тэԓпык	        Vinf;
+энаръэк	        Vinf;
+ӄырирык	        Vinf;
+ԓьук	        Vinf;
+рывык	        Vinf;
+гыръоӈавыръэнутэт	Vinf;
+тивык	        Vinf;
+тэйкык	        Vinf;
+
+LEXICON Vinf
+         #; ! no suffix (root or prefix+root without suffix) is accepted
+ӈын      #;
+нэт      #;
+
+LEXICON Vinf
+%+V%+ABS%+SG:0     #;
+%+V%+PTCP%+ABS%+SG:0    #;	
+%+V%+ABS%+PL:0       #;
+%+V%+SBJV%+SG%+1:мыԓ^     #;
+%+V%+PFV%+SBJV%+SG%+1:0   #;
+%+V%+NFIN:0    #;
+%+V%+OPT:0     #;
+%+V%+ARGAB3S+ARGER1P%+IND%+FUT:^ӈын   #;
+%+V%+PFV%+IND%+SG%+3%+PST:^ԓин    #;
+%+V%+ITER%+ESS:^к   #;
+%+V%+PFV%+IND%+SG%+1%+PST:^гъэк   #;
+
+

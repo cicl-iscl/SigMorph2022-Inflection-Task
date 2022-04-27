@@ -1,0 +1,61 @@
+Multichar_Symbols %+SG %+PL %+ANIM %+DAT %+ABS %+GEN %+ABL %+PROPN %+INS %+PRO %+2 %+1 %+3
+
+
+LEXICON Root
+
+Proper_names ;
+Pronouns ;
+
+LEXICON Proper_names
+
+Ларича       Pinf;
+Виталина     Pinf;
+Митя         Pinf;
+Чаша         Pinf;
+канчалан     Pinf;
+Тымӈэԓӄот    Pinf;
+Наташа       Pinf;
+Катюша       Pinf;
+Ыʼттъыгыргын Pinf;
+Оʼмрытвааԓ   Pinf;
+пэтька       Pinf;
+Ильъя        Pinf;
+Иван         Pinf;
+Мэдвэдэв     Pinf;
+Пэтька       Pinf;
+Мачква       Pinf;
+Абрамович    Pinf;
+Тыӈэти       Pinf;
+Оʼмрыквот    Pinf;
+Ыʼттъуви     Pinf;
+Каврагыргын  Pinf;
+Жэня         Pinf;
+Данилка      Pinf;
+Канунникава  Pinf;
+Тэӈыԓӄот     Pinf;
+Тынарагтын   Pinf;
+тыӈэк        Pinf;
+
+LEXICON Pinf
+
+%+PROPN%+ABS%+SG:0   #;
+%+PROPN%+DAT%+SG:^гты  #;
+%+PROPN%+INS%+SG:^на   #;
+%+PROPN%+ANIM%+INS:^тинэ   #;
+
+LEXICON Pronouns
+
+тури       Prinf;
+гыԓгын     Prinf;
+гым        Prinf;
+ымым       Prinf;
+ытԓён      Prinf;
+
+LEXICON Prinf
+
+%+PRO%+PL%+2:0   #;
+%+PRO%+SG%+2:^т   #;
+%+PRO%+ANIM%+GEN%+SG%+1:^нин  #;
+%+PRO%+DAT%+SG%+1:^ыкагты	#;
+%+PRO%+SG%+1:^о   #;
+%+PRO%+ABS%+SG%+3:0  #;
