@@ -1,0 +1,6 @@
+read lexc morph_hsi_pro.lexc
+define morph
+
+regex morph;
+
+save stack hsi_pro.a

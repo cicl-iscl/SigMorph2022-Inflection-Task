@@ -1,0 +1,21 @@
+Multichar_Symbols
+    %+PRO
+    %+NOM %+ACC %+non{NOM/ACC}
+    %+SG %+PL
+
+LEXICON Root
+māy pronoun;
+attu pronoun;
+ho pronoun;
+he pronoun;
+māy%+PRO%+non{NOM/ACC}%+SG:mānā #;
+māy%+PRO%+ACC%+SG:māke #;
+māy%+PRO%+NOM%+PL:āse #;
+attu%+PRO%+non{NOM/ACC}%+SG:tān #;
+attu%+PRO%+ACC%+SG:tānke #;
+attu%+PRO%+NOM%+PL:āve #;
+ho%+PRO%+NOM%+PL:hoven #;
+he%+PRO%+NOM%+PL:hozen #;
+
+LEXICON pronoun
+%+PRO%+NOM%+SG:0 #;
