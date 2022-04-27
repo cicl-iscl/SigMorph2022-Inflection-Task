@@ -29,5 +29,6 @@ Kholosi
 
 - [x] adjectives
 - [x] numerals
-- [ ] remove duplicate Multichar_Symbols
+- [x] remove duplicate Multichar_Symbols
 - [x] automate testing?
+- [ ] improve things
