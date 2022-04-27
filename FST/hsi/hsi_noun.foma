@@ -1,7 +1,7 @@
-read lexc morph_hsi.lexc
+read lexc morph_hsi_noun.lexc
 define morph
 
-source phonetize_hsi.xfst
+source phonetize_hsi_noun.xfst
 define phon
 
 define shorten ā -> a || _ "^" PL3,,
