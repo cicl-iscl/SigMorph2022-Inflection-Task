@@ -31,20 +31,27 @@ def get_train_sets(data_dir, iso):
     return lemmas, tags
 
 
-def get_dev(data_dir, iso=None):
+def get_dev(data_dir, iso=None, test=False):
     if iso is not None:
-        dev = [
-            x
-            for x in data_dir.iterdir()
-            if x.stem.startswith(iso) and x.suffix == ".dev"
-        ]
+        if test:
+            dev = [
+                x
+                for x in data_dir.iterdir()
+                if x.stem.startswith(iso) and x.suffix == ".test"
+            ]
+        else:
+            dev = [
+                x
+                for x in data_dir.iterdir()
+                if x.stem.startswith(iso) and x.suffix == ".dev"
+            ]
     else:
         logger.info("Please specify the language code.")
         return ""
     return dev[0]  # only one dev file per language
 
 
-def generate_test_strings(dev_file, iso, lemmas, tags):
+def generate_test_strings(dev_file, iso, lemmas, tags, test=False):
     targets = []
     both_seen = []
     seen_lemma = []
@@ -54,10 +61,13 @@ def generate_test_strings(dev_file, iso, lemmas, tags):
         with open(dev_file, mode="r", encoding="utf-8") as df:
             for i, line in enumerate(df):
                 if line:
-                    lemma, form, tag_str = line.rstrip().split("\t")
+                    if test:
+                        lemma, tag_str = line.rstrip().split("\t")
+                    if not test:
+                        lemma, form, tag_str = line.rstrip().split("\t")
+                        targets.append(form)
                     test_str = f"{lemma}+" + "+".join(tag_str.split(";"))
                     f.write(test_str + "\n")
-                    targets.append(form)
 
                     if lemma in lemmas and tag_str not in tags:
                         seen_lemma.append(i)
@@ -78,8 +88,19 @@ def make_predictions(iso):
         for line in f:
             if line[0].isalpha():
                 test_str, _, pred = line.partition("\t")
-                predictions.append(pred.rstrip())
+                if "+" in pred.rstrip() and pred.rstrip() != "+?":
+                    pass
+                else:
+                    predictions.append(pred.rstrip())
     return predictions
+
+
+def write_predictions(iso, test_file, predictions):
+    with open(test_file, mode="r", encoding="utf-8") as inpf:
+        with open(f"{iso}_submission.txt", mode="w", encoding="utf-8") as f:
+            for i, line in enumerate(inpf):
+                lemma, tag_str = line.rstrip().split("\t")
+                f.write(f"{lemma}\t{predictions[i]}\t{tag_str}\n")
 
 
 def get_accuracy(targets, predictions, both_seen, seen_lemma, seen_feats, unseen):
@@ -91,6 +112,8 @@ def get_accuracy(targets, predictions, both_seen, seen_lemma, seen_feats, unseen
         sum(1 for x, y in zip(targets, predictions) if x == y)
         / len([x for x in predictions if x != "+?"])  # unimplemented or out-of-vocab
         * 100
+        if [x for x in predictions if x != "+?"]
+        else 0
     )
 
     both_seen_pairs = [(targets[i], predictions[i]) for i in both_seen]
@@ -146,13 +169,15 @@ def main():
         type=str,
         help="language code",
     )
+    argp.add_argument("--test", dest="is_test", action="store_true")
+    argp.set_defaults(is_test=False)
 
     args = argp.parse_args()
 
     data_dir = Path(args.directory)
     language_code = args.language
 
-    dev_file = get_dev(data_dir, language_code)
+    dev_file = get_dev(data_dir, language_code, args.is_test)
     if dev_file:
         logger.info(f"Found dev file for {language_code}:")
         logger.info(f"\t{dev_file.name}")
@@ -160,31 +185,36 @@ def main():
     lemmas, tags = get_train_sets(data_dir, language_code)
 
     targets, both_seen, seen_lemma, seen_feats, unseen = generate_test_strings(
-        dev_file, language_code, lemmas, tags
+        dev_file, language_code, lemmas, tags, args.is_test
     )
     predictions = make_predictions(language_code)
-    (
-        acc_score,
-        score_predictions,
-        score_both_seen,
-        score_seen_lemma,
-        score_seen_feats,
-        score_unseen,
-    ) = get_accuracy(targets, predictions, both_seen, seen_lemma, seen_feats, unseen)
-    # logger.info(f"Accuracy on dev: {acc_score:.3f}")
-    # logger.info(f"Accuracy for predicted items: {score_predictions:.3f}")
+    if args.is_test:
+        write_predictions(language_code, dev_file, predictions)
+    if not args.is_test:
+        (
+            acc_score,
+            score_predictions,
+            score_both_seen,
+            score_seen_lemma,
+            score_seen_feats,
+            score_unseen,
+        ) = get_accuracy(
+            targets, predictions, both_seen, seen_lemma, seen_feats, unseen
+        )
+        # logger.info(f"Accuracy on dev: {acc_score:.3f}")
+        # logger.info(f"Accuracy for predicted items: {score_predictions:.3f}")
 
-    # logger.info(f"both:\t{score_both_seen:.3f}")
-    # logger.info(f"lemma:\t{score_seen_lemma:.3f}")
-    # logger.info(f"feats:\t{score_seen_feats:.3f}")
-    # logger.info(f"unseen:\t{score_unseen:.3f}")
+        # logger.info(f"both:\t{score_both_seen:.3f}")
+        # logger.info(f"lemma:\t{score_seen_lemma:.3f}")
+        # logger.info(f"feats:\t{score_seen_feats:.3f}")
+        # logger.info(f"unseen:\t{score_unseen:.3f}")
 
-    print(
-        "Lang\tall acc\tboth\tlemma\tfeats\tunseen\t#total\t#both\t#lemma\t#feats\t#unseen\n"
-    )
-    print(
-        f"{language_code}\t{acc_score:.3f}\t{score_both_seen:.3f}\t{score_seen_lemma:.3f}\t{score_seen_feats:.3f}\t{score_unseen:.3f}\t{len(targets)}\t{len(both_seen)}\t{len(seen_lemma)}\t{len(seen_feats)}\t{len(unseen)}\n"
-    )
+        print(
+            "Lang\tall acc\tboth\tlemma\tfeats\tunseen\t#total\t#both\t#lemma\t#feats\t#unseen\n"
+        )
+        print(
+            f"{language_code}\t{acc_score:.3f}\t{score_both_seen:.3f}\t{score_seen_lemma:.3f}\t{score_seen_feats:.3f}\t{score_unseen:.3f}\t{len(targets)}\t{len(both_seen)}\t{len(seen_lemma)}\t{len(seen_feats)}\t{len(unseen)}\n"
+        )
 
 
 if __name__ == "__main__":
