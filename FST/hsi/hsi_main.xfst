@@ -1,0 +1,15 @@
+clear stack
+source hsi.foma
+define hsi_noun.a
+source hsi_verb.foma
+define hsi_verb.a
+source hsi_adj.foma
+define hsi_adj.a
+source hsi_num.foma
+define hsi_num.a
+source hsi_pro.foma
+define hsi_pro.a
+
+regex @"hsi_noun.a" | @"hsi_verb.a" | @"hsi_adj.a" | @"hsi_num.a" | @"hsi_pro.a";
+
+save stack hsi.bin
