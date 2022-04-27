@@ -4,7 +4,7 @@ Kholosi
 
 - [x] basic
 - [x] exceptions
-- [ ] tag order
+- [x] tag order
 
 ### Verb
 
@@ -20,14 +20,14 @@ Kholosi
 
 ### Pronoun
 
-- [ ] 1.P
-- [ ] 2.P
-- [ ] 3.P Prox.
-- [ ] 3.P Dist
+- [x] 1.P
+- [x] 2.P
+- [x] 3.P Prox.
+- [x] 3.P Dist
 
 ### Misc
 
 - [x] adjectives
 - [x] numerals
 - [ ] remove duplicate Multichar_Symbols
-- [ ] automate testing?
+- [x] automate testing?
