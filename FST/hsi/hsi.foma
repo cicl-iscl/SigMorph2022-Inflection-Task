@@ -4,62 +4,26 @@ define morph
 source phonetize_hsi.xfst
 define phon
 
-define shorten ā -> a || _ "^" PL3,,ā -> 0 || _ "^" PL1;
-define exceptions PL3 -> y u s || m i r i "^" _,, o -> 0 || t ā f f _ "^" PL1,, PL1 -> e n || t ā f f "^" _,, %+PL -> k ā || v i y ā v "^" _,, ā -> e|| g _ r b o "^" PL2,, PL1 -> l e n || t ʰ a l "^" _;
-define plural PL1 -> y e n || vowel "^" _,,PL1 -> e n || consonant consonant "^" _,,PL2 -> ā s|| consonant "^" _,,PL2 -> ā || vowel "^" _,,PL3 -> y u || vowel "^" _,, PL3 -> u || consonant "^" _;
+define shorten ā -> a || _ "^" PL3,,
+	ā -> 0 || _ "^" PL1;
+
+define exceptions PL3 -> y u s || m i r i "^" _,,
+	o -> 0 || t ā f f _ "^" PL1,,
+	PL1 -> e n || t ā f f "^" _,,
+	%+PL -> k ā || v i y ā v "^" _,,
+	ā -> e|| g _ r b o "^" PL2,,
+	PL1 -> l e n || t ʰ a l "^" _;
+
+define plural PL1 -> y e n || vowel "^" _,,
+	PL1 -> e n || consonant consonant "^" _,,
+	PL2 -> ā s|| consonant "^" _,,
+	PL2 -> ā || vowel "^" _,,
+	PL3 -> y u || vowel "^" _,,
+	PL3 -> u || consonant "^" _;
 define clean "^" -> 0;
 define tidy vowel -> 0 || _ ā;
 
-
-! regex morph .o. phon .o. shorten .o. exceptions;
-! regex morph .o. phon .o. shorten .o. exceptions .o. clean .o. tidy;
-
 regex morph .o. phon .o. shorten .o. exceptions .o. plural .o. clean .o. tidy;
 
-save stack hsi.bin
+save stack hsi_noun.a
 
-
-down peter+N+NOM+MASC+PL
-down šorko+N+NOM+MASC+PL
-down šurki+N+NOM+FEM+PL
-down šurki+N+non{NOM}+PL+FEM
-down kozoro+N+NOM+MASC+SG
-down kozoro+N+NOM+MASC+PL
-down zayfā+N+NOM+FEM+SG
-down zayfā+N+NOM+FEM+PL
-down zayfā+N+non{NOM}+PL+FEM
-down mers+N+NOM+MASC+SG
-down mers+N+NOM+MASC+PL
-down miri+N+NOM+FEM+SG
-down miri+N+NOM+FEM+PL
-down kotoro+N+NOM+MASC+SG
-down kotoro+N+NOM+MASC+PL
-down gārbo+N+NOM+MASC+PL
-down gārbo+N+NOM+MASC+SG
-down fil+N+NOM+FEM+SG
-down fil+N+NOM+FEM+PL
-down gazzi+N+NOM+FEM+SG
-down gazzi+N+NOM+FEM+PL
-down gohro+N+NOM+MASC+SG
-down gohro+N+NOM+MASC+PL
-down gohro+N+NOM+MASC+SG+PSS1S
-down gohro+N+NOM+MASC+SG+PSS2S
-down gohro+N+NOM+MASC+SG+PSS3S
-down gohro+N+NOM+MASC+SG+PSS1P
-down gohro+N+NOM+MASC+SG+PSS2P
-down gohro+N+NOM+MASC+SG+PSS3P
-down āno+N+NOM+SG
-down āno+N+non{NOM}+PL
-down čuki+N+NOM+FEM+SG
-down čuki+N+NOM+FEM+PL
-down čuki+N+non{NOM}+PL+FEM
-down tʰal+N+NOM+SG
-down tʰal+N+non{NOM}+PL
-down olu+N+NOM+SG
-down olu+N+non{NOM}+PL
-down viyāv+N+NOM+SG
-down viyāv+N+NOM+PL
-down ambo+N+NOM+SG
-down ambo+N+non{NOM}+PL
-down tāffo+N+NOM+SG
-down tāffo+N+non{NOM}+PL

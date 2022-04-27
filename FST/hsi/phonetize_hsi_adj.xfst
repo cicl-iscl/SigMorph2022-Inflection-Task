@@ -1,7 +1,7 @@
 define vowel ā|a|e|i|o|u;
-define consonant b|c|č|čʰ|d|f|g|h|j|k|l|m|n|p|pʰ|q|r|ṛ|s|š|t|tʰ|v|w|x|y|z;
+define consonant b|c|č|d|f|g|h|j|k|l|m|n|p|q|r|ṛ|s|š|t|ʰ|v|w|x|y|z;
 
 regex %+ADJ -> "^",,
-    %+MASC -> 0,,
-    %+SG -> 0,,
-    %+PL -> 0;
+	%+MASC -> 0,,
+	%+SG -> 0,,
+	%+PL -> 0;

@@ -1,8 +1,6 @@
 define vowel ā|a|e|i|o|u;
 define consonant b|c|č|d|f|g|h|j|k|l|m|n|p|q|r|ṛ|s|š|t|ʰ|v|w|x|y|z;
 
-
-
 regex %+V -> "^",,
 	%+NFIN -> 0,,
 	%+PROG %+IND %+PRS -> progstem %+progsuffix|| _ .#.,,

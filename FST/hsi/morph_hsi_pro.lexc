@@ -1,7 +1,7 @@
 Multichar_Symbols
-    %+PRO
-    %+NOM %+ACC %+non{NOM/ACC}
-    %+SG %+PL
+	%+PRO
+	%+NOM %+ACC %+non{NOM/ACC}
+	%+SG %+PL
 
 LEXICON Root
 māy pronoun;
