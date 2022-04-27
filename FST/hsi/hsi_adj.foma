@@ -5,8 +5,8 @@ source phonetize_hsi_adj.xfst
 define phon
 
 define alternation vowel -> i || _ "^" %+FEM,, ā -> e|| _ (vowel|consonant)* "^" %+FEM,, o -> i|| a consonant _ (vowel|consonant)* "^" %+FEM;
-define clean %+FEM -> 0,, "^" -> 0;
+define clean [%+NUM|%+SG|%+PL|%+FEM|%+MASC|"^"] -> 0;
 
 regex morph .o. phon .o. alternation .o. clean;
 
-
+save stack hsi_adj.a
