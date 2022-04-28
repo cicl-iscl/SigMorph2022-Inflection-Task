@@ -1,4 +1,4 @@
-Multichar_Symbols %+ADV %+VERB %+VPTCP %+CVB %+NFIN %+ACT %+PASS %+PRS %+PST %+SG %+PL %+DU %+1 %+2 %+3 %+MASC %+FEM %+NEUT %+ACC %+GEN %+INS %+NOM
+Multichar_Symbols %+ADV %+V %+V.PTCP %+CVB %+NFIN %+ACT %+PASS %+PRS %+PST %+SG %+PL %+DU %+1 %+2 %+3 %+MASC %+FEM %+NEUT %+ACC %+GEN %+INS %+NOM %+INF
 
 LEXICON Root
 Adv ;
@@ -107,30 +107,33 @@ LEXICON Advinf
 %+ADV   #;
 
 LEXICON Verbinf
-%+VERB%+CVB%+PRS:+jo #;
-%+VERB%+NFIN:0  #;
-%+VERB%+PRS%+1%+SG:^u  #;
-%+VERB%+PRS%+1%+DU:^imoj #;
-%+VERB%+PRS%+1%+PL:*my  #;        ! соед гласные
-%+VERB%+PRS%+2%+PL:=e  #; !check
-%+VERB%+PRS%+3%+PL:^a  #; !write exceptions!
-%+VERB%+PRS%+3%+SG:?a   #; !write exceptions!
-%+VERB%+PST:+li #; ! works
-%+VERB%+PST%+2%+SG:\0   #; !check
-%+VERB%+PST%+3%+PL:/chu #; !check
-%+VERB%+PST%+3%+SG:.0   #; !check
-%+VERB%+PST%+SG%+FEM:+ła   #; !check
-%+VERB%+PST%+SG%+MASC:+ł   #; !check
-%+VERB%+PST%+SG%+NEUT:+ło   #; !check
+%+V%+CVB%+PRS:+jo #;
+%+V%+NFIN:0  #;
+%+V%+SG%+1%+PRS:^u  #;
+%+V%+DU%+1%+PRS:^imoj #;
+%+V%+PL%+1%+PRS:*my  #;        ! соед гласные
+%+V%+PL%+2%+PRS:=e  #; !check
+
+%+V%+PL%+3%+PRS:^a  #; !write exceptions!
+%+V%+SG%+3%+PRS:?a   #; !write exceptions!
+%+V%+PST:+li #; ! works
+%+V%+SG%+2%+SG%+PST:\0   #; !check
+%+V%+PL%+3%+PST:/chu #; !check
+
+%+V%+PST%+3%+SG:.0   #; !check
+%+V%+FEM%+SG%+PST+:+ła   #; !check
+%+V%+MASC%+SG%+PST:+ł   #; !check
+%+V%+NEUT%+SG%+PST:+ło   #; !check
+%+V%+IMP%+SG%+2:`       #; !check
 
 
-LEXICON Vptcpinf
-%+VPTCP%+ACT%+ACC%+SG:+ce   #;
-%+VPTCP%+ACT%+GEN%+MASC%+PL:)anych   #;
-%+VPTCP%+PASS%+ACC%+FEM%+SG:+dźenu      #;
-%+VPTCP%+PASS%+ACC%+NEUT%+SG:)jene  #;
-%+VPTCP%+PASS%+GEN%+PL:&   #; ! FIX přićahnyć
-%+VPTCP%+PASS%+INS%+MASC%+SG:)jenym   #;
-%+VPTCP%+PASS%+NOM%+FEM%+SG:§   #;
-%+VPTCP%+PASS%+NOM%+MASC%+SG:)jeny   #;
-%+VPTCP%+PASS%+NOM%+NEUT%+PL:+ne   #;
+LEXICON V.PTCPinf
+%+V.PTCP%+ACC%+SG%+ACT:+ce   #;
+%+V.PTCP%+GEN%+MASC%+PL%+ACT:)anych   #;
+%+V.PTCP%+ACC%+FEM%+SG%+PASS:+dźenu      #;
+%+V.PTCP%+ACC%+NEUT%+SG%+PASS:)jene  #;
+%+V.PTCP%+GEN%+PL%+PASS:&   #; ! FIX přićahnyć
+%+V.PTCP%+INS%+MASC%+SG%+PASS:)jenym   #;
+%+V.PTCP%+NOM%+FEM%+SG%+PASS:§   #;
+%+V.PTCP%+NOM%+MASC%+SG%+PASS:)jeny   #;
+%+V.PTCP%+NOM%+NEUT%+PL%+PASS:+ne   #;

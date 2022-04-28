@@ -21,10 +21,11 @@ define delPST2 i ć -> e š e || _ "\",, a ć -> a || _ "\";
 define delPST3SG y ć -> y || _ ".",, a ć -> a j e š e || _ ".";
 
 
-define all del .o. delPL .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem;
+define clean ["^"|"="|"."|"*"|"?"|"!"|"/"|"\"|"+"|")"|"("|"§"|"&"|"`"] -> 0;
+define all del .o. delPL .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem .o. imp .o. clean;
 
-regex %+VERB -> 0,,
+regex %+V -> 0,,
         %+NFIN -> 0,,
         %+PRS%+1%+PL -> PL1,,
-        %+VERB%+PRS%+1%+PL -> PL1,,
-        %+VPTCP -> 0;
+        %+V%+PRS%+1%+PL -> PL1,,
+        %+V.PTCP -> 0;
