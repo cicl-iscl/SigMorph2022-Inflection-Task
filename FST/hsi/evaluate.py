@@ -2,10 +2,10 @@
 This script evaluates your FST on the dev set.
 
 Usage:
-    python3 evaluate.py -d [directory for task's dev files] -l [language code]
+	python3 evaluate.py -d [directory for task's dev files] -l [language code]
 Prerequisites:
-    - your language FST in .bin format (save stack xxx.bin)
-    - place this file in the same dir as your FST files or change the path to relevant files
+	- your language FST in .bin format (save stack xxx.bin)
+	- place this file in the same dir as your FST files or change the path to relevant files
 """
 
 import subprocess
@@ -85,8 +85,9 @@ def make_predictions(iso):
     subprocess.getoutput(f"cat {iso}.txt| flookup -i {iso}.bin > {iso}_results.txt")
     predictions = []
     with open(f"{iso}_results.txt", mode="r", encoding="utf-8") as f:
-        for line in f:
-            if line[0].isalpha():
+        lines = f.readlines()
+        for i, line in enumerate(lines):
+            if line[0].isalpha() and lines[i - 1] == "\n":
                 test_str, _, pred = line.partition("\t")
                 if "+" in pred.rstrip() and pred.rstrip() != "+?":
                     pass
