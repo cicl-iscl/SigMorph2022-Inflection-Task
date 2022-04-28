@@ -4,8 +4,6 @@ LEXICON Root
 N       ;
 
 LEXICON N
-
-LEXICON Ninf
 němska	 Nouninf;
 nadawk	 Nouninf;
 koncert	 Nouninf;
@@ -182,7 +180,7 @@ jak	 Nouninf;
 knjez	 Nouninf;
 bóh	 Nouninf;
 
-LEXICON Ninf
+LEXICON Nouninf
 %+N%+GEN%+PL:^  #;
 %+N%+GEN%+SG:§  #;
 %+N%+VOC%+SG:$  #;
