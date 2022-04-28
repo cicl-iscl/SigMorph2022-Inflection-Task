@@ -3,7 +3,7 @@ Multichar_Symbols %+ADV %+V %+V.PTCP %+CVB %+NFIN %+ACT %+PASS %+PRS %+PST %+SG 
 LEXICON Root
 Adv ;
 Verb ;
-Vptcp;
+Vptcp ;
 
 LEXICON Adv
 wjele   Advinf;
@@ -91,17 +91,17 @@ přisadźić	 Verbinf;
 wuradźować	 Verbinf;
 
 LEXICON Vptcp
-zwisować	 V.PTCPinf;
-předwidźeć	 V.PTCPinf;
-zańć	 V.PTCPinf;
-wusměrić	 V.PTCPinf;
-podhódnoćić	 V.PTCPinf;
-přićahnyć	 V.PTCPinf;
-slubić	 V.PTCPinf;
-šokować	 V.PTCPinf;
-popadnyć	 V.PTCPinf;
-zranić	 V.PTCPinf;
-popisać	 V.PTCPinf;
+zwisować	 Vptcpinf;
+předwidźeć	 Vptcpinf;
+zańć	 Vptcpinf;
+wusměrić	 Vptcpinf;
+podhódnoćić	 Vptcpinf;
+přićahnyć	 Vptcpinf;
+slubić	 Vptcpinf;
+šokować	 Vptcpinf;
+popadnyć	 Vptcpinf;
+zranić	 Vptcpinf;
+popisać	 Vptcpinf;
 
 LEXICON Advinf
 %+ADV   #;
@@ -127,7 +127,7 @@ LEXICON Verbinf
 %+V%+IMP%+SG%+2:`       #; !check
 
 
-LEXICON V.PTCPinf
+LEXICON Vptcpinf
 %+V.PTCP%+ACC%+SG%+ACT:+ce   #;
 %+V.PTCP%+GEN%+MASC%+PL%+ACT:)anych   #;
 %+V.PTCP%+ACC%+FEM%+SG%+PASS:+dźenu      #;
