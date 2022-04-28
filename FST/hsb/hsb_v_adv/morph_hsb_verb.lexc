@@ -104,7 +104,7 @@ zranić	 Vptcpinf;
 popisać	 Vptcpinf;
 
 LEXICON Advinf
-%+ADV   #;
+%+ADV:0   #;
 
 LEXICON Verbinf
 %+V%+CVB%+PRS:+jo #;
