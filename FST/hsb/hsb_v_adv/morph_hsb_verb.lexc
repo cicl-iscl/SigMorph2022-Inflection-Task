@@ -91,17 +91,17 @@ přisadźić	 Verbinf;
 wuradźować	 Verbinf;
 
 LEXICON Vptcp
-zwisować	 Vptcpinf;
-předwidźeć	 Vptcpinf;
-zańć	 Vptcpinf;
-wusměrić	 Vptcpinf;
-podhódnoćić	 Vptcpinf;
-přićahnyć	 Vptcpinf;
-slubić	 Vptcpinf;
-šokować	 Vptcpinf;
-popadnyć	 Vptcpinf;
-zranić	 Vptcpinf;
-popisać	 Vptcpinf;
+zwisować	 V.PTCPinf;
+předwidźeć	 V.PTCPinf;
+zańć	 V.PTCPinf;
+wusměrić	 V.PTCPinf;
+podhódnoćić	 V.PTCPinf;
+přićahnyć	 V.PTCPinf;
+slubić	 V.PTCPinf;
+šokować	 V.PTCPinf;
+popadnyć	 V.PTCPinf;
+zranić	 V.PTCPinf;
+popisać	 V.PTCPinf;
 
 LEXICON Advinf
 %+ADV   #;
