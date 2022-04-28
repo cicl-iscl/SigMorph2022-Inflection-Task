@@ -29,9 +29,12 @@ define genFEM vows -> e j e || _ "´";
 
 define locMASC ó n -> y m || _ "`",, ž -> m ž || _ "`";
 
-define clean [")"|"/"|"\"|"-"|"("|"="|"?"|"&"|"."|","|"§"|"$"|"´"|"`"] -> 0;
+define genMascPl s o k i -> š i c h || _ "°",, t ó n -> t y c h || _ "°";
+
+
+define clean [")"|"/"|"\"|"-"|"("|"="|"?"|"&"|"."|","|"§"|"$"|"´"|"`"|"°"] -> 0;
 
 define all nomNEUT .o. nomSG .o. nomPL .o. nomFEM .o. genMASC .o. accFEM .o. accMASC .o. accFEMPL .o. accNEUT
- .o. accPL .o. datSG .o. datMASC .o. genFEM .o. locMASC .o. clean;
+ .o. accPL .o. datSG .o. datMASC .o. genFEM .o. locMASC .o. genMascPl .o. clean;
 
 regex %+ADJ -> 0;
