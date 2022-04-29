@@ -96,11 +96,14 @@ def make_predictions(iso):
     return predictions
 
 
-def write_predictions(iso, test_file, predictions):
+def write_predictions(iso, test_file, predictions, split="test"):
     with open(test_file, mode="r", encoding="utf-8") as inpf:
-        with open(f"{iso}_submission.txt", mode="w", encoding="utf-8") as f:
+        with open(f"{iso}.{split}", mode="w", encoding="utf-8") as f:
             for i, line in enumerate(inpf):
-                lemma, tag_str = line.rstrip().split("\t")
+                if split == "test":
+                    lemma, tag_str = line.rstrip().split("\t")
+                elif split == "dev":
+                    lemma, form, tag_str = line.rstrip().split("\t")
                 f.write(f"{lemma}\t{predictions[i]}\t{tag_str}\n")
 
 
@@ -192,6 +195,7 @@ def main():
     if args.is_test:
         write_predictions(language_code, dev_file, predictions)
     if not args.is_test:
+        write_predictions(language_code, dev_file, predictions, "dev")
         (
             acc_score,
             score_predictions,
