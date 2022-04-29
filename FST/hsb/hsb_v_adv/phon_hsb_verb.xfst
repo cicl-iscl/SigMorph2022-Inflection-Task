@@ -16,13 +16,15 @@ define delPTCPGen i ć -> e n y c h || _ "&",, y ć -> j e n y c h || _ "&";
 
 define delPTCPFem a ć -> a n a || _ "§",, y ć -> j e n a || _ "§";
 
-define delPST2 i ć -> e š e || _ "\",, a ć -> a || _ "\";
+define delPST2 i ć -> e š e || _ "\",, a ć -> a || _ "\",, m ě ć -> m ě j e š e || _ "\";
 
 define delPST3SG y ć -> y || _ ".",, a ć -> a j e š e || _ ".";
 
+define exp m ě ć -> z m ě j a || _ "¿",, b y ć -> b u d ź e || _ "¿",, h l a d a ć -> h l a d a j o || _ "¿";
 
-define clean ["^"|"="|"."|"*"|"?"|"!"|"/"|"\"|"+"|")"|"("|"§"|"&"|"`"] -> 0;
-define all del .o. delPL .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem .o. clean;
+
+define clean ["^"|"="|"."|"*"|"?"|"!"|"/"|"\"|"+"|")"|"("|"§"|"&"|"`"|"¿"] -> 0;
+define all del .o. delPL .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem .o. exp .o. clean;
 
 regex %+V -> 0,,
         %+NFIN -> 0,,

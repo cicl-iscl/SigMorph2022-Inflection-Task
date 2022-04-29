@@ -1,161 +1,80 @@
-zdać+V+PL+3+PRS	zdana
+cuzy+ADJ+ACC+MASC+SG	cuza
 
-potencial+N+GEN+PL	+?
+stejišćo+N+GEN+PL	stejišćow
 
-wosobinski+ADJ+INS+MASC+SG	wosobinskim
+bydlić+V+PL+3+PRS	bydla
 
-předskok+N+ACC+SG	+?
+rěčeć+V+SG+1+PRS	rěču
 
-biografija+N+ACC+SG	+?
+spytać+V+PL+3+PRS	spytana
 
-měć+V+PL+3+FUT	+?
+budyšin+N+LOC+SG	budyšinje
 
-łužica+N+ACC+SG	+?
+šula+N+LOC+SG	šuli
 
-wšelaki+ADJ+GEN+FEM+SG	wšelakeje
+tajny+ADJ+GEN+PL	tajnych
 
-region+N+LOC+SG	+?
+hósć+N+INS+SG	hósćom
 
-přizamknyć+V+SG+3+PST	+?
+lěpšina+N+ACC+SG	lěpšiny
 
-přiwzać+V+PL+PST	+?
+wědźeć+V+PL+3+PRS	wědźa
 
-strona+N+GEN+PL	+?
+běłohródski+ADJ+GEN+PL	běłohródskich
 
-měć+V+SG+2+PST	+?
+intensiwny+ADJ+INS+MASC+SG	intensiwnym
 
-měć+V+DU+1+PRS	mimoj
+měć+V+PL+3+PRS	ma
 
-kedźbliwje+ADV	kedźbliwje
+droga+N+LOC+SG	droze
 
-prawy+ADJ+GEN+PL	prawych
+serbski+ADV	serbski
 
-organizować+V+PL+3+PRS	organizowana
+pasionski+ADJ+GEN+PL	pasionskich
 
-dźěło+N+ACC+SG	+?
+element+N+GEN+PL	elementow
 
-naš+ADJ+GEN+PL	našch
+dub+N+INS+SG	dubom
 
-šuler+N+GEN+PL	+?
+swój+ADJ+ACC+MASC+SG	swój
 
-twarskoprawnisce+ADV	twarskoprawnisce
+wulkosć+N+ACC+SG	wulkosć
 
-dźěłać+V+PL+3+PRS	dźěłana
+potrjeba+N+INS+SG	potrjebu
 
-přisadźić+V+MASC+SG+PST	přisadźił
+moderna+N+INS+SG	modernu
 
-tradicija+N+INS+SG	+?
+swójba+N+GEN+PL	swójbow
 
-wón+ADJ+GEN+FEM+SG	wón
+ideja+N+GEN+PL	idejach
 
-přihłosować+V+PL+3+PRS	přihłosowana
+dalši+ADJ+NOM+SG	dalše
 
-sobustawstwo+N+INS+SG	+?
+prajic+V+PL+3+PRS	prajica
 
-wokrjes+N+GEN+PL	+?
+čitanje+N+ACC+SG	čitanje
 
-zaměr+N+GEN+PL	+?
+hnězdo+N+LOC+SG	hnězdźe
 
-partyjowy+ADJ+GEN+PL	partyjowych
+popadnyć+V.PTCP+NOM+FEM+SG+PASS	popadnjena
 
-Lubijski+ADJ+LOC+FEM+SG	Lubijskej
+přehrać+V+FEM+SG+PST	+?
 
-naprawa+N+ACC+SG	+?
+wuradźować+V+NEUT+SG+PST	+?
 
-serbski+ADJ+INS+MASC+SG	serbskim
+dwanaće+ADJ+NOM+MASC	+?
 
-poskićeć+V+PL+3+PRS	poskića
+hić+V+IMP+SG+2	hić
 
-kónčina+N+GEN+PL	+?
+předwidźeć+V.PTCP+GEN+MASC+PL+ACT	předwidźanych
 
-być+V+SG+1+PRS	bu
+zwisować+V.PTCP+ACC+SG+ACT	+?
 
-skupina+N+GEN+PL	+?
+móc+V+NEUT+SG+PST	mócło
 
-kolij+N+GEN+PL	+?
+fachowy+ADJ+GEN+FEM+PL	+?
 
-namakać+V+PL+2+PRS	namakaće
+šokować+V.PTCP+NOM+FEM+SG+PASS	+?
 
-sobota+N+ACC+SG	+?
-
-pochadźeć+V+PL+3+PRS	pochadźa
-
-nowotwar+N+INS+SG	+?
-
-přeprošenje+N+ACC+SG	+?
-
-wien+N+LOC+SG	+?
-
-wukrajny+ADJ+GEN+PL	wukrajnych
-
-tutón+ADJ+GEN+MASC+PL	tutych
-
-wón+ADJ+NOM+SG	wóna
-
-prašenje+N+DAT+PL	+?
-
-dobry+ADJ+ACC+NEUT+SG	dobre
-
-zakładna+N+GEN+PL	+?
-
-myslić+V+SG+2+PST	+?
-
-zhromadny+ADJ+ACC+NEUT+SG	zhromadne
-
-ptačecy+N+GEN+PL	+?
-
-spale+N+GEN+PL	+?
-
-niwow+N+INS+SG	+?
-
-němska+ADJ+GEN+PL	němskach
-
-wjacory+ADJ+ACC+NEUT+SG	wjacore
-
-azylowy+ADJ+ACC+MASC+SG	azyloweho
-azylowy+ADJ+ACC+MASC+SG	azylowa
-
-kraj+N+LOC+SG	+?
-
-nańć+V+MASC+SG+PST	nańł
-
-hladać+V.CVB+PRS	+?
-
-knježerstwo+N+LOC+SG	+?
-
-chwalić+V+PL+PST	+?
-
-prajić+V+PL+2+PRS	prajiće
-
-dźěža+N+INS+SG	+?
-
-zwisk+N+LOC+SG	+?
-
-muzej+N+LOC+SG	+?
-
-poskićić+V+DU+1+PRS	poskićimoj
-
-němski+ADV	němski
-
-być+V+SG+3+FUT	+?
-
-móc+V+PL+3+PRS	móca
-
-wysoki+ADJ+GEN+MASC+PL	wyšich
-
-partner+N+GEN+PL	+?
-
-měrc+N+LOC+SG	+?
-
-euro+N+GEN+PL	+?
-
-zajimc+N+GEN+PL	+?
-
-nora+N+LOC+SG	+?
-
-ropot+N+NOM+SG	+?
-
-žiwy+ADJ+ACC+PL	žiwe
-
-wopytowar+N+NOM+PL	+?
+wusměrić+V.PTCP+ACC+NEUT+SG+PASS	wusměrjene
 

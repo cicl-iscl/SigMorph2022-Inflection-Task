@@ -17,7 +17,7 @@ define accFEMPL vows -> u || _ "\";
 
 define accNEUT vows -> e || _ "(";
 
-define accMASC o w y -> o w e h o || _ "-",, y -> a || _ "-";
+define accMASC o w y -> o w e h o || _ "-",, z y -> z a || _ "-";
 
 define accPL y -> e || _ ")",, ")" -> c h || i _;
 
@@ -25,16 +25,17 @@ define datSG vows -> e j || _ "=";
 
 define datMASC y ž -> e m u ž || _ "?",, s k i -> š e m u || _ "?" ;
 
-define genFEM vows -> e j e || _ "´";
+define genFEM vows -> e j e || _ "´",, w ó n -> j e j e || _ "´";
 
 define locMASC ó n -> y m || _ "`",, ž -> m ž || _ "`";
 
 define genMascPl s o k i -> š i c h || _ "°",, t ó n -> t y c h || _ "°";
 
+define nomMasc e -> o || _ "@";
 
-define clean [")"|"/"|"\"|"-"|"("|"="|"?"|"&"|"."|","|"§"|"$"|"´"|"`"|"°"] -> 0;
+define clean [")"|"/"|"\"|"-"|"("|"="|"?"|"&"|"."|","|"§"|"$"|"´"|"`"|"°"|"@"] -> 0;
 
 define all nomNEUT .o. nomSG .o. nomPL .o. nomFEM .o. genMASC .o. accFEM .o. accMASC .o. accFEMPL .o. accNEUT
- .o. accPL .o. datSG .o. datMASC .o. genFEM .o. locMASC .o. genMascPl .o. clean;
+ .o. accPL .o. datSG .o. datMASC .o. genFEM .o. locMASC .o. genMascPl .o. nomMasc .o. clean;
 
 regex %+ADJ -> 0;

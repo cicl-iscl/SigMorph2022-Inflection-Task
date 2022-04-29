@@ -103,6 +103,7 @@ LEXICON Adjinf
 %+ADJ%+GEN%+MASC%+PL:°  #;
 %+ADJ%+NOM%+SG:,        #;
 %+ADJ%+NOM%+PL:.        #;
+%+ADJ%+NOM%+MASC:@  #;
 %+ADJ%+NOM%+MASC%+SG:0  #;
 %+ADJ%+NOM%+NEUT%+SG:§  #;
 %+ADJ%+NOM%+FEM%+SG:$  #;

@@ -1,4 +1,4 @@
-Multichar_Symbols %+ADV %+V %+V.PTCP %+CVB %+NFIN %+ACT %+PASS %+PRS %+PST %+SG %+PL %+DU %+1 %+2 %+3 %+MASC %+FEM %+NEUT %+ACC %+GEN %+INS %+NOM %+INF
+Multichar_Symbols %+ADV %+V %+V.PTCP %+NFIN %+ACT %+PASS %+PRS %+PST %+SG %+PL %+DU %+1 %+2 %+3 %+MASC %+FEM %+NEUT %+ACC %+GEN %+INS %+NOM %+INF %+V.CVB
 
 LEXICON Root
 Adv ;
@@ -102,6 +102,7 @@ slubić	 Vptcpinf;
 popadnyć	 Vptcpinf;
 zranić	 Vptcpinf;
 popisać	 Vptcpinf;
+hladać	 Vptcpinf;
 
 LEXICON Advinf
 %+ADV:0   #;
@@ -116,15 +117,19 @@ LEXICON Verbinf
 
 %+V%+PL%+3%+PRS:^a  #; !write exceptions!
 %+V%+SG%+3%+PRS:?a   #; !write exceptions!
-%+V%+PST:+li #; ! works
-%+V%+SG%+2%+SG%+PST:\0   #; !check
+%+V%+PL%+PST:+li #; ! works
+%+V%+SG%+2%+PST:\0   #; !check
 %+V%+PL%+3%+PST:/chu #; !check
 
-%+V%+PST%+3%+SG:.0   #; !check
-%+V%+FEM%+SG%+PST+:+ła   #; !check
+%+V%+SG%+3%+PST:.0   #; !check
+%+V%+FEM%+SG%+PST:+ła   #; !check
 %+V%+MASC%+SG%+PST:+ł   #; !check
 %+V%+NEUT%+SG%+PST:+ło   #; !check
 %+V%+IMP%+SG%+2:`       #; !check
+
+%+V%+PL%+3%+FUT:¿	#;
+%+V%+SG%+3%+FUT:¿	#;
+%+V.CVB%+PRS:¿	#;
 
 
 LEXICON Vptcpinf
