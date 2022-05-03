@@ -17,7 +17,7 @@ define Vr [ и | у | э | i | u | e ];
 define Yot [ Е | е | Ё | ё | Ю | ю | Я | я ];
 
 # Define Consonants 
-define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ
+define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ |
              б | в | г | д | ж | з | й | к | ӄ | л | ԓ | м | н | ӈ | п | р | с | т | ф | х | ц | ч | ш | щ ];
 
 # Define Coronals
@@ -40,7 +40,7 @@ define Alveolar [ Т | Н | Р | С | Ч | Ԓ | Л |
                   т | н | р | с | ч | ԓ | л ];
 
 # Define Bilabials
-define Bilabial [ П | М | В
+define Bilabial [ П | М | В |
                   п | м | в ] ;
 
 # Define Backs  

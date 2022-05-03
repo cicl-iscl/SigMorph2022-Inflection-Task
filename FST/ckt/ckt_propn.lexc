@@ -35,6 +35,9 @@ LEXICON Proper_names
 Тэӈыԓӄот     Pinf;
 Тынарагтын   Pinf;
 тыӈэк        Pinf;
+омваам       Pinf;
+Ԓетынтаграв  Pinf;
+
 
 LEXICON Pinf
 
@@ -42,6 +45,8 @@ LEXICON Pinf
 %+PROPN%+DAT%+SG:^гты  #;
 %+PROPN%+INS%+SG:^на   #;
 %+PROPN%+ANIM%+INS:^тинэ   #;
+%+PROPN%+ABL%+SG:0     #;
+
 
 LEXICON Pronouns
 
@@ -50,6 +55,11 @@ LEXICON Pronouns
 гым        Prinf;
 ымым       Prinf;
 ытԓён      Prinf;
+мури       Prinf;
+ытԓён      Prinf;
+омваам     Prinf;
+гыт        Prinf;
+Ԓетынтаграв Prinf;
 
 LEXICON Prinf
 
@@ -59,3 +69,6 @@ LEXICON Prinf
 %+PRO%+DAT%+SG%+1:^ыкагты	#;
 %+PRO%+SG%+1:^о   #;
 %+PRO%+ABS%+SG%+3:0  #;
+!%+PRO%+ESS%+PL%+1:^к   #;
+
+
