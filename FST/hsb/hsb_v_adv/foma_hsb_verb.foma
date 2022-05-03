@@ -1,7 +1,9 @@
-read lexc morph_hsb_verb.lexc
-define morph
+read lexc /Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_v_adv/morph_hsb_verb.lexc
+define morphs
 
-source phon_hsb_verb.xfst
-define phon
+source /Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_v_adv/phon_hsb_verb.xfst
+define phons
 
-regex morph .o. phon .o. all;
+regex morphs .o. phons .o. alls;
+
+save stack /Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_v_adv/hsb_verb.a

@@ -24,7 +24,7 @@ define exp m ě ć -> z m ě j a || _ "¿",, b y ć -> b u d ź e || _ "¿",, h 
 
 
 define clean ["^"|"="|"."|"*"|"?"|"!"|"/"|"\"|"+"|")"|"("|"§"|"&"|"`"|"¿"] -> 0;
-define all del .o. delPL .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem .o. exp .o. clean;
+define alls del .o. delPL .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem .o. exp .o. clean;
 
 regex %+V -> 0,,
         %+NFIN -> 0,,
