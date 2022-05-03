@@ -100,6 +100,17 @@ LEXICON Noun
 ӄорагынрэтыԓьын	Ninf;
 эԓек    	Ninf;
 яраӈы   	Ninf;
+гыԓгын          Ninf;
+гэкэӈыԓьын      Ninf;
+ӄорагынрэтыԓьын Ninf;
+ыʼԓьыԓ          Ninf;
+эпэ             Ninf;
+бригадир        Ninf;
+эʼԓьэԓ	        Ninf;
+ытԓыгын         Ninf;
+ӈэвъэн          Ninf;
+ӄԓявыԓ          Ninf;
+чакыгэт         Ninf;
 
 
 LEXICON Ninf
@@ -116,3 +127,7 @@ LEXICON Ninf
 %+N%+DAT%+SG:^гты  #;
 %+N%+ABS%+SG:0     #;
 %+N%+ANIM%+ABS%+SG:0   #;
+%+N%+ANIM%+INS%+SG:^э   #;
+%+N%+ANIM%+INS:^э   #;
+%+N%+ANIM%+DAT%+SG:^гты  #;
+

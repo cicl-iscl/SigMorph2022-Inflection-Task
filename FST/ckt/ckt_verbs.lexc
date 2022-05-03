@@ -1,18 +1,15 @@
-Multichar_Symbols %+V %+SG %+PL %+PTCP %+SBJV %+NFIN %+OPT %+DAT %+ABS %+GEN %+ABL %+PROPN %+INS %+PRO %+2 %+1 %+3 %+ARGAB3S +ARGER1P %+IND %+FUT %+IND %+PST %+ITER %+ESS %+PFV
+Multichar_Symbols %+V %+SG %+PL %+PTCP %+SBJV %+NFIN %+OPT %+DAT %+ABS %+INS %+PRO %+2 %+1 %+3 %+ARGAB3S +ARGER1P %+ARGAB3P %+ARGER3P %+ARGER1S %+IND %+FUT %+IND %+PST %+ITER %+ESS %+PFV %+ARGER3S %+PRS %+IPFV %+MSDR %+STAT
 
+LEXICON Root ! actually prefixes
+ гA    RealRoot;
+       RealRoot;   ! jump to root without any prefixes
 
-LEXICON Root
-мытрa    Realroot;
-мыԓ      Realroot;
-         Realroot;   ! jump to root without any prefixes
-
-LEXICON Realroot
+LEXICON RealRoot
 
 итык	        Vinf;
 раԓечетык	Vinf;
 ԓьук	        Vinf;
 камэԓгыӈав	Vinf;
-Камэԓгыӈав	Vinf;
 ԓьук	        Vinf;
 тэйкык	        Vinf;
 эквэтык	        Vinf;
@@ -36,7 +33,6 @@ LEXICON Realroot
 каӈэтваԓьын	Vinf;
 рырынгиивык	Vinf;
 ривԓык	        Vinf;
-ԓьук	        Vinf;
 эйпык	        Vinf;
 йыԓӄэтык	Vinf;
 йъок	        Vinf;
@@ -58,13 +54,33 @@ LEXICON Realroot
 гыръоӈавыръэнутэт	Vinf;
 тивык	        Vinf;
 тэйкык	        Vinf;
+пинтыӄэтык	Vinf;
+рэмкичик	Vinf;
+маравчетык	Vinf;
+пэԓятык	        Vinf;
+ӄытык	        Vinf;
+эймэвык	        Vinf;
+руԓтык          Vinf;
+тараӈык         Vinf;
+рывэтгавык      Vinf;
+мытнэрэтъэн     Vinf;
+маравчетык      Vinf;
+ёпатык          Vinf;
+чаёк            Vinf;
+тэнӈыткук       Vinf;
+тэнкэвӈык       Vinf;
+ԓёӈръэтатыԓьын  Vinf;
+каԓеткогыргын   Vinf;
+
+
 
 LEXICON Vinf
-         #; ! no suffix (root or prefix+root without suffix) is accepted
-ӈын      #;
-нэт      #;
+          Vinff; ! no suffix (root or prefix+root without suffix) is accepted
+нин       Vinff;
+!suff2    Vinff;
 
-LEXICON Vinf
+LEXICON Vinff
+
 %+V%+ABS%+SG:0     #;
 %+V%+PTCP%+ABS%+SG:0    #;	
 %+V%+ABS%+PL:0       #;
@@ -76,5 +92,23 @@ LEXICON Vinf
 %+V%+PFV%+IND%+SG%+3%+PST:^ԓин    #;
 %+V%+ITER%+ESS:^к   #;
 %+V%+PFV%+IND%+SG%+1%+PST:^гъэк   #;
+%+V%+ARGAB3S%+ARGER3S%+IND%+PRS:^нин   #;
+%+V%+ARGAB3S%+ARGER3S%+PFV%+IND%+PST:^нин    #;
+%+V%+ARGAB3S%+ARGER3S%+IPFV%+IND%+PRS:^нин    #;
+%+V%+ARGAB3S%+ARGER3S%+IND:^нин      #;
+%+V%+ITER%+DAT:^к      #;
+%+V%+PFV%+IND%+SG%+3:^ԓин     #;
+%+V%+PFV%+IND%+SG%+3%+PRS:^ԓин     #;
+%+V%+PFV%+IND%+PL%+3%+PST:^ԓин     #;
+%+V%+ARGAB3P%+ARGER3P%+IND%+PST:^гъэн    #;
+%+V%+ARGAB3P%+ARGER1S%+PFV%+IND%+PST:^ӈӈонат    #;
+%+V%+ARGAB3S%+ARGER1S%+PFV%+IND%+PST:^гъэн      #;
+%+V%+MSDR%+ESS:^н      #;
+%+V%+STAT%+ITER%+SG%+3:^к     #;
+%+V%+ARGAB3P%+ARGER1S%+PRF%+IND:^ӈӈонат    #;
+%+V%+ITER%+ABS%+SG:^к       #;
+%+V%+ARGAB3S%+ARGER1S%+IND%+PRS:^гъэн      #;
+
+
 
 

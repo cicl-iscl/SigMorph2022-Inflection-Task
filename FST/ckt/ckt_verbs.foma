@@ -7,7 +7,7 @@ define Vow [ А | Е | Ё | И | О | У | Ы | Э | Ю | Я | %{Æ%}|
              а | е | ё | и | о | у | ы | э | ю | я ];
 
 # Define dominant vowels
-define Vd [ А | О | Я | Ё |
+define Vd [ А | О | Я | Ё | 
             а | о | я | ё ];
 
 # Define recessive vowels
@@ -17,7 +17,7 @@ define Vr [ и | у | э | i | u | e ];
 define Yot [ Е | е | Ё | ё | Ю | ю | Я | я ];
 
 # Define Consonants 
-define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ
+define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ |
              б | в | г | д | ж | з | й | к | ӄ | л | ԓ | м | н | ӈ | п | р | с | т | ф | х | ц | ч | ш | щ ];
 
 # Define Coronals
@@ -41,33 +41,26 @@ define Alveolars [ Т | Н | Р | С | Ч | Ԓ | Л |
 
 
 # Define Bilabials
-define Bilabials [ П | М | В
+define Bilabials [ П | М | В |
                    п | м | в ] ;
 
 # Define Backs  
 define Backs [ К | Ӄ | Ӈ | Г |
 	      к | ӄ | ӈ | г ];
 
-
-read lexc ckt_verbs.lexc
+lexc ckt_verbs.lexc
 define Lexicon;
-
-
-# Define Alternations
-define Alternat г -> э || Cns "^" _;
 
 # Define Deletion
 define Protdel ԓ г ы н -> 0 || _ "^" т;
 
 # Define Elision
-define Elision ы н -> 0 || _ "^" э т ы ,,
-                 к -> 0 || _ "^" т и н э ,,
-		 н  -> 0 || _ "^" к ,,
+define Elision   н  -> 0 || _ "^" к ,,
                ы к -> 0 || _ "^" ԓ е н ,,
 	       ы к -> 0 || _ "^" ԓ и н ,,
-	       ы к -> ы || ԓ п _ "^" ԓ и н ,,
                и к -> к || _ "^" ԓ и н ,,
-               к -> 0 || _ "^" ӈ ы н;
+                 к -> 0 || _ "^" ӈ ы н;
+
 # Define Pronoun alternation
 define Proalt ы м ы м -> 0 || _ "^" о ,,
               о -> г ы м || ы м ы м "^" _;
@@ -82,13 +75,29 @@ define PrefixC [..] -> м ы т р а || .#. _ ?* ӈ ы н .#.;
 
 #define PrefixAlt м ы т р а -> м ы т р э || э "^" ӈ ы н;
 
-define PrefixC [..] -> г э || .#. _ ?* ԓ и н .#.; 
+define Prefixu [..] -> г A || .#. _ ?* ԓ и н .#.; 
 
-#define PrefixAltern ԓ и н -> ԓ е н || Vd Cns "^" ԓ и н ,,
- #                    [..] -> г а || .#. _ ?* ԓ е н .#.;
+define BuffA  A ->  э || _ Cns+ э,,
+              A ->  а || _ Cns+ а;
 
-define PrefixF [..] -> т ы || .#. _ Cns ?* г ъ э к .#.;
-              #[..] -> т || .#. _ ?* г ъ э к .#.;
+define PrefixF [..] -> т || .#. _ Cns ?* г ъ э к .#.;
+
+# Define Suffixation
+define SuffixIND к -> 0 || "^" н и н ,,
+                 ы к -> 0 || ԓ _ "^" н и н ,,
+                 ы к -> 0 || в _ "^" н и н ,,
+                   к -> 0 || "^" г ъ э н ,, 
+		   н -> 0 || "^" к;
+#Define k Deletion
+define KDeletion ы к -> 0 || _ "^" г ъ э к;
+
+define Kretention [..] -> ы || ӈ _ "^" ԓ и н;
+
+define PreSufix [..] -> н || .#. _ ?* г ъ э н .#.;
+
+define PreSufixComb [..] -> т ы ԓ || .#. _ ?* ӈ ӈ о н а т .#.;
+
+define KElision к -> 0 || "^" ӈ ӈ о н а т;
 
 # Cleanup: remove morpheme boundaries
 define Cleanup "^" -> 0;
@@ -97,16 +106,24 @@ read lexc ckt_verbs.lexc
 define Lexicon
 
 define Grammar Lexicon       .o.
-	       Alternat      .o.
 	       Elision       .o.
 	       Protdel       .o.
 	       Proalt        .o.
 	       PrefixP       .o.
 	       PrefixC       .o.
-#	       PrefixAlt     .o.
+	       Prefixu       .o.
 	       PrefixF       .o.
-#	       PrefixAltern  .o.
+ 	       SuffixIND     .o.
+	       BuffA         .o.
+	       KDeletion     .o.
+	       Kretention    .o.
+	       PreSufix      .o.
+	       PreSufixComb  .o.
+	       KElision      .o.
 	       Cleanup;
 
 regex Grammar;
-PrefixF .o. Grammar;									                                                                   
+
+#define Prefixu [..] -> г A || .#. _ ?* ԓ и н .#.;		
+regex BuffA .o. Grammar; 
+

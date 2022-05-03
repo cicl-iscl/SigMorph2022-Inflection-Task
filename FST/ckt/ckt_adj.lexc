@@ -1,4 +1,4 @@
-Multichar_Symbols %+ADJ %+SG %+PL %+ADV %+ADP %+DAT %+ABS %+ALL %+ABL
+Multichar_Symbols %+ADJ %+SG %+PL %+ADV %+ADP %+DAT %+ABS %+ALL %+ABL %+ESS
 
 
 LEXICON Root
@@ -18,7 +18,7 @@ LEXICON Adjective
 нанӈэнчьан	   Ainf;
 ӈирэӄычьын         Ainf;
 гыргочайпы	   Ainf;
-
+мынгытычьын        Ainf;
 
 LEXICON Ainf
 %+ADJ%+ABS%+SG:0   #;
@@ -28,9 +28,11 @@ LEXICON Ainf
 LEXICON Adverb 
 
 миӈкыри            Avinf;
+миӈкы              Avinf;
 
 LEXICON Avinf
 %+ADV%+ALL:0    #;
+%+ADV%+ESS:0    #;
 
 LEXICON Adp 
 
