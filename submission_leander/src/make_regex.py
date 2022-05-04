@@ -1,4 +1,5 @@
 import re
+import numpy as np
 
 from logger import logger
 from tqdm.auto import tqdm
@@ -27,9 +28,9 @@ def make_regexes_from_alignments(lemma: str, forms: List[str], form2alignment: D
     regex_templates = []
     for alignment in alignments:
         alignment = [(c if idx not in base_indices else BASECHAR) for idx, c in enumerate(alignment)]
-        alignment = [c for c in alignment if c != BLANK]
         alignment = "".join(alignment)
         alignment = re.sub(re.compile(BASECHAR + '+'), BASECHAR, alignment)
+        alignment = "".join([c for c in alignment if c != BLANK])
         regex_templates.append(alignment)
 
     # Return lemma and form representations
@@ -72,19 +73,25 @@ def get_regexes(lemmas: List[str], forms: List[str], paradigm_size_threshold: in
         regexes = make_regexes_from_alignments(lemma, lemma_forms, form2alignment)
 
         for form, regex in regexes.items():
-            all_regexes[form].add(regex)
+            try:
+                assert form in get_form_candidates(lemma, regex[0], regex[1])
+            except AssertionError as e:
+                # print(form, regex, lemma)
+                # print(np.stack(list(form2alignment.values())))
+                pass
+
+            all_regexes[(lemma, form)] = regex
             all_regexes_counts[regex] += 1
 
-    all_regexes_filtered = defaultdict(set)
+    all_regexes_filtered = dict()
     all_regexes_raw = set()
 
     # Only keep regexes that appear more frequently than a given threshold
     # Regexes that appear less frequently may be unreliable / noise
-    for form, regexes in all_regexes.items():
-        for regex in regexes:
-            if all_regexes_counts[regex] >= regex_count_threshold:
-                all_regexes_filtered[form].add(regex)
-                all_regexes_raw.add(regex)
+    for (lemma, form), regex in all_regexes.items():
+        if all_regexes_counts[regex] >= regex_count_threshold:
+            all_regexes_filtered[(lemma, form)] = regex
+            all_regexes_raw.add(regex)
 
     num_regex = len(all_regexes_raw)
     coverage = sum(map(all_regexes_counts.get, all_regexes_raw)) / sum(all_regexes_counts.values())
@@ -131,6 +138,18 @@ def parse_word(word: str, regex: str):
     return list(sorted(decompositions))
 
 
+def get_form_candidate_from_decomposition(decomposition: List[str], form_regex: str):
+    candidate, decomposition_counter = [], 0
+    for char in form_regex:
+        if char == BASECHAR:
+            candidate.append(decomposition[decomposition_counter])
+            decomposition_counter += 1
+        else:
+            candidate.append(char)
+
+    return candidate
+
+
 def get_form_candidates(lemma: str, lemma_regex: str, form_regex: str):
     lemma_parses = parse_word(lemma, lemma_regex)
     num_gaps = form_regex.count(BASECHAR)
@@ -140,15 +159,8 @@ def get_form_candidates(lemma: str, lemma_regex: str, form_regex: str):
         if len(decomposition) != num_gaps:
             continue
 
-        candidate, decomposition_counter = [], 0
-        for char in form_regex:
-            if char == BASECHAR:
-                candidate.append(decomposition[decomposition_counter])
-                decomposition_counter += 1
-            else:
-                candidate.append(char)
-
-        candidates.add("".join(candidate))
+        decomposition = list(decomposition)
+        candidates.add("".join(get_form_candidate_from_decomposition(decomposition, form_regex)))
 
     return list(sorted(candidates))
 
@@ -156,11 +168,9 @@ def get_form_candidates(lemma: str, lemma_regex: str, form_regex: str):
 def filter_regexes(lemmas: List[str], forms: List[str], form2regex):
     lemma_regexes, form_regexes = [], []
 
-    for form in forms:
-        regex_pairs = form2regex.get(form, [])
-        for lemma_regex, form_regex in regex_pairs:
-            lemma_regexes.append(lemma_regex)
-            form_regexes.append(form_regex)
+    for lemma_regex, form_regex in form2regex.values():
+        lemma_regexes.append(lemma_regex)
+        form_regexes.append(form_regex)
 
     lemma_regex_counts = Counter(lemma_regexes)
     form_regex_counts = Counter(form_regexes)
@@ -168,7 +178,7 @@ def filter_regexes(lemmas: List[str], forms: List[str], form2regex):
     lemma_regexes = list(sorted(set(lemma_regexes), key=lemma_regex_counts.get, reverse=True))
     form_regexes = list(sorted(set(form_regexes), key=form_regex_counts.get, reverse=True))
 
-    filtered_form2regex = defaultdict(set)
+    filtered_form2regex = dict()
     not_found_counter = 0
 
     for lemma, form in tqdm(zip(lemmas, forms), total=len(forms), desc="Reducing regexes"):
@@ -179,20 +189,18 @@ def filter_regexes(lemmas: List[str], forms: List[str], form2regex):
             for form_regex in form_regexes:
                 candidates = get_form_candidates(lemma, lemma_regex, form_regex)
                 if form in candidates:
-                    filtered_form2regex[form].add((lemma_regex, form_regex))
+                    filtered_form2regex[(lemma, form)] = (lemma_regex, form_regex)
                     found = True
                     break
 
         if not found:
+            print(lemma, form)
             not_found_counter += 1
 
     logger.info(f"Not found regex for: {not_found_counter} of {len(forms)} forms")
-    lemma_regexes, form_regexes = [], []
-
-    for form in forms:
-        regex_pairs = filtered_form2regex.get(form, [])
-        for lemma_regex, form_regex in regex_pairs:
-            lemma_regexes.append(lemma_regex)
-            form_regexes.append(form_regex)
-
     return filtered_form2regex
+
+
+if __name__ == '__main__':
+    print(parse_word('sċieppan', '%i%pan'))
+    print(get_form_candidates('sċieppan', '%i%pan', '%o%'))

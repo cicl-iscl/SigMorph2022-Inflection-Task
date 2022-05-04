@@ -52,9 +52,9 @@ class ProposalGenerator:
                 print(f"{state}: {self.states[state]}: {tags}")
 
         time.sleep(0.1)
-        logger.info("FST: Check FST")
+        # logger.info("FST: Check FST")
         time.sleep(0.01)
-        self._check_transition_graph()
+        # self._check_transition_graph()
         time.sleep(0.01)
 
     def _make_fields(self):
@@ -213,6 +213,8 @@ class ProposalGenerator:
                     for base_indices in self.field_alignment_indices["base"].keys():
                         self.successors[base_indices[-1][0]].add(first_state_index)
 
+        self.state_required_tags = {state: tags for state, tags in self.state_required_tags.items()}
+
     def _make_constraints(self):
         self.allowed_ngrams = set()
         self.allowed_ngram_tags = defaultdict(set)
@@ -243,6 +245,8 @@ class ProposalGenerator:
                     self.required_ngram_tags[ngram] = set.intersection(
                         self.required_ngram_tags[ngram], regex_tags
                     )
+
+        self.required_ngram_tags = {ngram: tags for ngram, tags in self.required_ngram_tags.items()}
 
     def _check_transition_graph(self):
         fail = 0
@@ -304,3 +308,32 @@ class ProposalGenerator:
         # templates = [template for template in templates if self._check_template(template, tags)]
 
         return templates
+
+    def parse_form(self, form: str, tags: List[str] = None):
+        best_analysis = None
+        best_score = -1
+        queue = [(self.START_STATE, form, [], 0)]
+
+        while len(queue) > 0:
+            state, suffix, candidate, state_count = queue.pop(0)
+
+            if self.states[state] == BASECHAR and suffix:
+                queue.append((state, suffix[1:], candidate + [suffix[0]], state_count))
+
+            successors = self.successors[state]
+            for successor in successors:
+                if successor == self.FINAL_STATE and not suffix:
+                    if state_count > best_score:
+                        best_analysis = candidate
+                        best_score = state_count
+
+                elif self.states[successor] == BASECHAR and suffix:
+                    queue.append((successor, suffix[1:], candidate + [suffix[0]], state_count))
+
+                elif suffix and self.states[successor] == suffix[0]:
+                    queue.append((successor, suffix[1:], candidate + [f"S{successor}:{suffix[0]}"], state_count + 1))
+
+        return best_analysis
+
+
+

@@ -1,3 +1,4 @@
+import random
 import numpy as np
 
 from typing import List, Tuple
@@ -72,56 +73,66 @@ def score_alignment(alignment: List[Tuple[str]]):
             score += segment_length ** 2
             segment_length = 0
 
+    # Add score for final segment
+    score += segment_length ** 2
+
     return score
 
 
-def reconstruct_alignments_from_traceback(traceback, partial_alignment, prev_alignment, form, num_prev_alignments):
-    """
-    Given a traceback matrix calculated by minimum edit distance, recursively reconstruct all alignments that
-    have maximum score. We do this, because we want to use additional scores to choose from the alignments.
-    """
-    # Recursion end
-    if len(prev_alignment) == 0 and len(form) == 0:
-        return [partial_alignment]
+def convert_indices(prev_alignment, form, indices):
+    alignment = []
+    last_i, last_j = None, None
 
-    # Select last backpointer
-    backpointers = traceback[-1][-1]
-    # Save alignments
-    reconstructed_alignments = []
+    for i, j in reversed(indices):
+        i, j = i-1, j-1
+        prev_alignment_column = tuple([BLANK] * len(prev_alignment[0])) if (j == last_j or j < 0) else prev_alignment[j]
+        form_column = BLANK if (i == last_i or i < 0) else form[i]
+        column = (*prev_alignment_column, form_column)
+        alignment.append(column)
+        last_i, last_j = i, j
 
-    # For all backpointers, recursively reconstruct resulting alignments
-    for backpointer in backpointers:
-        # Align character in form to MSA column
-        if backpointer == DIAGONAL:
-            column = (*prev_alignment[-1], form[-1])
-            truncated_traceback = [row[:-1] for row in traceback[:-1]]
-            # Recursion
-            local_reconstructed_alignments = reconstruct_alignments_from_traceback(
-                truncated_traceback, partial_alignment + [column], prev_alignment[:-1], form[:-1], num_prev_alignments
-            )
-            reconstructed_alignments.extend(local_reconstructed_alignments)
+    return alignment
 
-        # Create gap in form
-        elif backpointer == HORIZONTAL:
-            column = (*prev_alignment[-1], BLANK)
-            truncated_traceback = [row[:-1] for row in traceback]
-            # Recursion
-            local_reconstructed_alignments = reconstruct_alignments_from_traceback(
-                truncated_traceback, partial_alignment + [column], prev_alignment[:-1], form, num_prev_alignments
-            )
-            reconstructed_alignments.extend(local_reconstructed_alignments)
 
-        # Create gap in MSA columns
-        elif backpointer == VERTICAL:
-            column = (*tuple([BLANK] * num_prev_alignments), form[-1])
-            truncated_traceback = traceback[:-1]
-            # Recursion
-            local_reconstructed_alignments = reconstruct_alignments_from_traceback(
-                truncated_traceback, partial_alignment + [column], prev_alignment, form[:-1], num_prev_alignments
-            )
-            reconstructed_alignments.extend(local_reconstructed_alignments)
+def reconstruct_alignment(traceback: List[List[List[int]]], prev_alignment, form, max_candidates: int = 10000):
+    best_alignment = None
+    best_score = -np.inf
+    candidate_counter = 0
 
-    return reconstructed_alignments
+    queue = [(len(traceback)-1, len(traceback[0])-1, [])]
+
+    while len(queue) > 0 and candidate_counter < max_candidates:
+        if len(queue) > max_candidates:
+            queue = queue[-max_candidates:]
+        i, j, candidate = queue.pop()
+
+        # Check if candidate has been fully reconstructed
+        if i == 0 and j == 0:
+            candidate = convert_indices(prev_alignment, form, candidate)
+            candidate_score = score_alignment(candidate)
+            candidate_counter += 1
+
+            if candidate_score > best_score:
+                best_alignment = candidate.copy()
+                best_score = candidate_score
+
+        else:
+            predecessor_directions = traceback[i][j]
+            random.shuffle(predecessor_directions)
+            for direction in predecessor_directions:
+                if direction == DIAGONAL:
+                    queue.append((i - 1, j - 1, candidate + [(i, j)]))
+
+                elif direction == HORIZONTAL:
+                    queue.append((i, j - 1, candidate + [(i, j)]))
+
+                elif direction == VERTICAL:
+                    queue.append((i - 1, j, candidate + [(i, j)]))
+
+                else:
+                    raise ValueError(f"Unknown direction: {direction}")
+
+    return best_alignment
 
 
 def align_form(prev_alignment: List[Tuple[str]], form: str, gap_cost: int = 0):
@@ -163,21 +174,21 @@ def align_form(prev_alignment: List[Tuple[str]], form: str, gap_cost: int = 0):
                     traceback[i][j].append(k)
 
     # Reconstruct all alignments with maximum score
-    reconstructed_alignments = reconstruct_alignments_from_traceback(
-        traceback, [], prev_alignment, form, len(prev_alignment[0])
-    )
-
-    # Find alignment with best score according to sum of squared contiguous segment lengths
-    best_alignment, best_alignment_score = None, -100
-
-    for alignment in reconstructed_alignments:
-        alignment_score = score_alignment(alignment)
-        if alignment_score > best_alignment_score:
-            best_alignment = alignment
-            best_alignment_score = alignment_score
-
-    best_alignment = list(reversed(best_alignment))
+    best_alignment = reconstruct_alignment(traceback, prev_alignment, form)
     return best_alignment
+
+
+def msa(sequences: List[str], gap_cost: int = 0):
+    assert len(sequences) >= 1
+
+    pivot, sequences = sequences[0], sequences[1:]
+    alignment = [(c,) for c in pivot]
+
+    for seq in sequences:
+        alignment = align_form(alignment, seq, gap_cost=gap_cost)
+
+    alignment = np.array(alignment).T
+    return alignment
 
 
 def paradigm_align(lemma: str, forms: List[str], gap_cost: int = 0):
@@ -203,3 +214,10 @@ def paradigm_align(lemma: str, forms: List[str], gap_cost: int = 0):
         form2alignment[form] = alignment.tolist()
 
     return form2alignment
+
+
+if __name__ == '__main__':
+    l = "tippen"
+    f = ["tippst", "tippte", "getippt"]
+
+    print(paradigm_align(l, f))
