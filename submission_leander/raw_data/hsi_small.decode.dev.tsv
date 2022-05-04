@@ -1,0 +1,13 @@
+prediction	target	loss	dist
+č u k i S18:y S34:e S39:n	č u k i	1.4568941593170166	3
+S1:a t S30:t S31:u	o l u	4.9021077156066895	4
+d S14:a S23:v S26:ā S39:n	d S14:a S18:y S19:i	4.201817035675049	3
+b a r S26:ā	a m b o S18:y S34:e S39:n	4.32888126373291	6
+z a y f S34:e S39:n	f i l S31:u	5.214287757873535	6
+k S26:ā S45:m	k S26:ā S38:y	3.5018491744995117	1
+g o h r S21:o	g a z z i S18:y S31:u	3.9800736904144287	6
+k S14:a S22:r S29:d S34:e S35:s S36:a S37:i S38:y S47:a S48:v	k S14:a S22:r S29:d S34:e S35:s S36:a S37:i S38:y S47:a S48:v	0.07626832276582718	0
+k S14:a S15:r S16:d S17:i S18:y S31:u	k S14:a S22:r <UNK> S26:ā <UNK> S31:u	3.9957308769226074	4
+g S6:ā r b S21:o	g S7:e r b S26:ā	2.378201723098755	2
+g o h r S21:o	g o h r S21:o S38:y	2.0078208446502686	1
+v a n S26:ā	v a n S19:i	1.470510721206665	1

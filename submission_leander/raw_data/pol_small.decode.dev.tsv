@@ -1,0 +1,1001 @@
+prediction	target	loss	dist
+S1:n S6:i S8:e s p e ł n i S27:e S36:n S45:i S62:a S68:m S69:i   s i ę	S1:n S6:i S8:e s p e ł n i S133:e <UNK> <UNK> S136:a S140:m S151:i	1.761889100074768	10
+S1:n S6:i S8:e z a p r o d u k o w a S117:n S133:e	S1:n S6:i S8:e z a p r o d u k o w a S117:n S133:e	0.06525369733572006	0
+r o z s ę p i a S41:j S42:ą S57:c S70:e S78:j   s i ę	r o z s ę p i a S41:j S42:ą S57:c S70:e S78:j   s i ę	0.06270350515842438	0
+i n s t r u m e n t a l i z o w a S99:ł S126:y	i n s t r u m e n t a l i z o w a S99:ł S126:y	0.062059544026851654	0
+r o z k o s z o w a S32:ł S61:o S68:m   s i ę	r o z k o s z o w a S32:ł S61:o S68:m   s i ę	0.06333105266094208	0
+n i e k l a s y f i k a t o r s k i S133:e	n i e k l a s y f i k a t o r s k i S133:e	0.06240963935852051	0
+p o d ł u ż a S41:j S42:ą S57:c S59:y S68:m   s i ę	p o d ł u ż a S41:j S42:ą S57:c S59:y S68:m   s i ę	0.05987081676721573	0
+o d r y p a S117:n S151:i S154:u	o d r y p a S117:n S151:i S154:u	0.06083669513463974	0
+n i e k o n c e p t y s t y c z n o ś ć	n i e k o n c e p t y s t y c z n o ś S130:c S151:i	0.4131072759628296	2
+d z i u b a s S83:z y S87:m S109:i	d z i u b a s S136:a S140:m S151:i	0.48431119322776794	4
+S1:n S6:i S8:e o ł o w i o w a S117:n S151:i S154:u	S1:n S6:i S8:e o ł o w i o w a S117:n S151:i S154:u	0.06411133706569672	0
+d o a n g a ż o w a S40:l S45:i S49:ś S55:m S59:y   s i ę	d o a n g a ż o w a S40:l S45:i S49:ś S55:m S59:y   s i ę	0.0590474009513855	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S18:  z a d a t k o w a ć   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S18:  z a d a t k o w a S32:ł S62:a   s i ę	0.4082300364971161	2
+n a m i ę k n S109:i S127:ę S131:t S126:y	n a m i ę k n S109:i <UNK> <UNK> S126:y	1.8620200157165527	2
+u p ę d z i S40:l S45:i S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	u p ę d z i S40:l S45:i S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.05561933293938637	0
+S1:n S6:i S8:e r a u t o w a S93:j S106:ą S114:c S126:y S130:c S147:h	S1:n S6:i S8:e r a u t S86:u S93:j S106:ą S114:c S126:y S130:c S147:h	0.5494443774223328	3
+f o r t r a g o w a S117:n S133:e	f o r t r a g o w a S117:n S133:e	0.06102605164051056	0
+p r z y r a b i a S32:ł S34:o S50:b S59:y S71:ś   s i ę	p r z y r a b i a S32:ł S34:o S50:b S59:y S71:ś   s i ę	0.05955391749739647	0
+S1:n S6:i S8:e u p o l e r o w y w a S117:n S133:e S145:j	S1:n S6:i S8:e u p o l e r o w y w a S117:n S133:e S145:j	0.06348820775747299	0
+n i e s e m a n t y c z n o ś S130:c S151:i S152:ą	n i e s e m a n t y c z n o ś S130:c S151:i S152:ą	0.06072021648287773	0
+S1:n S6:i S8:e m a g a S85:ń	S1:n S6:i S8:e m a g a S85:ń	0.11594952642917633	0
+S1:n S6:i S8:e r o z k i e ł z n S33:u S41:j S42:ą S43:c S133:e S138:g S139:o	S1:n S6:i S8:e r o z k i e ł z n S86:u S93:j S106:ą S130:c S133:e S138:g S139:o	0.46332794427871704	4
+n i e d z i e w i ę c i o k o t y w S95:a	n i e d z i e w i ę c i o k ą t n S95:a	0.7999606132507324	3
+S1:n S6:i S8:e o d g r o m i S27:e S36:n S69:i S75:u   s i ę	S1:n S6:i S8:e o d g r o m i S27:e S36:n S69:i S75:u   s i ę	0.0611148364841938	0
+S1:n S6:i S8:e e w a n g e l i z S33:u S41:j S42:ą S57:c S59:y S68:m S69:i   s i ę	S1:n S6:i S8:e e w a n g e l i z S86:u S93:j S106:ą S114:c S126:y S140:m S151:i	0.4262416362762451	11
+d o r a c h S86:u S93:j S130:c S132:i S133:e	d o r a c h S86:u S93:j	0.9988036751747131	3
+n u k l e o f i l o w S133:e S145:j	n u k l e o f i l o w S133:e S145:j	0.06085949391126633	0
+p r z e o r g a n i z o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	p r z e o r g a n i z o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.05978398770093918	0
+s p i e n i ę ż S61:o S64:n y S87:m	s p i e n i ę ż S112:o S117:n S133:e S138:g S139:o	0.5385330319404602	5
+ć w a c i S99:ł S133:e	<UNK> <UNK> <UNK> <UNK>	5.529693603515625	7
+l o d o w a c i e S117:n S151:i S154:u	l o d o w a c S27:e S36:n i S104:u	1.9640804529190063	5
+o b t a ń c o w y w a S117:n S126:y S140:m S151:i	o b t a ń c o w y w a S117:n S126:y S140:m S151:i	0.057458944618701935	0
+o d w ł ó c z y S40:l S45:i S50:b S59:y S67:ś S68:m S82:y   s i ę	o d w ł ó c z y S40:l S45:i S50:b S59:y S67:ś S68:m S82:y   s i ę	0.05704440549015999	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S18:  z a w y ż a ć	S0:b S2:ę S4:d <UNK> S18:  z a w y ż a S99:ł S126:y	1.6524478197097778	5
+m c h o w S95:a	m c h o w S95:a	0.08474143594503403	0
+p i t o l S112:o S117:n S133:e	p i t o l S112:o S117:n S133:e	0.06007646024227142	0
+p ó ł p i e n y S87:m S109:i	p ó ł p i e n n y S87:m S109:i	0.7167544364929199	1
+s m a ż y S99:ł S121:a S125:b S126:y	s m a ż y S99:ł S121:a S125:b S126:y	0.10787912458181381	0
+n i e n a d r o ż n S133:e	n i e n a d r o ż n S133:e	0.06370819360017776	0
+n i e u r a l s k i S133:e	n i e u r a l s k i S133:e	0.06468930095434189	0
+s m o k n S45:i S51:ę S57:c S69:i S72:a   s i ę	s m o k n S109:i S127:ę S130:c S132:i S136:a <UNK> S147:h	3.0971486568450928	9
+p o d w i j a S117:n S126:y S140:m	p o d w i j a S117:n S126:y S140:m	0.06063360348343849	0
+e g z e k w o w a S117:n S126:y S140:m	e g z e k w o w a S117:n S126:y S140:m	0.06161733716726303	0
+o r b i t o l i n a S87:m S109:i	o r b i t o l i n	0.6620568037033081	3
+S0:b S2:ę S4:d S7:ę S18:  p r z y d ł u ż a ć   s i ę	S0:b S2:ę S4:d S7:ę S18:  p r z y d ł u ż a S32:ł   s i ę	0.812403678894043	1
+u d u m a S32:ł S59:y   s i ę	u d u m a S32:ł S59:y   s i ę	0.06123971566557884	0
+p r z e c i w g o r ą c z k o w y S87:m	p r z e c i w g o r ą c z k o w y S87:m	0.06018891558051109	0
+p i e r d y k n S109:i S127:ę S131:t S133:e	p i e r d y k n S97:ę S99:ł S126:y	1.3989442586898804	4
+o b s o b a c z y S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	o b s o b a c z y S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	0.060349948704242706	0
+S1:n S6:i S8:e p r z e s t a w a S41:j S42:ą S57:c S59:y S68:m S69:i   s i ę	S1:n S6:i S8:e p r z e s t a S41:j S42:ą S57:c S59:y S68:m S69:i   s i ę	0.40105488896369934	2
+S1:n S6:i S8:e p r z e h u l t a j a S93:j S106:ą S130:c S133:e	S1:n S6:i S8:e p r z e h u l t a j a S93:j S106:ą S130:c S133:e	0.061731740832328796	0
+z a w i ś c S112:o S117:n S133:e	z a w i S44:s S60:z c S101:z S112:o S117:n S133:e	1.4148098230361938	3
+o d m i s t y c z n i S32:ł S59:y S67:ś S68:m S82:y   s i ę	o d m i s t y c z n i S32:ł S59:y S67:ś S68:m S82:y   s i ę	0.06268896162509918	0
+s ł o j o w a t o ś S130:c S151:i	s ł o j o w a t o ś S130:c S151:i	0.058129191398620605	0
+p o d w e s e l i S32:ł S38:a S50:b S59:y S71:ś   s i ę	p o d w e s e l i S32:ł S38:a S50:b S59:y S71:ś   s i ę	0.08050164580345154	0
+p r o m i e ń s k i S133:e S140:m S154:u	p r o m i e ń s k i S87:m	0.685596227645874	3
+S1:n S6:i S8:e r o z t a ń c o w a S117:n S136:a	S1:n S6:i S8:e r o z t a ń c o w a S117:n S136:a	0.06200849264860153	0
+w y s t r u g i w a S117:n S133:e S138:g S139:o	w y s t r u g i w a S117:n S133:e S138:g S139:o	0.05847983807325363	0
+m a g n e t o w i d o w y S130:c S147:h	m a g n e t o w i d o w y S130:c S147:h	0.061813898384571075	0
+S1:n S6:i S8:e z a s t a n a w i a S117:n S136:a	S1:n S6:i S8:e z a s t a n a w i a S117:n S136:a	0.06453881412744522	0
+z a c h r z ę ś c i S30:a S32:ł S48:y S50:b S59:y   s i ę	z a c h r z ę ś c i S95:a S99:ł S122:y S125:b S126:y	0.49036815762519836	9
+p o n a s i e w a S32:ł S34:o S50:b S59:y S71:ś   s i ę	p o n a s i e w a S32:ł S34:o S50:b S59:y S71:ś   s i ę	0.06119885668158531	0
+z a o n e g d a j s z o ś S130:c S151:i	z a o n e g d a j s z o ś S130:c S151:i	0.060773298144340515	0
+z a s m ę c a S41:j   s i ę	z a s m ę c a S41:j S57:c S69:i S70:e   s i ę	0.39535656571388245	3
+c e d z i d ł o w y S130:c S147:h	c e d z i d ł o w y S130:c S147:h	0.061071835458278656	0
+S1:n S6:i S8:e u p r z y t a m n i a S41:j S42:ą S57:c S59:y   s i ę	S1:n S6:i S8:e u p r z y t a m n i a S41:j S42:ą S57:c S59:y   s i ę	0.06384339183568954	0
+S1:n S6:i S8:e d r a p a c z S33:u S41:j S42:ą S57:c S70:e   s i ę	S1:n S6:i S8:e d r a p a c z S33:u S41:j S42:ą S57:c S70:e   s i ę	0.0635053887963295	0
+d e k o m u n i z o w a S117:n S132:i S133:e S140:m	d e k o m u n i z o w a S117:n S132:i S133:e S140:m	0.06068471446633339	0
+p a k t o w a S93:j S106:ą S114:c S126:y S130:c S147:h	p a k t S86:u S93:j S106:ą S114:c S126:y S130:c S147:h	0.6800171732902527	3
+z a t r a d o w a S99:ł S126:y	z a t r a d S86:u S93:j S133:e S140:m S146:y	0.6661064028739929	5
+z ł a d z a S99:ł S136:a S140:m	z ł a d z a S99:ł S136:a S140:m	0.05898004770278931	0
+m i ę d z y p l a n e t a r n S95:a	m i ę d z y p l a n e t a r n S95:a	0.06009818613529205	0
+S1:n S6:i S8:e z a c i e k a w i a S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e z a c i e k a w i a S41:j S42:ą S57:c S59:y S68:m   s i ę	0.06445728242397308	0
+o p a t r o w a S85:ń	o p a t r o w a S85:ń	0.06679590046405792	0
+n i e b u r ł a c k i S95:a	n i e b u r ł a c k S95:a	0.6593679785728455	1
+S1:n S6:i S8:e p o r o z s i e w a S36:n S69:i S72:a   s i ę	S1:n S6:i S8:e p o r o z s i e w a S36:n S69:i S72:a   s i ę	0.0650891438126564	0
+p r z o d z i k S104:u	p r z o d z i k	0.8969501852989197	1
+w y s m o ł o w a ć	w y s m o ł S86:u S93:j S133:e	1.447066307067871	4
+a l p e j s k i S87:m	a l p e j s k i S87:m	0.060509540140628815	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  n a k r y w a S32:ł S59:y   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  n a k r y w a S32:ł   s i ę	0.40637490153312683	1
+o ł g a S32:ł S34:o S50:b S59:y   s i ę	o ł g a S32:ł S34:o S50:b S59:y   s i ę	0.056476060301065445	0
+e k s t r a p o l o w a S99:ł S122:y S125:b S126:y S128:ś S140:m S146:y	e k s t r a p o l o w a S99:ł S122:y S125:b S126:y S128:ś S140:m S146:y	0.06079413741827011	0
+S1:n S6:i S8:e d o w a l a S117:n S126:y S140:m S151:i	S1:n S6:i S8:e d o w a l a S117:n S126:y S140:m S151:i	0.062177661806344986	0
+n i e k o p r z y w n i c k i S133:e S140:m S154:u	n i e k o p r z y w n i c k i S87:m	0.24727389216423035	3
+k ł ą c z k S95:a	k ł ą c z e	1.5038375854492188	2
+d e n u d o w a S93:j S106:ą S114:c S126:y S130:c S147:h	d e n u d S86:u S93:j S106:ą S114:c S126:y S130:c S147:h	0.5531912446022034	3
+z a p e r f u m o w a S36:n S69:i S72:a   s i ę	z a p e r f u m o w a S36:n S69:i S72:a   s i ę	0.06141222268342972	0
+S1:n S6:i S8:e k a l a n d r o w a S93:j S106:ą S114:c S126:y S140:m S151:i	S1:n S6:i S8:e k a l a n d r S86:u S93:j S106:ą S114:c S126:y S140:m S151:i	0.4418284595012665	3
+z a g i p s o w a S99:ł S121:a S125:b S126:y S153:ś	z a g i p s o w a S99:ł S121:a S125:b S126:y S153:ś	0.060268793255090714	0
+n i e w i n t o w S133:e	n i e w i n t o w S133:e	0.0661657527089119	0
+z d u ż a S93:j S106:ą S114:c S126:y S140:m	z d u ż a S93:j S106:ą S114:c S126:y S140:m	0.05428584665060043	0
+t r a j l o w a S85:ń	t r a j l o w a S85:ń	0.06148705631494522	0
+S1:n S6:i S8:e p o k r z y w d z S92:e S117:n S119:i S121:a S130:c S147:h	S1:n S6:i S8:e p o k r z y w d z S27:e S36:n i S95:a S130:c S147:h	0.725620448589325	4
+d o m i e ś c S112:o S117:n S136:a	d o m i e S44:s S60:z c S101:z S112:o S117:n S136:a	1.3154577016830444	3
+S1:n S6:i S8:e w y ł u p a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e w y ł u p a S36:n S69:i S70:e   s i ę	0.05967429652810097	0
+f a b r y k a n c k i S133:e	f a b r y k a n c k i S133:e	0.05942405015230179	0
+k a r t e c z k o w o ś S105:c S109:i S121:a S130:c S147:h	k a r t e c z k o w o ś S105:c S109:i S121:a S130:c S147:h	0.05933117866516113	0
+d o s c h n ą S99:ł S126:y	d o s c h S99:ł S126:y	1.0326813459396362	2
+n i e z a t r o s k a n S133:e S138:g S139:o	n i e z a t r o s k a n S133:e S138:g S139:o	0.06282970309257507	0
+z a z w i a s t o w a ć   s i ę	z a z w i a s t o w a ć   s i ę	0.06693613529205322	0
+b e z m i a n S139:o S140:m	b e z m i a n S139:o S140:m	0.06018710881471634	0
+w y t r z y m a ł o ś c i o w S133:e S145:j	w y t r z y m a ł o ś c i o w S133:e S145:j	0.05988352745771408	0
+S1:n S6:i S8:e o b ł a m a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e o b ł a m a S117:n S126:y S130:c S147:h	0.06217008829116821	0
+w y o j c z y ź n i S99:ł S121:a S125:b S126:y S140:m	w y o j c z y ź n i S99:ł S121:a S125:b S126:y S140:m	0.05388285219669342	0
+z b u d z i S32:ł S59:y   s i ę	z b u d z i S32:ł S59:y   s i ę	0.06225639954209328	0
+p y k n S91:i S93:j S130:c S132:i S133:e	p y k n S109:i S129:e S130:c S132:i S133:e	1.2914265394210815	2
+p o t u r c z y S99:ł S121:a S125:b S126:y S140:m	p o t u r c z y S99:ł S121:a S125:b S126:y S140:m	0.05672643706202507	0
+s t a t y k a S130:c S147:h	s t a t y k a S130:c S147:h	0.06121015548706055	0
+a s t r a l n o ś S130:c S151:i	a s t r a l n o ś S130:c S151:i	0.07417263835668564	0
+S1:n S6:i S8:e o d k a s z l a S117:n S151:i S155:a	S1:n S6:i S8:e o d k a s z l a S117:n S151:i S155:a	0.06348590552806854	0
+s y n e k u r z y s t a	s y n e k u r z y S128:ś S130:c S132:i S133:e	1.1763651371002197	4
+d o b z d u r n i e S117:n S133:e S140:m S154:u	b z d u r n i e	5.958372116088867	6
+o w i a ć   s i ę	o w i a ć   s i ę	0.06684603542089462	0
+b ą b e l	b ą b e l	0.07033845782279968	0
+n i e b a d y l k o w a t o ś S130:c S151:i	n i e b a d y l k o w a t o ś S130:c S151:i	0.060645971447229385	0
+d o p o m a g a S99:ł S126:y	d o p o m a g a S99:ł S126:y	0.06122983992099762	0
+S1:n S6:i S8:e j a r z S112:o S117:n S133:e	S1:n S6:i S8:e j a r z S112:o S117:n S133:e	0.07651443779468536	0
+p r z y k o w a S99:ł S122:y S125:b S126:y	p r z y k o w a S99:ł S122:y S125:b S126:y	0.0625709816813469	0
+n i e p r z y p a d ł o ś c i o w S133:e S145:j	n i e p r z y p a d ł o ś c i o w S133:e S145:j	0.06246138736605644	0
+p r ą ż k S86:u S93:j S106:ą S114:c S126:y S130:c S147:h	p r ą ż k S86:u S93:j S106:ą S114:c S126:y S130:c S147:h	0.053265973925590515	0
+a z a r d o w a S117:n S151:i S155:a	a z a r d o w a S117:n S151:i S155:a	0.06291743367910385	0
+S1:n S6:i S8:e p o d k r y ś l a S117:n S133:e	S1:n S6:i S8:e p o d k r y ś l a S117:n S133:e	0.06304499506950378	0
+n i e s z c z u d ł o w a t o ś S130:c S151:i	n i e s z c z u d ł o w a t o ś S130:c S151:i	0.06518789380788803	0
+p r z e s t ę k a S99:ł S133:e S140:m	p r z e s t ę k a S99:ł S133:e S140:m	0.05979025363922119	0
+S1:n S6:i S8:e z a k ł ó c a S93:j S106:ą S114:c S126:y	S1:n S6:i S8:e z a k ł ó c a S93:j S106:ą S114:c S126:y	0.05809417739510536	0
+n i e w r ó b l o w y	n i e w r ó b l o w S133:e	0.4012272357940674	1
+s z a l e j k a S87:m	s z a l e j S130:c S133:e	0.9251919984817505	3
+S1:n S6:i S8:e a d i u s t S33:u S41:j S42:ą S57:c S70:e S73:m S75:u   s i ę	S1:n S6:i S8:e a d i u s t S33:u S41:j S42:ą S57:c S70:e S73:m S75:u   s i ę	0.0616643950343132	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S13:m S15:y S18:  p r z e f a r b o w y w a S65:l S69:i   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S13:m S15:y S18:  p r z e f a r b o w y w a S65:l S69:i   s i ę	0.0608057975769043	0
+z a k o m p o n o w a ć	z a k o m p o n o w a ć	0.06519670784473419	0
+d a c r o n o w S95:a	d a c r o n o w S95:a	0.06383081525564194	0
+o d b i t k o w S106:ą	o d b i t k o w S106:ą	0.0625695139169693	0
+t r z e ź w i S42:ą S57:c S70:e S73:m S75:u   s i ę	t r z e ź w i S42:ą S57:c S70:e S73:m S75:u   s i ę	0.06022319942712784	0
+p r z y t ł u m i S99:ł S136:a S140:m	p r z y t ł u m i S99:ł S136:a S140:m	0.057298555970191956	0
+w y s z u m i e S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	w y s z u m i S30:a S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	0.43474239110946655	1
+d ł u g o s t o p k a	d ł u g o s t o p k S109:i	0.40550780296325684	1
+n i e r y t w i a ń s k i S133:e	n i e r y t w i a ń s k i S133:e	0.0619146004319191	0
+n i e m a t o w o c z e r w n o ś ć	n i e m a t o w o c z e r w o n o ś ć	0.6453763246536255	1
+S1:n S6:i S8:e p r z e m ą d r z a S93:j S106:ą S114:c S126:y S140:m	S1:n S6:i S8:e p r z e m ą d r z a S93:j S106:ą S114:c S126:y S140:m	0.06065544858574867	0
+r o z t r e n o w S33:u S41:j S42:ą S57:c S70:e S73:m S75:u   s i ę	r o z t r e n o w S33:u S41:j S42:ą S57:c S70:e S73:m S75:u   s i ę	0.06187694892287254	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  u t a j a S99:ł S139:o	S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  u t a j a S99:ł S139:o	0.05785724148154259	0
+p r a w n o p o l i t y c z n y S130:c S147:h	p r a w n o p o l i t y c z n y S130:c S147:h	0.06270352005958557	0
+n i e ż y t o m i e r s k i S133:e S145:j	n i e ż y t o m i e r s k i S133:e S145:j	0.061221592128276825	0
+z a w i c h r z y S32:ł S59:y   s i ę	z a w i c h r z y S32:ł S59:y   s i ę	0.0625109076499939	0
+ś r ó d t u ł o w i S95:a	ś r ó d t u ł o w i S104:u	0.6975582242012024	1
+f l o r a n s o w S133:e	f l o r a n s o w S133:e	0.06191664934158325	0
+w y m i z e r n i e S93:j S133:e S140:m S146:y	w y m i z e r n i e S93:j S133:e S140:m S146:y	0.09162738174200058	0
+n i e o l i w k o w a t y S130:c S147:h	n i e o l i w k o w a t y S130:c S147:h	0.0642731711268425	0
+g a d o l i n o w y S87:m	g a d o l i n o w y S87:m	0.06102967634797096	0
+S1:n S6:i S8:e w y s z e p t y w a S117:n S133:e S140:m S154:u	S1:n S6:i S8:e w y s z e p t y w a S117:n S133:e S140:m S154:u	0.0615069717168808	0
+p l e n y S130:c S147:h	p l e n n y S130:c S147:h	0.7080791592597961	1
+z a k n u t o w a S99:ł S126:y S128:ś S130:c S132:i S133:e	z a k n u t o w a S99:ł S126:y S128:ś S130:c S132:i S133:e	0.057859599590301514	0
+p o p i e l i c o w y S87:m	p o p i e l i c o w y S87:m	0.06235864385962486	0
+u l a z u r o w a S99:ł S122:y S125:b S126:y	u l a z u r o w a S99:ł S122:y S125:b S126:y	0.06216119974851608	0
+S0:b S2:ę S4:d S7:ę S18:  a c h a S99:ł S136:a	S0:b S2:ę S4:d S7:ę S18:  a c h a ć	0.7865920662879944	2
+n i e p o g a n i s t y c z n o ś S130:c S151:i	n i e p o g a n i s t y c z n o ś S130:c S151:i	0.06349293142557144	0
+p r z e d u k i w a S41:j S42:ą S57:c S77:ą   s i ę	p r z e d u k S33:u S41:j S42:ą S57:c S77:ą   s i ę	0.5191624164581299	3
+n i e e l a s t i l o w S109:i	n i e e l a s t i l o w S109:i	0.06597563624382019	0
+p r z e s z u f l o w y w a S32:ł S48:y S50:b S59:y   s i ę	p r z e s z u f l o w y w a S32:ł S48:y S50:b S59:y   s i ę	0.06015343591570854	0
+p r z e w ł a s z c z a S36:n S69:i S70:e   s i ę	p r z e w ł a s z c z a S36:n S69:i S70:e   s i ę	0.06136343628168106	0
+p o u c z y S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	p o u c z y S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.056352101266384125	0
+p r z y w o d z i S99:ł S136:a S140:m	p r z y w o d z i S99:ł S136:a S140:m	0.060451753437519073	0
+n i e f a s a d o w y	n i e f a s a d o w y	0.0626000165939331	0
+S1:n S6:i S8:e ł o t r o w a S41:j S42:ą S57:c S70:e   s i ę	S1:n S6:i S8:e ł o t r S33:u S41:j S42:ą S57:c S70:e   s i ę	0.25188571214675903	3
+n i e n o ż o w n i c z y S87:m S109:i	n i e n o ż o w n i c z y S87:m S109:i	0.06062989681959152	0
+S1:n S6:i S8:e s p r o l o n g o w a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e s p r o l o n g o w a S117:n S132:i S133:e S140:m	0.0615043081343174	0
+w y p y t y w a S93:j S106:ą S130:c S133:e S145:j	w y p y t S86:u S93:j S106:ą S130:c S133:e S145:j	0.6505338549613953	3
+o s ł u c h a S99:ł S121:a S125:b S126:y S140:m	o s ł u c h a S99:ł S121:a S125:b S126:y S140:m	0.055791616439819336	0
+z a g ł ę b i a S40:l S45:i S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	z a g ł ę b i a S40:l S45:i S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.05563805624842644	0
+n i e s u b s a h a r y j s k i S87:m S109:i	n i e s u b s a h a r y j s k i S87:m S109:i	0.06078609079122543	0
+m ł o d z i e ż o w S133:e	m ł o d z i e ż o w S133:e	0.0594230480492115	0
+p o d p i e r d o l i S99:ł S112:o S125:b S126:y S140:m	p o d p i e r d o l i S99:ł S112:o S125:b S126:y S140:m	0.06036791950464249	0
+S1:n S6:i S8:e z d r o w i S42:ą S57:c S70:e S73:m S75:u   s i ę	S1:n S6:i S8:e z d r o w i S42:ą S57:c S70:e S73:m S75:u   s i ę	0.06313815712928772	0
+n i e n o t y f i k a c y j n S133:e	n i e n o t y f i k a c y j n S133:e	0.05946668982505798	0
+w s p ó ł p r z e ż S61:o S64:n y S87:m	w s p ó ł p r z e ż y S103:t S133:e	0.8564441800117493	4
+S0:b S2:ę S4:d S5:z S6:i S8:e S18:  r y s o w a S32:ł S59:y   s i ę	S0:b S2:ę S4:d <UNK> S18:  r y s o w a S32:ł S59:y   s i ę	0.8074703216552734	3
+r o g a t e k S95:a S130:c S147:h	r o g a t k S95:a S130:c S147:h	0.8238908052444458	1
+k o s t r z e w i S112:o S117:n S152:ą	k o s t r z e w i S112:o S117:n S152:ą	0.06187020242214203	0
+S1:n S6:i S8:e d y s t y l o w a S93:j S106:ą S114:c S126:y S140:m	S1:n S6:i S8:e d y s t y l S86:u S93:j S106:ą S114:c S126:y S140:m	0.5219241380691528	3
+S1:n S6:i S8:e p o j r z e S117:n S151:i S155:a	S1:n S6:i S8:e p o j r z e S117:n S151:i S155:a	0.061763957142829895	0
+w y w i a d y w a S41:j S42:ą S57:c S59:y S63:c S79:h   s i ę	w y w i a d S33:u S41:j S42:ą S43:c y S57:c S79:h   s i ę	0.9246289730072021	6
+n i e t w a r d o p o d n i e b i e ś S130:c S151:i	n i e t w a r d o p o d n i e b i e n n o ś S130:c S151:i	0.5930786728858948	3
+t w a r z S106:ą	t w a r z S106:ą	0.0872219130396843	0
+o d k a p s l o w y w a S99:ł S126:y S128:ś S140:m S146:y	o d k a p s l o w y w a S99:ł S126:y S128:ś S140:m S146:y	0.060120921581983566	0
+w y k o n a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	w y k o n a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.05628510192036629	0
+S1:n S6:i S8:e n a g a r b o w a S117:n S119:i S121:a S130:c S147:h	S1:n S6:i S8:e n a g a r b o w a S117:n S119:i S121:a S130:c S147:h	0.061614494770765305	0
+S1:n S6:i S8:e d e m e n t S33:u S41:j S42:ą S57:c S59:y S63:c S79:h   s i ę	S1:n S6:i S8:e d e m e n t S86:u S93:j S106:ą S114:c S126:y S130:c S147:h	0.14726141095161438	11
+z a c h y l i S99:ł S126:y S128:ś S130:c S132:i S133:e	z a c h y l i S99:ł S126:y S128:ś S130:c S132:i S133:e	0.05401594191789627	0
+S1:n S6:i S8:e w y s t r z y g a S93:j S106:ą S114:c S126:y S140:m S151:i	S1:n S6:i S8:e w y s t r z y g a S93:j S106:ą S114:c S126:y S140:m S151:i	0.059962447732686996	0
+n a r ó ż o w a S89:l S109:i S123:ś S124:m S126:y	n a r ó ż o w a S89:l S109:i S123:ś S124:m S126:y	0.05200015753507614	0
+o d s z n u r o w a S117:n S126:y S140:m	o d s z n u r o w a S117:n S126:y S140:m	0.063580222427845	0
+a p a t y c z n i e S93:j S106:ą S130:c S133:e S145:j	a p a t y c z n i e S93:j S106:ą S130:c S133:e S145:j	0.05833908170461655	0
+p o w y w a b i a S99:ł S126:y	p o w y w a b i a S87:m S126:y	0.3155836760997772	1
+m a k a r o n o w S133:e	m a k a r o n o w S133:e	0.066090427339077	0
+S1:n S6:i S8:e s t w a r z a S93:j S106:ą S130:c S133:e	S1:n S6:i S8:e s t w a r z a S93:j S106:ą S130:c S133:e	0.06148207560181618	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S18:  p o k r o p S33:u S41:j S42:ą   s i ę	S0:b S2:ę S4:d <UNK> S18:  p o k r o p y <UNK> S30:a S32:ł S59:y   s i ę	1.814199686050415	8
+p i s n S45:i S51:ę S57:c S69:i S75:u   s i ę	p i S37:ś n S109:i S127:ę S131:t S133:e S145:j	0.8313056230545044	10
+f a ł s z o w a S117:n S133:e	f a ł s z o w a S117:n S133:e	0.06072883680462837	0
+z m a m l a S36:n S69:i S70:e S76:m   s i ę	z m a m l a S36:n S69:i S70:e S76:m   s i ę	0.0578969269990921	0
+n a d k ł a d a S93:j S106:ą S130:c S133:e	n a d k ł a d a S93:j S106:ą S130:c S133:e	0.057319507002830505	0
+S1:n S6:i S8:e r o z m u l S27:e S36:n S69:i S70:e S76:m   s i ę	S1:n S6:i S8:e r o z m u l S27:e S36:n i S70:e S76:m   s i ę	0.9462264180183411	1
+r e p u b l i k a n k S109:i	r e p u b l i k a n S130:c S133:e	0.6428924798965454	2
+n i e w a r o w o ś ć	n i e w a r o w o ś S130:c S151:i	0.7042886018753052	2
+g a n i a S41:j S42:ą S57:c S70:e   s i ę	g a n i a S41:j S42:ą S57:c S70:e   s i ę	0.0632498636841774	0
+S1:n S6:i S8:e p o g a r b i S27:e S36:n S45:i S62:a S68:m S69:i   s i ę	S1:n S6:i S8:e p o g a r b i S133:e <UNK> <UNK> S136:a S140:m S151:i	1.6624590158462524	10
+p o z d r a w i a S32:ł S50:b S59:y S71:ś   s i ę	p o z d r a w i a S32:ł S50:b S59:y S71:ś   s i ę	0.06189411133527756	0
+w y k o m e n t o w y w a S36:n S69:i S72:a   s i ę	w y k o m e n t o w y w a S36:n S69:i S72:a   s i ę	0.06111472472548485	0
+t r e j b h a u s S104:u	t r e j b h a u s S139:o S144:w S151:i	0.5098382830619812	3
+z a k l e p S33:u S41:j S42:ą S57:c S70:e   s i ę	S1:n S6:i S8:e z a k l e p S86:u S93:j S106:ą S130:c S133:e	1.0492584705352783	12
+n a ł a p a S99:ł S121:a S125:b S126:y S140:m	n a ł a p a S99:ł S121:a S125:b S126:y S140:m	0.056502897292375565	0
+p o z a w o z i S99:ł S126:y S128:ś S130:c S132:i S133:e	p o z a w o z i S99:ł S126:y S128:ś S130:c S132:i S133:e	0.05856169015169144	0
+n a h a ł a s o w a S99:ł S139:o	n a h a ł a s o w a S99:ł S139:o	0.06046329066157341	0
+n i t k o w a S117:n S126:y S140:m	n i t k o w a S117:n S126:y S140:m	0.06319238245487213	0
+S1:n S6:i S8:e f a s o n S86:u S93:j S106:ą S114:c S126:y S140:m	S1:n S6:i S8:e f a s o n S86:u S93:j S106:ą S114:c S126:y S140:m	0.058039627969264984	0
+S1:n S6:i S8:e z a w ę ź l a S41:j S42:ą S57:c S70:e S73:m S75:u   s i ę	S1:n S6:i S8:e z a w ę ź l a S41:j S42:ą S57:c S70:e S73:m S75:u   s i ę	0.06085127964615822	0
+d y p l o m a t y z o w a S93:j S106:ą S130:c S133:e	d y p l o m a t y z S86:u S93:j S106:ą S130:c S133:e	0.509071409702301	3
+n i e u d e r z e n i o w o ś S130:c S132:i S136:a S140:m S151:i	n i e u d e r z e n i o w o ś S130:c S132:i S136:a S140:m S151:i	0.060067012906074524	0
+n a d k ą s y w a S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	n a d k ą s y w a S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	0.05971919372677803	0
+r o g o ż o w S133:e S140:m S154:u	r o g o ż o w y S87:m	0.6609874963760376	3
+w y ś w i e c a S99:ł S126:y	w y ś w i e c a S99:ł S126:y	0.05995133891701698	0
+m o d l i g r o s z k S109:i	m o d l i g r o s z k S109:i	0.1068279892206192	0
+S1:n S6:i S8:e t a ń c o w y w a S117:n S126:y S140:m S151:i	S1:n S6:i S8:e t a ń c o w y w a S117:n S126:y S140:m S151:i	0.05935291573405266	0
+r o z k u w a S93:j S106:ą S130:c S133:e S140:m S154:u	r o z k u w a S93:j S106:ą S130:c S133:e S140:m S154:u	0.05758935958147049	0
+n i e t a r c z o w a t o ś S105:c S109:i S121:a S130:c S147:h	n i e t a r c z o w a t o ś S105:c S109:i S121:a S130:c S147:h	0.060633450746536255	0
+p ł c i o p ę d S101:z S109:i S133:e	p ł c i o p ę d	0.8724380135536194	3
+S1:n S6:i S8:e o r k i e s t r S33:u S41:j S42:ą S57:c S59:y   s i ę	S1:n S6:i S8:e o r k i e s t r S86:u S93:j S106:ą S114:c S126:y	0.47601497173309326	9
+e w a n g e l i z o w a S117:n S126:y S140:m S151:i	e w a n g e l i z S112:o <UNK> <UNK> S117:n S126:y S140:m S151:i	1.8956738710403442	3
+S0:b S2:ę S4:d S5:z S6:i S8:e S13:m S15:y S18:  w y k a l i g r a f o w y w a S65:l S69:i   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S13:m S15:y S18:  w y k a l i g r a f o w y w a S65:l S69:i   s i ę	0.05978217348456383	0
+z a ś n i a d ł o ś S130:c S151:i	z a ś n i a d ł o ś S130:c S151:i	0.059162214398384094	0
+u s y s t e m i z o w a S99:ł S121:a S125:b S126:y S140:m	u s y s t e m i z o w a S99:ł S121:a S125:b S126:y S140:m	0.059079255908727646	0
+S1:n S6:i S8:e w y c z o ł g i w a S41:j S42:ą S57:c S70:e   s i ę	S1:n S6:i S8:e w y c z o ł g S33:u S41:j S42:ą S57:c S70:e   s i ę	0.4396505355834961	3
+p r z e s ł u ż y S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	p r z e s ł u ż y S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.05788814276456833	0
+S1:n S6:i S8:e n a w y g r y z a S117:n S151:i S155:a	S1:n S6:i S8:e n a w y g r y z a S117:n S151:i S155:a	0.06094909459352493	0
+w y p e r u k o w a S65:l S69:i   s i ę	w y p e r u k o w a S40:l S45:i S49:ś S57:c S69:i S70:e   s i ę	0.243170827627182	5
+S1:n S6:i S8:e p r z e g r z e b y w a S117:n S151:i S154:u	S1:n S6:i S8:e p r z e g r z e b y w a S117:n S151:i S154:u	0.0619032196700573	0
+S1:n S6:i S8:e m o t y c z S42:ą S63:c y S87:m S109:i	S1:n S6:i S8:e m o t y c z S42:ą S63:c y S87:m S109:i	0.056951362639665604	0
+w y s z u k i w a S36:n S69:i S70:e   s i ę	w y s z u k i w a S36:n S69:i S70:e   s i ę	0.06107354909181595	0
+z a c h y b o t a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	z a c h y b o t a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.05684705078601837	0
+S1:n S6:i S8:e d o p r e c y z o w y w a S117:n S136:a	S1:n S6:i S8:e d o p r e c y z o w y w a S117:n S136:a	0.06164224073290825	0
+p o k u t n i c z S106:ą	p o k u t n i c z S106:ą	0.07521428912878036	0
+w p l u s n ą S99:ł S121:a S125:b S126:y	w p l u s n S97:ę S99:ł S121:a S125:b S126:y	1.3488773107528687	1
+p o d m u c h o w S133:e	p o d m u c h o w S133:e	0.06182855740189552	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  k l u S103:t S126:y	S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  k l u S32:ł S59:y   s i ę	0.20583482086658478	6
+a n a p e s t y c z n y S87:m S109:i	a n a p e s t y c z n y S87:m S109:i	0.0597369521856308	0
+b u l w e r s o w a S117:n S132:i S133:e	b u l w e r s o w a S117:n S132:i S133:e	0.06082732230424881	0
+n i e t a j l a n d z k i S87:m	n i e t a j l a n d z k i S87:m	0.061391767114400864	0
+c z u ł o ś c i o w y S87:m	c z u ł o ś c i o w y S87:m	0.05906542018055916	0
+o g r y w a S117:n S126:y S140:m	o g r y w a S117:n S126:y S140:m	0.059344805777072906	0
+d r z y z d a S89:l S109:i S123:ś S124:m S126:y	d r z y z d a S107:l S109:i	0.8909744024276733	4
+e t y n S126:y	e t y n S126:y	0.05860583111643791	0
+o d i z o l o w a S36:n S45:i S61:o S68:m   s i ę	o d i z o l o w a S36:n S45:i S61:o S68:m   s i ę	0.06100788339972496	0
+r o z m o d l S112:o S117:n S133:e	r o z m o d l S112:o S117:n S133:e	0.06058964878320694	0
+n i e s m a k o w y	n i e s m a k o w y	0.06511625647544861	0
+n e g l i ż o w a S32:ł S50:b S59:y   s i ę	n e g l i ż o w a S32:ł S50:b S59:y   s i ę	0.0600968673825264	0
+S1:n S6:i S8:e u p i ł o w a S31:ń   s i ę	S1:n S6:i S8:e u p i ł o w a S31:ń   s i ę	0.065445676445961	0
+S1:n S6:i S8:e r z e k n S109:i S127:ę S131:t S126:y S130:c S147:h	S1:n S6:i S8:e r z e k n S109:i <UNK> <UNK> S126:y S130:c S147:h	1.7257674932479858	2
+z b a z g r a S99:ł S122:y S125:b S126:y	z b a z g r a S99:ł S122:y S125:b S126:y	0.06088583543896675	0
+r o z m a r n i S112:o S117:n S126:y S140:m	r o z m a r n i S112:o S117:n S126:y S140:m	0.06065717712044716	0
+S1:n S6:i S8:e n a d s t a w i a S41:j S42:ą S57:c S59:y   s i ę	S1:n S6:i S8:e n a d s t a w i a S41:j S42:ą S57:c S59:y   s i ę	0.06504858285188675	0
+p o ż ó ł k n S109:i S127:ę S131:t S136:a	p o ż ó ł k S99:ł S136:a	0.9103258848190308	4
+o c z y t y w a S41:j S42:ą S57:c S59:y S63:c S79:h   s i ę	o c z y t S33:u S41:j S42:ą S43:c y S57:c S79:h   s i ę	0.6964036226272583	6
+n i e p o s z u k i w a w c z S133:e	n i e p o s z u k i w a w c z S133:e	0.06482479721307755	0
+k o s t r o m s k i S87:m	k o s t r o m s k i S87:m	0.0628654807806015	0
+n i e u n i f o r m o w S109:i	n i e u n i f o r m o w S109:i	0.062179259955883026	0
+w y s o k o l o t n y S130:c S147:h	w y s o k o l o t n y S130:c S147:h	0.06179068610072136	0
+o b w l e k a S41:j S42:ą S57:c S70:e   s i ę	o b w l e k a S41:j S42:ą S57:c S70:e   s i ę	0.0630578026175499	0
+o d b i u r o k r a t y z o w a S32:ł S38:a S50:b S59:y S68:m   s i ę	o d b i u r o k r a t y z o w y w a S32:ł S38:a S50:b S59:y S68:m   s i ę	0.2746219336986542	2
+S1:n S6:i S8:e p r z e g r u p o w a S117:n S126:y S140:m	S1:n S6:i S8:e p r z e g r u p o w a S117:n S126:y S140:m	0.06353533267974854	0
+o r i e n t a l i z S33:u S41:j S42:ą S57:c S70:e   s i ę	o r i e n t a l i z S33:u S41:j S42:ą S57:c S70:e   s i ę	0.06379799544811249	0
+ł o m o t a S89:l S109:i S125:b S126:y S128:ś S130:c S132:i S133:e	ł o m o t a S89:l S109:i S125:b S126:y S128:ś S130:c S132:i S133:e	0.05331326648592949	0
+z a b a g l i o n S95:a S130:c S147:h	z a b a g l i o n e	1.2842557430267334	3
+n i e h y d r o s t a t y c z n S133:e	n i e h y d r o s t a t y c z n S133:e	0.061321720480918884	0
+g u w e r n e r o w a S99:ł S125:b S126:y S153:ś	g u w e r n e r o w a S99:ł S125:b S126:y S153:ś	0.06135209649801254	0
+w y b a j d u r z a S93:j S106:ą S130:c S152:ą	w y b a j d u r z a S93:j S106:ą S130:c S152:ą	0.05618314817547798	0
+S1:n S6:i S8:e p r z e s y ł a S93:j S106:ą S130:c S133:e S145:j	S1:n S6:i S8:e p r z e s y ł a S93:j S106:ą S130:c S133:e S145:j	0.05960068106651306	0
+p o d c h o d z S112:o S117:n S139:o	p o d c h o d z S112:o S117:n S139:o	0.05967329069972038	0
+l a b o u r z y s t o w s k i S130:c S147:h	l a b o u r z y s t o w s k i S130:c S147:h	0.06295085698366165	0
+t r e ś c i w S44:s S60:z y S87:m S109:i	t r e ś c i w S44:s S60:z y S87:m S109:i	0.0533091202378273	0
+z a m y ś l a S32:ł S34:o S50:b S59:y S68:m   s i ę	z a m y ś l a S32:ł S34:o S50:b S59:y S68:m   s i ę	0.05757221207022667	0
+d o s m a ż a S93:j S106:ą S130:c S133:e S140:m S154:u	d o s m a ż a S93:j S106:ą S130:c S133:e S140:m S154:u	0.054664697498083115	0
+c h r z ą s t n o ś S130:c S151:i	c h r z ą s t n o ś S130:c S151:i	0.05805740877985954	0
+p o p r z e s ł a n i a S117:n S132:i S133:e	p o p r z e s ł a n i a S117:n S132:i S133:e	0.062117721885442734	0
+u w z g l ę d n i S27:e S36:n S69:i S70:e   s i ę	u w z g l ę d n i S27:e S36:n S69:i S70:e   s i ę	0.05733826383948326	0
+u g a r s z a S32:ł S59:y   s i ę	u g a r s z a S32:ł S59:y   s i ę	0.06275483220815659	0
+S1:n S6:i S8:e o k l ą S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e o k l S28:ę S57:c S69:i S70:e   s i ę	1.0661747455596924	2
+S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  o d w i e t r z a S89:l S109:i S128:ś S130:c S132:i S133:e	S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  o d w i e t r z a S107:l S109:i	0.29736292362213135	5
+w y p e r u k o w a S40:l S45:i S50:b S59:y   s i ę	w y p e r u k o w a S40:l S45:i S50:b S59:y   s i ę	0.0668082982301712	0
+S1:n S6:i S8:e a z a r d S33:u S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e a z a r d S33:u S41:j S42:ą S57:c S59:y S68:m   s i ę	0.06397993862628937	0
+g a c h o s t w S95:a	g a c h o s t w S109:i S133:e	0.8099380731582642	2
+S1:n S6:i S8:e r e k w i r S33:u S41:j S42:ą S57:c S59:y   s i ę	S1:n S6:i S8:e r e k w i r S33:u S41:j S42:ą S57:c S59:y   s i ę	0.06424419581890106	0
+S1:n S6:i S8:e ż a ł o w a S41:j S42:ą S57:c S59:y   s i ę	S1:n S6:i S8:e ż a ł S33:u S41:j S42:ą S57:c S59:y   s i ę	0.5402276515960693	3
+S0:b S2:ę S4:d S7:ę S18:  o w r z e s z c z a S99:ł S136:a	S0:b S2:ę S4:d S7:ę S18:  o w r z e s z c z a ć	0.536528468132019	2
+S1:n S6:i S8:e p o b i e l S27:e S36:n i S95:a	S1:n S6:i S8:e p o b i e l S27:e S36:n i S133:e	0.5421547889709473	1
+p o p r z y s i a d a S117:n S119:i S121:a S130:c S147:h	p o p r z y s i a d a S117:n S119:i S121:a S130:c S147:h	0.061211079359054565	0
+S1:n S6:i S8:e p r z e c z e p i a S93:j S106:ą S114:c S126:y S140:m	S1:n S6:i S8:e p r z e c z e p i a S93:j S106:ą S114:c S126:y S140:m	0.06198340281844139	0
+o d p i e r z y ć   s i ę	o d p i e r z y   s i ę	0.6503977179527283	1
+n i e s ł o j o w a t S106:ą	n i e s ł o j o w a t S106:ą	0.061714865267276764	0
+w e s o l u c h n S109:i	w e s o l u c h n S109:i	0.060613442212343216	0
+r o z s e g r e g o w a S36:n S69:i S70:e   s i ę	r o z s e g r e g o w a S36:n S69:i S70:e   s i ę	0.060697637498378754	0
+s z p u l o w a S99:ł S126:y S128:ś S140:m S146:y	s z p u l o w a S99:ł S126:y S128:ś S140:m S146:y	0.05983847379684448	0
+d o m a w i a S32:ł S38:a S50:b S59:y   s i ę	d o m a w i a S32:ł S38:a S50:b S59:y   s i ę	0.060806576162576675	0
+o s p a S93:j	o s p S126:y	1.6229941844940186	2
+S1:n S6:i S8:e p o z d e j m o w a S36:n S69:i S70:e S76:m   s i ę	S1:n S6:i S8:e p o z d e j m o w a S36:n S69:i S70:e S76:m   s i ę	0.06065836176276207	0
+z a d ł u ż a S36:n S45:i S51:ę S57:c S59:y S63:c S79:h   s i ę	z a d ł u ż a S36:n S45:i <UNK> S57:c S79:h   s i ę	1.2171778678894043	3
+d z i e d z i c z S92:e S117:n S151:i S154:u	d z i e d z i c z S133:e S148:n S151:i S154:u	0.46614575386047363	2
+S1:n S6:i S8:e p r z e c i s k a S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e p r z e c i s k a S41:j S42:ą S57:c S59:y S68:m   s i ę	0.06501740962266922	0
+o p a s k u d z a S55:m S59:y   s i ę	o p a s k u d z a S57:c S69:i S70:e   s i ę	1.056745171546936	3
+h a ł a c h o w a S93:j S106:ą S130:c S152:ą	h a ł ł a c h S86:u S93:j S106:ą S130:c S152:ą	0.63016676902771	4
+S0:b S2:ę S4:d S7:ę S18:  p o s y k i w a S99:ł S133:e	S0:b S2:ę S4:d S7:ę S18:  p o s y k i w a S99:ł	0.6121848821640015	1
+S0:b S2:ę S4:d S5:z S6:i S8:e S18:  p o d t a c z a ć   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S18:  p o d t a c z a ć   s i ę	0.0644981861114502	0
+S1:n S6:i S8:e t a b l o i d y z S33:u S41:j S42:ą S57:c S59:y   s i ę	S1:n S6:i S8:e t a b l o i d y z S86:u S93:j S106:ą S114:c S126:y	0.4496280252933502	9
+S1:n S6:i S8:e p o r o s n S109:i S127:ę S131:t S133:e	S1:n S6:i S8:e p o r o S37:ś n S109:i S127:ę S131:t S133:e	0.6066226959228516	1
+S1:n S6:i S8:e u s a m o d z i e l n i S112:o S117:n S133:e S138:g S139:o	S1:n S6:i S8:e u s a m o d z i e l n i S112:o S117:n S133:e S138:g S139:o	0.06101301684975624	0
+n i e i n t u i c y j n o ś ć	n i e i n t u i c y j n o ś S130:c S151:i	0.5330055952072144	2
+z a ś l i n i S112:o S117:n S133:e	z a ś l i n i S112:o S117:n S133:e	0.06047069653868675	0
+b e z n o ż n y S130:c S147:h	b e z n o ż n y S130:c S147:h	0.05952716991305351	0
+f a l a n g o w o ś S130:c S151:i	f a l a n g o w o ś S130:c S151:i	0.05769013985991478	0
+p a r a m a n t e l k S127:ę	p a r a m a n t e l k S127:ę	0.061784710735082626	0
+k a d z i d l a ń s k o ś S130:c S151:i S152:ą	k a d z i d l a ń s k o ś S130:c S151:i S152:ą	0.05818464979529381	0
+p r z e c i w d e s z c z o w S95:a	p r z e c i w d e s z c z o w S95:a	0.0629405751824379	0
+S1:n S6:i S8:e t l e S41:j S42:ą S57:c S70:e S73:m S75:u   s i ę	S1:n S6:i S8:e t l e S41:j S42:ą S57:c S70:e <UNK> <UNK>   s i ę	1.2642898559570312	2
+n i e b e n e f a k t o r s k o ś S130:c S151:i S152:ą	n i e b e n e f a k t o r s k o ś S130:c S151:i S152:ą	0.06002148985862732	0
+z a s o b n S133:e	z a s o b n S133:e	0.06461302936077118	0
+n i e z a d z i o r n o ś S130:c S132:i S136:a S140:m S151:i	n i e z a d z i o r n o ś S130:c S132:i S136:a S140:m S151:i	0.060412097722291946	0
+S1:n S6:i S8:e p o w i j a S41:j S42:ą S57:c S59:y S63:c S79:h   s i ę	S1:n S6:i S8:e p o w i j a S41:j S42:ą S57:c S59:y S63:c S79:h   s i ę	0.06293375790119171	0
+o b t r o p i a S89:l S109:i S123:ś S124:m S126:y	o b t r o p i a S89:l S109:i S123:ś S124:m S126:y	0.05546629801392555	0
+S1:n S6:i S8:e d y f a m o w a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e d y f a m o w a S117:n S132:i S133:e S140:m	0.05862513929605484	0
+S1:n S6:i S8:e c h l a p a S93:j S106:ą S114:c S126:y S140:m	S1:n S6:i S8:e c h l a p S91:i S106:ą S114:c S126:y S140:m	1.1347471475601196	2
+r e w i z j o n i s t y c z n o ś S130:c S151:i	r e w i z j o n i s t y c z n o ś S130:c S151:i	0.060655128210783005	0
+S0:b S2:ę S4:d S7:ę S18:  w y w o z i S99:ł S133:e	S0:b S2:ę S4:d S7:ę S18:  w y w o z i S99:ł	0.6907497644424438	1
+j e m e ń s k S95:a	j e m e ń s k S95:a	0.05687951296567917	0
+z a o b l a S32:ł S34:o S50:b S59:y   s i ę	z a o b l a S32:ł S34:o S50:b S59:y   s i ę	0.059957318007946014	0
+S1:n S6:i S8:e z a d e b e t o w a S36:n S69:i S75:u   s i ę	S1:n S6:i S8:e z a d e b e t o w a S36:n S69:i S75:u   s i ę	0.06259467452764511	0
+S1:n S6:i S8:e z a p o d a w a S93:j S106:ą S130:c S152:ą	S1:n S6:i S8:e z a p o d a S93:j S106:ą S130:c S152:ą	0.5760533213615417	2
+S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  r a s t r o w a S32:ł S61:o   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  r a s t r o w a S32:ł S61:o   s i ę	0.06259145587682724	0
+s ł o w i a n o z n a w c z o ś S130:c S151:i S152:ą	s ł o w i a n o z n a w c z o ś S130:c S151:i S152:ą	0.06038646027445793	0
+t w i s t y S87:m S109:i	t w i s t S136:a S140:m S151:i	0.7216111421585083	3
+S1:n S6:i S8:e u m o ż l i w i a S117:n S133:e	S1:n S6:i S8:e u m o ż l i w i a S117:n S133:e	0.062345974147319794	0
+k o r c i S106:ą S130:c S133:e S140:m S154:u	k o r c S106:ą S130:c S133:e S140:m S154:u	0.8003635406494141	1
+w y s o k o g a t u n k o w o ś S130:c S151:i	w y s o k o g a t u n k o w o ś S130:c S151:i	0.06033787131309509	0
+u t r u d n i a S32:ł S48:y S49:ś S57:c S69:i S70:e   s i ę	u t r u d n i a S32:ł S48:y S49:ś S57:c S69:i S70:e   s i ę	0.05774010345339775	0
+r ę c z n S133:e S145:j	r ę c z n S133:e S145:j	0.06240564212203026	0
+w i z y t e r k S109:i	w i z y t e r k S109:i	0.06030843406915665	0
+e f e k t o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	e f e k t o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.0557597316801548	0
+ś l u z o w a c i e S93:j S106:ą S114:c S126:y S130:c S147:h	ś l u z o w a c i e S93:j S106:ą S114:c S126:y S130:c S147:h	0.05929923802614212	0
+S1:n S6:i S8:e w y r o b i S112:o S117:n S133:e S138:g S139:o	S1:n S6:i S8:e w y r o b i S112:o S117:n S133:e S138:g S139:o	0.05908192694187164	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  p r z e g n i a t a S99:ł S126:y	S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  p r z e g n i a t a S99:ł S126:y	0.06181952729821205	0
+S1:n S6:i S8:e z d y c h a S117:n S132:i S133:e	S1:n S6:i S8:e z d y c h a S117:n S132:i S133:e	0.060192033648490906	0
+p o p o d b i j a S99:ł S136:a S140:m	p o p o d b i j a S99:ł S136:a S140:m	0.05924634635448456	0
+n i e k o ś c i e r s k i S133:e S140:m S154:u	n i e k o ś c i e r s k i S133:e S140:m S154:u	0.06278830766677856	0
+o t a k s o w S86:u S93:j S106:ą S130:c S133:e	o t a k s o w S86:u S93:j S106:ą S130:c S133:e	0.06961183995008469	0
+d o c z e k i w a S99:ł S136:a	d o c z e k i w a S99:ł S136:a	0.06138911470770836	0
+m a z u r o w o ś S130:c S151:i	m a z u r o w o ś S130:c S151:i	0.060863178223371506	0
+t y s i ą c k i l o m e t r o w o ś S130:c S151:i	t y s i ą c k i l o m e t r o w o ś S130:c S151:i	0.062012672424316406	0
+p o z b y S32:ł S48:y S49:ś S57:c S69:i S70:e   s i ę	p o z b y S32:ł S48:y S49:ś S57:c S69:i S70:e   s i ę	0.056715115904808044	0
+S1:n S6:i S8:e w y k i e ł k o w a S117:n S151:i	S1:n S6:i S8:e w y k i e ł k o w a S117:n S151:i	0.06211858615279198	0
+p ł a s t u g o k s z t a ł t y	p ł a s t u g o k s z t a ł t n S133:e	0.8314899802207947	2
+o d ż y ł o w a S99:ł S122:y S125:b S126:y	o d ż y ł o w a S99:ł S122:y S125:b S126:y	0.05796419084072113	0
+r e m a n i f e s t S106:ą	r e m a n i f e s t S133:e S140:m	0.5693339705467224	2
+g a r b S104:u	g a r b S126:y	1.207448124885559	1
+n a t r z ą s a S117:n S133:e	n a t r z ą s a S117:n S133:e	0.06284981220960617	0
+n a k i w a S117:n S126:y S130:c S147:h	n a k i w a S117:n S126:y S130:c S147:h	0.06362912058830261	0
+ś w i e r k l a ń s k i S130:c S147:h	ś w i e r k l a ń s k i S130:c S147:h	0.06138578802347183	0
+u t y l i t a r n y S87:m	u t y l i t a r n y S87:m	0.05868098512291908	0
+n i e w i e l o s e t l e t n i S133:e	n i e w i e l o s e t l e t n i S133:e	0.063747338950634	0
+d z i a d z i e S93:j S106:ą S114:c S126:y	d z i a d z i e S93:j S106:ą S114:c S126:y	0.06076489016413689	0
+S1:n S6:i S8:e p r z e m e b l o w a S117:n S126:y S140:m	S1:n S6:i S8:e p r z e m e b l o w a S117:n S126:y S140:m	0.06307569891214371	0
+S1:n S6:i S8:e r o z l i c z S42:ą S63:c y S87:m S109:i	S1:n S6:i S8:e r o z l i c z S61:o S64:n y S87:m S109:i	0.3397223651409149	2
+S1:n S6:i S8:e n a t r a f i a S93:j S106:ą S130:c S133:e	S1:n S6:i S8:e n a t r a f i a S93:j S106:ą S130:c S133:e	0.05999704450368881	0
+z a ł a t a S117:n S126:y	z a ł a t a S117:n S126:y	0.06050233170390129	0
+n i e b o ż o n a r o d z e n i o ś S130:c S151:i	n i e b o ż o n a r o d z e n i o w o ś S130:c S151:i	0.29567521810531616	2
+p r z y p r z ą c S27:e S36:n S45:i S61:o S68:m   s i ę	p r z y p r z <UNK> <UNK> S27:e S36:n S45:i S61:o S68:m   s i ę	1.3060003519058228	2
+s c h l a p a S117:n S133:e	s c h l a p a S117:n S133:e	0.06044026464223862	0
+k a p e r o w a S99:ł S122:y S125:b S126:y S128:ś S140:m S146:y	k a p e r o w a S99:ł S122:y S125:b S126:y S128:ś S140:m S146:y	0.06095823645591736	0
+s k ó r o s k r z y d ł S133:e S145:j	s k ó r o s k r z y d ł S133:e S145:j	0.05901171267032623	0
+l e ż a n k S106:ą	l e ż a n k S106:ą	0.0565638393163681	0
+u p i o r o w S133:e	u p i o r o w S133:e	0.0653160810470581	0
+n i e p r z e s t a w c z y S87:m	n i e p r z e s t a w c z y S87:m	0.06337931752204895	0
+n i e s y r e n i S133:e	n i e s y r e n i S133:e	0.06516509503126144	0
+S1:n S6:i S8:e w y j a w i a S117:n S133:e	S1:n S6:i S8:e w y j a w i a S117:n S133:e	0.06260903179645538	0
+w y d r a p y w a S99:ł S125:b S126:y S140:m	w y d r a p y w a S99:ł S125:b S126:y S140:m	0.05915210768580437	0
+S1:n S6:i S8:e w y ś w i e ż a S41:j S42:ą S57:c S77:ą   s i ę	S1:n S6:i S8:e w y ś w i e ż a S41:j S42:ą S57:c S77:ą   s i ę	0.06167375296354294	0
+z a f r u w a S99:ł S126:y S128:ś S130:c S132:i S133:e	z a f r u w a S99:ł S126:y S128:ś S130:c S132:i S133:e	0.05536726117134094	0
+d y s e k o w a S41:j S42:ą S57:c a   s i ę	d y s e k S33:u S41:j S42:ą S57:c a   s i ę	0.49627816677093506	3
+p r a p r a b a b k S139:o S140:m	p r a p r a b a b k S139:o S140:m	0.06443308293819427	0
+w y s z c z e k a S99:ł S139:o S140:m	w y s z c z e k a S99:ł S139:o S140:m	0.05872688442468643	0
+S1:n S6:i S8:e d o p l ą t y w a S117:n S126:y S140:m S151:i	S1:n S6:i S8:e d o p l ą t y w a S117:n S126:y S140:m S151:i	0.05939863622188568	0
+w c h a d z a S93:j S106:ą S114:c S126:y S130:c S147:h	w c h a d z a S93:j S106:ą S114:c S126:y S130:c S147:h	0.058461643755435944	0
+z a c z y t a S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	z a c z y t a S32:ł S48:y S50:b S59:y S67:ś S68:m S82:y   s i ę	0.06014874204993248	0
+u p o s t a c S112:o S117:n S126:y S140:m S151:i	u p o s t a c S34:o S36:n S59:y S68:m i	2.3100409507751465	5
+u g w a r z a S93:j S106:ą S114:c S126:y	u g w a r z a S93:j S106:ą S114:c S126:y	0.05974900722503662	0
+n a s z y S87:m	n a s z y S103:t S126:y S140:m	0.731852650642395	3
+n i e k o c z o w S133:e	n i e k o c z o w S133:e	0.06546977162361145	0
+d o k o o p t o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	d o k o o p t o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.09148027747869492	0
+a r c y t r e f n o ś ć	a r c y t r e f n o ś S130:c S151:i	0.6399017572402954	2
+S1:n S6:i S8:e c u k r o w a S41:j S42:ą S57:c S70:e   s i ę	S1:n S6:i S8:e c u k r S33:u S41:j S42:ą S57:c S70:e   s i ę	0.4909709393978119	3
+c e n z o r o w a S117:n S133:e	c e n z o r o w a S117:n S133:e	0.06526853889226913	0
+o ś w i a d c z y ć	o ś w i a d c z S127:ę	1.0130404233932495	2
+z w i ę k s z a S36:n S69:i S72:a   s i ę	z w i ę k s z a S36:n S61:o   s i ę	0.6067904233932495	2
+u z w i ę ź l i S27:e S36:n S45:i S61:o S68:m   s i ę	u z w i ę ź l S27:e S36:n i S61:o S68:m   s i ę	1.355357050895691	2
+p r z e t e l e p o r t o w a S117:n S152:ą	p r z e t e l e p o r t o w a S117:n S152:ą	0.06325560063123703	0
+S1:n S6:i S8:e a r a b i z o w a S117:n S136:a	S1:n S6:i S8:e a r a b i z o w a S117:n S136:a	0.06484206765890121	0
+w y c i o s a ć   s i ę	w y c i S27:e s S60:z S70:e   s i ę	1.9253121614456177	3
+p ó ł p i ś m i e n S133:e	p ó ł p i ś m i e n n S133:e	0.6869825720787048	1
+S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  n a w i e w a S32:ł S62:a   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  n a w i e w a S32:ł S62:a   s i ę	0.06254395842552185	0
+p o l i t p o p r a w n y S130:c S147:h	p o l i t p o p r a w n y S130:c S147:h	0.06371095031499863	0
+o s t r ó ż e c z k S106:ą	o s t r ó ż e c z k S106:ą	0.05618654191493988	0
+c y t o w a S93:j S106:ą S130:c S152:ą	c y t S86:u S93:j S106:ą S130:c S152:ą	0.8953150510787964	3
+z a s t ę b n o w y w a S32:ł S59:y S67:ś S68:m S82:y   s i ę	z a s t ę b n o w y w a S32:ł S59:y S67:ś S68:m S82:y   s i ę	0.06214320659637451	0
+s p r u s a c z y S40:l S45:i S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	s p r u s a c z y S40:l S45:i S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.05878235027194023	0
+S1:n S6:i S8:e w y k a f e l k o w a S117:n S126:y S140:m S151:i	S1:n S6:i S8:e w y k a f e l k o w a S117:n S126:y S140:m S151:i	0.05965244770050049	0
+w y ż y m a S117:n S133:e	w y ż y m a S117:n S133:e	0.056112393736839294	0
+S1:n S6:i S8:e d e l a b i a l i z o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e d e l a b i a l i z o w a S117:n S126:y S130:c S147:h	0.06331969797611237	0
+S1:n S6:i S8:e ł y ż e c z k o w a S41:j S42:ą S57:c S62:a   s i ę	S1:n S6:i S8:e ł y ż e c z k S33:u S41:j S42:ą S57:c a   s i ę	0.4507625997066498	4
+z a d u c h S104:u	z a d u c h S104:u	0.1793847382068634	0
+n i e b e z w i t a m i n o w o ś S130:c S151:i	n i e b e z w i t a m i n o w o ś S130:c S151:i	0.06265988200902939	0
+d w u s t o p o w o ś S130:c S151:i	d w u s t o p o w o ś S130:c S151:i	0.061372287571430206	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  c h r u m k a S99:ł S133:e	S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  c h r u m k a S99:ł	0.5176084637641907	1
+p r z y f i l o w S33:u S41:j S42:ą S57:c y S87:m	p r z y f i l o w S33:u S41:j S42:ą S57:c y S87:m	0.06189119443297386	0
+c h m i e l e ń s k o ś S105:c S109:i S121:a S130:c S147:h	c h m i e l e ń s k o ś S105:c S109:i S121:a S130:c S147:h	0.05606784299015999	0
+r o z z i e w a S117:n S126:y S130:c S147:h	r o z z i e w a S117:n S126:y S130:c S147:h	0.06475066393613815	0
+p r z e b y S112:o S117:n S133:e S145:j	p r z e b y S103:t S133:e S145:j	0.5864198803901672	2
+S1:n S6:i S8:e p o p u s z c z a S36:n S69:i S70:e S76:m   s i ę	S1:n S6:i S8:e p o p u s z c z a S36:n S69:i S70:e S76:m   s i ę	0.0614003911614418	0
+d o k r a s i S32:ł S48:y S49:ś S57:c S69:i S70:e   s i ę	d o k r a s i S32:ł S48:y S49:ś S57:c S69:i S70:e   s i ę	0.058798134326934814	0
+S1:n S6:i S8:e d o n i e S90:s S109:i S112:o S117:n S151:i	S1:n S6:i S8:e d o n i e S90:s S109:i S133:e S148:n S151:i	1.1957786083221436	2
+S1:n S6:i S8:e o b r a n i a S41:j S42:ą S57:c S70:e   s i ę	S1:n S6:i S8:e o b r a n i a S41:j S42:ą S57:c S70:e   s i ę	0.06547313928604126	0
+k o p e r t o w a S117:n S151:i	k o p e r t o w a S117:n S151:i	0.06373784691095352	0
+e d y p a l n o ś ć	e d y p a l n o ś ć	0.06054488196969032	0
+o t r z e w i c z k o w a S36:n S69:i S72:a   s i ę	o t r z e w i c z k o w a S36:n S61:o   s i ę	0.4711933135986328	2
+n i e k r ą g ł o u s t y S130:c S147:h	n i e k r ą g ł o u s t y S130:c S147:h	0.060042813420295715	0
+p a k l a k S139:o S140:m	p a k l a k S139:o S140:m	0.059102170169353485	0
+b i e r u ń s k i S130:c S147:h	b i e r u ń s k i S130:c S147:h	0.06143854558467865	0
+p r z y s k r z y b a S117:n S126:y S130:c S147:h	p r z y s k r z y b a S117:n S126:y S130:c S147:h	0.06199846416711807	0
+o k u r z a S32:ł S38:a S50:b S59:y S68:m   s i ę	o k u r z a S32:ł S38:a S55:m   s i ę	0.5692150592803955	3
+n i e s o l a r s k i S87:m	n i e s o l a r s k i S87:m	0.06466044485569	0
+n i e p o s i a r c z y n o w o ś S130:c S151:i	n i e p o s i a r c z y n o w o ś S130:c S132:i S139:o S140:m	0.6771743297576904	3
+o k r z e p i S112:o S117:n S133:e	o k r z e p i S112:o S117:n S133:e	0.06213533878326416	0
+p o d k a b l o w y w a S40:l S45:i S50:b S59:y S67:ś S68:m S82:y   s i ę	p o d k a b l o w y w a S40:l S45:i S50:b S59:y S67:ś S68:m S82:y   s i ę	0.06190592050552368	0
+S1:n S6:i S8:e o d h a r t o w y w a S117:n S133:e	S1:n S6:i S8:e o d h a r t o w y w a S117:n S133:e	0.06309241056442261	0
+n i e p ę c h e r z y k o w S133:e S138:g S139:o	n i e p ę c h e r z y k o w S133:e S138:g S139:o	0.06044028699398041	0
+w y k a z a l n S95:a	w y k a z a l n S95:a	0.060284338891506195	0
+p o w y m i e r z a S99:ł S126:y S128:ś S130:c S132:i S133:e	p o w y m i e r z a S99:ł S126:y S128:ś S130:c S132:i S133:e	0.058048248291015625	0
+o d k i b l o w y w a S117:n S126:y S140:m	o d k i b l o w y w a S117:n S126:y S140:m	0.060784388333559036	0
+n i e f a b r y k a n c k i S133:e S140:m S154:u	n i e f a b r y k a n c k i S133:e S140:m S154:u	0.06019394099712372	0
+S1:n S6:i S8:e s k o n t a m i n o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e s k o n t a m i n o w a S117:n S126:y S130:c S147:h	0.06440060585737228	0
+z a b e z p i e c z y S32:ł S50:b S59:y S68:m   s i ę	z a b e z p i e c z y S32:ł S50:b S59:y S68:m   s i ę	0.07215966284275055	0
+d a w a S93:j S106:ą S130:c S133:e	d a S93:j S106:ą S130:c S133:e	1.1612443923950195	2
+n i e l a s e r u n k o w o ś S130:c S151:i	n i e l a s e r u n k o w o ś S130:c S151:i	0.06282993406057358	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  p r z e w a l c o w y w a S99:ł S126:y	S0:b S2:ę S4:d S5:z S6:i S8:e S14:c S16:i S17:e S18:  p r z e w a l c o w y w a S99:ł S126:y	0.06122798100113869	0
+S1:n S6:i S8:e p r z y s t o s o w S33:u S41:j S42:ą S57:c y S87:m	S1:n S6:i S8:e p r z y s t o s o w S33:u S41:j S42:ą S57:c y S87:m	0.07807370275259018	0
+S0:b S2:ę S4:d S5:z S6:i S8:e S13:m S15:y S18:  k a r b i k o w a S99:ł S126:y	S0:b S2:ę S4:d <UNK> S18:  k a r b i k o w a S99:ł S126:y	0.9799578189849854	5
+p u c k i S130:c S147:h	p u c k i S130:c S147:h	0.06315968930721283	0
+o s t r u g i w a S41:j S42:ą S57:c S59:y S63:c S79:h   s i ę	o s t r u g S33:u S41:j S42:ą S57:c S59:y S63:c S79:h   s i ę	0.4809364676475525	3
+a b s t r a k c j o n i s t y c z n y	a b s t r a k c j o n i s t y c z n y	0.061217278242111206	0
+S1:n S6:i S8:e m a z u r z S42:ą S63:c y	S1:n S6:i S8:e m a z u r z S133:e S148:n S151:i	1.1418445110321045	3
+a u t o r a m e n t S126:y	a u t o r a m e n t S126:y	0.06235760077834129	0
+n i e ś r ó d s k a l n y S87:m	n i e ś r ó d s k a l n y S87:m	0.059295378625392914	0
+n i e s z p a l e r o w o ś S130:c S151:i	n i e s z p a l e r o w o ś S130:c S151:i	0.06337791681289673	0
+n i e s ą d o w o ś S130:c S151:i	n i e s ą d o w o ś S130:c S132:i S139:o S140:m	0.8093212246894836	3
+o b o j ę t n i e S93:j S106:ą S114:c S126:y S130:c S147:h	o b o j ę t n i e S93:j S106:ą S114:c S126:y S130:c S147:h	0.05839959532022476	0
+n i e w c h o d n S133:e	n i e w c h o d n S133:e	0.07035677134990692	0
+o d p y t y w a S93:j S106:ą S130:c S152:ą	o d p y t S86:u S93:j S106:ą S130:c S152:ą	0.6750522255897522	3
+S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  o d o s a b n i a S32:ł S61:o   s i ę	S0:b S2:ę S4:d S5:z S6:i S8:e S9:s S11:z S18:  o d o s a b n i a S32:ł S61:o   s i ę	0.06250367313623428	0
+k u f i c k i S130:c S151:i	k u f i c S130:c S146:y	2.081258535385132	3
+u n i e d o s t ę p n i a S40:l S45:i S49:ś S55:m S59:y   s i ę	u n i e d o s t ę p n i a S40:l S45:i S49:ś S55:m S59:y   s i ę	0.06245051696896553	0
+z a i n t e r e s o w a n S109:i	z a i n t e r e s o w a n y	0.5187984108924866	1
+z a ł a m y w a S89:l S109:i S128:ś S130:c S132:i S133:e	z a ł a m y w a S89:l S109:i S128:ś S130:c S132:i S133:e	0.05293326452374458	0
+o w i e ń c z a S93:j S106:ą S130:c S133:e	o w i e ń c z a S93:j S106:ą S130:c S133:e	0.05671822279691696	0
+o d g r a d z a S41:j S42:ą S57:c S70:e   s i ę	o d g r a d z a S41:j S42:ą S57:c S70:e   s i ę	0.06351175904273987	0
+S1:n S6:i S8:e z a g a b a S117:n S133:e	S1:n S6:i S8:e z a g a b a S117:n S133:e	0.06347862631082535	0
+n i e j e l o n k o w S133:e S145:j	n i e j e l o n k o w S133:e S145:j	0.06273297965526581	0
+S1:n S6:i S8:e o d k a s y w a S117:n S133:e	S1:n S6:i S8:e o d k a s y w a S117:n S133:e	0.06433665752410889	0
+w y s z k a l a S36:n S69:i S72:a   s i ę	w y s z k a l a S36:n S69:i S72:a   s i ę	0.0615725964307785	0
+n i e k a t e s z o w y	n i e k a t e s z o w S133:e	0.5866347551345825	1
+n i e p o l i p o w S133:e	n i e p o l i p o w S133:e	0.06592699140310287	0
+S1:n S6:i S8:e w y s z y k o w S33:u S41:j S42:ą S57:c S70:e S78:j	S1:n S6:i S8:e w y s z y k o w S86:u S93:j S106:ą S130:c S133:e S145:j	0.5112781524658203	6
+S1:n S6:i S8:e r o z m ó c S112:o S117:n S126:y S140:m	S1:n S6:i S8:e r o z m <UNK> <UNK> S112:o S117:n S126:y S140:m	1.7661383152008057	2
+n i e k a n o n i c z n S109:i	n i e k a n o n i c z n S109:i	0.06490036845207214	0
+k o ł o w a S93:j S106:ą S114:c S126:y S130:c S147:h	k o ł S86:u S93:j S106:ą S114:c S126:y S130:c S147:h	0.756519079208374	3
+S0:b S2:ę S4:d S5:z S6:i S8:e S18:  u c z y ć	S0:b S2:ę S4:d <UNK> S18:  u c z y S99:ł S126:y	1.3215447664260864	5
+d e r y w o w a S117:n S133:e	d e r y w o w a S117:n S133:e	0.06338275223970413	0
+n i e u p o w s k i S87:m S109:i	n i e u p o w s k i S87:m S109:i	0.06284106522798538	0
+n i e p o o s o b n y S87:m	n i e p o o s o b n y S87:m	0.06358404457569122	0
+d e z a t o m i z o w a S117:n S133:e	d e z a t o m i z o w a S117:n S133:e	0.06389137357473373	0
+b o l s z e w i c k o ś S130:c S151:i	b o l s z e w i c k o ś S130:c S151:i	0.06057197228074074	0
+z b i e ż e S36:n S45:i S62:a S68:m S69:i   s i ę	z b i e ż e S36:n S45:i S62:a S68:m S69:i   s i ę	0.0553286038339138	0
+p i ę c i o z ł o t o w y S130:c S147:h	p i ę c i o z ł o t o w y S130:c S147:h	0.061735719442367554	0
+n i e p r o e f e k t y w n o ś S105:c S109:i S121:a S130:c S147:h	n i e p r o e f e k t y w n o ś c i o w y S130:c S147:h	1.431563377380371	5
+S1:n S6:i S8:e r ó ż o w i e S93:j S106:ą S114:c S126:y S130:c S147:h	S1:n S6:i S8:e r ó ż o w i e S93:j S106:ą S114:c S126:y S130:c S147:h	0.05827745422720909	0
+s a t e l i t a	s a t e l i S130:c S151:i	0.9226033687591553	2
+n i e e k l e k t y c z n y S130:c S147:h	n i e e k l e k t y c z n y S130:c S147:h	0.08711790293455124	0
+n a c z e p i a S32:ł S61:o S68:m   s i ę	n a c z e p i a S32:ł S61:o S68:m   s i ę	0.06263215839862823	0
+n i e o p o r o w o ś ć	n i e o p o r o w o ś ć	0.06523901969194412	0
+r o z p a s k u d z a S117:n S151:i S155:a	r o z p a s k u d z a S117:n S151:i S155:a	0.06202773377299309	0
+d y g n ą S99:ł S121:a S125:b S126:y	d y g n S97:ę S99:ł S121:a S125:b S126:y	1.3600698709487915	1
+w y g o t o w a S32:ł S38:a S50:b S59:y S68:m   s i ę	w y g o t o w a S32:ł S38:a S50:b S59:y S68:m   s i ę	0.05834104120731354	0
+z e s t r a c h a S89:l S109:i S128:ś S130:c S132:i S133:e	z e s t r a c h a S89:l S109:i S128:ś S130:c S132:i S133:e	0.05535821616649628	0
+o c u k r z y S130:c S151:i S155:a	o c u k r z S133:e S148:n S151:i S155:a	1.1611841917037964	2
+o d s y l a b i z o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	o d s y l a b i z o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.05846743658185005	0
+d o p i e r d o l i S32:ł S59:y S67:ś S68:m S82:y   s i ę	d o p i e r d o l i S32:ł S59:y S67:ś S68:m S82:y   s i ę	0.063417449593544	0
+S1:n S6:i S8:e k o n t y n g e n t o w a S117:n S132:i S133:e	S1:n S6:i S8:e k o n t y n g e n t o w a S117:n S132:i S133:e	0.06121385097503662	0
+S1:n S3:a S10:j s y s t e m a t y c z n S133:e S140:m S154:u	S1:n S3:a S10:j s y s t e m a t y c z n S91:i S92:e S93:j <UNK> S101:z S133:e S140:m S154:u	1.731039047241211	5
+w y w i e ś c S112:o S117:n S126:y S130:c S147:h	w y w i e S44:s S60:z c S101:z S112:o S117:n S126:y S130:c S147:h	1.1316167116165161	3
+p i e n i k S109:i	p i e n i k S109:i	0.0667380839586258	0
+S1:n S3:a S10:j c z e r w o n S133:e S140:m S154:u	S1:n S3:a S10:j c z e r w S91:i S92:e <UNK> <UNK> S101:z S133:e S140:m S154:u	2.3329482078552246	5
+r o z k l ą S117:n S126:y S130:c S147:h	r o z k l S102:ę S103:t S126:y S130:c S147:h	0.7795385718345642	2
+S1:n S6:i S8:e z n i e r u c h o m i a S117:n S126:y	S1:n S6:i S8:e z n i e r u c h o m i a S117:n S126:y	0.06412170082330704	0
+S1:n S6:i S8:e u d o s k o n a l a S117:n S126:y	S1:n S6:i S8:e u d o s k o n a l a S117:n S126:y	0.06411945819854736	0
+o p r a w i a S117:n S133:e S145:j	o p r a w i a S117:n S133:e S145:j	0.06502597779035568	0
+S1:n S6:i S8:e p o s z y k o w a S117:n S126:y	S1:n S6:i S8:e p o s z y k o w a S117:n S126:y	0.06520771980285645	0
+e k s m i t o w a S117:n S126:y S130:c S147:h	e k s m i t o w a S117:n S126:y S130:c S147:h	0.06310545653104782	0
+z i a r n o S104:u	z i a r n S95:a	1.1161339282989502	2
+S1:n S6:i S8:e n a p i s a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e n a p i s a S117:n S126:y S130:c S147:h	0.06546531617641449	0
+p o ś c i s k a ć   s i ę	p o ś c i s k a S41:j S42:ą   s i ę	0.26387089490890503	2
+r a z o w a S117:n S126:y S130:c S147:h	r a z o w a S117:n S126:y S130:c S147:h	0.0640067309141159	0
+S1:n S6:i S8:e u j a w n i a S117:n S133:e S138:g S139:o	S1:n S6:i S8:e u j a w n i a S117:n S133:e S138:g S139:o	0.06036365032196045	0
+l a s e r o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	l a s e r o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.05835667997598648	0
+p r z e k l ą S117:n S133:e	p r z e k l S102:ę S103:t S133:e	0.8657048344612122	2
+z a h a z a r d S86:u S93:j S129:e S130:c S132:i S133:e	z a h a z a r d S86:u S93:j S106:ą	1.3099465370178223	4
+S1:n S6:i S8:e n a d p r u w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e n a d p r u w a S117:n S126:y S130:c S147:h	0.06498605012893677	0
+w y k l u c z a S117:n S133:e	w y k l u c z a S117:n S133:e	0.06018480286002159	0
+u p i e r d l i w S44:s S60:z y S130:c S147:h	u p i e r d l i w S44:s S60:z y S130:c S147:h	0.059817586094141006	0
+n a p s t r y k i w a S117:n S133:e	n a p s t r y k i w a S117:n S133:e	0.06353483349084854	0
+w z d a w a S117:n S126:y	w z d a w a S117:n S126:y	0.06308547407388687	0
+p r z e m ę c z a S117:n S126:y	p r z e m ę c z a S117:n S126:y	0.06333848834037781	0
+S1:n S6:i S8:e p r z y m i ę s z a S117:n S126:y	S1:n S6:i S8:e p r z y m i ę s z a S117:n S126:y	0.06436124444007874	0
+e m S95:a	e m	2.766141176223755	1
+d o m r a ż a S117:n S133:e S145:j	d o m r a ż a S117:n S133:e S145:j	0.0599295012652874	0
+S1:n S6:i S8:e f i l t r o w a S117:n S126:y	S1:n S6:i S8:e f i l t r o w a S117:n S126:y	0.06305841356515884	0
+S1:n S6:i S8:e u r ó w n a S117:n S133:e	S1:n S6:i S8:e u r ó w n a S117:n S133:e	0.06273546069860458	0
+k s i ą ż n i c t w S95:a	k s i ą ż n i c t w S95:a	0.05695017799735069	0
+o d e m k n S91:i S93:j S129:e S130:c S132:i S133:e	o d e m k n ą	1.9685617685317993	6
+S1:n S6:i S8:e p o w y s z c z e g ó l n i a S117:n S126:y	S1:n S6:i S8:e p o w y s z c z e g ó l n i a S117:n S126:y	0.061839908361434937	0
+S1:n S6:i S8:e p e s z S27:e S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e p e s z S27:e S36:n S45:i S61:o S68:m   s i ę	0.05934515967965126	0
+S1:n S6:i S8:e ś w i d r o w a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e ś w i d r o w a S117:n S132:i S139:o S140:m	0.6127802729606628	1
+S1:n S6:i S8:e p r z e m a c z a S117:n S126:y S140:m	S1:n S6:i S8:e p r z e m a c z a S117:n S126:y S140:m	0.06395293772220612	0
+z w i e w a S117:n S126:y	z w i e w a S117:n S126:y	0.06509575247764587	0
+d e b e t o w a S117:n S151:i	d e b e t o w a S117:n S151:i	0.06235915794968605	0
+S1:n S6:i S8:e p r z e k r a w a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e p r z e k r a w a S36:n S69:i S70:e   s i ę	0.06382269412279129	0
+w a r i a t u ń c i o	w a r i a t u ń c i o S144:w S151:i	0.512597918510437	2
+p o m y l S112:o S117:n S133:e	p o m y l S112:o S117:n S133:e	0.05808067321777344	0
+j a z y d a S89:l S109:i	j a z y d S127:ę	1.1636931896209717	3
+S1:n S6:i S8:e p ł a w i S112:o S117:n S126:y S140:m	S1:n S6:i S8:e p ł a w i S112:o S117:n S126:y S140:m	0.060422107577323914	0
+z r e m i l i t a r y z o w a S117:n S133:e	z r e m i l i t a r y z o w a S117:n S133:e	0.06299343705177307	0
+p o z a k ł u w a S117:n S133:e	p o z a k ł u w a S117:n S133:e	0.0630873367190361	0
+S1:n S6:i S8:e s z p r o s o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e s z p r o s o w a S117:n S126:y S130:c S147:h	0.06556793302297592	0
+S1:n S6:i S8:e p o d z n a c z a S117:n S132:i S133:e	S1:n S6:i S8:e p o d z n a c z a S117:n S132:i S133:e	0.06345342099666595	0
+S0:b S2:ę S4:d S7:ę S18:  p o ż y t k o w a S32:ł S62:a   s i ę	S0:b S2:ę S4:d S7:ę S18:  p o ż y t k o w a S32:ł S62:a   s i ę	0.05979835242033005	0
+S1:n S6:i S8:e z r a s t r o w a S117:n S152:ą	S1:n S6:i S8:e z r a s t r o w a S117:n S152:ą	0.06565655767917633	0
+z a ż y n a S117:n S126:y S130:c S147:h	z a ż y n a S117:n S126:y S130:c S147:h	0.059152089059352875	0
+z r e m o n t S33:u S41:j S42:ą   s i ę	z r e m o n t S33:u S41:j S42:ą   s i ę	0.06502755731344223	0
+S1:n S6:i S8:e i n g r e s o w a S117:n S152:ą	S1:n S6:i S8:e i n g r e s o w a S117:n S152:ą	0.0647880807518959	0
+j e d y n S130:c S151:i	j e d y n S133:e S138:g S139:o	1.826548457145691	3
+d z i w a d ł S95:a	d z i w a d ł S95:a	0.060332223773002625	0
+w m i ę s z a S117:n S126:y S130:c S147:h	w m i ę s z a S117:n S126:y S130:c S147:h	0.06313994526863098	0
+S1:n S6:i S8:e n a m a z a S117:n S126:y	S1:n S6:i S8:e n a m a z a S117:n S126:y	0.06498363614082336	0
+s k l e p o w S33:u S41:j S42:ą	s k l e p o w S133:e S138:g S139:o	1.1984455585479736	3
+p r z y c z o ł S95:a	p r z y c z o ł S95:a	0.06035558134317398	0
+S1:n S6:i S8:e n a k a r m i a S117:n S133:e	S1:n S6:i S8:e n a k a r m i a S117:n S133:e	0.06568431854248047	0
+d ż i g i t a j S95:a S130:c S147:h	d ż i g i t a j S95:a S130:c S147:h	0.1604119837284088	0
+S1:n S6:i S8:e t y p o w a S117:n S133:e	S1:n S6:i S8:e t y p o w a S117:n S133:e	0.06432564556598663	0
+S1:n S6:i S8:e o d w z a j e m n i S112:o S117:n S126:y	S1:n S6:i S8:e o d w z a j e m n i S112:o S117:n S126:y	0.062211934477090836	0
+w z d ł u ż S61:o S64:n y S130:c S147:h	w z d ł u ż S61:o S64:n y S130:c S147:h	0.055063728243112564	0
+g ę s t S133:e	g ę s t S90:s S101:z S133:e	2.905585765838623	2
+u s t o ł e c z n i a S117:n S133:e	u s t o ł e c z n i a S117:n S133:e	0.06227034330368042	0
+S1:n S3:a S10:j k r w a w S133:e	S1:n S3:a S10:j k r w a w S90:s S101:z S133:e	2.0140678882598877	2
+S1:n S6:i S8:e w y s z u l e r o w y w a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e w y s z u l e r o w y w a S36:n S69:i S70:e   s i ę	0.06134581193327904	0
+S1:n S6:i S8:e w y m i a r o w a S117:n S126:y	S1:n S6:i S8:e w y m i a r o w a S117:n S126:y	0.06461668759584427	0
+n a w p y c h a S117:n S133:e	n a w p y c h a S117:n S133:e	0.06147197261452675	0
+S1:n S6:i S8:e o b r a m o w a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e o b r a m o w a S36:n S45:i S61:o S68:m   s i ę	0.061739303171634674	0
+g o ź d z i k o w i e c S101:z S109:i S133:e	g o ź d z i k o w c S104:u	1.2857567071914673	5
+S1:n S3:a S10:j d e k o r a c y j n S133:e S138:g S139:o	S1:n S3:a S10:j d e k o r a c y j n S91:i S92:e S93:j <UNK> S101:z S133:e S138:g S139:o	2.014133930206299	5
+S1:n S6:i S8:e ł o m o t a S36:n S69:i S72:a   s i ę	S1:n S6:i S8:e ł o m o t a S36:n S69:i S72:a   s i ę	0.06221182271838188	0
+S1:n S6:i S8:e p o m s t o w a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e p o m s t o w a S117:n S132:i S139:o S140:m	0.5924608111381531	1
+m ą d r y S130:c S133:e	m S39:ę d r S90:s S101:z S133:e	4.593098163604736	3
+z g r a n i e S117:n S151:i	z g r a n i S95:a	1.002103328704834	3
+S1:n S6:i S8:e e g z a m i n o w a S117:n S133:e S145:j	S1:n S6:i S8:e e g z a m i n o w a S117:n S133:e S145:j	0.06460392475128174	0
+c i u p c i a S117:n S133:e	c i u p c i a S117:n S133:e	0.06298281997442245	0
+p r z y k a r c S112:o S117:n S133:e	p r z y k a r c S112:o S117:n S133:e	0.06045813485980034	0
+l u s t r z k S95:a	l u s t r z e S117:n S151:i	1.1308609247207642	3
+S1:n S6:i S8:e r o z o c h o c S112:o S117:n S126:y S130:c S147:h	S1:n S6:i S8:e r o z o c h o c S112:o S117:n S126:y S130:c S147:h	0.062302183359861374	0
+S1:n S6:i S8:e f l a n c o w a S117:n S152:ą	S1:n S6:i S8:e f l a n c o w a S117:n S152:ą	0.062355153262615204	0
+S1:n S6:i S8:e r o z p i ż d ż a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e r o z p i ż d ż a S36:n S69:i S70:e   s i ę	0.060014236718416214	0
+S1:n S6:i S8:e u z i e m i a S117:n S126:y	S1:n S6:i S8:e u z i e m i a S117:n S126:y	0.06541474163532257	0
+S1:n S6:i S8:e d o ś w i e t l a S117:n S133:e	S1:n S6:i S8:e d o ś w i e t l a S117:n S133:e	0.06346067041158676	0
+p o b r y z g a S117:n S133:e	p o b r y z g a S117:n S133:e	0.0612483024597168	0
+S1:n S3:a S10:j ś c i S20:ś S36:n S69:i S70:e S78:j s S83:z y S87:m	S1:n S3:a S10:j ś c i S20:ś <UNK> S27:e S41:j s S60:z y S87:m	2.127253532409668	5
+S1:n S6:i S8:e w a p n i S112:o S117:n S126:y S140:m	S1:n S6:i S8:e w a p n i S112:o S117:n S126:y S140:m	0.062227506190538406	0
+r o z w y w a S117:n S133:e S145:j	r o z w y S103:t S133:e S145:j	0.8157569169998169	3
+S1:n S3:a S10:j r u m i a n S24:i S27:e S41:j S44:s S60:z y S87:m S109:i	S1:n S3:a S10:j r u m i S27:e S31:ń S44:s S60:z y S87:m S109:i	1.5356618165969849	4
+p o l e p s z y c i e l	p o l e p s z y c i e l S139:o S144:w S151:i	0.3941081166267395	3
+w z o r a S117:n S126:y S130:c S147:h	w z o r a S117:n S126:y S130:c S147:h	0.06374315917491913	0
+u c z c i w y S87:m	u c z c i w y S87:m	0.0765528529882431	0
+n a z a l i z o w a S117:n S126:y	n a z a l i z o w a S117:n S126:y	0.06499336659908295	0
+z a k w i t o w a S117:n S133:e	z a k w i t o w a S117:n S133:e	0.06458240002393723	0
+o b s a d z a S117:n S133:e	o b s a d z a S117:n S133:e	0.0632825493812561	0
+z a d z i e r g a S117:n S133:e	z a d z i e r g a S117:n S133:e	0.06319466978311539	0
+s p o s t r z e c S112:o S117:n S133:e	s p o s t r z e <UNK> S112:o S117:n S133:e	1.2131762504577637	1
+d o p l ą t a ć   s i ę	d o p l ą t a S41:j S42:ą   s i ę	0.4296439290046692	2
+S1:n S6:i S8:e p r z e s ą d z i S112:o S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p r z e s ą d z S112:o S117:n S126:y S130:c S147:h	0.4928092956542969	1
+z a d a w a l a S117:n S133:e S145:j	z a d a w a l a S117:n S133:e S145:j	0.06323491781949997	0
+k r ę g l a r z	k r ę g l a r z S95:a	0.848749041557312	1
+S1:n S6:i S8:e m a i l o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e m a i l o w a S117:n S126:y S130:c S147:h	0.06366670876741409	0
+o ł o w i o w a S117:n S133:e	o ł o w i o w a S117:n S133:e	0.06375349313020706	0
+p o d w l e k a S117:n S126:y	p o d w l e k a S117:n S126:y	0.06292516738176346	0
+S1:n S6:i S8:e w y p u n k t o w y w a S117:n S133:e	S1:n S6:i S8:e w y p u n k t o w y w a S117:n S133:e	0.06236237287521362	0
+o d ł a d o w y w a S117:n S126:y S130:c S147:h	o d ł a d o w y w a S117:n S126:y S130:c S147:h	0.06100074574351311	0
+S1:n S6:i S8:e z a b l o k o w a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e z a b l o k o w a S36:n S45:i S61:o S68:m   s i ę	0.06133917346596718	0
+S1:n S3:a S10:j h o j n S24:i S27:e S41:j S44:s S60:z y S87:m S109:i	S1:n S3:a S10:j h o j n S24:i S27:e S41:j S44:s S60:z y S87:m S109:i	0.048494964838027954	0
+z a k o ń c z S112:o S117:n S133:e	z a k o ń c z S112:o S117:n S133:e	0.05795401707291603	0
+S1:n S6:i S8:e p o r a d z i S112:o S117:n S133:e S145:j	S1:n S6:i S8:e p o r a d z S112:o S117:n S133:e S145:j	0.2995435297489166	1
+d o p i s y w a S117:n S133:e	d o p i s y w a S117:n S133:e	0.06329111754894257	0
+S1:n S6:i S8:e n a w i l ż S61:o S64:n y	S1:n S6:i S8:e n a w i l ż S61:o S64:n y	0.06475536525249481	0
+w y s z a n t a ż o w a S117:n S133:e S145:j	w y s z a n t a ż o w a S117:n S133:e S145:j	0.061752770096063614	0
+S1:n S6:i S8:e o b o z o w a S117:n S132:i S133:e	S1:n S6:i S8:e o b o z o w a S117:n S132:i S133:e	0.06313162297010422	0
+p r z e n i k l i w S44:s S60:z y S130:c S147:h	p r z e n i k l i w S44:s S60:z y S130:c S147:h	0.06337914615869522	0
+l i f t o w a S117:n S126:y	l i f t o w a S117:n S126:y	0.06067147105932236	0
+S0:b S2:ę S4:d S7:ę S18:  p r z y p r a ż a ć   s i ę	S0:b S2:ę S4:d S7:ę S18:  p r z y p r a ż a S32:ł S62:a   s i ę	0.42486730217933655	2
+t ę ż S61:o S64:n y	t ę ż S112:o S117:n S126:y	1.2373555898666382	3
+z m y ś l a S117:n S151:i	z m y ś l a S117:n S151:i	0.05810397118330002	0
+S1:n S6:i S8:e p o r z u c S112:o S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p o r z u c S112:o S117:n S126:y S130:c S147:h	0.0629110038280487	0
+p e l e n g o w a S117:n S133:e S140:m S154:u	p e l e n g o w a S117:n S133:e S140:m S154:u	0.06159873679280281	0
+S1:n S6:i S8:e d o w i e r c a S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e d o w i e r c a S41:j S42:ą S57:c S59:y S68:m   s i ę	0.06425030529499054	0
+S1:n S3:a S10:j u g o d n S24:i S27:e S41:j S44:s S60:z y S87:m S109:i	S1:n S3:a S10:j u g o d n S24:i S27:e S41:j S44:s S60:z y S87:m S109:i	0.04955124482512474	0
+z y s k a ć   s i ę	z y s k a S41:j S42:ą   s i ę	0.17149502038955688	2
+p r a w y S130:c S147:h	p r a w S44:s S60:z y S130:c S147:h	0.8400837779045105	2
+S1:n S6:i S8:e p o p o d g i n a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p o p o d g i n a S117:n S126:y S130:c S147:h	0.06407786905765533	0
+p r z e t a p i a S117:n S151:i	p r z e t a p i a S117:n S151:i	0.0640384703874588	0
+b i o g r a f	b i o g r a f S133:e S140:m	0.8355733156204224	2
+S1:n S6:i S8:e p r z e h u l t a j a S117:n S151:i S155:a	S1:n S6:i S8:e p r z e h u l t a j a S117:n S151:i S155:a	0.06105474755167961	0
+S1:n S6:i S8:e w y j ę k i w a S117:n S133:e	S1:n S6:i S8:e w y j ę k i w a S117:n S133:e	0.06220599263906479	0
+n a r z ą d z i S105:c S109:i S133:e	n a r z ą d z S106:ą	1.752540946006775	4
+g i e ł d z i a r s t w o o	g i e ł d z i a r s t w o	0.2650207579135895	1
+S1:n S6:i S8:e h a c z y S117:n S133:e	S1:n S6:i S8:e h a c z S112:o S117:n S133:e	0.5964546203613281	1
+s t ę s k n i S27:e S57:c S59:y   s i ę	s t ę s k n i S42:ą   s i ę	0.18370158970355988	3
+m e t r o s e k s u a l i s t a	m e t r o s e k s u a l i s t S127:ę	0.5262353420257568	1
+r o z s i e r d z a S117:n S126:y	r o z s i e r d z a S117:n S126:y	0.06511165201663971	0
+S1:n S6:i S8:e z a k w a l i f i k S33:u S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e z a k w a l i f i k o w S33:u S41:j S42:ą S57:c y S68:m   s i ę	0.4903401732444763	3
+S1:n S6:i S8:e p r z y w i e S90:s S109:i S112:o S117:n S126:y	S1:n S6:i S8:e p r z y w i e S100:d S101:z S109:i S112:o S117:n S126:y	0.5687572360038757	2
+z r a ż a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	z r a ż a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.05349887162446976	0
+S1:n S6:i S8:e u s t a t k o w y w a S117:n S126:y S140:m	S1:n S6:i S8:e u s t a t k o w y w a S117:n S126:y S140:m	0.06183787062764168	0
+S1:n S6:i S8:e r o z k o c h i w a S117:n S151:i S155:a	S1:n S6:i S8:e r o z k o c h i w a S117:n S151:i S155:a	0.06316351145505905	0
+S1:n S3:a S10:j m o d e r o w n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	S1:n S3:a S10:j m o d e r o w n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	0.0677158385515213	0
+S1:n S6:i S8:e p r z y p y t y w a S117:n S151:i S155:a	S1:n S6:i S8:e p r z y p y t y w a S117:n S151:i S155:a	0.09672097861766815	0
+S1:n S6:i S8:e o d w i e ź S61:o S64:n y S130:c S147:h	S1:n S6:i S8:e o d w i e S101:z S109:i S112:o S117:n S126:y S130:c S147:h	0.9437151551246643	5
+o d k a z a S117:n S133:e S138:g S139:o	o d k a z a S117:n S133:e S138:g S139:o	0.058977242559194565	0
+S1:n S6:i S8:e t ę ż S61:o S64:n y S87:m	S1:n S6:i S8:e t ę ż S112:o S117:n S133:e S138:g S139:o	0.7145708203315735	5
+S1:n S6:i S8:e s ł a S117:n S126:y S140:m	S1:n S6:i S8:e s ł a S117:n S126:y S140:m	0.07732369750738144	0
+z h a ń b i a S117:n S133:e S145:j	z h a ń b i a S117:n S133:e S145:j	0.05859924852848053	0
+n a j m o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	n a j m o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.05731116607785225	0
+s k ł ę b i S112:o S117:n S133:e S138:g S139:o	s k ł ę b i S112:o S117:n S133:e S138:g S139:o	0.05380218103528023	0
+S1:n S6:i S8:e p o u p y c h a S117:n S152:ą	S1:n S6:i S8:e p o u p y c h a S117:n S152:ą	0.06251776218414307	0
+S1:n S6:i S8:e z d e p t a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e z d e p t a S117:n S126:y S130:c S147:h	0.06389309465885162	0
+S1:n S6:i S8:e z a w a r z a S117:n S132:i S133:e	S1:n S6:i S8:e z a w a r z a S117:n S132:i S133:e	0.06353025883436203	0
+o s t a w i a S117:n S126:y	o s t a w i a S117:n S126:y	0.06480332463979721	0
+p r z e z n a c z S133:e	p r z e z n a c z S112:o S117:n S133:e	0.3232150673866272	2
+z a w i ł S133:e	z a w i S89:l S90:s S101:z S133:e	3.6653268337249756	3
+z a o l e i S112:o S117:n S126:y S130:c S147:h	z a o l e S93:j S112:o S117:n S126:y S130:c S147:h	1.1336268186569214	1
+S1:n S6:i S8:e m a c z a S117:n S151:i S155:a	S1:n S6:i S8:e m a c z a S117:n S151:i S155:a	0.062242601066827774	0
+r o z b r a t a S117:n S133:e	r o z b r a t a S117:n S133:e	0.06366828829050064	0
+m a s t o d o n t S133:e S140:m	m a s t o d o n t S133:e S140:m	0.20839284360408783	0
+z a c h l i p n ą c h a ć   s i ę	z a c h l i p n ą   s i ę	0.42796874046325684	4
+S1:n S6:i S8:e z w ą c h i w a S117:n S133:e	S1:n S6:i S8:e z w ą c h i w a S117:n S133:e	0.06253508478403091	0
+l i p n ą S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	l i p n S97:ę S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.9966415762901306	1
+r e n t g e n i z o w a S117:n S133:e	r e n t g e n i z o w a S117:n S133:e	0.06354332715272903	0
+S1:n S6:i S8:e p o z a d z i e r a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e p o z a d z i e r a S117:n S132:i S139:o S140:m	0.5135285258293152	1
+S1:n S6:i S8:e o d m a l o w a S117:n S126:y	S1:n S6:i S8:e o d m a l o w a S117:n S126:y	0.06478584557771683	0
+S1:n S6:i S8:e p a s y w o w a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e p a s y w o w a S36:n S69:i S70:e   s i ę	0.06252002716064453	0
+u p a n c e r z S112:o S117:n S133:e S138:g S139:o	u p a n c e r z S112:o S117:n S133:e S138:g S139:o	0.057666003704071045	0
+s k o n s t a t S33:u S41:j S42:ą   s i ę	s k o n s t a t S33:u S41:j S42:ą   s i ę	0.06457693874835968	0
+S0:b S2:ę S4:d S7:ę S18:  o k r w a w i a S99:ł S136:a	S0:b S2:ę S4:d S7:ę S18:  o k r w a w i a S99:ł S136:a	0.06035321578383446	0
+p o d a t n S106:ą	p o d a t n S109:i S133:e S145:j <UNK> <UNK> S152:ą	1.8164749145507812	6
+S1:n S6:i S8:e z e d r z e S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e z d S38:a r S57:c <UNK> S61:o S68:m   s i ę	2.478891134262085	6
+z n i e ś S130:c S133:e	z n i e S90:s S109:i S112:o S117:n S133:e	0.4935932755470276	4
+S1:n S3:a S10:j d o r o ś l e S117:n S132:i S133:e S140:m	S1:n S3:a S10:j d o r o ś l e S93:j	1.1266344785690308	4
+S1:n S6:i S8:e z e s t ę p S86:u S93:j S106:ą S114:c S126:y S140:m	S1:n S6:i S8:e z e s t ę p S86:u S93:j S106:ą S114:c S126:y S140:m	0.05934429168701172	0
+S1:n S6:i S8:e o d d ł u b a S117:n S133:e	S1:n S6:i S8:e o d d ł u b a S117:n S133:e	0.06304042041301727	0
+S1:n S6:i S8:e m o l e s t o w a S117:n S133:e	S1:n S6:i S8:e m o l e s t o w a S117:n S133:e	0.0646938756108284	0
+S1:n S6:i S8:e z a ś w i t a S117:n S151:i S154:u	S1:n S6:i S8:e z a ś w i t a S117:n S132:i S139:o S140:m	0.9179414510726929	3
+S1:n S6:i S8:e p r z e s k a k i w a S117:n S126:y	S1:n S6:i S8:e p r z e s k a k i w a S117:n S126:y	0.06510741263628006	0
+u ż y c z a S117:n S133:e S145:j	u ż y c z a S117:n S133:e S145:j	0.05742992088198662	0
+w a l c o w a c z	w a l c o w a c z S95:a	0.6382855772972107	1
+ł a c h m a n S109:i	ł a c h m a n S95:a	0.768546998500824	1
+t ł u s t y S87:m	t ł u s <UNK> S90:s S101:z S133:e S140:m S154:u	2.6004483699798584	6
+s ł o w o t w ó r s t w S95:a	s ł o w o t w ó r s t w o	0.634308934211731	1
+p r z y w i o n S109:i S127:ę S131:t S133:e	p r z y w i o n S109:i S127:ę S131:t S133:e	0.05809776112437248	0
+S1:n S6:i S8:e p o d ś c i e ł a S117:n S126:y	S1:n S6:i S8:e p o d ś c i e ł a S117:n S126:y	0.06256956607103348	0
+p o s z c z e g ó l n i a S117:n S133:e	p o s z c z e g ó l n i a S117:n S133:e	0.06090410798788071	0
+S1:n S3:a S10:j ż a S20:ś S36:n S69:i S70:e S78:j ł S133:e S138:g S139:o	S1:n S3:a S10:j ż a ł o ś l i w S90:s S101:z S133:e S138:g S139:o	1.9915682077407837	8
+S1:n S6:i S8:e w y g i n S109:i S127:ę S131:t S126:y S130:c S147:h	S1:n S6:i S8:e w y g i n S109:i <UNK> <UNK> S126:y S130:c S147:h	1.7457242012023926	2
+w y k a r c z k S95:a	w y k a r c z a k S141:ó S144:w	0.9155175685882568	3
+S1:n S6:i S8:e p o r o z p y c h a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p o r o z p y c h a S117:n S126:y S130:c S147:h	0.06441252678632736	0
+S1:n S6:i S8:e z w ą t l a S117:n S133:e	S1:n S6:i S8:e z w ą t l a S117:n S133:e	0.06215086951851845	0
+S1:n S6:i S8:e ś c i ó ł k o w a S117:n S133:e	S1:n S6:i S8:e ś c i ó ł k o w a S117:n S133:e	0.060894109308719635	0
+S1:n S6:i S8:e w y s n o b o w a S117:n S133:e	S1:n S6:i S8:e w y s n o b o w a S117:n S133:e	0.06466411799192429	0
+S1:n S6:i S8:e o c z y n i a S117:n S132:i S133:e	S1:n S6:i S8:e o c z y n i a S117:n S132:i S133:e	0.06263986974954605	0
+S1:n S6:i S8:e p r z e c h ę d o ż S61:o S64:n y S130:c S147:h	S1:n S6:i S8:e p r z e c h ę d o ż S61:o S64:n y S130:c S147:h	0.05961278825998306	0
+d e m u l g o w a S117:n S126:y S130:c S147:h	d e e m u l g o w a S117:n S126:y S130:c S147:h	0.4681412875652313	1
+S1:n S6:i S8:e o d d r a m a t y z o w a S117:n S126:y	S1:n S6:i S8:e o d d r a m a t y z o w a S117:n S126:y	0.06686893105506897	0
+o s z a r p y w a S117:n S133:e	o s z a r p y w a S117:n S133:e	0.06472770124673843	0
+d a w n S133:e	d a w n S91:i S92:e S93:j <UNK> S101:z S133:e	3.4107980728149414	5
+k u ź n i k	k u ź n i k S95:a	1.032508134841919	1
+S1:n S6:i S8:e p r z e c e d z i S112:o S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p r z e c e d z S112:o S117:n S126:y S130:c S147:h	0.49405792355537415	1
+S1:n S3:a S10:j p r z y w i ą z a n y S130:c S147:h	S1:n S3:a S10:j p r z y w i ą z a S31:ń S44:s S60:z y S130:c S147:h	0.8379272222518921	3
+S1:n S6:i S8:e w y p r a c o w y w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e w y p r a c o w y w a S117:n S126:y S130:c S147:h	0.06256484240293503	0
+p o ś m i e w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	p o ś m i e w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.057427436113357544	0
+S1:n S6:i S8:e p o d p i w n i c z a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e p o d p i w n i c z a S36:n S45:i S61:o S68:m   s i ę	0.06222730129957199	0
+S1:n S3:a S10:j u l o t n S24:i S27:e S41:j S44:s S60:z S106:ą	S1:n S3:a S10:j u l o t n S109:i S133:e S145:j <UNK> <UNK> S152:ą	2.172441244125366	6
+S1:n S6:i S8:e z a d m u c h a S117:n S133:e S145:j	S1:n S6:i S8:e z a d m u c h a S117:n S133:e S145:j	0.0631733238697052	0
+w y s ł a n i c t w o S130:c S147:h	w y s ł a n n i c t w S95:a S130:c S147:h	0.754147469997406	2
+s e r w a l k S95:a	s e r w a l S109:i	0.8800510168075562	2
+o p a r k a n i S112:o S117:n S133:e	o p a r k a n i S112:o S117:n S133:e	0.06250079721212387	0
+S1:n S3:a S10:j w e S20:ś S36:n S69:i S70:e   s i ę	S1:n S3:a S10:j w e s S27:e S40:l S44:s S60:z y	2.6380834579467773	8
+p o c z y t n y S87:m	p o c z y t n S24:i S27:e S41:j S44:s S60:z y S87:m	0.16764529049396515	5
+S1:n S6:i S8:e u p o w a ż n i a S117:n S133:e	S1:n S6:i S8:e u p o w a ż n i a S117:n S133:e	0.06343556195497513	0
+S1:n S6:i S8:e b r z e g o w a S117:n S132:i S133:e	S1:n S6:i S8:e b r z e g o w a S117:n S132:i S133:e	0.06224813684821129	0
+p r z y p l ą t a S117:n S126:y S130:c S147:h	p r z y p l ą t a S117:n S126:y S130:c S147:h	0.05968957021832466	0
+S1:n S6:i S8:e w y m ó ż d ż a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e w y m ó ż d ż a S117:n S132:i S139:o S140:m	0.612639307975769	1
+S1:n S6:i S8:e p o d c z e r n i a S117:n S126:y S140:m	S1:n S6:i S8:e p o d c z e r n i a S117:n S126:y S140:m	0.0638720914721489	0
+S1:n S6:i S8:e z a b a l o t o w a S117:n S126:y	S1:n S6:i S8:e z a b a l o t o w a S117:n S126:y	0.0638357475399971	0
+S1:n S6:i S8:e w y l e s i a S117:n S133:e	S1:n S6:i S8:e w y l e s i a S117:n S133:e	0.06425484269857407	0
+w y m a c h l o w a S117:n S133:e	w y m a c h l o w a S117:n S133:e	0.06066054478287697	0
+S1:n S6:i S8:e o d c h r z ą k i w a S117:n S151:i S155:a	S1:n S6:i S8:e o d c h r z ą k i w a S117:n S151:i S155:a	0.06169615313410759	0
+S1:n S6:i S8:e o s i k i w a S117:n S152:ą	S1:n S6:i S8:e o s i k i w a S117:n S152:ą	0.06517615914344788	0
+S1:n S6:i S8:e o d u r z S27:e S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e o d u r z S27:e S36:n S45:i S61:o S68:m   s i ę	0.05927375331521034	0
+f r a z o w a S117:n S126:y	f r a z o w a S117:n S126:y	0.0618414506316185	0
+S1:n S6:i S8:e m a l w e r s o w a S117:n S132:i S133:e	S1:n S6:i S8:e m a l w e r s o w a S117:n S132:i S133:e	0.06248879432678223	0
+S1:n S6:i S8:e p r z e s k ł a d y w a S117:n S133:e	S1:n S6:i S8:e p r z e s k ł a d y w a S117:n S133:e	0.06283548474311829	0
+s n a d n S106:ą	s n a d n S109:i S133:e S145:j <UNK> <UNK> S152:ą	2.372377872467041	6
+h u ś t a S117:n S133:e	h u ś t a S117:n S133:e	0.0577627569437027	0
+S1:n S6:i S8:e w y p s i k i w a S117:n S133:e	S1:n S6:i S8:e w y p s i k i w a S117:n S133:e	0.06422318518161774	0
+S1:n S6:i S8:e o d r y p a S117:n S151:i S154:u	S1:n S6:i S8:e o d r y p a S117:n S132:i S139:o S140:m	0.9964638948440552	3
+c h o d l i w S44:s S60:z y S130:c S147:h	c h o d l i w S44:s S60:z y S130:c S147:h	0.05692223459482193	0
+d o n i o s ł y S87:m S109:i	d o n i o S20:ś <UNK> S27:e S41:j s S60:z y S87:m S109:i	2.6720879077911377	5
+S1:n S6:i S8:e r o z S97:ę S100:d e r k i w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e r o z ć w i e r k i w a S117:n S126:y S130:c S147:h	0.41688427329063416	3
+z r e k o m p e n s o w a ć   s i ę	z r e k o m p e n s S33:u S41:j S42:ą   s i ę	0.4977455735206604	4
+S1:n S6:i S8:e p r z e i n s t a l o w y w a S117:n S133:e	S1:n S6:i S8:e p r z e i n s t a l o w y w a S117:n S133:e	0.06387864798307419	0
+u n i e p o d o b n i S112:o S117:n S133:e S145:j	u n i e p o d o b n i S112:o S117:n S133:e S145:j	0.06263763457536697	0
+z r y z y k o w a S117:n S126:y S130:c S147:h	z r y z y k o w a S117:n S126:y S130:c S147:h	0.06220291927456856	0
+S1:n S6:i S8:e n a s t r z y k i w a S117:n S126:y S140:m	S1:n S6:i S8:e n a s t r z y k i w a S117:n S126:y S140:m	0.06331971287727356	0
+r a d o ś n i k	r a d o ś n i k S139:o S144:w S151:i	0.6796679496765137	3
+S1:n S6:i S8:e w i ó r o w a S117:n S133:e S145:j	S1:n S6:i S8:e w i ó r o w a S117:n S133:e S145:j	0.06360303610563278	0
+S1:n S6:i S8:e g n o i S103:t S126:y	S1:n S6:i S8:e g n o S93:j S112:o S117:n S126:y	1.317999243736267	3
+S1:n S6:i S8:e u r o n i S112:o S117:n S126:y	S1:n S6:i S8:e u r o n i S112:o S117:n S126:y	0.0647762194275856	0
+j o k e r S61:o b S104:u	j o k e r S95:a	1.1617385149002075	3
+o d k r a p i a S117:n S133:e	o d k r a p i a S117:n S133:e	0.06455542892217636	0
+r e k s p o r t o w a S117:n S133:e	r e e k s p o r t o w a S117:n S133:e	0.5458114743232727	1
+g u p i k S139:o S144:w S151:i	g u p i k S95:a	1.1005045175552368	3
+S1:n S6:i S8:e r o z p i n a S117:n S132:i S133:e	S1:n S6:i S8:e r o z p i n a S117:n S132:i S133:e	0.0638372004032135	0
+m o t o r y z o w a S117:n S133:e	m o t o r y z o w a S117:n S133:e	0.0629318431019783	0
+b i e g ł y S87:m	b i e g <UNK> S27:e S41:j S44:s S60:z y S87:m	1.2053736448287964	5
+S1:n S6:i S8:e w y p i s y w a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e w y p i s y w a S36:n S45:i S61:o S68:m   s i ę	0.060509782284498215	0
+S1:n S6:i S8:e s k o n s p i r o w a S117:n S133:e	S1:n S6:i S8:e s k o n s p i r o w a S117:n S133:e	0.06628529727458954	0
+j a s k i e r S95:a S130:c S147:h	j a s k r S95:a S130:c S147:h	1.7757703065872192	2
+S1:n S6:i S8:e u k a r m i a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e u k a r m i a S117:n S126:y S130:c S147:h	0.06405952572822571	0
+z b i e r y w a S117:n S133:e	z b i e r y w a S117:n S133:e	0.06279025971889496	0
+S1:n S6:i S8:e o d b ł y s n S109:i S127:ę S131:t S126:y S130:c S147:h	S1:n S6:i S8:e o d b ł y S37:ś n S109:i <UNK> <UNK> S126:y S130:c S147:h	1.6571016311645508	3
+S1:n S6:i S8:e o ś w i a d c z a S117:n S151:i S155:a	S1:n S6:i S8:e o ś w i a d c z a S117:n S151:i S155:a	0.06265167146921158	0
+S1:n S6:i S8:e c h r y s t i a n i z o w a S117:n S133:e	S1:n S6:i S8:e c h r y s t i a n i z o w a S117:n S133:e	0.06325261294841766	0
+c z e k o l a d o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	c z e k o l a d o w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.05901173874735832	0
+S1:n S6:i S8:e p r z e d e f i n i o w y w a S117:n S133:e	S1:n S6:i S8:e p r z e d e f i n i o w y w a S117:n S133:e	0.062453560531139374	0
+o g ł u p i e S105:c S109:i S133:e	o g ł u p i e S93:j S106:ą	1.7302688360214233	3
+S1:n S6:i S8:e p o d s t r y c h n S109:i S127:ę S131:t S126:y S130:c S147:h	S1:n S6:i S8:e p o d s t r y c h n S109:i <UNK> <UNK> S126:y S130:c S147:h	0.984099268913269	2
+S1:n S6:i S8:e p r z e j u s t o w a S117:n S152:ą	S1:n S6:i S8:e p r z e j u s t o w a S117:n S152:ą	0.06366784870624542	0
+S0:b S2:ę S4:d S7:ę S18:  p o ł a p S33:u S41:j S42:ą S57:c a   s i ę	S0:b S2:ę S4:d S7:ę S18:  p o ł a p y w a S32:ł S62:a   s i ę	0.2644042372703552	5
+S1:n S6:i S8:e p o r o z w i e r a S117:n S126:y	S1:n S6:i S8:e p o r o z w i e r a S117:n S126:y	0.06612098962068558	0
+z u c h w a l e S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	z u c h w a l S30:a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i e	0.504371166229248	9
+j o k e r S95:a S130:c S147:h	j o k e r S95:a S130:c S147:h	0.058711376041173935	0
+S1:n S6:i S8:e z m a l o w y w a S117:n S126:y S140:m	S1:n S6:i S8:e z m a l o w y w a S117:n S126:y S140:m	0.06185076758265495	0
+S1:n S6:i S8:e p o z d m u c h i w a S117:n S126:y	S1:n S6:i S8:e p o z d m u c h i w a S117:n S126:y	0.06375331431627274	0
+w i n i l e u m S95:a	w i n i l e S95:a	1.017823338508606	2
+p a p r y k o w a S117:n S133:e	p a p r y k o w a S117:n S133:e	0.06397731602191925	0
+z a g n o i S112:o S117:n S133:e	z a g n o S93:j S112:o S117:n S133:e	1.385770320892334	1
+S1:n S3:a S10:j s t a S20:ś S36:n S69:i S75:u   s i ę	S1:n S3:a S10:j s t a r o d a w n S91:i S92:e S93:j <UNK> S101:z S133:e S145:j	2.54374623298645	13
+w o l t e r i a n i s t a S130:c S147:h	w o l t e r i a n i s t S141:ó S144:w	0.5742084383964539	3
+w o d e w i l i s t a S87:m	w o d e w i l i s t S106:ą	0.7035776972770691	2
+n i e o k r z e s a n i e c S101:z S109:i S133:e	n i e o k r z e s a S31:ń c S95:a	1.7340402603149414	6
+e - m a i l o w a S117:n S126:y S130:c S147:h	e - m a i l o w a S117:n S126:y S130:c S147:h	0.07526353746652603	0
+z a f o l i o w a S117:n S133:e	z a f o l i o w a S117:n S133:e	0.06261521577835083	0
+z a w i a d S33:u S41:j S42:ą   s i ę	z a w i a d o m i S42:ą   s i ę	0.9681071043014526	3
+n a t a s k a S117:n S133:e	n a t a s k a S117:n S133:e	0.06395359337329865	0
+p o n a c i n a S117:n S133:e	p o n a c i n a S117:n S133:e	0.06533190608024597	0
+r o z t ł a c z a S117:n S133:e S145:j	r o z t ł a c z a S117:n S133:e S145:j	0.062340956181287766	0
+S1:n S6:i S8:e r e a n i m S33:u S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e r e a n i m S33:u S41:j S42:ą S57:c S59:y S68:m   s i ę	0.0635470300912857	0
+S1:n S6:i S8:e s c h r u s t a S117:n S152:ą	S1:n S6:i S8:e s c h r u s t a S117:n S152:ą	0.06324321776628494	0
+S1:n S6:i S8:e p o r a ż a S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e p o r a ż a S41:j S42:ą S57:c S59:y S68:m   s i ę	0.06262218207120895	0
+p o k o ł y s a ć	p o k o ł y s S101:z S106:ą	2.2898812294006348	2
+S1:n S6:i S8:e z r e a s e k u r o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e z r e a s e k u r o w a S117:n S126:y S130:c S147:h	0.06474367529153824	0
+S1:n S6:i S8:e a r t y k u ł o w a S117:n S133:e S145:j	S1:n S6:i S8:e a r t y k u ł o w a S117:n S133:e S145:j	0.06271658092737198	0
+k a ł a u z o w a S117:n S126:y	k a ł a u z o w a S117:n S126:y	0.06234268471598625	0
+p o b r y w a S117:n S126:y S130:c S147:h	p o o b r y w a S117:n S126:y S130:c S147:h	0.17550323903560638	1
+S1:n S6:i S8:e p o d e j m o w a S36:n S69:i S72:a   s i ę	S1:n S6:i S8:e p o d e j m o w a S36:n S69:i S72:a   s i ę	0.0629284605383873	0
+S1:n S6:i S8:e e g z e m p l i f i k o w a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e e g z e m p l i f i k o w a S117:n S132:i S139:o S140:m	0.4284990429878235	1
+S1:n S6:i S8:e d o m o n t o w y w a S117:n S133:e	S1:n S6:i S8:e d o m o n t o w y w a S117:n S133:e	0.06389007717370987	0
+k e n d o S95:a	k e n d o	1.1422382593154907	1
+S1:n S6:i S8:e p o f o r m o w a S117:n S152:ą	S1:n S6:i S8:e p o f o r m o w a S117:n S152:ą	0.06339849531650543	0
+d z i e k a n S109:i	d z i e k a n S95:a	0.730330228805542	1
+S1:n S3:a S10:j g ł u c h S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	S1:n S3:a S10:j g ł u c h S44:s S60:z y S130:c S147:h	0.5622103214263916	3
+d o ś w i e t l S112:o S117:n S126:y S130:c S147:h	d o ś w i e t l S112:o S117:n S126:y S130:c S147:h	0.059649933129549026	0
+S1:n S6:i S8:e p o p r z e z i ę b i a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e p o p r z e z i ę b i a S36:n S45:i S61:o S68:m   s i ę	0.0629689171910286	0
+S1:n S6:i S8:e w y f r y m a r c z a S117:n S151:i S155:a	S1:n S6:i S8:e w y f r y m a r c z a S117:n S151:i S155:a	0.059628307819366455	0
+s z a t a n S139:o S140:m	s z a t a n S139:o S140:m	0.06023985892534256	0
+t e n t o w a S117:n S126:y	t e n t o w a S117:n S126:y	0.06338851153850555	0
+S1:n S6:i S8:e o b r ó w n y w a S36:n S69:i S72:a   s i ę	S1:n S6:i S8:e o b r ó w n y w a S36:n S69:i S72:a   s i ę	0.06174495071172714	0
+k o t e k S109:i	k o t k S109:i	1.3633332252502441	1
+S1:n S6:i S8:e z a s z y d e ł k o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e z a s z y d e ł k o w a S117:n S126:y S130:c S147:h	0.06259876489639282	0
+S1:n S6:i S8:e p r o p o r c j o n o w a S36:n S69:i S72:a   s i ę	S1:n S6:i S8:e p r o p o r c j o n o w a S36:n S69:i S72:a   s i ę	0.06349799782037735	0
+t u r l i k a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	t u r l i k a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.05630699545145035	0
+S1:n S3:a S10:j p r z y s t ę p n S24:i S27:e S41:j S44:s S60:z y S87:m S109:i	S1:n S3:a S10:j p r z y s t ę p n S24:i S27:e S41:j S44:s S60:z y S87:m S109:i	0.09245718270540237	0
+S1:n S6:i S8:e h i p e r b o l i z o w a S117:n S132:i S133:e	S1:n S6:i S8:e h i p e r b o l i z o w a S117:n S132:i S133:e	0.061635665595531464	0
+S1:n S6:i S8:e n a d s a l a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e n a d s a l a S117:n S126:y S130:c S147:h	0.06422778218984604	0
+u t e r e n o w i S112:o S117:n S126:y S130:c S147:h	u t e r e n o w i S112:o S117:n S126:y S130:c S147:h	0.06178603321313858	0
+p o p a l a S117:n S133:e	p o p a l a S117:n S133:e	0.06361854076385498	0
+S1:n S6:i S8:e d y f t o n g i z o w a S117:n S132:i S133:e	S1:n S6:i S8:e d y f t o n g i z o w a S117:n S132:i S133:e	0.05997416377067566	0
+S1:n S3:a S10:j s r e b r z y s t S133:e S145:j	S1:n S3:a S10:j s r e b r z y s t S44:s S60:z y S130:c S147:h	0.5061137080192566	5
+s k r z e l o n ó S87:m	s k r z e l o n S61:o g S139:o S140:m	1.0040370225906372	4
+c e g i e l n i c t w S95:a	c e g i e l n i c t w S95:a	0.06027837097644806	0
+w y p o m a d o w a S117:n S126:y S130:c S147:h	w y p o m a d o w a S117:n S126:y S130:c S147:h	0.06285664439201355	0
+S1:n S6:i S8:e z a p i e c z ę t o w y w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e z a p i e c z ę t o w y w a S117:n S126:y S130:c S147:h	0.0626220554113388	0
+w y b e ł t a ć   s i ę	w y b e ł t a S41:j S42:ą   s i ę	0.46084699034690857	2
+d r o b n y	d r o b n S24:i S27:e S41:j S44:s S60:z y	0.4809098541736603	5
+S1:n S6:i S8:e m u s t r o w a S117:n S126:y S140:m	S1:n S6:i S8:e m u s t r o w a S117:n S126:y S140:m	0.06359754502773285	0
+S1:n S6:i S8:e u k a p i t a l i s t y c z n i a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e u k a p i t a l i s t y c z n i a S117:n S126:y S130:c S147:h	0.06215957552194595	0
+z a w a r z S112:o S117:n S133:e S145:j	z a w a r z S112:o S117:n S133:e S145:j	0.07641270011663437	0
+S1:n S6:i S8:e o d c z ł o w i e c z a S117:n S126:y S140:m	S1:n S6:i S8:e o d c z ł o w i e c z a S117:n S126:y S140:m	0.06256120651960373	0
+m a r t e n s S104:u	m a r t e n s S133:e S140:m	0.24623826146125793	2
+l a s z o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	l a s z o w a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.05763627216219902	0
+S1:n S6:i S8:e u t ł u c S112:o S117:n S126:y S130:c S147:h	S1:n S6:i S8:e u t ł u c S101:z S112:o S117:n S126:y S130:c S147:h	0.40629538893699646	1
+S1:n S6:i S8:e s p r o f i l o w a S117:n S133:e S145:j	S1:n S6:i S8:e s p r o f i l o w a S117:n S133:e S145:j	0.06384163349866867	0
+r o z s z y S117:n S133:e	r o z s z y S103:t S133:e	0.7343320250511169	1
+p r z e s i ą c S112:o S117:n S126:y S130:c S147:h	p r z e s i ą <UNK> S36:n S45:i S51:ę <UNK> S59:y c <UNK>	3.806762218475342	8
+S1:n S6:i S8:e d ź w i g a S117:n S152:ą	S1:n S6:i S8:e d ź w i g a S117:n S152:ą	0.06024504080414772	0
+S1:n S6:i S8:e s t r o f o w a S117:n S126:y	S1:n S6:i S8:e s t r o f o w a S117:n S126:y	0.06388892233371735	0
+w y g o d n S133:e	w y g o d n S91:i S92:e S93:j <UNK> S101:z S133:e	2.9540328979492188	5
+S1:n S6:i S8:e s r e b r z S112:o S117:n S133:e	S1:n S6:i S8:e s r e b r z S112:o S117:n S133:e	0.06523142755031586	0
+S1:n S6:i S8:e s t ę b n o w a S117:n S152:ą	S1:n S6:i S8:e s t ę b n o w a S117:n S152:ą	0.06463272124528885	0
+S1:n S3:a S10:j s t a S20:ś S36:n S69:i S70:e S78:j r o S87:m S109:i	S1:n S3:a S10:j s t a r o d a w n S91:i S92:e S93:j <UNK> S101:z S126:y S140:m S151:i	2.139270305633545	14
+S1:n S6:i S8:e w y t ł o m a c z S92:e S117:n S132:i S133:e S140:m	S1:n S6:i S8:e w y t ł o m a c z S133:e <UNK> <UNK> S139:o S140:m	1.3681163787841797	4
+p o j a ś n i S112:o S117:n S133:e S138:g S139:o	p o j a ś n i S112:o S117:n S133:e S138:g S139:o	0.055900003761053085	0
+S1:n S6:i S8:e u s t r o i S112:o S117:n S126:y	S1:n S6:i S8:e u s t r o S93:j S112:o S117:n S126:y	1.0743056535720825	1
+S1:n S6:i S8:e r o z s a d a S41:j S42:ą S57:c S59:y S68:m   s i ę	S1:n S6:i S8:e r o z s a d a w i a S41:j S42:ą S57:c S59:y S68:m   s i ę	0.32711875438690186	3
+m a s y w n S133:e S142:ń	m a s y w n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	0.5379881262779236	8
+w e z w y c z a j a S117:n S126:y S130:c S147:h	w e z w y c z a j a S117:n S126:y S130:c S147:h	0.060961317270994186	0
+p r z e g a r b o w a S117:n S126:y S130:c S147:h	p r z e g a r b o w a S117:n S126:y S130:c S147:h	0.06307503581047058	0
+S1:n S6:i S8:e s p a s a S117:n S133:e S145:j	S1:n S6:i S8:e s p a s a S117:n S133:e S145:j	0.06576577574014664	0
+S1:n S6:i S8:e d u p l i k o w a S117:n S152:ą	S1:n S6:i S8:e d u p l i k o w a S117:n S152:ą	0.06390492618083954	0
+S1:n S6:i S8:e u m a c z a S93:j S106:ą S114:c S126:y S140:m	S1:n S6:i S8:e u m a c z a S93:j S106:ą S114:c S126:y S140:m	0.060177311301231384	0
+S1:n S6:i S8:e d o k o p S33:u S41:j S42:ą S57:c y S87:m	S1:n S6:i S8:e d o k o p y w a S117:n S132:i S139:o S140:m	1.2696418762207031	7
+S1:n S6:i S8:e r o z c z e p i a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e r o z c z e p i a S36:n S45:i S61:o S68:m   s i ę	0.0622948482632637	0
+p u s z k o w a S117:n S151:i	p u s z k o w a S117:n S151:i	0.06395497173070908	0
+p o k u s z a S117:n S133:e	p o k u s z a S117:n S133:e	0.06420747935771942	0
+a g u t i S106:ą	a g u t i	1.3916858434677124	1
+S1:n S6:i S8:e z a k i s z a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e z a k i s z a S117:n S126:y S130:c S147:h	0.06491849571466446	0
+S1:n S6:i S8:e u w a ł o w a S117:n S133:e S145:j	S1:n S6:i S8:e u w a ł o w a S117:n S133:e S145:j	0.06377314776182175	0
+S1:n S6:i S8:e o w i ą z y w a S117:n S132:i S133:e	S1:n S6:i S8:e o w i ą z y w a S117:n S132:i S133:e	0.06076061725616455	0
+r e w i z y t S33:u S41:j S42:ą   s i ę	r e w i z y t S86:u S93:j S106:ą	2.0051681995391846	7
+S1:n S6:i S8:e n a s z k l S112:o S117:n S126:y S130:c S147:h	S1:n S6:i S8:e n a s z k l S112:o S117:n S126:y S130:c S147:h	0.06266259402036667	0
+s z c z y r y S130:c S133:e	s z c z y r S90:s S101:z S133:e	2.173750638961792	2
+o b s z c z e k i w a S117:n S133:e	o b s z c z e k i w a S117:n S133:e	0.06344342231750488	0
+z a i n i c j o w a S117:n S126:y S130:c S147:h	z a i n i c j o w a S117:n S126:y S130:c S147:h	0.06271599233150482	0
+r o z d o l i n i e n i S95:a	r o z d o l i n i e n i e	0.7062991261482239	1
+m a l e ń t a s S104:u	m a l e ń t a s S133:e S140:m	0.7117095589637756	2
+S1:n S6:i S8:e o d ż u ż l o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e o d ż u ż l o w a S117:n S126:y S130:c S147:h	0.06036222726106644	0
+S1:n S6:i S8:e o d r ę b y w a S117:n S152:ą	S1:n S6:i S8:e o d r ę b y w a S117:n S152:ą	0.06281358748674393	0
+S1:n S6:i S8:e p o r y k i w a S117:n S151:i S154:u	S1:n S6:i S8:e p o r y k i w a S117:n S132:i S139:o S140:m	0.7034561634063721	3
+S1:n S6:i S8:e n a r k o t y z o w a S117:n S151:i S155:a	S1:n S6:i S8:e n a r k o t y z o w a S117:n S151:i S155:a	0.06292014569044113	0
+S1:n S6:i S8:e p r z y c h y l a S117:n S126:y	S1:n S6:i S8:e p r z y c h y l a S117:n S126:y	0.062118951231241226	0
+p o d z i e r ż a w i S112:o S117:n S133:e	p o d d z i e r ż a w i S112:o S117:n S133:e	0.45236119627952576	1
+d o s t a t e c z n S95:a	d o s t a t e c z n S109:i S133:e S145:j <UNK> <UNK> S155:a	2.6190383434295654	6
+S1:n S6:i S8:e p r z y p r a s o w a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e p r z y p r a s o w a S36:n S45:i S61:o S68:m   s i ę	0.06245832517743111	0
+S1:n S6:i S8:e p r z e d u k i w a S117:n S133:e	S1:n S6:i S8:e p r z e d u k i w a S117:n S133:e	0.065190389752388	0
+m o d n y S130:c S147:h	m o d n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	0.6312529444694519	5
+k r ą ż k o w a S117:n S126:y	k r ą ż k o w a S117:n S126:y	0.05847778171300888	0
+S1:n S6:i S8:e ś l i n i S112:o S117:n S126:y S140:m	S1:n S6:i S8:e ś l i n i S112:o S117:n S126:y S140:m	0.06078118458390236	0
+o k o p c z y k o w a S117:n S133:e	o k o p c z y k o w a S117:n S133:e	0.06266257911920547	0
+S0:b S2:ę S4:d S7:ę S18:  p r z e w i l ż a ć   s i ę	S0:b S2:ę S4:d S7:ę S18:  p r z e w i l ż a S32:ł S62:a   s i ę	0.43033772706985474	2
+p o d s i w i S112:o S117:n S126:y S130:c S147:h	p o d s i w i S112:o S117:n S126:y S130:c S147:h	0.06186184659600258	0
+z a l a m i n o w a S117:n S133:e	z a l a m i n o w a S117:n S133:e	0.06462188065052032	0
+S1:n S6:i S8:e p r z e d r a m a t y z o w a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e p r z e d r a m a t y z o w y w a S36:n S69:i S70:e   s i ę	0.3458387553691864	2
+S1:n S6:i S8:e r o z c h l a p y w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e r o z c h l a p y w a S117:n S126:y S130:c S147:h	0.062438398599624634	0
+n a d y b a S117:n S133:e	n a d y b a S117:n S133:e	0.061269812285900116	0
+S1:n S6:i S8:e e g a l i t a r y z o w a S117:n S126:y S140:m	S1:n S6:i S8:e e g a l i t a r y z o w a S117:n S126:y S140:m	0.061704374849796295	0
+S1:n S6:i S8:e z a p u s z c z a S117:n S126:y	S1:n S6:i S8:e z a p u s z c z a S117:n S126:y	0.06516489386558533	0
+n i e r o z w a ż n y S130:c S147:h	n i e r o z w a ż n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	0.4022694528102875	5
+S1:n S3:a S10:j n i e z ł o m n S133:e S145:j	S1:n S3:a S10:j n i e z ł o m n S91:i S92:e S93:j <UNK> S101:z S133:e S145:j	2.18035626411438	5
+z n i e l u b i S27:e S57:c S59:y   s i ę	z n i e l u b i S42:ą   s i ę	0.3272145688533783	3
+p r a g m a t y z o w a S117:n S133:e	p r a g m a t y z o w a S117:n S133:e	0.06198805198073387	0
+p o k o ś c S112:o S117:n S133:e	p o k o S44:s S60:z c S101:z S112:o S117:n S133:e	1.4571796655654907	3
+S1:n S6:i S8:e p o c i u p c S112:o S117:n S152:ą	S1:n S6:i S8:e p o c i u p c i a S117:n S152:ą	0.4615674316883087	2
+S1:n S6:i S8:e a f r y k a n i z o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e a f r y k a n i z o w a S117:n S126:y S130:c S147:h	0.06280447542667389	0
+t a l k o w a S117:n S126:y	t a l k o w a S117:n S126:y	0.0627666711807251	0
+S1:n S6:i S8:e p r z y l i z a S117:n S126:y	S1:n S6:i S8:e p r z y l i z a S117:n S126:y	0.06469596922397614	0
+S1:n S3:a S10:j r y t m i c z n S133:e S145:j	S1:n S3:a S10:j r y t m i c z n S91:i S92:e S93:j <UNK> S101:z S133:e S145:j	2.050623655319214	5
+z w i e r z y ć	z w i e r z S106:ą	1.9905226230621338	2
+n a s t o p e r c z S133:e S138:g S139:o	n a s t o p e r c z S112:o S117:n S133:e S138:g S139:o	0.4921472370624542	2
+s ł o n e ń k o S133:e	s ł o n e ń k S95:a	0.8184354901313782	2
+u t o ż s a m i S112:o S117:n S133:e S145:j	u t o ż s a m i S112:o S117:n S133:e S145:j	0.05831392854452133	0
+S1:n S3:a S10:j c i e k a w S133:e S145:j	S1:n S3:a S10:j c i e k a w S90:s S101:z S133:e S145:j	1.6593549251556396	2
+c y p r y s S104:u	c y p r y s S95:a	1.1263117790222168	1
+w y r e p e r o w y w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	w y r e p e r o w y w a S32:ł S48:y S50:b S52:y S54:ś S57:c S69:i S70:e   s i ę	0.058326784521341324	0
+S1:n S6:i S8:e h a c k o w a S117:n S126:y	S1:n S6:i S8:e h a c k o w a S117:n S126:y	0.06452301889657974	0
+S1:n S6:i S8:e u z m y s ł o w i S112:o S117:n S126:y	S1:n S6:i S8:e u z m y s ł o w i S112:o S117:n S126:y	0.06100403144955635	0
+p r z e k r w a w i S112:o S117:n S133:e	p r z e k r w a w i S112:o S117:n S133:e	0.06328269094228745	0
+p i e c z ą t k a r z S109:i	p i e c z ą t k a r z S133:e S140:m	0.4138234555721283	2
+d o s k a l i s k o S87:m	<UNK> o s k a l i s k S109:i S133:e S140:m	1.760709285736084	4
+S1:n S6:i S8:e p o d o c z e p i a S117:n S126:y	S1:n S6:i S8:e p o d o c z e p i a S117:n S126:y	0.0651555210351944	0
+S1:n S6:i S8:e o b s k u b y w a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e o b s k u b y w a S36:n S69:i S70:e   s i ę	0.06118476390838623	0
+s p a t r z S112:o S117:n S133:e	s p a t r z S112:o S117:n S133:e	0.0655796080827713	0
+t a s k a S117:n S126:y	t a s k a S117:n S126:y	0.062379226088523865	0
+S1:n S6:i S8:e w z j e ż a S117:n S152:ą	S1:n S6:i S8:e w z j e ż a S117:n S152:ą	0.05942223593592644	0
+S1:n S6:i S8:e z r u m i e n i a S117:n S133:e	S1:n S6:i S8:e z r u m i e n i a S117:n S133:e	0.06517692655324936	0
+j e ż y n i a k S139:o S144:w S151:i	j e ż y n i a k S139:o S144:w S151:i	0.05406436696648598	0
+S1:n S6:i S8:e s k r a c a S117:n S133:e	S1:n S6:i S8:e s k r a c a S117:n S133:e	0.06460487097501755	0
+S1:n S3:a S10:j z ł o m n S24:i S27:e S41:j S44:s S60:z y	S1:n S3:a S10:j z ł o m n S91:i S92:e S93:j <UNK> S101:z S133:e	2.480952739715576	6
+n a m i e n i a S117:n S126:y	n a m i e n i a S117:n S126:y	0.06525237113237381	0
+S1:n S6:i S8:e p r z e s p a w a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e p r z e s p a w a S36:n S45:i S61:o S68:m   s i ę	0.0627109631896019	0
+S1:n S6:i S8:e r o z r y S37:ś S112:o S117:n S152:ą	S1:n S6:i S8:e r o z r y S103:t S106:ą	1.2576301097869873	4
+S1:n S6:i S8:e p r z e f o r m o w y w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p r z e f o r m o w y w a S117:n S126:y S130:c S147:h	0.06213456019759178	0
+S1:n S6:i S8:e w y p s i k i w a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e w y p s i k i w a S117:n S132:i S139:o S140:m	0.5436992645263672	1
+S1:n S6:i S8:e z e g n a S117:n S126:y	S1:n S6:i S8:e z e g n a S117:n S126:y	0.06433708220720291	0
+S1:n S6:i S8:e o b ł y s k i w a S117:n S126:y S140:m	S1:n S6:i S8:e o b ł y s k i w a S117:n S126:y S140:m	0.061348121613264084	0
+S1:n S6:i S8:e o c u c a S117:n S132:i S133:e S140:m	S1:n S6:i S8:e o c u c a S117:n S132:i S139:o S140:m	0.6593893766403198	1
+z b i e r a c t w S95:a	z b i e r a c t w S95:a	0.06188692897558212	0
+p s i n a S87:m	p s i n S139:o S140:m	1.1246825456619263	2
+o d k r a d a S117:n S126:y S130:c S147:h	o d k r a d a S117:n S126:y S130:c S147:h	0.06279068440198898	0
+S1:n S6:i S8:e s p i r a t o w a S117:n S152:ą	S1:n S6:i S8:e s p i r a t o w a S117:n S152:ą	0.06531643122434616	0
+S1:n S3:a S10:j m i ł o s i e r n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	S1:n S3:a S10:j m i ł o s i e r n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	0.06881481409072876	0
+w y ż a r z S112:o S117:n S133:e	w y ż a r z S112:o S117:n S133:e	0.056710176169872284	0
+S1:n S6:i S8:e p r z e b u m b l o w y w a S117:n S151:i S155:a	S1:n S6:i S8:e p r z e b u m b l o w y w a S117:n S151:i S155:a	0.061210524290800095	0
+o d d z i e r a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	o d d z i e r a S99:ł S122:y S125:b S126:y S128:ś S130:c S132:i S133:e	0.0586107037961483	0
+z a k u p i S112:o S117:n S126:y S130:c S147:h	z a k u p i S112:o S117:n S126:y S130:c S147:h	0.06072678044438362	0
+S1:n S3:a S10:j d o r o s ł S133:e S145:j	S1:n S3:a S10:j d o r o S20:ś <UNK> S27:e S41:j s S101:z S133:e S145:j	2.8956565856933594	5
+t ł u s t y S130:c S147:h	t ł u S37:ś S57:c S69:i S70:e S78:j s S101:z S126:y S130:c S147:h	2.619743824005127	7
+p r z e d s t a w i a S117:n S126:y	p r z e d s t a w i a S117:n S126:y	0.06506221741437912	0
+S1:n S6:i S8:e n a r u s z a S117:n S152:ą	S1:n S6:i S8:e n a r u s z a S117:n S152:ą	0.06531412899494171	0
+k u n s z t o w n S133:e	k u n s z t o w n S91:i S92:e S93:j <UNK> S101:z S133:e	2.186798334121704	5
+S1:n S6:i S8:e s i e r o c S112:o S117:n S133:e S145:j	S1:n S6:i S8:e s i e r o c S112:o S117:n S133:e S145:j	0.0636577308177948	0
+b o g o b o j n S133:e	b o g o b o j n S91:i S92:e S93:j <UNK> S101:z S133:e	2.0651001930236816	5
+S1:n S6:i S8:e n a p i ę t n o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e n a p i ę t n o w a S117:n S126:y S130:c S147:h	0.06469041109085083	0
+p r o p a g a n d z i s t a	p r o p a g a n d z i S128:ś S130:c S132:i S133:e	1.0400677919387817	4
+b u f o r o w a S117:n S133:e S140:m S154:u	b u f o r o w a S117:n S133:e S140:m S154:u	0.05997559800744057	0
+S1:n S3:a S10:j z i m n S24:i S27:e S41:j S44:s S60:z y	S1:n S3:a S10:j z i m n S91:i S92:e S93:j <UNK> S101:z S133:e	2.7207629680633545	6
+u p a m i ę t a S117:n S133:e S145:j	u p a m i ę t a S117:n S133:e S145:j	0.061986010521650314	0
+o ś w i e t l a S117:n S133:e	o ś w i e t l a S117:n S133:e	0.06256160885095596	0
+S1:n S6:i S8:e w t a c h i w a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e w t a c h i w a S36:n S45:i S61:o S68:m   s i ę	0.06100322678685188	0
+e s t e t y c z n S133:e	e s t e t y c z n S91:i S92:e S93:j <UNK> S101:z S133:e	2.3543848991394043	5
+S1:n S6:i S8:e s z u w a k s o w a S117:n S133:e S145:j	S1:n S6:i S8:e s z u w a k s o w a S117:n S133:e S145:j	0.0650857463479042	0
+S1:n S6:i S8:e o d d r a m a t y z o w a S117:n S152:ą	S1:n S6:i S8:e o d d r a m a t y z o w a S117:n S152:ą	0.06591270864009857	0
+o m n i s z a S117:n S151:i	o m n i s z a S117:n S151:i	0.06434305757284164	0
+l e n t y s z k S139:o S140:m	l e n t y s z k S139:o S140:m	0.05792428180575371	0
+S1:n S6:i S8:e d o m i e s z c z a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e d o m i e s z c z a S117:n S126:y S130:c S147:h	0.06427055597305298	0
+S1:n S6:i S8:e d z i e c k o w a S117:n S126:y	S1:n S6:i S8:e d z i e c k o w a S117:n S126:y	0.0655650720000267	0
+u g r a b i S112:o S117:n S126:y S130:c S147:h	u g r a b i S112:o S117:n S126:y S130:c S147:h	0.05853818729519844	0
+S1:n S6:i S8:e w y c h l i p n S109:i S127:ę S131:t S126:y	S1:n S6:i S8:e w y c h l i p n S109:i <UNK> <UNK> S126:y	1.2745559215545654	2
+S1:n S3:a S10:j d u m n S24:i S27:e S41:j S44:s S60:z S133:e S145:j	S1:n S3:a S10:j d u m n S91:i S92:e S93:j <UNK> S101:z S133:e S145:j	2.4092814922332764	5
+S1:n S6:i S8:e m o t y w o w a S117:n S126:y	S1:n S6:i S8:e m o t y w o w a S117:n S126:y	0.06378991156816483	0
+u p e r f u m o w a S117:n S133:e S138:g S139:o	u p e r f u m o w a S117:n S133:e S138:g S139:o	0.05817479267716408	0
+S1:n S6:i S8:e p o g ł ę b i a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p o g ł ę b i a S117:n S126:y S130:c S147:h	0.06177368015050888	0
+S1:n S6:i S8:e w y j a s k r a w i S112:o S117:n S126:y	S1:n S6:i S8:e w y j a s k r a w i S112:o S117:n S126:y	0.06180601939558983	0
+w e s s a ć   s i ę	w e s s S42:ą   s i ę	0.8860103487968445	2
+p o p r z e c h o d z i S112:o S117:n S133:e	p o p r z e c h o d z S112:o S117:n S133:e	0.5555261373519897	1
+p a h l a w i	p a h l a w i	0.06791336834430695	0
+w t r z ą c h a S117:n S126:y	w t r z ą c h a S117:n S126:y	0.06000252068042755	0
+S1:n S6:i S8:e w t r a n ż o l S112:o S117:n S133:e	S1:n S6:i S8:e w t r a n ż o l S112:o S117:n S133:e	0.06108992546796799	0
+S1:n S6:i S8:e p o b j a d a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e p o o b j a d a S117:n S126:y S130:c S147:h	0.4483306109905243	1
+S1:n S6:i S8:e k a n e l o w a S36:n S45:i S61:o S68:m   s i ę	S1:n S6:i S8:e k a n e l o w a S36:n S45:i S61:o S68:m   s i ę	0.06145524978637695	0
+S1:n S6:i S8:e s z a t k o w a S117:n S126:y S140:m	S1:n S6:i S8:e s z a t k o w a S117:n S126:y S140:m	0.06410174816846848	0
+S1:n S6:i S8:e z a d z i e r z g i w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e z a d z i e r z g i w a S117:n S126:y S130:c S147:h	0.06536293029785156	0
+u z a w o d o w i S112:o S117:n S133:e	u z a w o d o w i S112:o S117:n S133:e	0.06224127858877182	0
+z r e l a c j o n o w a ć	z r e l a c j o n S86:u S93:j S106:ą	1.7575509548187256	4
+d o p y t y w a S117:n S133:e	d o p y t y w a S117:n S133:e	0.06072360649704933	0
+o k i e n k o S105:c S109:i S133:e	o k i e n k S95:a	0.965214192867279	4
+S1:n S6:i S8:e w y w o d z S112:o S117:n S126:y S130:c S147:h	S1:n S6:i S8:e w y w o d z S112:o S117:n S126:y S130:c S147:h	0.07124842703342438	0
+S1:n S6:i S8:e n a s t r ę c z a S117:n S132:i S133:e	S1:n S6:i S8:e n a s t r ę c z a S117:n S132:i S133:e	0.06265998631715775	0
+g r u z y S130:c S133:e	g r u z y	1.283968448638916	2
+p r z y k ł o n i S112:o S117:n S133:e S138:g S139:o	p r z y k ł o n i S112:o S117:n S133:e S138:g S139:o	0.05722751468420029	0
+S1:n S6:i S8:e w y s z u l e r o w S33:u S41:j S42:ą S43:c y S57:c S79:h   s i ę	S1:n S6:i S8:e w y s z u l e r o w S33:u S41:j S42:ą S57:c y S87:m	0.2113257199525833	7
+p o d s z a r p y w a S117:n S133:e	p o d s z a r p y w a S117:n S133:e	0.06358816474676132	0
+S1:n S6:i S8:e p r z e d a w k o w y w a S117:n S132:i S133:e	S1:n S6:i S8:e p r z e d a w k o w y w a S117:n S132:i S133:e	0.06237293407320976	0
+z a h a n g a r o w a S117:n S133:e S138:g S139:o	z a h a n g a r o w a S117:n S133:e S138:g S139:o	0.059691913425922394	0
+r o z c z ł a p y w a S117:n S133:e	r o z c z ł a p y w a S117:n S133:e	0.061745207756757736	0
+ś l a m a z a r s t w S95:a	ś l a m a z a r s t w S95:a	0.09086553752422333	0
+S1:n S6:i S8:e s z c z e p a S117:n S151:i S155:a	S1:n S6:i S8:e s z c z e p a S117:n S151:i S155:a	0.06292784214019775	0
+w y m i ę t o s i S112:o S117:n S133:e S138:g S139:o	w y m i ę t o s S101:z S112:o S117:n S133:e S138:g S139:o	0.5692007541656494	1
+S1:n S3:a S10:j s t a t e c z n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	S1:n S3:a S10:j s t a t e c z n S24:i S27:e S41:j S44:s S60:z y S130:c S147:h	0.10762665420770645	0
+S1:n S6:i S8:e z a k a s y w a S117:n S126:y S140:m	S1:n S6:i S8:e z a k a s y w a S117:n S126:y S140:m	0.06287569552659988	0
+S1:n S6:i S8:e w y p o r z ą d k o w a S117:n S126:y	S1:n S6:i S8:e w y p o r z ą d k o w a S117:n S126:y	0.06268249452114105	0
+k r z y ż o w i a c z k S139:o	k r z y ż o w i a c z k S109:i	0.4834117591381073	1
+n a t r y S37:ś k i w a S117:n S133:e S140:m S154:u	n a t r y s k i w a S117:n S133:e S140:m S154:u	0.5815097689628601	1
+S1:n S6:i S8:e p r z e c h w a l a S36:n S69:i S70:e   s i ę	S1:n S6:i S8:e p r z e c h w a l a S36:n S69:i S70:e   s i ę	0.06236778572201729	0
+z a k l a j s t r o w a S117:n S126:y S130:c S147:h	z a k l a j s t r o w a S117:n S126:y S130:c S147:h	0.06229342520236969	0
+S1:n S6:i S8:e k o n s o l i d o w a S117:n S126:y S140:m	S1:n S6:i S8:e k o n s o l i d o w a S117:n S126:y S140:m	0.06384105235338211	0
+t r a n s f o r m e r S139:o S144:w S151:i	t r a n s f o r m e r S139:o S144:w S151:i	0.10783686488866806	0
+z a d r u t o w a S117:n S126:y S130:c S147:h	z a d r u t o w a S117:n S126:y S130:c S147:h	0.0633254200220108	0
+k o k i e t o w a S117:n S133:e	k o k i e t o w a S117:n S133:e	0.06431856006383896	0
+g y r o s S139:o S140:m	g y r o s S139:o S140:m	0.059103235602378845	0
+S1:n S6:i S8:e u ś m i e r z a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e u ś m i e r z a S117:n S126:y S130:c S147:h	0.06325553357601166	0
+S1:n S6:i S8:e t r a k t o w a S117:n S126:y S130:c S147:h	S1:n S6:i S8:e t r a k t o w a S117:n S126:y S130:c S147:h	0.06421759724617004	0
+m e n e d ż e r S139:o S140:m	m e n e d ż e r S139:o S140:m	0.06083235889673233	0
+ć p u n S130:c S151:i	ć p u n S139:o S144:w S151:i	1.0435478687286377	2

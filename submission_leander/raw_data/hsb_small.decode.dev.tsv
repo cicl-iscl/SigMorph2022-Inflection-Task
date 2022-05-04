@@ -1,0 +1,41 @@
+prediction	target	loss	dist
+c u z S55:e	c u z S35:a	1.3678829669952393	1
+s t e j i š ć o	s t e j i š ć o S44:w	0.781359076499939	1
+b y d l i	b y d l S35:a	1.2866157293319702	1
+r ě č e	r ě č S38:u	2.8987021446228027	1
+s p S40:i	s p y t a <UNK> S54:i	2.8579719066619873	5
+b u d y š i n	b u d y š i n S29:j S55:e	1.9486967325210571	2
+š u l S35:a S42:c S45:h	š u l S40:i	1.612093210220337	3
+t a j n y S41:m	t a j n y S42:c S45:h	1.6940032243728638	2
+h ó s ć S40:i S41:m S54:i	h S9:o s ć S39:o S41:m	2.6760261058807373	3
+l ě p š i n S37:y	l ě p š i n S37:y	0.06629092246294022	0
+w ě d ź e	w ě d ź S35:a	1.3036950826644897	1
+b ě ł o h r ó d k S55:e S62:h S65:o	b ě ł o h r ó d s k i S42:c S45:h	1.5713043212890625	4
+i n t e n s i S41:m S54:i	i n t e n s i w n y S41:m	1.4193062782287598	4
+m ě ć S40:i	m <UNK> S29:j S35:a	4.343321800231934	3
+d r o g a S42:c S45:h	d r o <UNK> S55:e	3.133013963699341	4
+s e s e r b s k i	s e r b s S42:c S55:e	2.7613232135772705	4
+p a s i o n s k S55:e S62:h S65:o	p a s i o n s k i S42:c S45:h	1.5113587379455566	3
+e l e m e n t S35:a	e l e m e n t S39:o S44:w	0.9261614680290222	2
+d u b S35:a S41:m S54:i	d u b S39:o S41:m	2.56453013420105	2
+s w S9:o j S55:e	s w <UNK> j	3.0139036178588867	2
+w u l k S35:a	w u l k o s ć	1.5336642265319824	3
+p o t r j e b a S32:c S37:y S41:m S54:i	p o t r j e b S38:u	1.6799845695495605	5
+m o d e r n a S32:c S37:y S41:m S54:i	m o d e r n S38:u	1.909862756729126	5
+s w S9:o j S55:e	s w ó j b S39:o S44:w	1.8816906213760376	4
+i d e j S55:e	i d e j S35:a S42:c S45:h	1.8466581106185913	3
+d a l S8:š S10:i S14:m i	d a l š S55:e	1.7920204401016235	4
+p r a j i c i	p r a j S35:a	1.286080002784729	3
+č i t a n j S55:e	č i t a n j S35:a	0.9858576655387878	1
+h n ě z d S39:o S42:c S45:h	h n ě z d S52:ź S55:e	1.776237964630127	3
+p o p a d n S35:a S42:c S45:h	p o p a d n S29:j S55:e S56:n S66:a	1.4932574033737183	4
+p ř e h r a S42:c S45:h	p ř e h r a <UNK> S35:a	2.5283401012420654	2
+w u r a d ź o w a n j e	w u r a d ź o w a <UNK> S39:o	1.349298119544983	3
+d w a n a	d w a n a ć S39:o	1.6860729455947876	2
+S2:n S3:o S4:w S5:o	<UNK> <UNK> i	5.095096588134766	4
+S2:n S3:o S4:w S5:o p ř e d ź i ć S12:e h S17:n S18:j S19:e n y S42:c S45:h	p ř e d w i d ź S35:a <UNK> S37:y S42:c S45:h	3.4340744018554688	13
+z e w i s o w a S49:n S55:e	z w i s o w a S42:c S55:e	3.335360050201416	2
+m S39:o S42:c S59:y	m <UNK> <UNK> <UNK> S39:o	5.164951324462891	4
+f a c h o w S55:e S62:h S65:o	f a c h o w y S42:c S45:h	1.19648015499115	3
+š o k o w a S49:n S35:a	š o k o w a <UNK> S35:a	1.7994608879089355	1
+w u s m ě r i S42:c S45:h	w u s m ě r S29:j <UNK> <UNK> S55:e	1.968848705291748	4

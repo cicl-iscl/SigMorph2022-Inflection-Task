@@ -1,0 +1,992 @@
+চহৰ	চহৰবিলাকত	চহৰবিলাকত	N;LOC;DEF;PL;LGSPEC09
+চেলেক	নেচেলেকি	নেচেলেকি	V;NEG;LGSPEC03
+কোদাল	কোদালসমূহে	কোদালসমূহে	N;ERG;DEF;PL;FORM;LGSPEC09
+জীউ	জীউবোৰৰ	জীউবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+হালুৱা	হালুৱাখিনিত	হালুৱাখিনিত	N;LOC;DEF;SG;LGSPEC08
+বাঁহপাতী	বাঁহপাতীকেইটালৈ	বাঁহপাতীকেইটালৈ	N;DAT;DEF;MASC;PL;LGSPEC08
+জেব্ৰা	জেব্ৰাবিলাকৰ	জেব্ৰাবিলাকৰ	N;GEN;DEF;PL;LGSPEC09
+চা	চালা	চালা	V;IND;SG+PL;2;POS;PST;LGSPEC02
+পাতা	নাপাতিলে	নাপাতিলে	V;COND;NEG;FUT
+থাপা	নাথাপোঁ	নাথাপোঁ	V;IND;SG+PL;1;NEG;FUT
+গেছ	গেছ	গেছ	N;ABS;INDF;SG
+মাণিক	মাণিকলৈকে	মাণিকলৈকে	N;TERM;INDF;SG
+কৰ	কৰাত	কৈৰ্লি	V;POS;LGSPEC07
+চৰিওৱা	চৰিয়াইছোঁ	চৰিয়াইছোঁ	V;IPFV;IND;SG+PL;1;POS;PRS
+কঁটলা	কঁটলাকেইজনীৰে	কঁটলাকেইজনীৰে	N;INS;DEF;FEM;PL;LGSPEC08
+হাতী	হাতীবোৰ	হাতীবোৰ	N;ABS;DEF;PL;INFM;LGSPEC09
+সেউজ	সেউজবোৰে	সেউজবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+নোম	নোমবিলাকত	নোমবিলাকত	N;LOC;DEF;PL;LGSPEC09
+নল গাহৰি	নলগাহৰিটোৰে	নল গাহৰিটোৰে	N;INS;DEF;MASC;SG;LGSPEC08
+কামোৰা	নাকামুৰিবৰ	নাকামুৰিবৰ	V;GEN;NFIN;NEG
+থাক	নেথাকোঁতেনথাকাওঁতে	নেথাকোঁতে নেথাকোঁতে	V.PTCP;PROG;NEG
+শালিকা	শালিকাই	শালিকাৰে	N;INS;INDF;SG
+দেখা	দেখাত	দেখাত	V;POS;LGSPEC07
+ছো	ভুকিছিলে	নুছুম	V;COND;SG+PL;1;NEG;FUT
+ভুকা	ধুৰাবিলাকত	ভুকিছিলে	V;IPFV;IND;SG+PL;3;POS;PST
+ধুৰা	দেখ	ধুৰাবিলাকত	N;LOC;DEF;PL;LGSPEC09
+দেখা	নেজেকিলি	দেখক	V;IMP;SG+PL;3;POS
+জেকা	ফুলে	নেজেকিলোঁ	V;IND;SG+PL;1;NEG;PST
+ফুলা	ধূলিবোৰ	ফুলক	V;IMP;SG+PL;3;POS
+ধূলি	নবৰষিছিলে	ধূলিবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+বৰষ	মলিবিলাক	নবৰষিছিলে	V;IPFV;IND;SG+PL;3;NEG;PST
+মলি	নুশুধৰোঁতে	মলিবিলাক	N;ABS;DEF;PL;LGSPEC09
+শুধৰা	ঘাঁহনিসমূহৰ	নুশুধৰিবলৈ	V;NEG;LGSPEC04
+ঘাঁহনি	চাবোনটো	ঘাঁহনিসমূহৰ	N;GEN;DEF;PL;FORM;LGSPEC09
+চাবোন	নুশুন	চাবোনটো	N;ABS;DEF;SG;LGSPEC08
+শুনা	বিছনাচাদৰ	নুশুন	V;IND;SG+PL;2;NEG;COL;FUT
+বিছনা চাদৰ	অকাপীবোৰ	বিছনা চাদৰ	N;ABS;INDF;SG
+অকাপী	ফণীয়াইথকানাছিলি	অকাপীবোৰ	N;ABS;DEF;PL;INFM;LGSPEC09
+ফণীওৱা	নিচানটোৱে	ফণীয়ই থকা নাছিলি	V;PROG;IND;SG+PL;2;NEG;COL;PST
+নিচান	তেজপিয়াটোলৈকে	নিচানটোৱে	N;ERG;DEF;SG;LGSPEC08
+তেজপিয়া	পাগলকেইটাই	তেজপিয়াটোলৈকে	N;TERM;DEF;MASC;SG;LGSPEC08
+পাগল	পাতিআছ	পাগলকেইটাই	N;ERG;DEF;PL;LGSPEC08
+পাতা	আঘোণকেইটাৰ	পাতি আছ	V;PROG;IND;SG+PL;2;POS;COL;PRS
+আঘোণ	নোলোটা	আঘোণকেইটাৰ	N;GEN;DEF;PL;LGSPEC08
+ওলোটোৱা	খেতিটোৱে	নোলোটা	V;NFIN;NEG
+খেতি	ঢাকে	খেতিখনে	N;ERG;DEF;SG;LGSPEC08
+ঢকা	অঁকাওঁ	ঢাকে	V;INDF;IND;SG+PL;3;POS;PRS
+অঁকা	কিতাপসমূহৰ	অঁকাওঁ	V;INDF;IND;SG+PL;1;POS;PRS
+কিতাপ	ঔষধবিলাকত	কিতাপসমূহৰ	N;GEN;DEF;PL;FORM;LGSPEC09
+ঔষধ	বতাহ	ঔষধবিলাকত	N;LOC;DEF;PL;LGSPEC09
+বতাহ	মহেৰে	বতাহ	N;ABS;INDF;SG
+মহ	আমঠিসমূহৰে	মহেৰে	N;INS;INDF;SG
+আমঠি	কাৰখানাটো	আমঠিসমূহলৈকে	N;TERM;DEF;PL;FORM;LGSPEC09
+কাৰখানা	গুলীয়াগুলীলৈকে	কাৰখানাখন	N;ABS;DEF;SG;LGSPEC08
+গুলীয়াগুলী	আঁচোৰে	গুলীয়াগুলীলৈকে	N;TERM;INDF;SG
+আঁচোৰ	নিবিচোঁতা	আঁচোৰে	V;INDF;IND;SG+PL;3;POS;PRS
+বিচ	জহামালৰ	নিবিচোঁতা	V;MASC;NEG;FORM;LGSPEC05
+জহামাল	বহাবা	জহামালৰ	N;GEN;INDF;SG
+বহা	ডোলবোৰলৈ	বহোৱা	V;IMP;SG+PL;2;POS;LGSPEC02
+ডোল	নিপিন্ধিবি	ডোলবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+পিন্ধা	ৰান্ধে	নিপিন্ধিবি	V;COND;SG+PL;2;NEG;COL;FUT
+ৰান্ধা	নাঁকুৰা	ৰান্ধে	V;INDF;IND;SG+PL;3;POS;PRS
+আঁক	জাবৰসমূহৰে	নাঁকুৰা	V;MASC;NEG;INFM;LGSPEC05
+জাবৰ	অজগৰসাপকেইটালৈ	জাবৰসমূহেৰে	N;INS;DEF;PL;FORM;LGSPEC09
+অজগৰ সাপ	দলম’ৰাবিলাকেৰে	অজগৰ সাপকেইডাললৈ	N;DAT;DEF;PL;LGSPEC08
+দলম’ৰা	নিপিচলি	দলম’ৰাবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+পিচলা	নামাতা	নিপিচলি	V.PTCP;PRF;NEG
+মাতা	বেপাৰীবিলাক	নামাতা	V;IND;SG+PL;2;NEG;FUT;LGSPEC02
+বেপাৰী	নজপাবলৈকে	বেপাৰীবিলাক	N;ABS;DEF;PL;LGSPEC09
+জপোৱা	তথ্যবোৰে	নজপাবলৈকে	V;TERM;NEG
+তথ্য	গেলোঁ	তথ্যবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+গেলা	দলম’ৰাবিলাকলৈকে	গেলোঁ	V;IMP;SG+PL;1;POS
+দলম’ৰা	বগবোৰৰ	দলম’ৰাবিলাকলৈকে	N;TERM;DEF;PL;LGSPEC09
+বগ	বিচিআছে	বগবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+বিচ	সিজা	বিচি আছা	V;PROG;IND;SG+PL;2;POS;PRS;LGSPEC02
+সিজা	তৰমুজকত	সিজা	V.PTCP;POS;PST
+তৰমুজ	দাঁতৰবিষৰ	তৰমুজত	N;LOC;INDF;SG
+দাঁতৰ বিষ	নেচাব	দাঁতৰ বিষত	N;LOC;INDF;SG
+চা	ঔটেঙাবোৰ	নাচ্বা	V;NFIN;NEG
+ঔটেঙা	নকৰাবা	ঔটেঙাবোৰ	N;ABS;DEF;PL;INFM;LGSPEC09
+কৰা	আধিপত্যসমূহ	নকৰাবা	V;IMP;SG+PL;2;NEG;LGSPEC02
+আধিপত্য	নামাতিছে	আধিপত্যসমূহ	N;ABS;DEF;PL;FORM;LGSPEC09
+মাতা	ধাৰকৰিআছোঁ	মাতা নাই	V;IPFV;IND;NEG;PRS
+ধাৰ কৰা	জলাহবিলাকলৈকে	ধাৰ কৰি থকা নাই	V;PROG;IND;SG+PL;1;NEG;PRS
+জলাহ	টুকুৰাকেইটাৰ	জলাহবিলাকলৈকে	N;TERM;DEF;PL;LGSPEC09
+টুকুৰা	কিন	টুকুৰাকেইটাৰ	N;GEN;DEF;PL;LGSPEC08
+কিন	নিজিৰাউৰা	কিন	V;INDF;IND;SG+PL;2;POS;COL;PRS
+জিৰোৱা	নুমুৱাওঁতে	নিজিৰাউৰা	V;MASC;NEG;INFM;LGSPEC05
+নুমুউৱা	ফ্লেমিংগকেইজনীলৈ	নুমুৱাওঁতে	V;POS;LGSPEC06
+ফ্লেমিংগ	পোৰিছা	ফ্লেমিংগকেইজনীলৈ	N;DAT;DEF;FEM;PL;LGSPEC08
+পোৰা	কুঁজটোৱে	পোৰিছা	V;IPFV;IND;SG+PL;2;POS;PRS;LGSPEC02
+কুঁজ	সোণবিলাকে	কুঁজটোৱে	N;ERG;DEF;SG;LGSPEC08
+সোণ	ফুলোঁতে	সোণবিলাকে	N;ERG;DEF;PL;LGSPEC09
+ফুলা	জলাহবোৰে	ফুলোঁতে	V;POS;LGSPEC06
+জলাহ	ওলোমিনেথাকিবি	জলাহবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+ওলোমা	নাকান্দ	ওলোমি নেথাকিবি	V;PROG;IND;SG+PL;2;NEG;COL;FUT
+কান্দ	টুলবোৰৰ	নাকান্দ	V;INDF;IND;SG+PL;2;NEG;COL;PRS
+টুল	পিটা	টুলবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+পিটা	টুৰটুৰবিলাকক	পিটা	V.PTCP;POS;PST
+টুৰ টুৰ	থকাইনাথাকিআছোঁ	টুৰ টুৰবিলাকক	N;ACC;DEF;PL;LGSPEC09
+থকা	তৰামাছবিলাকক	থকাই থকা নাই	V;PROG;IND;SG+PL;1;NEG;PRS
+তৰামাছ	নাখাবৰ	তৰামাছবিলাকক	N;ACC;DEF;PL;LGSPEC09
+খা	আঁতৰুৰা	নাখাবৰ	V;GEN;NFIN;NEG
+আঁতৰ	জাপিথাকিবা	আঁতৰুৰা	V;MASC;POS;INFM;LGSPEC05
+জপা	তেলটুপিবোৰলৈ	জাপি আছিলা	V;PROG;IND;SG+PL;2;POS;PST;LGSPEC02
+তেলটুপি	ভকুৱাকেইটাত	তেলটুপিবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+ভকুৱা	জেগাকেইটালৈ	ভকুৱাকেইটাত	N;LOC;DEF;MASC;PL;LGSPEC08
+জেগা	নিবিচাৰুৰা	জেগাকেইখনলৈ	N;DAT;DEF;PL;LGSPEC08
+বিচাৰ	পোহাৰখনে	নিবিচাৰুৰা	V;MASC;NEG;INFM;LGSPEC05
+পোহাৰ	জপাৱ	পোহাৰখনে	N;ERG;DEF;SG;LGSPEC08
+জপোৱা	সোমালা	জপাৱ	V;INDF;IND;SG+PL;2;POS;COL;PRS
+সোমোৱা	নথকাবৰ	সোমালা	V;IND;SG+PL;2;POS;PST;LGSPEC02
+থকা	সোপাকেইটাক	নথকাবৰ	V;GEN;NFIN;NEG
+সোপা	বাটলৈকে	সোপাকেইটাক	N;ACC;DEF;PL;LGSPEC08
+বাট	জোনবোৰ	বাটলৈকে	N;TERM;INDF;SG
+জোন	দমাইথাকিবি	জোনবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+দমোৱা	চক্লেটসমূহে	দমাই থাকিবি	V;PROG;IND;SG+PL;2;POS;COL;FUT
+চক্লেট	কৰাইথাকিবা	চক্লেটবিলাকে	N;ERG;DEF;PL;FORM;LGSPEC09
+কৰা	দৰাকেইখনলৈকে	কৰাই আছিলা	V;PROG;IND;SG+PL;2;POS;PST;LGSPEC02
+দৰা	শহুৰক	দৰাকেইটালৈকে	N;TERM;DEF;PL;LGSPEC08
+শহুৰ	লেটেকুৰ	শহুৰক	N;ACC;INDF;SG
+লেটেকু	ভৰিছিলি	লেটেকুত	N;LOC;INDF;SG
+ভৰা	পাণ্ডাভালুককেইজনীৰ	ভৰিছিলি	V;IPFV;IND;SG+PL;2;POS;COL;PST
+পাণ্ডা ভালুক	ঔটেঙাবোৰেৰে	পাণ্ডা ভালুককেইজনীৰ	N;GEN;DEF;FEM;PL;LGSPEC08
+ঔটেঙা	চালগোমবিলাকলৈ	ঔটেঙাবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+চালগোম	হাঁচিয়া	চালগোমবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+হাঁচিওৱা	মছখিনিৰ	হাঁচিয়া	V;NFIN;POS
+মছ	মাগুৰভেকুলীকেইজনীৰ	মছখিনিৰ	N;GEN;DEF;SG;LGSPEC08
+মাগুৰ ভেকুলী	নুগুচা	মাগুৰ ভেকুলীকেইজনীৰ	N;GEN;DEF;FEM;PL;LGSPEC08
+গুচা	মিঠৈবিলাকে	নুগুচা	V.PTCP;NEG;PST
+মিঠৈ	ভৰিবোৰলৈকে	মিঠৈবিলাকে	N;ERG;DEF;PL;LGSPEC09
+ভৰি	নাঁচোৰাম	ভৰিবোৰলৈকে	N;TERM;DEF;PL;INFM;LGSPEC09
+আঁচোৰা	নভৰাবি	নাঁচোৰাম	V;COND;SG+PL;1;NEG;FUT
+ভৰোৱা	নাৰান্ধিছে	নভৰাবি	V;COND;SG+PL;2;NEG;COL;FUT
+ৰন্ধা	শুনিবলৈকে	ৰান্ধা নাই	V;IPFV;IND;NEG;PRS
+শুনা	বাউলকেইটা	শুনিবলৈকে	V;TERM;POS
+বাউল	ফটকাটোক	বাউলকেইটা	N;ABS;DEF;MASC;PL;LGSPEC08
+ফটকা	ঢেঁকীখনলৈ	ফটকাটোক	N;ACC;DEF;SG;LGSPEC08
+ঢেঁকী	মুহকেইখন	ঢেঁকীখনলৈ	N;DAT;DEF;SG;LGSPEC08
+মুহ	গঙা-চিলনীবোৰেৰে	মুহকেইখন	N;ABS;DEF;PL;LGSPEC08
+গঙা-চিলনী	ফুলিনাথাকিবি	গঙা-চিলনীবোৰেৰে	N;INS;DEF;PL;INFM;LGSPEC09
+ফুলা	ডিমটোত	ফুলি নাথাকিবি	V;PROG;IND;SG+PL;2;NEG;COL;FUT
+ডিম	খুঁটিডালৈ	ডিমটোত	N;LOC;DEF;SG;LGSPEC08
+খুঁটি	নকঢ়িয়াওঁতা	খুঁটিডাললৈ	N;DAT;DEF;SG;LGSPEC08
+কঢ়িওৱা	জাপিলে	নকঢ়িয়াওঁতা	V;MASC;NEG;FORM;LGSPEC05
+জপা	ফণীয়লি	জাপিলে	V;IND;SG+PL;3;POS;PST
+ফণীওৱা	সাবটবিলাকলৈকে	ফণীয়লি	V;IND;SG+PL;2;POS;COL;PST
+সাবট	ঠেলাকত	সাবটবিলাকলৈকে	N;TERM;DEF;PL;LGSPEC09
+ঠেলা	চোটবিলাকত	ঠেলাত	N;LOC;INDF;SG
+চোট	বিৰালীবোৰে	চোটবিলাকত	N;LOC;DEF;PL;LGSPEC09
+বিৰালী	আখৰকেইটাৰ	বিৰালীবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+আখৰ	আঙাৰেৰে	আখৰকেইটাৰ	N;GEN;DEF;PL;LGSPEC08
+আঙাৰ	কুহুমকেইটাক	আঙাৰেৰে	N;INS;INDF;SG
+কুহুম	কাঁটাবিলাকক	কুহুমকেইটাক	N;ACC;DEF;PL;LGSPEC08
+কাঁটা	নাভাজিছিলা	কাঁটাবিলাকক	N;ACC;DEF;PL;LGSPEC09
+ভাজা	পিন্ধিনাথাকিলোঁ	নাভাজিছিলা	V;IPFV;IND;SG+PL;2;NEG;PST;LGSPEC02
+পিন্ধা	চুটীয়া-শালিকাই	পিন্ধি থকা নাছিলোঁ	V;PROG;IND;SG+PL;1;NEG;PST
+চুটীয়া-শালিকা	চৰিয়াবলৈকে	চুটীয়া-শালিকাৰে	N;INS;INDF;SG
+চৰিওৱা	জামুকবিলাকত	চৰিয়াবলৈকে	V;TERM;POS
+জামুক	কেৰাহীবোৰ	জামুকবিলাকত	N;LOC;DEF;PL;LGSPEC09
+কেৰাহী	নুকুলোৱা	কেৰাহীবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+কুলা	পচাইআছোঁ	নুকুলোৱা	V;IND;SG+PL;2;NEG;FUT;LGSPEC02
+পচোৱা	নিবিষাইনবিকি	পচাই আছোঁ	V;PROG;IND;SG+PL;1;POS;PRS
+বিষোৱা	নুঘালোঁতা	নিবিষাই নিবিষাই	V.PTCP;HAB;NEG
+উঘাল	হাগিব	নুঘালোঁতা	V;MASC;NEG;FORM;LGSPEC05
+হগা	খোৱা	হাগিব	V;IND;SG+PL;3;POS;FUT
+খা	হেঁচিআছোঁ	খোৱা	V;INDF;IND;SG+PL;2;POS;PRS;LGSPEC02
+হেঁচা	নাহাঁচিয়াওঁতে	হেঁচি থকা নাই	V;PROG;IND;SG+PL;1;NEG;PRS
+হাঁচিওৱা	ডালশলিয়াকেইজনী	নাহাঁচিয়াওঁতে	V;NEG;LGSPEC06
+ডাল শলিয়া	জাপোঁ	ডাল শলিয়াকেইজনী	N;ABS;DEF;FEM;PL;LGSPEC08
+জপা	গঢ়ুৰা	জাপোঁ	V;INDF;IND;SG+PL;1;POS;PRS
+গঢ়া	কাঢ়	গঢ়ুৰী	V;FEM;POS;INFM;LGSPEC05
+কঢ়া	নহালা	কাঢ়	V;INDF;IND;SG+PL;2;POS;COL;PRS
+অহা	গুলীয়াগুলীকেইগৰাকী	নহাবা	V;COND;SG+PL;2;NEG;FUT;LGSPEC02
+গুলীয়াগুলী	বাইচনবিলাকৰ	গুলীয়াগুলীকেইটা	N;ABS;DEF;PL;LGSPEC08
+বাইচন	কুকুহাটোলৈ	বাইচনবিলাকৰ	N;GEN;DEF;PL;LGSPEC09
+কুকুহা	সঁজুলিয়ে	কুকুহাটোলৈ	N;DAT;DEF;MASC;SG;LGSPEC08
+সঁজুলি	সাহকেইটাৰ	সঁজুলিয়ে	N;ERG;INDF;SG
+সাহ	উঁহবোৰেৰে	সাহকেইটাৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+উঁহ	নুশুকাইছিলোঁ	উঁহবোৰেৰে	N;INS;DEF;PL;INFM;LGSPEC09
+শুকুৱা	খাটানাছিলা	নুশুকাইছিলোঁ	V;IPFV;IND;SG+PL;1;NEG;PST
+খাট	আপেলটোৰে	খটা নাছিলা	V;HAB;IND;SG+PL;2;NEG;PST;LGSPEC02
+আপেল	কিনাওঁতা	আপেলটোলৈকে	N;INS;DEF;SG;LGSPEC08
+কিনা	জেলুককেইজনীলৈ	কিনাওঁতা	V;MASC;POS;FORM;LGSPEC05
+জেলুক	দোৱাতবিলাকৰ	জেলুককেইজনীলৈ	N;DAT;DEF;FEM;PL;LGSPEC08
+দোৱাত	ৰ’দালত	দোৱাতবিলাকৰ	N;GEN;DEF;PL;LGSPEC09
+ৰ’দোৱা	চামবিলাকক	ৰ’দালত	V;COND;POS;PST
+চাম	ভাটসকলৰে	চামবিলাকক	N;ACC;DEF;PL;LGSPEC09
+ভাট	গাঁতে	ভাটসকলেৰে	N;INS;DEF;PL;FORM;LGSPEC09
+গাঁত	ৰুকঁতী	গাঁতে	N;ERG;INDF;SG
+ৰোকা	গুলীয়াইছিলে	ৰুকঁতী	V;FEM;POS;FORM;LGSPEC05
+গুলীওৱা	নজ্বলাইনজ্বলাই	গুলীয়ালে	V;IND;SG+PL;3;POS;PST
+জ্বলোৱা	চিতাবাঘকেইজনীৰ	নজ্বলাই নজ্বলাই	V.PTCP;HAB;NEG
+চিতা বাঘ	মিহলাইনাথাকিম	চিতা বাঘকেইজনীৰ	N;GEN;DEF;FEM;PL;LGSPEC08
+মিহলোৱা	পখিলাবোৰলৈকে	মিহলাই নাথাকিম	V;PROG;IND;SG+PL;1;NEG;FUT
+পখিলা	গলিলি	পখিলাবোৰলৈকে	N;TERM;DEF;PL;INFM;LGSPEC09
+গলা	বগৰীটোৱে	গলিলে	V;IND;SG+PL;3;POS;PST
+বগৰী	নুশুঙে	বগৰীটোৱে	N;ERG;DEF;SG;LGSPEC08
+শুঙা	নিকিনাবা	নুশুঙে	V;IND;SG+PL;3;NEG;FUT
+কিনা	নোপঙিছে	নিকিনাবা	V;IMP;SG+PL;2;NEG;LGSPEC02
+ওপঙা	নকৰালত	ওপঙা নাই	V;IPFV;IND;NEG;PRS
+কৰা	ভাজোঁতে-নাভাজোঁতে	নকৰালত	V;COND;NEG;PST
+ভাজা	বেলিবোৰেৰে	ভাজোঁতে - ভাজোঁতে	V.PTCP;PROG;POS
+বেলি	ৰেডিঅে	বেলিবোৰেৰে	N;INS;DEF;PL;INFM;LGSPEC09
+ৰেডিঅ	কললৈ	ৰেডিঅই	N;ERG;INDF;SG
+কল	হাতৰতলুৱাবিলাকলৈ	কললৈ	N;DAT;INDF;SG
+হাতৰ তলুৱা	গাঁতটোক	হাতৰ তলুৱাবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+গাঁত	সেউজকেইটাৰ	গাঁতটোক	N;ACC;DEF;SG;LGSPEC08
+সেউজ	ঢেকীয়াসমূহৰ	সেউজকেইটাৰ	N;GEN;DEF;PL;LGSPEC08
+ঢেকীয়া	আকণবিলাকক	ঢেকীয়াসমূহলৈ	N;DAT;DEF;PL;FORM;LGSPEC09
+আকণ	জোংলত	আকণবিলাকক	N;ACC;DEF;PL;LGSPEC09
+জোং	জাঁতটোৰে	জোংত	N;LOC;INDF;SG
+জাঁত	ছোৱালীকেইজনীক	জাঁতটোৰে	N;INS;DEF;SG;LGSPEC08
+ছোৱালী	কান্দ	ছোৱালীকেইজনীক	N;ACC;DEF;PL;LGSPEC08
+কান্দা	জ্বলাউৰা	কান্দ	V;IMP;SG+PL;2;POS;COL
+জ্বলোৱা	চকীকেইডালৰ	জ্বলাউৰী	V;FEM;POS;INFM;LGSPEC05
+চকী	দমাইদীঘলাই	চকীকেইখনৰ	N;GEN;DEF;PL;LGSPEC08
+দমোৱা	হেঁচিবি	দমাই দমাই	V.PTCP;HAB;POS
+হেঁচা	গুবৰুৱাই	হেঁচিবি	V;IND;SG+PL;2;POS;COL;FUT
+গুবৰুৱা	শুধৰাম	গুবৰুৱাৰে	N;INS;INDF;SG
+শুধৰোৱা	ডিলডালত	শুধৰাম	V;IND;SG+PL;1;POS;FUT
+ডিল	নঠগাওঁতেনোগোটাওঁতে	ডিলটোত	N;LOC;DEF;SG;LGSPEC08
+ঠগোৱা	চলাব	নঠগাওঁতে নঠগাওঁতে	V.PTCP;PROG;NEG
+চলোৱা	পুতলাবোৰেৰে	চলাব	V;IND;SG+PL;3;POS;FUT
+পুতলা	খুলিছিছোঁ	পুতলাবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+খুল	মাগি	খুলিছিলোঁ	V;IPFV;IND;SG+PL;1;POS;PST
+মাগা	মিঠৈবিলাকেৰে	মাগি	V.PTCP;PRF;POS
+মিঠৈ	পঠাইনাথাকিম	মিঠৈসমূহেৰে	N;INS;DEF;PL;FORM;LGSPEC09
+পঠা	শব্দসমূহৰ	পঠাই থকা নাছিলোঁ	V;PROG;IND;SG+PL;1;NEG;PST
+শব্দ	ডাঠবকলাবোৰেৰে	শব্দসমূহৰ	N;GEN;DEF;PL;FORM;LGSPEC09
+ডাঠ বকলা	জোনাকীকেইজনী	ডাঠ বকলাবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+জোনাকী	সলোৱা	জোনাকীকেইজনী	N;ABS;DEF;FEM;PL;LGSPEC08
+সলোৱা	শুৱঁতী	সলোৱা	V.PTCP;POS;PST
+শোৱা	নখজুৱাওঁ	শুৱঁতী	V;FEM;POS;FORM;LGSPEC05
+খজুউৱা	ওলগৰ	নখজুৱাওঁ	V;INDF;IND;SG+PL;1;NEG;PRS
+ওলগ	হাতমোজা	ওলগৰ	N;GEN;INDF;SG
+হাতমোজা	জাংফাইকেইটালৈ	হাতমোজা	N;ABS;INDF;SG
+জাংফাই	মণিকেইটালৈ	জাংফাইকেইটালৈ	N;DAT;DEF;PL;LGSPEC08
+মণি	কিলাকুটিটোত	মণিকেইটালৈ	N;DAT;DEF;PL;LGSPEC08
+কিলাকুটি	নুমুদ	কিলাকুটিটোত	N;LOC;DEF;SG;LGSPEC08
+মুদা	নুখুঁচ	নুমুদ	V;NFIN;NEG
+খোঁচা	ওঁঠবিলাকেৰে	নুখুঁচ	V;IND;SG+PL;2;NEG;COL;FUT
+ওঁঠ	কেঁকোজনী	ওঁঠবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+কেঁকো	নুছুওঁতে	কেঁকোজনী	N;ABS;DEF;FEM;SG;LGSPEC08
+ছু	পঢ়াশালিকেইখনক	নুছুবলৈ	V;NEG;LGSPEC04
+পঢ়াশালি	নবহাইছিছোঁ	পঢ়াশালিকেইখনক	N;ACC;DEF;PL;LGSPEC08
+বহা	নকন্দুৱাৱ	নবহাইছিলোঁ	V;IPFV;IND;SG+PL;1;NEG;PST
+কন্দুৱা	যুঁজবিলাকত	নকন্দুৱাৱ	V;INDF;IND;SG+PL;2;NEG;COL;PRS
+যুঁজ	যুঁজাৰুবিমানসমূহ	যুঁজবিলাকত	N;LOC;DEF;PL;LGSPEC09
+যুঁজাৰু বিমান	নিপিটিকিছোঁ	যুঁজাৰু বিমানসমূহ	N;ABS;DEF;PL;FORM;LGSPEC09
+পিটিকা	নিকিন	নিপিটিকিছোঁ	V;IPFV;IND;SG+PL;1;NEG;PRS;LGSPEC01
+কিন	চাজিবৰ	নিকিন	V;INDF;IND;SG+PL;2;NEG;COL;PRS
+চাজ	নহলায়	চাজিবৰ	V;GEN;NFIN;POS
+হলোৱা	ভগাইথকানাছিলি	নহলায়	V;INDF;IND;SG+PL;3;NEG;PRS
+ভগোৱা	লতামেকুৰীবিলাক	ভগাই আছিলি	V;PROG;IND;SG+PL;2;POS;COL;PST
+লতামেকুৰী	শাৰী	লতামেকুৰীবিলাক	N;ABS;DEF;PL;LGSPEC09
+শাৰী	চিলাটোলৈকে	শাৰী	N;ABS;INDF;SG
+চিলা	নপঠাৱ	চিলাখনলৈকে	N;TERM;DEF;SG;LGSPEC08
+পঠোৱা	নাহৰফুটুকীবাঘজনীৰে	নপঠাৱ	V;IND;SG+PL;2;NEG;COL;FUT
+নাহৰফুটুকী বাঘ	শালিকাটোক	নাহৰফুটুকী বাঘজনীৰে	N;INS;DEF;FEM;SG;LGSPEC08
+শালিকা	যাদুঘৰখনলৈকে	শালিকাটোক	N;ACC;DEF;MASC;SG;LGSPEC08
+যাদুঘৰ	বাগানবিলাকৰ	যাদুঘৰখনলৈকে	N;TERM;DEF;SG;LGSPEC08
+বাগান	বৰাচাউলসমূহ	বাগানবিলাকৰ	N;GEN;DEF;PL;LGSPEC09
+বৰা চাউল	খৰিখিনিয়ে	বৰা চাউলসমূহ	N;ABS;DEF;PL;FORM;LGSPEC09
+খৰি	ওখৰিআছোঁ	খৰিখিনিয়ে	N;ERG;DEF;SG;LGSPEC08
+ওখৰ	মাগুৰবোৰেৰে	ওখৰি থকা নাই	V;PROG;IND;SG+PL;1;NEG;PRS
+মাগুৰ	গঁড়ৰ	মাগুৰবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+গঁড়	খৰিছ	গঁড়ৰ	N;GEN;INDF;SG
+খৰ	নাঁকোঁ	খৰিছ	V;IPFV;IND;SG+PL;2;POS;COL;PRS
+আঁক	নুশুনিনুশুকি	নাঁকোঁ	V;IND;SG+PL;1;NEG;FUT
+শুনা	দোতোৰাবোৰৰ	নুশুনি নুশুনি	V.PTCP;HAB;NEG
+দোতোৰা	বিষাইথকানাছিলে	দোতোৰাবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+বিষোৱা	কেঁটেলাজনীৰ	বিষাই আছিলে	V;PROG;IND;SG+PL;3;POS;PST
+কেঁটেলা	উতলিথাকিবি	কেঁটেলাজনীৰ	N;GEN;DEF;FEM;SG;LGSPEC08
+উতল	নাহৰফুটুকীবাঘজনীৰ	উতলি থাকিবি	V;PROG;IND;SG+PL;2;POS;COL;FUT
+নাহৰফুটুকী বাঘ	মুদিথকানাছিলি	নাহৰফুটুকী বাঘজনীৰ	N;GEN;DEF;FEM;SG;LGSPEC08
+মুদা	তৰামাছজনীলৈ	মুদি থকা নাছিলি	V;PROG;IND;SG+PL;2;NEG;COL;PST
+তৰামাছ	নাওৰাওঁ	তৰামাছজনীলৈ	N;DAT;DEF;FEM;SG;LGSPEC08
+আওৰা	নিবিষালত	নাওৰাওঁ	V;IND;SG+PL;1;NEG;FUT
+বিষোৱা	নোজোঙিছ	নিবিষালত	V;COND;NEG;PST
+জোঙা	ছিটিকনিবিলাকক	নোজোঙিছ	V;IPFV;IND;SG+PL;2;NEG;COL;PRS;LGSPEC01
+ছিটিকনি	শিপিনীকেইডাল	ছিটিকনিবিলাকক	N;ACC;DEF;PL;LGSPEC09
+শিপিনী	বেপাৰবোৰলৈ	শিপিনীকেইজনী	N;ABS;DEF;PL;LGSPEC08
+বেপাৰ	আঁউজাইথাকিবা	বেপাৰবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+আঁউজা	নাভাহিবি	আঁউজাই থাকিবা	V;PROG;IND;SG+PL;2;POS;FUT;LGSPEC02
+ভাহা	বিচাৰিথাকিবা	নাভাহিবি	V;COND;SG+PL;2;NEG;COL;FUT
+বিচাৰ	ছিটিকালেৰে	বিচাৰি থাকিবা	V;PROG;IND;SG+PL;2;POS;FUT;LGSPEC02
+ছিটিকা	জাপিআছোঁ	ছিটিকাকেইটাৰে	N;INS;DEF;PL;LGSPEC08
+জপা	ভোট-জলকীয়াকেইটাই	জাপি আছোঁ	V;PROG;IND;SG+PL;1;POS;PRS
+ভোট-জলকীয়া	বিমানবন্দৰকেইটাক	ভোট-জলকীয়াকেইটাই	N;ERG;DEF;PL;LGSPEC08
+বিমানবন্দৰ	ঘনত্বসমূহৰ	বিমানবন্দৰকেইখনক	N;ACC;DEF;PL;LGSPEC08
+ঘনত্ব	বাহে	ঘনত্বসমূহলৈ	N;DAT;DEF;PL;FORM;LGSPEC09
+বাহ	ভাষাটোত	বাহে	N;ERG;INDF;SG
+ভাষা	ভূমিকম্পটোলৈকে	ভাষাটোত	N;LOC;DEF;SG;LGSPEC08
+ভূমিকম্প	জুলাইকেইটাই	ভূমিকম্পটোলৈকে	N;TERM;DEF;SG;LGSPEC08
+জুলাই	ইস্ত্ৰিসকলৈকে	জুলাইকেইটাই	N;ERG;DEF;PL;LGSPEC08
+ইস্ত্ৰি	ছিগিথাকিবা	ইস্ত্ৰিসমূহলৈকে	N;TERM;DEF;PL;FORM;LGSPEC09
+ছিগা	ওলাব	ছিগি আছিলা	V;PROG;IND;SG+PL;2;POS;PST;LGSPEC02
+ওলা	নেমুকেইটাক	ওলাব	V;IND;SG+PL;3;POS;FUT
+নেমু	জীউবিলাকত	নেমুকেইটাক	N;ACC;DEF;PL;LGSPEC08
+জীউ	কামুৰিনাথাকিম	জীউবিলাকত	N;LOC;DEF;PL;LGSPEC09
+কামোৰা	পাতিকাউৰীবোৰলৈ	কামুৰি থকা নাছিলোঁ	V;PROG;IND;SG+PL;1;NEG;PST
+পাতি কাউৰী	কুঁজবিলাকক	পাতি কাউৰীবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+কুঁজ	নেমুসমূহৰে	কুঁজবিলাকক	N;ACC;DEF;PL;LGSPEC09
+নেমু	পঘাবোৰেৰে	নেমুসমূহলৈকে	N;TERM;DEF;PL;FORM;LGSPEC09
+পঘা	জিৰণিবিলাকক	পঘাবোৰেৰে	N;INS;DEF;PL;INFM;LGSPEC09
+জিৰণি	চোফাবোৰ	জিৰণিবিলাকক	N;ACC;DEF;PL;LGSPEC09
+চোফা	ঘৰাটো	চোফাবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+ঘৰা	নুফুলাইছিলোঁ	ঘৰাটো	N;ABS;DEF;SG;LGSPEC08
+ফুলোৱা	উৰাব	নুফুলাইছিলোঁ	V;IPFV;IND;SG+PL;1;NEG;PST
+উৰা	আঁহতডালে	উৰাব	V;IND;SG+PL;3;POS;FUT
+আঁহত	শকেৰে	আঁহতডাল	N;ABS;DEF;SG;LGSPEC08
+শক	মচলাৰ	শকেৰে	N;INS;INDF;SG
+মচলা	নথপিয়ালি	মচলাৰ	N;GEN;INDF;SG
+থপিওৱা	কেংগেৰুৰ	নথপিয়ালে	V;IND;SG+PL;3;NEG;PST
+কেংগেৰু	সৰুআইবোৰেৰে	কেংগেৰুৰ	N;GEN;INDF;SG
+সৰু আই	শলকেইটালৈ	সৰু আইবোৰেৰে	N;INS;DEF;PL;INFM;LGSPEC09
+শল	ওলগবোৰেৰে	শলকেইটালৈ	N;DAT;DEF;MASC;PL;LGSPEC08
+ওলগ	ভূঁই-জালুকবিলাকত	ওলগবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+ভূঁই-জালুক	আঘোণটোলৈ	ভূঁই-জালুকবিলাকত	N;LOC;DEF;PL;LGSPEC09
+আঘোণ	নেজানোঁ	আঘোণটোলৈ	N;DAT;DEF;SG;LGSPEC08
+জনা	খজুৱতিসমূহৰলৈকে	নেজানোঁ	V;INDF;IND;SG+PL;1;NEG;PRS
+খজুৱতি	নাকাটে	খজুৱতিসমূহলৈকে	N;TERM;DEF;PL;FORM;LGSPEC09
+কাট	নোখৰিলে	নাকাটে	V;IND;SG+PL;3;NEG;FUT
+ওখৰ	নাউলি	নোখৰিলে	V;COND;NEG;FUT
+আউল	ভাবে	নাউলি	V.PTCP;PRF;NEG
+ভবা	যাদুঘৰবিলাকলৈ	ভাবে	V;INDF;IND;SG+PL;3;POS;PRS
+যাদুঘৰ	কাঁচকলকেইটাৰে	যাদুঘৰবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+কাঁচকল	বিছাক	কাঁচকলকেইটাৰে	N;INS;DEF;PL;LGSPEC08
+বিছা	নাকান্দি	বিছাক	N;ACC;INDF;SG
+কান্দ	হাটৰ	নাকান্দি	V.PTCP;PRF;NEG
+হাট	কামুৰে	হাটৰ	N;GEN;INDF;SG
+কামোৰ	নৰ’দাবা	কামুৰক	V;IMP;SG+PL;3;POS
+ৰ’দোৱা	সুবিধাটো	নৰ’দাবা	V;IMP;SG+PL;2;NEG;LGSPEC02
+সুবিধা	নহায়	সুবিধাটো	N;ABS;DEF;SG;LGSPEC08
+অহা	খজুলিটোক	নহাব	V;IMP;SG+PL;3;NEG
+খজুলি	শৰালিহাঁহে	খজুলিটোক	N;ACC;DEF;SG;LGSPEC08
+শৰালি হাঁহ	লাজটোৰ	শৰালি হাঁহে	N;ERG;INDF;SG
+লাজ	জোনবাইবিলাক	লাজখিনিৰ	N;GEN;DEF;SG;LGSPEC08
+জোনবাই	হাঁহঠুঁটীয়াবিলাকক	জোনবাইবিলাক	N;ABS;DEF;PL;LGSPEC09
+হাঁহঠুঁটীয়া	ভণ্টিকেইজনী	হাঁহঠুঁটীয়াবিলাকক	N;ACC;DEF;PL;LGSPEC09
+ভণ্টি	ভাটৌটোৱে	ভণ্টিকেইজনী	N;ABS;DEF;PL;LGSPEC08
+ভাটৌ	ডাঙৰপাণ্ডাবিলাকক	ভাটৌটোৱে	N;ERG;DEF;MASC;SG;LGSPEC08
+ডাঙৰ পাণ্ডা	ওজাবিলাকেৰে	ডাঙৰ পাণ্ডাবিলাকক	N;ACC;DEF;PL;LGSPEC09
+ওজা	হাড়গিলাবিলাকৰ	ওজাবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+হাড়গিলা	ভাজিলি	হাড়গিলাবিলাকৰ	N;GEN;DEF;PL;LGSPEC09
+ভাজা	দিনবিলাকে	ভাজিলি	V;IND;SG+PL;2;POS;COL;PST
+দিন	বুধবাৰটোৰ	দিনবিলাকে	N;ERG;DEF;PL;LGSPEC09
+বুধবাৰ	বিয়াকৰিব	বুধবাৰটোৰ	N;GEN;DEF;SG;LGSPEC08
+বিয়া কৰা	দালালিবোৰলৈকে	বিয়া কৰিব	V;IND;SG+PL;3;POS;FUT
+দালালি	নাঙলটোক	দালালিবোৰলৈকে	N;TERM;DEF;PL;INFM;LGSPEC09
+নাঙল	ল’ৰাকেইটাক	নাঙলখনক	N;ACC;DEF;SG;LGSPEC08
+ল’ৰা	আগষ্টসমূহৰে	ল’ৰাকেইটাক	N;ACC;DEF;PL;LGSPEC08
+আগষ্ট	শকবোৰলৈ	আগষ্টসমূহত	N;LOC;DEF;PL;FORM;LGSPEC09
+শক	থকাৱঁতী	শকবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+থকা	নকন্দায়	থকাৱঁতী	V;FEM;POS;FORM;LGSPEC05
+কন্দা	বাছঁতী	নকন্দায়	V;INDF;IND;SG+PL;3;NEG;PRS
+বাছা	প্লেটিনামবিলাকেৰে	বাছঁতী	V;FEM;POS;FORM;LGSPEC05
+প্লেটিনাম	চমুটোকাকেইটালৈকে	প্লেটিনামবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+চমুটোকা	উটবোৰে	চমুটোকাকেইটালৈকে	N;TERM;DEF;PL;LGSPEC08
+উট	খেতিয়কসমূহ	উটবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+খেতিয়ক	বৰষে	খেতিয়কসকলক	N;ACC;DEF;PL;FORM;LGSPEC09
+বৰষ	কন্দোৱানাছিলি	বৰষে	V;INDF;IND;SG+PL;3;POS;PRS
+কন্দা	মাজটোক	কন্দোৱা নাছিলোঁ	V;HAB;IND;SG+PL;1;NEG;PST
+মাজ	নাসাঁচিবলগা/নিসিজিবলগীয়া	মাজটোক	N;ACC;DEF;SG;LGSPEC08
+সাঁচ	নিজিলিকুৰা	নাস্চাঁতা	V.PTCP;NEG;FUT;PASS
+জিলিকা	নজ্বলাবি	নিজিলিকুৰা	V;MASC;NEG;INFM;LGSPEC05
+জ্বলোৱা	নকিনাওঁতে	নজ্বলাবি	V;COND;SG+PL;2;NEG;COL;FUT
+কিনা	ঘিঁউসমূহে	নিকিনাবলৈ	V;NEG;LGSPEC04
+ঘিঁউ	মাছজনীৰ	ঘিঁউসমূহে	N;ERG;DEF;PL;FORM;LGSPEC09
+মাছ	পঢ়ি	মাছজনীৰ	N;GEN;DEF;FEM;SG;LGSPEC08
+পঢ়া	নিতিয়াই,নিশিকোৱা	পঢ়ি	V.PTCP;PRF;POS
+তিওৱা	নেঢাকিলা	নিতিয়াই, নিতিয়া	V;NEG;LGSPEC03
+ঢকা	নগঢ়	নেঢাকিবা	V;COND;SG+PL;2;NEG;FUT;LGSPEC02
+গঢ়া	বেংছটাটো	নগঢ়	V;INDF;IND;SG+PL;2;NEG;COL;PRS
+বেংছটা	দেখইছোঁ	বেংছটাটো	N;ABS;DEF;SG;LGSPEC08
+দেখুৱা	বিছনাটোৰ	দেখইছোঁ	V;IPFV;IND;SG+PL;1;POS;PRS
+বিছনা	কৰি	বিছনাখনৰ	N;GEN;DEF;SG;LGSPEC08
+কৰ	কাহানাছিলি	কৰি	V.PTCP;PRF;POS
+কাহা	নমচে	কাহা নাছিলি	V;HAB;IND;SG+PL;2;NEG;COL;PST
+মচা	ফেনকত	নমচে	V;IND;SG+PL;3;NEG;FUT
+ফেন	ব্যৱহাৰকাৰীগৰাকীক	ফেনত	N;LOC;INDF;SG
+ব্যৱহাৰকাৰী	অনা	ব্যৱহাৰকাৰীগৰাকীক	N;ACC;DEF;SG;LGSPEC08
+অনা	উকলিম	অনা	V;IMP;SG+PL;2;POS;COL
+উকল	জামুটোত	উকলিম	V;IND;SG+PL;1;POS;FUT
+জামু	নদমিছোঁ	জামুটোত	N;LOC;DEF;SG;LGSPEC08
+দমা	হেৰুৱাইথকানাছিলি	নদমিছোঁ	V;IPFV;IND;SG+PL;1;NEG;PRS;LGSPEC01
+হেৰুউৱা	নাঁউজোঁ	হেৰুৱাই আছিলি	V;PROG;IND;SG+PL;2;POS;COL;PST
+আঁউজ	মণিটোৱে	নাঁউজোঁ	V;INDF;IND;SG+PL;1;NEG;PRS
+আহ	জোনাকীকেইজনীৰ	নাহুৰা	V;MASC;NEG;INFM;LGSPEC05
+মণি	ভাটে	মণিটোৱে	N;ERG;DEF;SG;LGSPEC08
+জোনাকী	সপোনবোৰৰ	জোনাকীকেইজনীৰ	N;GEN;DEF;FEM;PL;LGSPEC08
+ভাট	ভিজালে	ভাটে	N;ERG;INDF;SG
+সপোন	পোহৰালত	সপোনবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+ভিজোৱা	পাহিবিলাকেৰে	ভিজালে	V;COND;POS;FUT
+পোহৰোৱা	নিসিজোৱা	পোহৰালত	V;COND;POS;PST
+পাহি	নাখাটোঁ	পাহিবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+সিজোৱা	মচলাই	নিসিজোৱা	V;IND;SG+PL;2;NEG;FUT;LGSPEC02
+খাটা	দফাটোক	নাখাটোঁ	V;IND;SG+PL;1;NEG;FUT
+মচলা	ডাঙৰমিছামাছকেইটাৰে	মচলাই	N;ERG;INDF;SG
+দফা	থাকিছ	দফাটোক	N;ACC;DEF;SG;LGSPEC08
+ডাঙৰ মিছামাছ	টিভিয়েৰে	ডাঙৰ মিছামাছকেইটাৰে	N;INS;DEF;PL;LGSPEC08
+থাকা	পোৰিআছ	থাকিছ	V;IPFV;IND;SG+PL;2;POS;COL;PRS
+টিভি	খোজৰ	টিভিৰে	N;INS;INDF;SG
+পোৰা	বনাইনাথাকিবি	পোৰি আছ	V;PROG;IND;SG+PL;2;POS;COL;PRS
+খোজ	শুনিছিছোঁ	খোজৰ	N;GEN;INDF;SG
+বনোৱা	মাণিকবিলাকলৈ	বনাই নাথাকিবি	V;PROG;IND;SG+PL;2;NEG;COL;FUT
+শুনা	পলালোঁ	শুনিছিলোঁ	V;IPFV;IND;SG+PL;1;POS;PST
+মাণিক	ৰচনাকেইখনেত	মাণিকবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+পলা	সেউজকেইটাক	পলালোঁ	V;IND;SG+PL;1;POS;PST
+ৰচনা	ডেকাবোৰলৈ	ৰচনাকেইখনত	N;LOC;DEF;PL;LGSPEC08
+সেউজ	ফটকাকেইটাৰ	সেউজকেইটাক	N;ACC;DEF;PL;LGSPEC08
+ডেকা	সাহকেইটালৈ	ডেকাবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+ফটকা	দোহাৰিথাকিবা	ফটকাকেইটাৰ	N;GEN;DEF;PL;LGSPEC08
+সাহ	বিহুটোলৈ	সাহবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+দোহাৰ	মূতি	দোহাৰি থকা নাছিলা	V;PROG;IND;SG+PL;2;NEG;PST;LGSPEC02
+বিহু	চুঙাচাকিবোৰেৰে	বিহুটোলৈ	N;DAT;DEF;SG;LGSPEC08
+মূতা	সোপাসমূহে	মূতি	V.PTCP;PRF;POS
+চুঙা চাকি	উজলিলত	চুঙা চাকিবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+সোপা	চীনামাটিবোৰ	সোপাসমূহে	N;ERG;DEF;PL;FORM;LGSPEC09
+উজলা	মৈলাম	উজলিলত	V;COND;POS;PST
+চীনা মাটি	ভাইটিবোৰেৰে	চীনা মাটিবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+মৈলাম	শিক্ষাকেইটাৰে	মৈলামটো	N;ABS;DEF;SG;LGSPEC08
+ভাইটি	চাহীয়েৰে	ভাইটিবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+শিক্ষা	নুকলি	শিক্ষাকেইটাৰে	N;INS;DEF;PL;LGSPEC08
+চাহী	কৰোৱাইথকানাছিলে	চাহীৰে	N;INS;INDF;SG
+উকল	শাৰীবিলাকক	নুকলি	V;NEG;LGSPEC03
+কৰোৱা	নিছিটিকায়	কৰোৱাই আছিলে	V;PROG;IND;SG+PL;3;POS;PST
+শাৰী	কুমজেলুকাবিলাকক	শাৰীবিলাকক	N;ACC;DEF;PL;LGSPEC09
+ছিটিকোৱা	খেলি	নিছিটিকাব	V;IMP;SG+PL;3;NEG
+কুমজেলুকা	পঢ়লা	কুমজেলুকাবিলাকক	N;ACC;DEF;PL;LGSPEC09
+খেলা	ওলোমাইছোঁ	খেলি	V.PTCP;PRF;POS
+পঢ়োৱা	চকৰীবোৰে	পঢ়লা	V;IND;SG+PL;2;POS;PST;LGSPEC02
+ওলোমোৱা	চগণিব	ওলোমাইছোঁ	V;IPFV;IND;SG+PL;1;POS;PRS
+চকৰী	ব্যাকৰণবোৰলৈ	চকৰীবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+গণা	ফিঙাবোৰলৈকে	গণিবলৈ	V;POS;LGSPEC04
+ব্যাকৰণ	বিৰালীকেইটাৰে	ব্যাকৰণবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+ফিঙা	লাজুকীবনবোৰ	ফিঙাবোৰলৈকে	N;TERM;DEF;PL;INFM;LGSPEC09
+বিৰালী	নিসিজিব	বিৰালীকেইটাৰে	N;INS;DEF;MASC;PL;LGSPEC08
+লাজুকী বন	কিম’ন’বোৰেৰে	লাজুকী বনবোৰ	N;ABS;DEF;PL;INFM;LGSPEC09
+সিজা	চাবিকেইটাক	নিসিজ	V;NFIN;NEG
+কিম’ন’	দেখাওঁ	কিম’ন’বোৰেৰে	N;INS;DEF;PL;INFM;LGSPEC09
+চাবি	অনোৱালোঁ	চাবিকেইটাক	N;ACC;DEF;PL;LGSPEC08
+দেখোৱা	নিমিহলাৱ	দেখাওঁ	V;INDF;IND;SG+PL;1;POS;PRS
+অনোৱা	ব্যাখ্যাবোৰলৈ	অনোৱালোঁ	V;IND;SG+PL;1;POS;PST
+মিহলোৱা	ভেটি	নিমিহলাৱ	V;INDF;IND;SG+PL;2;NEG;COL;PRS
+ব্যাখ্যা	ৰছীবোৰ	ব্যাখ্যাবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+ভেটা	নপগালা	ভেটি	V;POS;LGSPEC03
+ৰছী	মেকুৰীয়েৰে	ৰছীবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+পগোৱা	কাটোঁতা	নপগাবা	V;COND;SG+PL;2;NEG;FUT;LGSPEC02
+মেকুৰী	বাইবিলাকলৈ	মেকুৰীৰে	N;INS;INDF;SG
+কাট	নাঁতৰিবা	কাটোঁতা	V;MASC;POS;FORM;LGSPEC05
+বাই	উদ্যোগবোৰৰ	বাইবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+আঁতৰ	কিনিছ	নাঁতৰিবা	V;IMP;SG+PL;2;NEG;LGSPEC02
+উদ্যোগ	ঘৰশালিকাকেইটাত	উদ্যোগবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+কিন	ফেঁচাবোৰেৰে	কিনিছ	V;IPFV;IND;SG+PL;2;POS;COL;PRS
+ঘৰ শালিকা	দোহাৰিআছোঁ	ঘৰ শালিকাকেইটাত	N;LOC;DEF;MASC;PL;LGSPEC08
+ফেঁচা	নামাঠা	ফেঁচাবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+দোহাৰ	কটাই	দোহাৰি থকা নাই	V;PROG;IND;SG+PL;1;NEG;PRS
+মাঠা	বন্ধাকবিকেইটা	নামাঠা	V;INDF;IND;SG+PL;2;NEG;PRS;LGSPEC02
+কটোৱা	কান্ধখনৰ	কটাই	V.PTCP;PRF;POS
+বন্ধাকবি	প্লেটিপাছে	বন্ধাকবিকেইটা	N;ABS;DEF;PL;LGSPEC08
+কান্ধ	বিছনাবোৰে	কান্ধখনৰ	N;GEN;DEF;SG;LGSPEC08
+প্লেটিপাছ	নাঝাৰে	প্লেটিপাছে	N;ERG;INDF;SG
+বিছনা	পাহবিলাকলৈ	বিছনাবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+ঝাৰা	উদখিনিলৈকে	নাঝাৰে	V;INDF;IND;SG+PL;3;NEG;PRS
+পাহ	ওলালা	পাহবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+উদ	সলাবলগা	উদটোলৈকে	N;TERM;DEF;SG;LGSPEC08
+ওলা	বুটামবিলাকলৈকে	ওলালা	V;IND;SG+PL;2;POS;PST;LGSPEC02
+সলোৱা	নোজোখিবি	সলাব লগা	V.PTCP;POS;FUT;PASS
+বুটাম	মৈটাই	বুটামবিলাকলৈকে	N;TERM;DEF;PL;LGSPEC09
+জোখা	সূতাৰক	নোজোখিবি	V;COND;SG+PL;2;NEG;COL;FUT
+মৈটা	দেখানাছিলি	মৈটাই	N;ERG;INDF;SG
+সূতাৰ	ৰঙাইছিলা	সূতাৰক	N;ACC;INDF;SG
+দেখা	ঈহটোৱে	দেখা নাছিলি	V;HAB;IND;SG+PL;2;NEG;COL;PST
+ৰঙোৱা	নকটাবা	ৰঙাইছিলা	V;IPFV;IND;SG+PL;2;POS;PST;LGSPEC02
+ঈহ	প্লেটিপাছটো	ঈহডালে	N;ERG;DEF;SG;LGSPEC08
+কটা	ওলটিনেথাকিবা	নকটাবা	V;IMP;SG+PL;2;NEG;LGSPEC02
+প্লেটিপাছ	ঘামিনাথাকিম	প্লেটিপাছটো	N;ABS;DEF;MASC;SG;LGSPEC08
+ওলটা	জ্বল	ওলটি থকা নাছিলা	V;PROG;IND;SG+PL;2;NEG;PST;LGSPEC02
+ঘামা	শকবোৰৰ	ঘামি থাকিম	V;PROG;IND;SG+PL;1;POS;FUT
+জ্বলা	পোহানাছিলে	জ্বল	V;IMP;SG+PL;2;POS;COL
+শক	এন্দুৰবিলাকক	শকবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+পোহা	দলিয়াইছিলা	পোহা নাছিলে	V;HAB;IND;SG+PL;3;NEG;PST
+এন্দুৰ	খাইতেললৈ	এন্দুৰবিলাকক	N;ACC;DEF;PL;LGSPEC09
+দলিওৱা	কেঁকোসাপজনীক	দলিয়াইছিলা	V;IPFV;IND;SG+PL;2;POS;PST;LGSPEC02
+খাই তেল	নুমুদঁতী	খাই তেলত	N;LOC;INDF;SG
+কেঁকোসাপ	স্কুলখনক	কেঁকোসাপজনীক	N;ACC;DEF;FEM;SG;LGSPEC08
+মুদা	উৰাইছিলে	নুমুদঁতী	V;FEM;NEG;FORM;LGSPEC05
+স্কুল	কপাহসমূহৰ	স্কুলখনক	N;ACC;DEF;SG;LGSPEC08
+উৰা	ডাউকবিলাকে	উৰাইছিলে	V;IPFV;IND;SG+PL;3;POS;PST
+কপাহ	নাচিথাকিবা	কপাহসমূহলৈ	N;DAT;DEF;PL;FORM;LGSPEC09
+ডাউক	তৰোৱালৰ	ডাউকবিলাকে	N;ERG;DEF;PL;LGSPEC09
+নচা	বগলীবিলাকত	নাচি থাকিবা	V;PROG;IND;SG+PL;2;POS;FUT;LGSPEC02
+তৰোৱাল	থপিয়াইথাকিব	তৰোৱালৰ	N;GEN;INDF;SG
+বগলী	নিমিহলিলত	বগলীবিলাকত	N;LOC;DEF;PL;LGSPEC09
+থপিওৱা	নভগাইনভগাই	থপিয়াই থাকিব	V;PROG;IND;SG+PL;3;POS;FUT
+মিহল	শিকলিকেইডালেৰে	নিমিহলিলত	V;COND;NEG;PST
+ভগোৱা	নাওৰাউৰা	নভগাই নভগাই	V.PTCP;HAB;NEG
+শিকলি	খাটিআছ	শিকলিকেইডালেৰে	N;INS;DEF;PL;LGSPEC08
+আওৰা	সানা	নাওৰাওঁৰা	V;MASC;NEG;INFM;LGSPEC05
+আহ	ফিঙাবিলাকলৈ	আহি থাকিম	V;PROG;IND;SG+PL;1;POS;FUT
+খটা	নবগাৱঁতী	খাটি আছ	V;PROG;IND;SG+PL;2;POS;COL;PRS
+সানা	কান্ধই	সানা	V;INDF;IND;SG+PL;2;POS;PRS;LGSPEC02
+ফিঙা	আকণবিন্ধীলতাকেইটাত	ফিঙাবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+বগোৱা	চোৰাংবেপাৰী	নবগাৱঁতী	V;FEM;NEG;FORM;LGSPEC05
+কান্ধ	কহখিনিলৈ	কান্ধেৰে	N;INS;INDF;SG
+আকণবিন্ধী লতা	ৰচনাকেইটা	আকণবিন্ধী লতাকেইডালত	N;LOC;DEF;PL;LGSPEC08
+ছো	দাঁতৰবিষটোৰ	ছুইছিলা	V;IPFV;IND;SG+PL;2;POS;PST;LGSPEC02
+চোৰাং বেপাৰী	ওলাইনেথাকিব	চোৰাং বেপাৰী	N;ABS;INDF;SG
+কহ	ভূত-জলকীয়াসমূহৰ	কহখিনিলৈ	N;DAT;DEF;SG;LGSPEC08
+ৰচনা	কাহিআছ	ৰচনাকেইখন	N;ABS;DEF;PL;LGSPEC08
+দাঁতৰ বিষ	নাঘামিছিলা	দাঁতৰ বিষটোৰ	N;GEN;DEF;SG;LGSPEC08
+ওলা	কপৌফুলটো	ওলাই নেথাকিব	V;PROG;IND;SG+PL;3;NEG;FUT
+ভূত-জলকীয়া	চালিনাথাকিলোঁ	ভূত-জলকীয়াসমূহলৈ	N;DAT;DEF;PL;FORM;LGSPEC09
+কাহা	নিপিটিকঁতী	কাহি আছ	V;PROG;IND;SG+PL;2;POS;COL;PRS
+ঘামা	ম’হটোত	নাঘামিছিলা	V;IPFV;IND;SG+PL;2;NEG;PST;LGSPEC02
+কপৌফুল	নাবাজুৰা	কপৌফুলটো	N;ABS;DEF;SG;LGSPEC08
+চালা	গেলিলে	চালি থাকা নাছিলোঁ	V;PROG;IND;SG+PL;1;NEG;PST
+পিটিকা	ঢাকনবোৰলৈকে	নিপিটিকঁতী	V;FEM;NEG;FORM;LGSPEC05
+ম’হ	তিতৰেৰে	ম’হটোত	N;LOC;DEF;MASC;SG;LGSPEC08
+বাজা	নোসোমা	নাবাজুৰী	V;FEM;NEG;INFM;LGSPEC05
+গেলা	বুধবাৰবিলাকলৈকে	গেলিলে	V;IND;SG+PL;3;POS;PST
+ঢাকন	বেপাৰবিলাকত	ঢাকনবোৰলৈকে	N;TERM;DEF;PL;INFM;LGSPEC09
+তিতৰ	সলাইনাথাকিম	তিতৰেৰে	N;INS;INDF;SG
+সোমোৱা	মাজবয়সৰ	নোসোমাবি	V;IMP;SG+PL;2;NEG;COL
+বুধবাৰ	শলজনীত	বুধবাৰবিলাকলৈকে	N;TERM;DEF;PL;LGSPEC09
+বেপাৰ	অনুবাদবিলাকক	বেপাৰবিলাকত	N;LOC;DEF;PL;LGSPEC09
+সলোৱা	নঘঁহিব	সলাই থকা নাছিলোঁ	V;PROG;IND;SG+PL;1;NEG;PST
+মাজ বয়স	চোৰাংবেপাৰীসমূহৰে	মাজ বয়সত	N;LOC;INDF;SG
+শল	নম্বৰকেইটালৈকে	শলজনীত	N;LOC;DEF;FEM;SG;LGSPEC08
+অনুবাদ	নাচিনেথাকিব	অনুবাদবিলাকক	N;ACC;DEF;PL;LGSPEC09
+ঘঁহা	ৰাজহাড়কেইটাই	নঘঁহিব	V;COND;SG+PL;3;NEG;FUT
+চোৰাং বেপাৰী	শাওনবিলাকলৈ	চোৰাং বেপাৰীসকলেৰে	N;INS;DEF;PL;FORM;LGSPEC09
+নম্বৰ	শাহৰ	নম্বৰকেইটালৈকে	N;TERM;DEF;PL;LGSPEC08
+নচা	বাঢ়নীবিলাকক	নাচি নেথাকিব	V;PROG;IND;SG+PL;3;NEG;FUT
+ৰাজহাড়	খাটিথাকিব	ৰাজহাড়কেইডালে	N;ERG;DEF;PL;LGSPEC08
+শাওন	মৌবোৰ	শাওনবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+শাহ	বিষবোৰক	শাহৰ	N;GEN;INDF;SG
+বাঢ়নী	নচৰিবলগা/নচাবলগা	বাঢ়নীবিলাকক	N;ACC;DEF;PL;LGSPEC09
+খাটা	মাজবিলাকক	খাটি থাকিব	V;PROG;IND;SG+PL;3;POS;FUT
+মৌ	নুসূচাওঁতা	মৌবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+বিষ	বহলাইনাথাকিব	বিষবিলাকক	N;ACC;DEF;PL;LGSPEC09
+চৰা	নোজোঙিলে	নচৰিবলগা / নচৰিবলগীয়া	V.PTCP;NEG;FUT;PASS
+মাজ	চোফাটোক	মাজবিলাকক	N;ACC;DEF;PL;LGSPEC09
+সূচোৱা	ভগাবলগা	নুসূচাওঁতা	V;MASC;NEG;FORM;LGSPEC05
+বহলোৱা	মচলাসমূহৰ	বহলাই নাথাকিব	V;PROG;IND;SG+PL;3;NEG;FUT
+জোঙা	মিছামাছকেইটা	নোজোঙিলে	V;COND;NEG;FUT
+চোফা	নঁয়াইছিলি	চোফাখনক	N;ACC;DEF;SG;LGSPEC08
+ভগোৱা	দলংকেইটালৈ	ভগাব লগা	V.PTCP;POS;FUT;PASS
+মচলা	দলম’ৰাকেইজনীৰে	মচলাসমূহৰ	N;GEN;DEF;PL;FORM;LGSPEC09
+মিছা মাছ	চৰ্বিসমূহৰে	মিছা মাছকেইটা	N;ABS;DEF;PL;LGSPEC08
+অঁকা	ফেঁটেৰে	নঁয়াইছিলি	V;IPFV;IND;SG+PL;2;NEG;COL;PST
+দলং	নুখুলিনাছিলে	দলংকেইখনলৈ	N;DAT;DEF;PL;LGSPEC08
+দলম’ৰা	নবগাওঁতা	দলম’ৰাকেইজনীৰে	N;INS;DEF;FEM;PL;LGSPEC08
+চৰ্বি	শহুৰজনীক	চৰ্বিসমূহেৰে	N;INS;DEF;PL;FORM;LGSPEC09
+ফেঁট	ব্যাখ্যাকেইখনলৈকে	ফেঁটেৰে	N;INS;INDF;SG
+খুল	হামিওৱা	নুখুলিলোঁ	V;IND;SG+PL;1;NEG;PST
+বগোৱা	সৰিয়হতেলখনত	নবগাওঁতা	V;MASC;NEG;FORM;LGSPEC05
+শহুৰ	গজালকেইটাত	শহুৰজনক	N;ACC;DEF;SG;LGSPEC08
+ব্যাখ্যা	সোনাৰিকেইটাৰ	ব্যাখ্যাকেইটালৈকে	N;TERM;DEF;PL;LGSPEC08
+হামিওৱা	পোৰিথাকিবা	হামিওৱা	V.PTCP;POS;PST
+সৰিয়হ তেল	কলডিলবিলাকেৰে	সৰিয়হ তেলখিনিত	N;LOC;DEF;SG;LGSPEC08
+গজাল	ওজাগৰাকী	গজালকেইটাৰে	N;LOC;DEF;PL;LGSPEC08
+সোনাৰি	মৰিনাথাকিবা	সোনাৰিকেইগৰাকীৰ	N;GEN;DEF;PL;LGSPEC08
+পোৰা	সুবিধাসমূহৰ	পোৰি আছিলা	V;PROG;IND;SG+PL;2;POS;PST;LGSPEC02
+কলডিল	চৰুলৈকে	কলডিলবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+ওজা	খেলকেইখনলৈকে	ওজাগৰাকী	N;ABS;DEF;SG;LGSPEC08
+মৰ	আঁঠুবোৰৰ	মৰি নাথাকিবা	V;PROG;IND;SG+PL;2;NEG;FUT;LGSPEC02
+সুবিধা	হালিআছোঁ	সুবিধাসমূহলৈ	N;DAT;DEF;PL;FORM;LGSPEC09
+চৰু	নাদাঙ	চৰুলৈকে	N;TERM;INDF;SG
+খেল	ডিচেম্বৰখনে	খেলকেইখনলৈকে	N;TERM;DEF;PL;LGSPEC08
+আঁঠু	নধৰি	আঁঠুবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+হলা	কোকলোঙাচৰাইজনীৰ	হালি থকা নাই	V;PROG;IND;SG+PL;1;NEG;PRS
+দাঙা	আৰ্চিকেইটাই	নাদাঙ	V;INDF;IND;SG+PL;2;NEG;COL;PRS
+ডিচেম্বৰ	জাপবিলাকলৈকে	ডিচেম্বৰটোৱে	N;ERG;DEF;SG;LGSPEC08
+ধৰ	খৰমবোৰৰ	নধৰি	V;NEG;LGSPEC03
+কোকলোঙা চৰাই	হাবিকেইখনৰ	কোকলোঙা চৰাইজনীৰ	N;GEN;DEF;FEM;SG;LGSPEC08
+আৰ্চি	মহীচুঙাডালৰ	আৰ্চিকেইখনে	N;ERG;DEF;PL;LGSPEC08
+জাপ	নম্বৰে	জাপবিলাকলৈকে	N;TERM;DEF;PL;LGSPEC09
+খৰম	মনিয়ৰীটোলৈকে	খৰমবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+হাবি	চিৰিয়াখানাবিলাকত	হাবিকেইখনৰ	N;GEN;DEF;PL;LGSPEC08
+মহী চুঙা	চোফাবিলাকলৈ	মহী চুঙাডালৰ	N;GEN;DEF;SG;LGSPEC08
+নম্বৰ	নুগুচোৱা	নম্বৰে	N;ERG;INDF;SG
+মনিয়ৰী	ভিজাৱঁতী	মনিয়ৰীটোলৈকে	N;TERM;DEF;MASC;SG;LGSPEC08
+চিৰিয়াখানা	বিমানবন্দৰখনে	চিৰিয়াখানাবিলাকত	N;LOC;DEF;PL;LGSPEC09
+চোফা	সোণখিনিৰ	চোফাবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+গুচোৱা	শেষটোলৈকে	নুগুচোৱা	V;INDF;IND;SG+PL;2;NEG;PRS;LGSPEC02
+ভিজোৱা	পিঁজৰাবোৰেৰে	ভিজাৱঁতী	V;FEM;POS;FORM;LGSPEC05
+বিমানবন্দৰ	পঠিয়াইছিলে	বিমানবন্দৰখন	N;ABS;DEF;SG;LGSPEC08
+সোণ	জামুটোৰে	সোণখিনিৰ	N;GEN;DEF;SG;LGSPEC08
+শেষ	নুযুঁজিছিলা	শেষটোলৈকে	N;TERM;DEF;SG;LGSPEC08
+পিঁজৰা	সূতাৰবিলাকত	পিঁজৰাবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+পঠিওৱা	শিপিনীকেইডালৈ	পঠিয়াইছিলে	V;IPFV;IND;SG+PL;3;POS;PST
+জামু	নিজিৰাই-নিখিৰাওঁতে	জামুটোৰে	N;INS;DEF;SG;LGSPEC08
+যুঁজা	শাওবিলাকেৰে	নুযুঁজিছিলোঁ	V;IPFV;IND;SG+PL;1;NEG;PST
+সূতাৰ	খজুটিলৈ	সূতাৰবিলাকত	N;LOC;DEF;PL;LGSPEC09
+শিপিনী	গজালকেইটাক	শিপিনীকেইজনীলৈ	N;DAT;DEF;PL;LGSPEC08
+জিৰোৱা	উতলাওঁতেনুজুলোঁতে	নিজিৰাই নিজিৰাই	V.PTCP;HAB;NEG
+শাও	কুহুমকেইটালৈকে	শাওবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+খজুটি	দফা	খজুটিলৈ	N;DAT;INDF;SG
+গজাল	ঘাঁহনিয়েৰে	গজালকেইডালক	N;ACC;DEF;PL;LGSPEC08
+উতলা	সলনিটোক	উতলাওঁতে উতলাওঁতে	V.PTCP;PROG;POS
+কুহুম	ল’ম	কুহুমকেইটালৈকে	N;TERM;DEF;PL;LGSPEC08
+দফা	চোকাকৰিব	দফা	N;ABS;INDF;SG
+ঘাঁহনি	খৰালিসমূহে	ঘাঁহনিৰে	N;INS;INDF;SG
+সলনি	নিশিকালি	সলনিটোক	N;ACC;DEF;SG;LGSPEC08
+লোৱা	নেতেজিছিলে	লওঁ	V;INDF;IND;SG+PL;1;POS;PRS
+চোকা কৰা	নিবিন্ধিম	চোকা কৰিব	V;NFIN;POS
+খৰালি	আঁচোৰাইছিলি	খৰালিসমূহে	N;ERG;DEF;PL;FORM;LGSPEC09
+শিকোৱা	চান্দবিলাকৰ	নিশিকালি	V;IND;SG+PL;2;NEG;COL;PST
+তেজা	কথাপাত	নেতেজিছিলে	V;IPFV;IND;SG+PL;3;NEG;PST
+বিন্ধা	বেলিসমূহ	নিবিন্ধিম	V;COND;SG+PL;1;NEG;FUT
+আঁচোৰা	শিশিকোৱা	আঁচোৰাইছিলি	V;IPFV;IND;SG+PL;2;POS;COL;PST
+চান্দ	পুথিভঁৰালবিলাকলৈ	চান্দবিলাকৰ	N;GEN;DEF;PL;LGSPEC09
+কথা পতা	শুঙ	কথা নাপাতিবি	V;IMP;SG+PL;2;NEG;COL
+বেলি	খেদিথাকিবা	বেলিসমূহে	N;ERG;DEF;PL;FORM;LGSPEC09
+শিকোওৱা	কঁহাৰকেইটাত	শিকোৱাবলৈ	V;POS;LGSPEC04
+পুথিভঁৰাল	হেঁপাহকেইটাই	পুথিভঁৰালবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+শুঙা	নজ্বলালোঁ	শুঙ	V;IMP;SG+PL;2;POS;COL
+খেদা	খুৱাইআছা	খেদি থাকিবা	V;PROG;IND;SG+PL;2;POS;FUT;LGSPEC02
+কঁহাৰ	মেচেকাটোলৈ	কঁহাৰকেইগৰাকীত	N;LOC;DEF;PL;LGSPEC08
+হেঁপাহ	বাল্টিংকেইটা	হেঁপাহকেইটাই	N;ERG;DEF;PL;LGSPEC08
+জ্বলোৱা	বুটামবিলাক	নজ্বলালোঁ	V;IND;SG+PL;1;NEG;PST
+খুৱা	চিঙৰাবোৰে	খুৱাই আছা	V;PROG;IND;SG+PL;2;POS;PRS;LGSPEC02
+মেচেকা	মিহলাই-নিমিহলাওঁতে	মেচেকাটোলৈ	N;DAT;DEF;MASC;SG;LGSPEC08
+বাল্টিং	কন্দুৱাইছিলা	বাল্টিংকেইটা	N;ABS;DEF;PL;LGSPEC08
+বুটাম	অনুবাদটোলৈকে	বুটামবিলাক	N;ABS;DEF;PL;LGSPEC09
+চিঙৰা	একাধিপতিৰ	চিঙৰাবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+মিহলোৱা	নাৰান্ধিবলৈকে	মিহলাওঁতে মিহলাওঁতে	V.PTCP;PROG;POS
+কন্দুৱা	নধৰিবলৈকে	কন্দুৱাইছিলা	V;IPFV;IND;SG+PL;2;POS;PST;LGSPEC02
+অনুবাদ	কান্দি	অনুবাদটোলৈকে	N;TERM;DEF;SG;LGSPEC08
+একাধিপতি	চুলিকেইয়েক	একাধিপতিত	N;LOC;INDF;SG
+ৰন্ধা	নাবাজোঁ	নাৰান্ধিবলৈকে	V;TERM;NEG
+ধৰ	নুগুচে	নধৰিবলৈকে	V;TERM;NEG
+কান্দা	সাগৰসমূহৰে	কান্দি	V.PTCP;PRF;POS
+চুলি	কেঁকোৰ	চুলিবোৰক	N;ACC;DEF;PL;LGSPEC08
+বাজা	তপিনাবিলাকলৈ	নাবাজোঁ	V;IND;SG+PL;1;NEG;FUT
+গুচা	ভোটবোৰে	নুগুচে	V;IND;SG+PL;3;NEG;FUT
+সাগৰ	নিজিৰোৱা	সাগৰসমূহলৈকে	N;TERM;DEF;PL;FORM;LGSPEC09
+কেঁকো	দাঙিছিলা	কেঁকোৰ	N;GEN;INDF;SG
+তপিনা	ৰচনাবিলাকে	তপিনাবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+ভোট	ডালশলিয়াজনী	ভোটবোৰে	N;ERG;DEF;PL;INFM;LGSPEC09
+জিৰোৱা	নেপাঙা	নিজিৰোৱা	V;INDF;IND;SG+PL;2;NEG;PRS;LGSPEC02
+দঙা	নপগাওঁ	দাঙিছিলা	V;IPFV;IND;SG+PL;2;POS;PST;LGSPEC02
+ৰচনা	বাজিলত	ৰচনাবিলাকে	N;ERG;DEF;PL;LGSPEC09
+ডাল শলিয়া	গোটাইছা	ডাল শলিয়াজনী	N;ABS;DEF;FEM;SG;LGSPEC08
+পাং	বাইদেউকেইটালৈ	নেপাঙা	V;INDF;IND;SG+PL;2;NEG;PRS;LGSPEC02
+পগোৱা	ডিলাবিলাকলৈ	নপগাওঁ	V;INDF;IND;SG+PL;1;NEG;PRS
+বজা	ভূঁইখনলৈ	বাজিলত	V;COND;POS;PST
+গোটোৱা	আহা	গোটাইছা	V;IPFV;IND;SG+PL;2;POS;PRS;LGSPEC02
+বাইদেউ	শুধৰিছোঁ	বাইদেউকেইগৰাকীলৈ	N;DAT;DEF;PL;LGSPEC08
+ডিলা	জেপ	ডিলাবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+ভূঁই	নেচেলেকুৰা	ভূঁইখনলৈ	N;DAT;DEF;SG;LGSPEC08
+আহা	বটলকেইটাৰ	আহা	V;INDF;IND;SG+PL;2;POS;PRS;LGSPEC02
+শুধৰা	নিশাহলৈ	শুধৰিছোঁ	V;IPFV;IND;SG+PL;1;POS;PRS
+জেপ	নানামিছিলা	জেপটো	N;ABS;DEF;SG;LGSPEC08
+চেলেক	নিছিগুৰা	নেচেলেকুৰা	V;MASC;NEG;INFM;LGSPEC05
+বটল	আঁচোৰিলে	বটলকেইটাৰ	N;GEN;DEF;PL;LGSPEC08
+নিশাহ	পাহসমূহ	নিশাহলৈ	N;DAT;INDF;SG
+নামা	লিপিষ্টিকবিলাকলৈ	নানামিছিলোঁ	V;IPFV;IND;SG+PL;1;NEG;PST
+ছিগা	আখিকেইটাত	নিছিগুৰা	V;MASC;NEG;INFM;LGSPEC05
+আঁচোৰ	ঢাকনবোৰৰ	আঁচোৰিলে	V;IND;SG+PL;3;POS;PST
+পাহ	দাপোণবিলাকলৈ	পাহসমূহক	N;ACC;DEF;PL;FORM;LGSPEC09
+লিপিষ্টিক	বাঁহপাতীজনীলৈকে	লিপিষ্টিকবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+আখি	ভেটিবলগা/নুশুনিবলগীয়া	আখিকেইটাত	N;LOC;DEF;PL;LGSPEC08
+ঢাকন	হাড়গিলাবিলাকে	ঢাকনবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+দাপোণ	পচিথাকিবা	দাপোণবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+বাঁহপাতী	বাহকেইটালৈকে	বাঁহপাতীজনীলৈকে	N;TERM;DEF;FEM;SG;LGSPEC08
+ভেটা	শিপিনীবিলাকে	ভেটিবলগা / ভেটিবলগীয়া	V.PTCP;POS;FUT;PASS
+হাড়গিলা	মাটিখিনিৰ	হাড়গিলাবিলাকে	N;ERG;DEF;PL;LGSPEC09
+পচা	চাই-বিচাই	পচি আছিলা	V;PROG;IND;SG+PL;2;POS;PST;LGSPEC02
+বাহ	সাবটবোৰৰ	বাহকেইটালৈকে	N;TERM;DEF;PL;LGSPEC08
+শিপিনী	নিভিজাওঁতা	শিপিনীবিলাকে	N;ERG;DEF;PL;LGSPEC09
+মাটি	সৰুআইবোৰৰ	মাটিখিনিৰ	N;GEN;DEF;SG;LGSPEC08
+চা	কুকুৰাজনীলৈকে	চাই চাই	V.PTCP;HAB;POS
+সাবট	তাঁতসমূহ	সাবটবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+ভিজোৱা	মাগুৰকেইটাত	নিভিজাওঁতা	V;MASC;NEG;FORM;LGSPEC05
+সৰু আই	নীলাতিমিজনীলৈ	সৰু আইবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+কুকুৰা	নিপিকা	কুকুৰাজনীলৈকে	N;TERM;DEF;FEM;SG;LGSPEC08
+তাঁত	চমুৱাইছিলোঁ	তাঁতসমূহক	N;ACC;DEF;PL;FORM;LGSPEC09
+মাগুৰ	ভৰিৰ	মাগুৰকেইটাত	N;LOC;DEF;MASC;PL;LGSPEC08
+নীলা তিমি	কাঁচবোৰ	নীলা তিমিজনীলৈ	N;DAT;DEF;FEM;SG;LGSPEC08
+পিকোৱা	আঁকিথকানাছিলি	নিপিকাব	V;NFIN;NEG
+চমুউৱা	ছেকা	চমুৱাইছিলোঁ	V;IPFV;IND;SG+PL;1;POS;PST
+ভৰি	গাখীৰবোৰেৰে	ভৰিৰ	N;GEN;INDF;SG
+কাঁচ	বিৰালীজনীত	কাঁচবোৰ	N;ABS;DEF;PL;INFM;LGSPEC09
+আঁক	খিৰিকীবিলাকক	আঁকি আছিলি	V;PROG;IND;SG+PL;2;POS;COL;PST
+ছেকা	আঁহতডালৈ	ছেকা	V.PTCP;POS;PST
+গাখীৰ	বাইবোৰ	গাখীৰবোৰত	N;LOC;DEF;PL;INFM;LGSPEC09
+বিৰালী	টুকুৰিয়াইথকানাছিলি	বিৰালীজনীত	N;LOC;DEF;FEM;SG;LGSPEC08
+খিৰিকী	নদমাউৰা	খিৰিকীবিলাকক	N;ACC;DEF;PL;LGSPEC09
+আঁহত	চাবলৈকে	আঁহতডাললৈ	N;DAT;DEF;SG;LGSPEC08
+বাই	গুৰিয়ালা	বাইবোৰক	N;ACC;DEF;PL;INFM;LGSPEC09
+টুকুৰিওৱা	উদ্যোগকেইটাত	টুকুৰিয়াই থকা নাছিলি	V;PROG;IND;SG+PL;2;NEG;COL;PST
+দমোৱা	থাপৰবিলাকক	নদমাউৰা	V;MASC;NEG;INFM;LGSPEC05
+চা	হোটেলবিলাকলৈ	চাবলৈকে	V;TERM;POS
+গুৰিওৱা	জোঙালীটোক	গুৰিয়াবা	V;IND;SG+PL;2;POS;FUT;LGSPEC02
+উদ্যোগ	দীঘলাব	উদ্যোগকেইটাত	N;LOC;DEF;PL;LGSPEC08
+থাপৰ	পুথিঘৰে	থাপৰবিলাকক	N;ACC;DEF;PL;LGSPEC09
+হোটেল	নহ’ব	হোটেলবিলাকলৈ	N;DAT;DEF;PL;LGSPEC09
+জোঙালী	পাগলামি	জোঙালীটোক	N;ACC;DEF;SG;LGSPEC08
+দীঘলোৱা	ৰুকিথাকিবা	দীঘলাব	V;IND;SG+PL;3;POS;FUT
+পুথিঘৰ	ঠাৰিটোত	পুথিঘৰে	N;ERG;INDF;SG
+হোৱা	বেৰবিলাকক	নহ	V;NFIN;NEG
+পাগলামি	বন্ধাকবিটোলৈকে	পাগলামি	N;ABS;INDF;SG
+ৰোকা	নাসানা	ৰুকি আছিলা	V;PROG;IND;SG+PL;2;POS;PST;LGSPEC02
+ঠাৰি	নুবুজি	ঠাৰিডালত	N;LOC;DEF;SG;LGSPEC08
+বেৰ	নোসোমাউৰা	বেৰবিলাকক	N;ACC;DEF;PL;LGSPEC09
+বন্ধাকবি	নেচেলেকিনেচেলেকোঁতে	বন্ধাকবিটোলৈকে	N;TERM;DEF;SG;LGSPEC08
+সানা	যুঁজসমূহে	নাসানা	V;INDF;IND;SG+PL;2;NEG;PRS;LGSPEC02
+বুজা	উৰানাছিলা	নুবুজি	V.PTCP;PRF;NEG
+সোমোৱা	মাতলৈ	নোসোমাউৰা	V;MASC;NEG;INFM;LGSPEC05
+চেলেকা	গঢ়িথকানাছিলে	নেচেলেকি নেচেলেকি	V.PTCP;HAB;NEG
+যুঁজ	চৰুকেইটাৰে	যুঁজসমূহে	N;ERG;DEF;PL;FORM;LGSPEC09
+উৰা	বাদুলিবোৰৰ	উৰোৱা নাছিলোঁ	V;HAB;IND;SG+PL;1;NEG;PST
+মাত	তেজপিয়াটোলৈ	মাতলৈ	N;DAT;INDF;SG
+গঢ়া	খাইতেলবিলাকত	গঢ়ি আছিলে	V;PROG;IND;SG+PL;3;POS;PST
+চৰু	নেতেজিবৰ	চৰুকেইটাৰে	N;INS;DEF;PL;LGSPEC08
+বাদুলি	শাওনকেইটাত	বাদুলিবোৰৰ	N;GEN;DEF;PL;INFM;LGSPEC09
+তেজপিয়া	নুলুটিয়াব	তেজপিয়াটোলৈ	N;DAT;DEF;MASC;SG;LGSPEC08
+খাই তেল	নথকাইছিছোঁ	খাই তেলবিলাকত	N;LOC;DEF;PL;LGSPEC09
+তেজা	নুগুচোঁ	নেতেজিবৰ	V;GEN;NFIN;NEG
+শাওন	টিভিবোৰলৈকে	শাওনকেইটাত	N;LOC;DEF;PL;LGSPEC08
+লুটিওৱা	অকাপীটোৰ	নুলুটিয়ায়	V;IND;SG+PL;3;NEG;FUT
+থকা	পাটপলুজনী	নথকাইছিলোঁ	V;IPFV;IND;SG+PL;1;NEG;PST
+গুচা	জোকেৰে	নুগুচোঁ	V;IND;SG+PL;1;NEG;FUT
+টিভি	যুঁজকত	টিভিবোৰলৈকে	N;TERM;DEF;PL;INFM;LGSPEC09
+অকাপী	নবজইছিলে	অকাপীটোৰ	N;GEN;DEF;MASC;SG;LGSPEC08
+পাট পলু	গজালটোৱে	পাট পলুজনী	N;ABS;DEF;FEM;SG;LGSPEC08
+জোক	নিশাহবিলাকেৰে	জোকেৰে	N;INS;INDF;SG
+যুঁজ	বাঁহপাতীকেইটালৈকে	যুঁজত	N;LOC;INDF;SG
+বজোৱা	নজলঁতী	নবজলে	V;IND;SG+PL;3;NEG;PST
+গজাল	পুতলাবোৰলৈ	গজালডালে	N;ERG;DEF;SG;LGSPEC08
+নিশাহ	জপাৱঁতী	নিশাহবিলাকেৰে	N;INS;DEF;PL;LGSPEC09
+বাঁহপাতী	কামুৰিনাথাকিবি	বাঁহপাতীকেইটালৈকে	N;TERM;DEF;MASC;PL;LGSPEC08
+জলা	ইলিছজনীয়ে	নজলঁতী	V;FEM;NEG;FORM;LGSPEC05
+পুতলা	পাণ্ডাকেইজনীলৈকে	পুতলাবোৰলৈ	N;DAT;DEF;PL;INFM;LGSPEC09
+জপোৱা	ঢেঁকীয়াপতীয়াবাঘজনীয়ে	জপাৱঁতী	V;FEM;POS;FORM;LGSPEC05
+কামোৰা	বামীজনীয়ে	কামুৰি নাথাকিবি	V;PROG;IND;SG+PL;2;NEG;COL;FUT
+ইলিছ	মনিয়ৰীজনীয়ে	ইলিছজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পাণ্ডা	জোনাকীকেইজনীলৈকে	পাণ্ডাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ঢেঁকীয়াপতীয়া বাঘ	ভেলাজনীয়ে	ঢেঁকীয়াপতীয়া বাঘজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বামী	উতনুৱাজনীয়ে	বামীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মনিয়ৰী	ছাগলীকেইজনীলৈকে	মনিয়ৰীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জোনাকী	চিম্পাঞ্জীকেইজনীলৈকে	জোনাকীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ভেলা	ভেৰাকেইজনীলৈকে	ভেলাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+উতনুৱা	ছনাকেইজনীলৈকে	উতনুৱাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ছাগলী	কুমজেলুকাকেইজনীলৈকে	ছাগলীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+চিম্পাঞ্জী	ছানাকেইজনীলৈকে	চিম্পাঞ্জীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ভেৰা	শালিকাকেইজনীলৈকে	ভেৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ছনা	তিমিজনীয়ে	ছনাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কুমজেলুকা	জোতাঠোঁটীয়াজনীয়ে	কুমজেলুকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ছানা	পাতিকাউৰীকেইজনীলৈকে	ছানাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+শালিকা	কেঁকোজনীয়ে	শালিকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+তিমি	চিতাবাঘজনীয়ে	তিমিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জোতাঠোঁটীয়া	ছাৱজনীয়ে	জোতাঠোঁটীয়াজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পাতি কাউৰী	পাতিকাউৰীজনীয়ে	পাতি কাউৰীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কেঁকো	বগলীজনীয়ে	কেঁকোজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চিতা বাঘ	দলম’ৰাকেইজনীলৈকে	চিতা বাঘজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ছাৱ	চিম্পাঞ্জীজনীয়ে	ছাৱজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পাতি কাউৰী	বৰপাণ্ডাকেইজনীলৈকে	পাতি কাউৰীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বগলী	বামীকেইজনীলৈকে	বগলীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+দলম’ৰা	ফেঁচাকেইজনীলৈকে	দলম’ৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+চিম্পাঞ্জী	তেজপিয়াকেইজনীলৈকে	চিম্পাঞ্জীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বৰ পাণ্ডা	কুমজেলেকুৱাজনীয়ে	বৰ পাণ্ডাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বামী	কুকুৰাজনীয়ে	বামীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ফেঁচা	ফ্লেমিংগজনীয়ে	ফেঁচাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+তেজপিয়া	ইতৰপ্ৰাণীজনীয়ে	তেজপিয়াকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কুমজেলেকুৱা	ভালুক-মকৰাকেইজনীলৈকে	কুমজেলেকুৱাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুকুৰা	ফিঙাজনীয়ে	কুকুৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ফ্লেমিংগ	ওকণিকেইজনীলৈকে	ফ্লেমিংগজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ইতৰ প্ৰাণী	জহামালজনীয়ে	ইতৰ প্ৰাণীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভালুক-মকৰা	পাণ্ডাজনীয়ে	ভালুক-মকৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ফিঙা	উঁইকেইজনীলৈকে	ফিঙাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ওকণি	নাহৰফুটুকীবাঘজনীয়ে	ওকণিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+জহামাল	অৰকাজনীয়ে	জহামালজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পাণ্ডা	মাগুৰভেকুলীজনীয়ে	পাণ্ডাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+উঁই	কেৰ্কেটুৱাজনীয়ে	উঁইকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+নাহৰফুটুকী বাঘ	ভেলাকেইজনীলৈকে	নাহৰফুটুকী বাঘজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+অৰকা	তেলটুপিকেইজনীলৈকে	অৰকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মাগুৰ ভেকুলী	ফেঁচাজনীয়ে	মাগুৰ ভেকুলীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কেৰ্কেটুৱা	মাছৰোকাকেইজনীলৈকে	কেৰ্কেটুৱাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভেলা	চাহীকেইজনীলৈকে	ভেলাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+তেলটুপি	নিছলামাছজনীয়ে	তেলটুপিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ফেঁচা	হাতীজনীয়ে	ফেঁচাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মাছৰোকা	চাহীজনীয়ে	মাছৰোকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+চাহী	মেঠোনজনীয়ে	চাহীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+নিছলা মাছ	জেব্ৰাজনীয়ে	নিছলা মাছজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+হাতী	জেলুকজনীয়ে	হাতীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চাহী	জেব্ৰাকেইজনীলৈকে	চাহীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মেঠোন	ৰৌকেইজনীলৈকে	মেঠোনজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জেব্ৰা	ঝিঞাজনীয়ে	জেব্ৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জেলুক	কুমজেলেকুৱাকেইজনীলৈকে	জেলুকজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জেব্ৰা	শালিকাজনীয়ে	জেব্ৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ৰৌ	গুঁইসাপজনীয়ে	ৰৌকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ঝিঞা	কুমটিজনীয়ে	ঝিঞাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুমজেলেকুৱা	ভেৰাজনীয়ে	কুমজেলেকুৱাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+শালিকা	চীনাকুকুৰাজনীয়ে	শালিকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+গুঁই সাপ	গাগিনীজনীয়ে	গুঁই সাপজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুমটি	পৰুৱাজনীয়ে	কুমটিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভেৰা	কুকুৰাকেইজনীলৈকে	ভেৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চীনা কুকুৰা	বাঢ়ৈটোকাজনীয়ে	চীনা কুকুৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+গাগিনী	লতাফুটুকিজনীয়ে	গাগিনীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পৰুৱা	কেঁটেলাপহুজনীয়ে	পৰুৱাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুকুৰা	মাখিকেইজনীলৈকে	কুকুৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বাঢ়ৈটোকা	বগজনীয়ে	বাঢ়ৈটোকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+লতাফুটুকি	ফিঙকেইজনীলৈকে	লতাফুটুকিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কেঁটেলা পহু	জহামলাজনীয়ে	কেঁটেলা পহুজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মাখি	গুবৰুৱাকেইজনীলৈকে	মাখিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বগ	ভকুৱাকেইজনীলৈকে	বগজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ফিঙ	বগাতিমিকেইজনীলৈকে	ফিঙকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+জহামলা	নলগাহৰিজনীয়ে	জহামলাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+গুবৰুৱা	কাউৰীকেইজনীলৈকে	গুবৰুৱাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ভকুৱা	পিপৰাকেইজনীলৈকে	ভকুৱাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বগা তিমি	উটচৰাইকেইজনীলৈকে	বগা তিমিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+নল গাহৰি	দলম’ৰাজনীয়ে	নল গাহৰিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কাউৰী	ভেড়াকেইজনীলৈকে	কাউৰীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+পিপৰা	কুৰুৱাকেইজনীলৈকে	পিপৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+উট চৰাই	লাজুকীবান্দৰজনীয়ে	উট চৰাইকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+দলম’ৰা	ভাটৌজনীয়ে	দলম’ৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভেড়া	নীলাতিমিকেইজনীলৈকে	ভেড়াকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কুৰুৱা	লতাফুটুকিকেইজনীলৈকে	কুৰুৱাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+লাজুকী বান্দৰ	কেঁকোকেইজনীলৈকে	লাজুকী বান্দৰজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভাটৌ	এল্পেকাজনীয়ে	ভাটৌজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+নীলা তিমি	বাঁহপাতীকেইজনীলৈকে	নীলা তিমিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+লতাফুটুকি	মেকুৰীজনীয়ে	লতাফুটুকিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কেঁকো	চিকাকেইজনীলৈকে	কেঁকোকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+এল্পেকা	বগাভালুকজনীয়ে	এল্পেকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাঁহপাতী	বাদুলিজনীয়ে	বাঁহপাতীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+মেকুৰী	বাউলজনীয়ে	মেকুৰীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চিকা	শিহুজনীয়ে	চিকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বগা ভালুক	অকাপীজনীয়ে	বগা ভালুকজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাদুলি	ভেড়াজনীয়ে	বাদুলিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাউল	বগলীকেইজনীলৈকে	বাউলজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+শিহু	ডাঙৰপাণ্ডাকেইজনীলৈকে	শিহুজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+অকাপী	মাগুৰজনীয়ে	অকাপীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভেড়া	শহাকেইজনীলৈকে	ভেড়াজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বগলী	হাড়গিলাজনীয়ে	বগলীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ডাঙৰ পাণ্ডা	মাখিজনীয়ে	ডাঙৰ পাণ্ডাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+মাগুৰ	ম’হজনীয়ে	মাগুৰজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+শহা	পিপৰাজনীয়ে	শহাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+হাড়গিলা	জিলিকেইজনীলৈকে	হাড়গিলাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মাখি	ডালশলিয়াজনীয়ে	মাখিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ম’হ	ঘৰশালিকাজনীয়ে	ম’হজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পিপৰা	মেচেকাকেইজনীলৈকে	পিপৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জিলি	ৰাংকুকুৰজনীয়ে	জিলিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ডাল শলিয়া	কুঁজাতিমিকেইজনীলৈকে	ডাল শলিয়াজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ঘৰ শালিকা	মেকুৰীকেইজনীলৈকে	ঘৰ শালিকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মেচেকা	নীলাতিমিজনীয়ে	মেচেকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ৰাং কুকুৰ	গুবৰুৱাজনীয়ে	ৰাং কুকুৰজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুঁজা তিমি	কুনকুনিমাখিকেইজনীলৈকে	কুঁজা তিমিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+মেকুৰী	বৰপাণ্ডাজনীয়ে	মেকুৰীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+নীলা তিমি	ডাঙৰপাণ্ডাজনীয়ে	নীলা তিমিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+গুবৰুৱা	কাউৰীজনীয়ে	গুবৰুৱাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুনকুনি মাখি	কেপিৱাৰাজনীয়ে	কুনকুনি মাখিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বৰ পাণ্ডা	পাণ্ডাভালুকজনীয়ে	বৰ পাণ্ডাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ডাঙৰ পাণ্ডা	ভাটৌকেইজনীলৈকে	ডাঙৰ পাণ্ডাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কাউৰী	গঙা-চিলনীজনীয়ে	কাউৰীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কেপিৱাৰা	গৰুকেইজনীলৈকে	কেপিৱাৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পাণ্ডা ভালুক	শৰালিহাঁহজনীয়ে	পাণ্ডা ভালুকজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভাটৌ	আচলটলজনীয়ে	ভাটৌকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+গঙা-চিলনী	শিহুকেইজনীলৈকে	গঙা-চিলনীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+গৰু	কাঠৰোকাকেইজনীলৈকে	গৰুকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+শৰালি হাঁহ	কঁটলাকেইজনীলৈকে	শৰালি হাঁহজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+আচলটল	তিতৰজনীয়ে	আচলটলজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+শিহু	কাৱৈকেইজনীলৈকে	শিহুকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কাঠৰোকা	সোণালীবান্দৰজনীয়ে	কাঠৰোকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কঁটলা	ম’ৰাজনীয়ে	কঁটলাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+তিতৰ	বাঘচৰাইজনীয়ে	তিতৰজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কাৱৈ	চুটীয়াশালিকাকেইজনীলৈকে	কাৱৈকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+সোণালী বান্দৰ	এল্পেকাকেইজনীলৈকে	সোণালী বান্দৰজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ম’ৰা	পাটপলুকেইজনীলৈকে	ম’ৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাঘ চৰাই	ৰৌজনীয়ে	বাঘ চৰাইজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চুটীয়া শালিকা	চিলাকেন্থকেইজনীলৈকে	চুটীয়া শালিকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+এল্পেকা	ডালশলিয়াকেইজনীলৈকে	এল্পেকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+পাট পলু	সাৰেংজনীয়ে	পাট পলুকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ৰৌ	ওকণিজনীয়ে	ৰৌজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চিলাকেন্থ	মকৰাজনীয়ে	চিলাকেন্থকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ডাল শলিয়া	এশিঙীয়াগঁড়জনীয়ে	ডাল শলিয়াকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+সাৰেং	শলজনীয়ে	সাৰেংজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ওকণি	চেলাজনীয়ে	ওকণিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মকৰা	পোনাকেইজনীলৈকে	মকৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+এশিঙীয়া গঁড়	জোতাঠোঁটীয়াকেইজনীলৈকে	এশিঙীয়া গঁড়জনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+শল	ঘৰশালিকাকেইজনীলৈকে	শলজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চেলা	বাঘমকৰাকেইজনীলৈকে	চেলাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পোনা	কোকলোঙাচৰাইজনীয়ে	পোনাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+জোতাঠোঁটীয়া	ছাগলীজনীয়ে	জোতাঠোঁটীয়াকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ঘৰ শালিকা	তিতৌজনীয়ে	ঘৰ শালিকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বাঘ মকৰা	হাড়গিলাকেইজনীলৈকে	বাঘ মকৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কোকলোঙা চৰাই	গৰুজনীয়ে	কোকলোঙা চৰাইজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ছাগলী	ভেকুলীজনীয়ে	ছাগলীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+তিতৌ	চিলাকেন্থজনীয়ে	তিতৌজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+হাড়গিলা	কেঁকোসাপজনীয়ে	হাড়গিলাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+গৰু	মকৰাকেইজনীলৈকে	গৰুজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভেকুলী	তেলীয়াসাৰেংজনীয়ে	ভেকুলীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চিলাকেন্থ	বগাভালুককেইজনীলৈকে	চিলাকেন্থজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কেঁকোসাপ	গঙাটোপজনীয়ে	কেঁকোসাপজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মকৰা	নলগাহৰিকেইজনীলৈকে	মকৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+তেলীয়াসাৰেং	নেউলজনীয়ে	তেলীয়াসাৰেংজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বগা ভালুক	জহামলাকেইজনীলৈকে	বগা ভালুককেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+গঙাটোপ	মহজনীয়ে	গঙাটোপজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+নল গাহৰি	কুনকুনিমাখিজনীয়ে	নল গাহৰিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+নেউল	মেচেকাজনীয়ে	নেউলজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জহামলা	ভালুক-মকৰাজনীয়ে	জহামলাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+মহ	জোনাকীজনীয়ে	মহজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুনকুনি মাখি	ইতৰপ্ৰাণীকেইজনীলৈকে	কুনকুনি মাখিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মেচেকা	ডাউকজনীয়ে	মেচেকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভালুক-মকৰা	ম’ৰাকেইজনীলৈকে	ভালুক-মকৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জোনাকী	গাগিনীকেইজনীলৈকে	জোনাকীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ইতৰ প্ৰাণী	কুকুহাজনীয়ে	ইতৰ প্ৰাণীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ডাউক	বিৰালীকেইজনীলৈকে	ডাউকজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ম’ৰা	অৰকাকেইজনীলৈকে	ম’ৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+গাগিনী	কেঁটেলাজনীয়ে	গাগিনীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কুকুহা	কঁটলাজনীয়ে	কুকুহাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বিৰালী	কাঠৰোকাজনীয়ে	বিৰালীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+অৰকা	বাঘমকৰাজনীয়ে	অৰকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কেঁটেলা	চুটীয়া-শালিকাজনীয়ে	কেঁটেলাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কঁটলা	বাঁহপাতীজনীয়ে	কঁটলাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কাঠৰোকা	কুমটিকেইজনীলৈকে	কাঠৰোকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাঘ মকৰা	কেঁটেলাপহুকেইজনীলৈকে	বাঘ মকৰাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চুটীয়া-শালিকা	বিৰালীজনীয়ে	চুটীয়া-শালিকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাঁহপাতী	মাছৰোকাজনীয়ে	বাঁহপাতীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুমটি	ঝিঞাকেইজনীলৈকে	কুমটিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কেঁটেলা পহু	কেঁটেলাকেইজনীলৈকে	কেঁটেলা পহুকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বিৰালী	ফিঙজনীয়ে	বিৰালীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মাছৰোকা	লতামাকৰিজনীয়ে	মাছৰোকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ঝিঞা	চেলাকেইজনীলৈকে	ঝিঞাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কেঁটেলা	তেজপিয়াজনীয়ে	কেঁটেলাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ফিঙ	কেছাল’তিমিকেইজনীলৈকে	ফিঙজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+লতামাকৰি	উটচৰাইজনীয়ে	লতামাকৰিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চেলা	চুটীয়া-শালিকাকেইজনীলৈকে	চেলাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+তেজপিয়া	শহাজনীয়ে	তেজপিয়াজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কেছাল’ তিমি	শ’লজনীয়ে	কেছাল’ তিমিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+উট চৰাই	হাতীকেইজনীলৈকে	উট চৰাইজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+চুটীয়া-শালিকা	চুটীয়াশালিকাজনীয়ে	চুটীয়া-শালিকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+শহা	কেপিৱাৰাকেইজনীলৈকে	শহাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+শ’ল	কায়মজনীয়ে	শ’লজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+হাতী	মাছজনীয়ে	হাতীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+চুটীয়া শালিকা	কুমজেলুকাজনীয়ে	চুটীয়া শালিকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কেপিৱাৰা	বগাতিমিজনীয়ে	কেপিৱাৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কায়ম	কুকুহাকেইজনীলৈকে	কায়মজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মাছ	লতামেকুৰীজনীয়ে	মাছজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুমজেলুকা	পৰুৱাকেইজনীলৈকে	কুমজেলুকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বগা তিমি	বৰালিজনীয়ে	বগা তিমিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+কুকুহা	বাইচনজনীয়ে	কুকুহাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+লতামেকুৰী	তিমিকেইজনীলৈকে	লতামেকুৰীজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পৰুৱা	কেৰ্কেটুৱাকেইজনীলৈকে	পৰুৱাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+বৰালি	ফিঙাকেইজনীলৈকে	বৰালিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাইচন	উঁইজনীয়ে	বাইচনজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+তিমি	জিৰাফজনীয়ে	তিমিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কেৰ্কেটুৱা	বাঢ়ৈটোকাকেইজনীলৈকে	কেৰ্কেটুৱাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+ফিঙা	কুঁজাতিমিজনীয়ে	ফিঙাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+উঁই	হলৌকেইজনীলৈকে	উঁইজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+জিৰাফ	কাৱৈজনীয়ে	জিৰাফজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাঢ়ৈটোকা	অকাপীকেইজনীলৈকে	বাঢ়ৈটোকাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কুঁজা তিমি	হাঁহঠুঁটীয়াকেইজনীলৈকে	কুঁজা তিমিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+হলৌ	লতামেকুৰীকেইজনীলৈকে	হলৌকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কাৱৈ	কুৰুৱাজনীয়ে	কাৱৈজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+অকাপী	ভকুৱাজনীয়ে	অকাপীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+হাঁহঠুঁটীয়া	ৰাজহাঁহজনীয়ে	হাঁহঠুঁটীয়াকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+লতামেকুৰী	বলিয়াকেইজনীলৈকে	লতামেকুৰীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কুৰুৱা	মনিয়ৰীকেইজনীলৈকে	কুৰুৱাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ভকুৱা	তেলটুপিজনীয়ে	ভকুৱাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ৰাজহাঁহ	প্লেটিপাছজনীয়ে	ৰাজহাঁহজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বলিয়া	হাঁহঠুঁটীয়াজনীয়ে	বলিয়াকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+মনিয়ৰী	মাগুৰভেকুলীকেইজনীলৈকে	মনিয়ৰীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+তেলটুপি	চীনাকুকুৰাকেইজনীলৈকে	তেলটুপিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+প্লেটিপাছ	পাটপলুজনীয়ে	প্লেটিপাছজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+হাঁহঠুঁটীয়া	ছানাজনীয়ে	হাঁহঠুঁটীয়াজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+মাগুৰ ভেকুলী	বাঘচৰাইকেইজনীলৈকে	মাগুৰ ভেকুলীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+চীনা কুকুৰা	চিকাজনীয়ে	চীনা কুকুৰাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+পাট পলু	তৰামাছজনীয়ে	পাট পলুজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ছানা	তিতৌকেইজনীলৈকে	ছানাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাঘ চৰাই	হলৌজনীয়ে	বাঘ চৰাইকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+চিকা	বাদুলিকেইজনীলৈকে	চিকাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+তৰামাছ	উৰহজনীয়ে	তৰামাছজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+তিতৌ	ফ্লেমিংগকেইজনীলৈকে	তিতৌকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+হলৌ	শিয়ালজনীয়ে	হলৌজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বাদুলি	বৰালিকেইজনীলৈকে	বাদুলিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+উৰহ	গঙা-চিলনীকেইজনীলৈকে	উৰহজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ফ্লেমিংগ	উতনুৱাকেইজনীলৈকে	ফ্লেমিংগকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+শিয়াল	গঁড়জনীয়ে	শিয়ালজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+বৰালি	হাদংজনীয়ে	বৰালিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+গঙা-চিলনী	পোনাজনীয়ে	গঙা-চিলনীকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+উতনুৱা	ইলীহজনীয়ে	উতনুৱাকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+গঁড়	লতামাকৰিকেইজনীলৈকে	গঁড়জনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+হাদং	কেছাল’তিমিজনীয়ে	হাদংজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+পোনা	জিলিজনীয়ে	পোনাজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+ইলীহ	বলিয়াজনীয়ে	ইলীহজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
+লতামাকৰি	ছনাজনীয়ে	লতামাকৰিকেইজনীলৈকে	N;TERM;DEF;FEM;PL;LGSPEC08
+কেছাল’ তিমি	ভেকুলীকেইজনীলৈকে	কেছাল’ তিমিজনীয়ে	N;ERG;DEF;FEM;SG;LGSPEC08
