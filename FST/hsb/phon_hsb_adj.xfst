@@ -1,0 +1,41 @@
+define cons [j|w|ž|š];
+define vows [y|a|i];
+
+define nomNEUT vows -> e || _ "§",, "§" -> e || š _;
+
+define nomSG vows -> e || _ ",",, "," -> a || n _;
+
+define nomPL d n y -> d n e  || _ ".",, vows -> e || _ ".",, "," -> i || n _;
+
+define nomFEM vows -> a || _ "$",, "$" -> a || š _;
+
+define genMASC vows -> e h o || _ "&",, "&" -> o h o || n _,, "&" -> e h o || j _;
+
+define accFEM vows -> a || _ "/",, "/" -> u || j _;
+
+define accFEMPL vows -> u || _ "\";
+
+define accNEUT vows -> e || _ "(";
+
+define accMASC o w y -> o w e h o || _ "-",, z y -> z a || _ "-";
+
+define accPL2 y -> e || _ ")",, ")" -> c h || i _;
+
+define datSG2 vows -> e j || _ "=";
+
+define datMASC y ž -> e m u ž || _ "?",, s k i -> š e m u || _ "?" ;
+
+define genFEM vows -> e j e || _ "´",, w ó n -> j e j e || _ "´";
+
+define locMASC ó n -> y m || _ "`",, ž -> m ž || _ "`";
+
+define genMascPl s o k i -> š i c h || _ "°",, t ó n -> t y c h || _ "°";
+
+define nomMasc e -> o || _ "@";
+
+define clean [")"|"/"|"\"|"-"|"("|"="|"?"|"&"|"."|","|"§"|"$"|"´"|"`"|"°"|"@"] -> 0;
+
+define all nomNEUT .o. nomSG .o. nomPL .o. nomFEM .o. genMASC .o. accFEM .o. accMASC .o. accFEMPL .o. accNEUT
+ .o. accPL2 .o. datSG2 .o. datMASC .o. genFEM .o. locMASC .o. genMascPl .o. nomMasc .o. clean;
+
+regex %+ADJ -> 0;

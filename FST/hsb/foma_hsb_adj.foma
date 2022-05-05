@@ -1,0 +1,9 @@
+read lexc /Users/tatiana/Desktop/hsb/morph_hsb_adj.lexc
+define morph
+
+source /Users/tatiana/Desktop/hsb/phon_hsb_adj.xfst
+define phon
+
+regex morph .o. phon .o. all;
+
+save stack /Users/tatiana/Desktop/hsb/hsb_adj.a

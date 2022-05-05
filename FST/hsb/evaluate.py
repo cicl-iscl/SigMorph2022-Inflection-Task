@@ -89,7 +89,10 @@ def make_predictions(iso):
         for i, line in enumerate(lines):
             if line[0].isalpha() and lines[i - 1] == "\n":
                 test_str, _, pred = line.partition("\t")
-                predictions.append(pred.rstrip())
+                if "+" in pred.rstrip() and pred.rstrip() != "+?":
+                    pass
+                else:
+                    predictions.append(pred.rstrip())
     return predictions
 
 

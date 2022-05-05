@@ -1,9 +1,15 @@
 clear stack
-source /Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_noun/foma_hsb_noun.foma
-source /Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_v_adv/foma_hsb_verb.foma
-source /Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_adj/foma_hsb_adj.foma
+source /Users/tatiana/Desktop/hsb/foma_hsb_noun.foma
+define /Users/tatiana/Desktop/hsb/hsb_noun.a
 
-regex @"/Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_noun/hsb_noun.a" | @"/Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_v_adv/hsb_verb.a" | @"/Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb_adj/hsb_adj.a";
+source /Users/tatiana/Desktop/hsb/foma_hsb_verb.foma
+define /Users/tatiana/Desktop/hsb/hsb_verb.a
+
+source /Users/tatiana/Desktop/hsb/foma_hsb_adj.foma
+define /Users/tatiana/Desktop/hsb/hsb_adj.a
 
 
-save stack /Users/tatiana/Desktop/FST/SigMorph2022-Inflection-Task/FST/hsb/hsb.bin
+regex @"/Users/tatiana/Desktop/hsb/hsb_noun.a" | @"/Users/tatiana/Desktop/hsb/hsb_verb.a" | @"/Users/tatiana/Desktop/hsb/hsb_adj.a";
+
+
+save stack /Users/tatiana/Desktop/hsb/hsb.bin
