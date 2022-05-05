@@ -1,0 +1,18 @@
+clear stack
+source \Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt_verbs.foma
+define \Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt_verbs.a
+
+source \Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt_propn.foma
+define \Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt_propn.a
+
+source \Users\ReDI_NRW_808\OneDrive\Documents\win32\chukchi.foma
+define \Users\ReDI_NRW_808\OneDrive\Documents\win32\nouns.a
+
+source \Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt_adj.foma
+define \Users\ReDI_NRW_808\OneDrive\Documents\win32\adjs.a
+
+
+regex @"\Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt_verbs.a" | @"\Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt_propn.a" | @"\Users\ReDI_NRW_808\OneDrive\Documents\win32\nouns.a" | @"\Users\ReDI_NRW_808\OneDrive\Documents\win32\adjs.a";
+
+
+save stack \Users\ReDI_NRW_808\OneDrive\Documents\win32\ckt.bin
