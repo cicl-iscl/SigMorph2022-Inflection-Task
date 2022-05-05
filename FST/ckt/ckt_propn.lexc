@@ -45,7 +45,7 @@ LEXICON Pinf
 %+PROPN%+DAT%+SG:^гты  #;
 %+PROPN%+INS%+SG:^на   #;
 %+PROPN%+ANIM%+INS:^тинэ   #;
-!%+PROPN%+ABL%+SG:0     #;
+%+PROPN%+ABL%+SG:0     #;
 
 
 LEXICON Pronouns
@@ -69,6 +69,11 @@ LEXICON Prinf
 %+PRO%+DAT%+SG%+1:^ыкагты	#;
 %+PRO%+SG%+1:^о   #;
 %+PRO%+ABS%+SG%+3:0  #;
-!%+PRO%+ESS%+PL%+1:^к   #;
+%+PRO%+ESS%+PL%+1:^к   #;
+%+PRO%+ESS%+SG%+3:^к   #;
+%+PRO%+DAT%+PL%+2:^эты    #;
+%+PRO%+DAT%+SG%+2:^эты	#;
+%+PRO%+ABS%+PL%+1:0     #;
+%+PRO%+DAT%+SG%+2:^гты    #;
 
 

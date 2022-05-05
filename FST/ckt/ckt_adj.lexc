@@ -32,7 +32,7 @@ LEXICON Adverb
 
 LEXICON Avinf
 %+ADV%+ALL:0    #;
-!%+ADV%+ESS:0    #;
+%+ADV%+ESS:0    #;
 
 LEXICON Adp 
 
