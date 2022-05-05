@@ -1,0 +1,6 @@
+# Nasals
+define N [ ə̃ | ũ | ĩ ];
+
+read lexc morph_slp_verb.lexc
+define morph
+
