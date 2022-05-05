@@ -81,3 +81,5 @@ define Grammar Lexicon       .o.
 	       Cleanup;
 
 regex Grammar;
+
+#save stack ckt_propn.bin

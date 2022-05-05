@@ -45,7 +45,7 @@ LEXICON Pinf
 %+PROPN%+DAT%+SG:^гты  #;
 %+PROPN%+INS%+SG:^на   #;
 %+PROPN%+ANIM%+INS:^тинэ   #;
-%+PROPN%+ABL%+SG:0     #;
+!%+PROPN%+ABL%+SG:0     #;
 
 
 LEXICON Pronouns

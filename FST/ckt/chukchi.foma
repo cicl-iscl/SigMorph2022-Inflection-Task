@@ -20,7 +20,7 @@ define Vr [ и | у | э | i | u | e ];
 define Yot [ Е | е | Ё | ё | Ю | ю | Я | я ];
 
 # Define Consonants 
-define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ 
+define Cns [ Б | В | Г | Д | Ж | З | Й | К | Ӄ | Л | Ԓ | М | Н | Ӈ | П | Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ | 
              б | в | г | д | ж | з | й | к | ӄ | л | ԓ | м | н | ӈ | п | р | с | т | ф | х | ц | ч | ш | щ ];  
 
 # Define Coronals
@@ -43,7 +43,7 @@ define Alveolar [ Т | Н | Р | С | Ч | Ԓ | Л |
                   т | н | р | с | ч | ԓ | л ];
 
 # Define Bilabials
-define Bilabial [ П | М | В
+define Bilabial [ П | М | В |
 	          п | м | в ] ;
 
 # Define Backs	
@@ -58,15 +58,7 @@ define Lexicon;
 
 # Define H deletion
 define HDel ӈ Vow -> k || _ "^" t;
-            #н Vow -> 0 | _ "^" k ,,
-            #н Cns Cns -> 0 | _ "^" k ,,
-	    #н Vow Vow ] -> 0 | _ "^" k;
-            #ӈ Cns -> 0 | _ "^" [ k | й п ы | т ] ,,
-	    #ӈ Vow -> 0 | _ "^" [ k | й п ы | т ] ,,
-	    #ӈ Cns Cns -> 0 | _ "^" [ k | й п ы | т ] ,,
-	    #ӈ Vow Vow -> 0 | _ "^" [ k | й п ы | т ] ,,
-            #Vow н -> 0 | _ "^" [ k | й п ы | т | о ] ,,
-	    #Vow ӈ -> 0 | _ "^" [ k | й п ы | т | о ];
+	 
 
 define HDelete н -> 0 || _ "^" [ т | к | й п ы ];
 
@@ -77,10 +69,9 @@ define VHdeletion Vow н -> 0 || _ "^" о ,,
 
 define Muldel ы т у м -> 0 || _ "^" э;
 
-#define Multdel н у т .#. -> 0 || "^" k;
-
 # Define я alternation
-define Alternation я -> а || _ "^" т;
+define Alternation я -> а || _ "^" т ,,
+                   г -> э || Cns "^" _;
 
 #Define ABL case alternation
 define AblativeSg й п ы -> г ы п ы || м "^" _;	
@@ -88,6 +79,7 @@ define AblativeSg й п ы -> г ы п ы || м "^" _;
 #Define Dative singular case
 define datSg н у т э н у т -> н о т а || _ "^" г т ы ,,
              и ԓ и р -> э ԓ е р э т ы || _ "^" г т ы;	 
+             
 
 define datdel ԓ г ы н -> 0 || _ "^" г т ы;
 
@@ -113,9 +105,7 @@ define Grammar Lexicon       .o.
 	       Alternation   .o.
 	       VHdeletion    .o.
 	       Muldel        .o.
-	       HConsDel      .o.
 	       Vinsert       .o.
-#	       Multdel       .o.
 	       AblativeSg    .o.
 	       datSg         .o.
 	       datdel        .o.
