@@ -1,7 +1,7 @@
 Multichar_Symbols
-	%+ADJ
-	%+MASC %+FEM
-	%+SG %+PL
+    %+ADJ
+    %+MASC %+FEM
+    %+SG %+PL
 
 LEXICON Root
 noko adjective;

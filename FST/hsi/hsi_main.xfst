@@ -1,15 +1,15 @@
 clear stack
 source hsi_noun.foma
-define hsi_noun.a
+define noun
 source hsi_verb.foma
-define hsi_verb.a
+define verb
 source hsi_adj.foma
-define hsi_adj.a
+define adj
 source hsi_num.foma
-define hsi_num.a
+define num
 source hsi_pro.foma
-define hsi_pro.a
+define pro
 
-regex @"hsi_noun.a" | @"hsi_verb.a" | @"hsi_adj.a" | @"hsi_num.a" | @"hsi_pro.a";
+regex noun | verb | adj | num | pro;
 
 save stack hsi.bin

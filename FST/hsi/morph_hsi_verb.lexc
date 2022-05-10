@@ -1,36 +1,36 @@
 Multichar_Symbols
-	%+V
-	%+NFIN %+IND %+SBJV
-	%+PRS %+PST
-	%+PFV %+IPFV %+PROG
-	%+SG
-	%+PL
-	%+1
-	%+2
-	%+3
-	%+MASC %+FEM
+    %+V
+    %+NFIN %+IND %+SBJV
+    %+PRS %+PST
+    %+PFV %+IPFV
+    %+SG
+    %+PL
+    %+1
+    %+2
+    %+3
+    %+MASC %+FEM
 
 
 LEXICON Root
 karen verb;
 xāyen verb;
 vadden verb;
-čʰiyen verb;
-paren verb;
 diyen verb;
 liyen verb;
-sagen verb;
-vezen verb;
-kadden verb;
 genen verb;
-semen verb;
 ačen verb;
 vanen verb;
-pʰenden verb;
-! ---- unseen, taken from dictionary ----
-pačen verb;
-čayen verb;
-maren verb;
+semen verb;  ! test lemma
+čʰiyen verb;  ! test lemma
+paren verb;  ! test lemma
+sagen verb;  ! test lemma
+vezen verb;  ! test lemma
+pʰenden verb; ! test lemma
+kadden verb;  ! unimorph only
+! -- test for generalisability --
+pačen verb;  ! dictionary only
+čayen verb;  ! dictionary only
+maren verb;  ! dictionary only
 
 LEXICON verb
 %+V infinitive;
@@ -45,7 +45,6 @@ LEXICON aspect
 %+PFV mood;
 %+IPFV gender;
 %+IPFV mood;
-%+PROG%+IND%+PRS #;
 
 LEXICON gender
 %+MASC mood;

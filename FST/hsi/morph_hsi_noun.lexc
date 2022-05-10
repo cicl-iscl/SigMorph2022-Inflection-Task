@@ -1,9 +1,9 @@
 Multichar_Symbols
-	%+N
-	%+NOM %+non{NOM}
-	%+MASC %+FEM
-	%+SG %+PL
-	%+PSS1S %+PSS2S %+PSS3S %+PSS1P %+PSS2P %+PSS3P
+    %+N
+    %+NOM %+non{NOM}
+    %+MASC %+FEM
+    %+SG %+PL
+    %+PSS1S %+PSS2S %+PSS3S %+PSS1P %+PSS2P %+PSS3P
 
 LEXICON Root
 peter noun;
@@ -12,20 +12,19 @@ peter noun;
 kozoro noun;
 zayfā noun;
 mers noun;
-miri noun;
 kotoro noun;
 gārbo noun;
-fil noun;
-gazzi noun;
 gohro noun;
-āno noun;
 čuki noun;
-tʰal noun;
-olu noun;
 viyāv noun;
 ambo noun;
-tāffo noun;
-
+olu noun;  ! dev
+fil noun;  ! dev
+gazzi noun;  ! dev
+miri noun;  ! test only
+āno noun;  ! test only
+tʰal noun;  ! test only
+tāffo noun;  ! unimorph
 
 LEXICON noun
 %+N noun_case;
@@ -40,7 +39,7 @@ LEXICON noun_oblique_number
 %+PL noun_oblique_gender;
 
 LEXICON noun_oblique_gender
-	#;
+    #;
 %+MASC #;
 %+FEM #;
 
@@ -53,7 +52,7 @@ LEXICON noun_number
 %+PL #;
 
 LEXICON noun_possesive
-	#;
+    #;
 %+PSS1S #;
 %+PSS2S #;
 %+PSS3S #;

@@ -2,18 +2,18 @@ define vowel ā|a|e|i|o|u;
 define consonant b|c|č|d|f|g|h|j|k|l|m|n|p|q|r|ṛ|s|š|t|ʰ|v|w|x|y|z;
 
 regex %+N -> "^",,
-	%+non%{NOM%} -> 0,,
-	%+PL -> PL1 || %+non%{NOM%} (%+FEM) _,,
-	%+PL -> PL2 || %+NOM %+MASC _,,
-	%+PL -> PL3 || %+NOM %+FEM _,,
-	%+NOM -> 0,,
-	%+SG -> 0,,
-	%+MASC -> 0,,
-	%+FEM -> 0,,
-	%+PSS1S -> y,,
-	%+PSS2S -> 0,,
-	%+PSS3S -> s,,
-	%+PSS1P -> m,,
-	%+PSS2P -> m,,
-	%+PSS3P -> ā n;
+    %+non%{NOM%} -> 0,,
+    %+PL -> PL1 || %+non%{NOM%} (%+FEM) _,,
+    %+PL -> PL2 || %+NOM %+MASC _,,
+    %+PL -> PL3 || %+NOM %+FEM _,,
+    %+NOM -> 0,,
+    %+SG -> 0,,
+    %+MASC -> 0,,
+    %+FEM -> 0,,
+    %+PSS1S -> y,,
+    %+PSS2S -> 0,,
+    %+PSS3S -> s,,
+    %+PSS1P -> m,,
+    %+PSS2P -> m,,
+    %+PSS3P -> ā n;
 

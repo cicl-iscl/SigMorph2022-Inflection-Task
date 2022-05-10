@@ -1,2 +1,0 @@
-Lang	all acc	both	lemma	feats	unseen	#total	#both	#lemma	#feats	#unseen
-hsi	100.000	0.000	100.000	0.000	100.000	15	0	11	0 4

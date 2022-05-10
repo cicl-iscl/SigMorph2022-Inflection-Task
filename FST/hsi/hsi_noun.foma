@@ -5,21 +5,17 @@ source phonetize_hsi_noun.xfst
 define phon
 
 define shorten ā -> a || _ "^" PL3,,
-	ā -> 0 || _ "^" PL1;
+    ā -> 0 || _ "^" PL1;
 
-define exceptions PL3 -> y u s || m i r i "^" _,,
-	o -> 0 || t ā f f _ "^" PL1,,
-	PL1 -> e n || t ā f f "^" _,,
-	%+PL -> k ā || v i y ā v "^" _,,
-	ā -> e|| g _ r b o "^" PL2,,
-	PL1 -> l e n || t ʰ a l "^" _;
+define exceptions %+PL -> k ā || v i y ā v "^" _,,
+    ā -> e|| g _ r b o "^" PL2;
 
 define plural PL1 -> y e n || vowel "^" _,,
-	PL1 -> e n || consonant consonant "^" _,,
-	PL2 -> ā s|| consonant "^" _,,
-	PL2 -> ā || vowel "^" _,,
-	PL3 -> y u || vowel "^" _,,
-	PL3 -> u || consonant "^" _;
+    PL1 -> e n || consonant consonant "^" _,,
+    PL2 -> ā s|| consonant "^" _,,
+    PL2 -> ā || vowel "^" _,,
+    PL3 -> y u || vowel "^" _,,
+    PL3 -> u || consonant "^" _;
 define clean "^" -> 0;
 define tidy vowel -> 0 || _ ā;
 

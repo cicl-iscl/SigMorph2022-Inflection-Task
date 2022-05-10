@@ -1,10 +1,10 @@
 Multichar_Symbols
-	%+NUM
-	%+MASC %+FEM
-	%+SG %+PL
+    %+NUM
+    %+MASC %+FEM
+    %+SG %+PL
 
 LEXICON Root
-hoko numeral;
+hoko numeral;  ! test only
 barā numeral;
 tereṛā numeral;
 čāllā numeral;
