@@ -1,9 +1,9 @@
 Multichar_Symbols
-    %+N
-    %+NOM %+non{NOM}
-    %+MASC %+FEM
-    %+SG %+PL
-    %+PSS1S %+PSS2S %+PSS3S %+PSS1P %+PSS2P %+PSS3P
+	%+N
+	%+NOM %+non{NOM}
+	%+MASC %+FEM
+	%+SG %+PL
+	%+PSS1S %+PSS2S %+PSS3S %+PSS1P %+PSS2P %+PSS3P
 
 LEXICON Root
 peter noun;
@@ -39,7 +39,7 @@ LEXICON noun_oblique_number
 %+PL noun_oblique_gender;
 
 LEXICON noun_oblique_gender
-    #;
+	#;
 %+MASC #;
 %+FEM #;
 
@@ -52,7 +52,7 @@ LEXICON noun_number
 %+PL #;
 
 LEXICON noun_possesive
-    #;
+	#;
 %+PSS1S #;
 %+PSS2S #;
 %+PSS3S #;

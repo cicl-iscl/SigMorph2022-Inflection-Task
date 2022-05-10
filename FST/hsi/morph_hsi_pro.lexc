@@ -1,7 +1,7 @@
 Multichar_Symbols
-    %+PRO
-    %+NOM %+ACC %+non{NOM/ACC}
-    %+SG %+PL
+	%+PRO
+	%+NOM %+ACC %+non{NOM/ACC}
+	%+SG %+PL
 
 LEXICON Root
 māy pronoun;
@@ -15,6 +15,7 @@ attu%+PRO%+non{NOM/ACC}%+SG:tān #;
 attu%+PRO%+ACC%+SG:tānke #;
 ho%+PRO%+NOM%+PL:hoven #;
 he%+PRO%+NOM%+PL:hozen #;
+attu%+PRO%+NOM%+PL:āve #;  ! paper description
 
 LEXICON pronoun
 %+PRO%+NOM%+SG:0 #;
