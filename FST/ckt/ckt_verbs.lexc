@@ -1,4 +1,4 @@
-Multichar_Symbols %+V %+SG %+PL %+PTCP %+SBJV %+NFIN %+OPT %+DAT %+ABS %+INS %+PRO %+2 %+1 %+3 %+ARGAB3S +ARGER1P %+ARGAB3P %+ARGER3P %+ARGER1S %+IND %+FUT %+IND %+PST %+ITER %+ESS %+PFV %+PRF %+ARGER3S %+PRS %+IPFV %+MSDR %+STAT
+Multichar_Symbols %+V %+SG %+PL %+PTCP %+SBJV %+NFIN %+MSDR %+NEG %+FOC %+OPT %+DAT %+ABS %+INS %+PRO %+2 %+1 %+3 %+ARGAB3S +ARGER1P %+ARGAB3P %+ARGER3P %+ARGER1S %+IND %+FUT %+IND %+PST %+ITER %+ESS %+PFV %+PRF %+ARGER3S %+PRS %+IPFV %+MSDR %+STAT
 
 LEXICON Root ! actually prefixes
  гA    RealRoot;
@@ -73,7 +73,6 @@ LEXICON RealRoot
 ԓёӈръэтатыԓьын  Vinf;
 каԓеткогыргын   Vinf;
 
-
 LEXICON Vinf
 
 %+V%+ABS%+SG:0     #;
@@ -118,6 +117,8 @@ LEXICON Vinf
 %+V%+ARGAB3P%+ARGER3S%+PFV%+IND%+PST:^нэнат      #;
 %+V%+ARGAB3P%+ARGER1S%+IND:^ӈӈонат     #;
 %+V%+ARGAB3S%+ARGER1S%+SBJV:^гъэн        #;
-
-
-
+%+V%+MSDR%+ESS:0     #;
+%+V%+ARGAB3S%+ARGER2S%+SBJV:0     #;
+%+V%+PTCP%+ABS%+SG%+NEG:0    #;
+%+V%+ARGAB1S%+ARGER1P%+PFV%+IND%+PST:0    #;
+%+V%+PTCP%+FOC%+SG:0     #;

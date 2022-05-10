@@ -73,16 +73,16 @@ define PrefixC [..] -> м ы т р а || .#. _ ?* ӈ ы н .#.;
 define BuffA  A -> э || _ Cns+ [ э | н ] ,,
               A -> а || _ Cns+ [ а | н ];
 
-define Prefixu [..] -> г A || .#. _ ?* ԓ и н .#.; 
+define Prefixu [..] -> г э || .#. _ ?* ԓ и н .#.; 
 
 define PrefixF [..] -> т || .#. _ ?* г ъ э к .#.;
 
 # Define Suffixation
 define SuffixIND к -> 0 || "^" н и н ,,
-                  ы к -> 0 || ԓ _ "^" н и н ,,
-                  ы к -> 0 || в _ "^" н и н ,,
+               ы к -> 0 || ԓ _ "^" н и н ,,
+               ы к -> 0 || в _ "^" н и н ,,
                    к -> 0 || "^" г ъ э н ,, 
- 		   н -> 0 || "^" к;
+ 		           н -> 0 || "^" к;
 #Define k Deletion
 define KDeletion ы к -> 0 || _ "^" г ъ э к;
 

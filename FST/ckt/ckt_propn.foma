@@ -75,11 +75,10 @@ define Lexicon
 
 define Grammar Lexicon       .o.
                Alternat      .o.
-	       Elision       .o.
-	       Protdel       .o.
-	       Proalt        .o.
-	       Cleanup;
+      	       Elision       .o.
+	           Protdel       .o.
+	           Proalt        .o.
+	           Cleanup;
 
 regex Grammar;
 
-#save stack ckt_propn.bin
