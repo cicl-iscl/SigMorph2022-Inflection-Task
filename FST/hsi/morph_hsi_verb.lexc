@@ -1,14 +1,14 @@
 Multichar_Symbols
-	%+V
-	%+NFIN %+IND %+SBJV
-	%+PRS %+PST
-	%+PFV %+IPFV
-	%+SG
-	%+PL
-	%+1
-	%+2
-	%+3
-	%+MASC %+FEM
+    %+V
+    %+NFIN %+IND %+SBJV
+    %+PRS %+PST
+    %+PFV %+IPFV
+    %+SG
+    %+PL
+    %+1
+    %+2
+    %+3
+    %+MASC %+FEM
 
 
 LEXICON Root

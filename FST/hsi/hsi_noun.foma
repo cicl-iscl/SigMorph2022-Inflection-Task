@@ -12,8 +12,7 @@ define exceptions %+PL -> k ā || v i y ā v "^" _,,
 
 define plural PL1 -> y e n || vowel "^" _,,
     PL1 -> e n || consonant consonant "^" _,,
-    PL2 -> ā s|| consonant "^" _,,
-    PL2 -> ā || vowel "^" _,,
+    PL2 -> ā,,
     PL3 -> y u || vowel "^" _,,
     PL3 -> u || consonant "^" _;
 define clean "^" -> 0;
