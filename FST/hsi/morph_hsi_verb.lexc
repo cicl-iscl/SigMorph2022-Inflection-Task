@@ -1,14 +1,14 @@
 Multichar_Symbols
-    %+V
-    %+NFIN %+IND %+SBJV
-    %+PRS %+PST
-    %+PFV %+IPFV
-    %+SG
-    %+PL
-    %+1
-    %+2
-    %+3
-    %+MASC %+FEM
+	%+V
+	%+NFIN %+IND %+SBJV
+	%+PRS %+PST
+	%+PFV %+IPFV
+	%+SG
+	%+PL
+	%+1
+	%+2
+	%+3
+	%+MASC %+FEM
 
 
 LEXICON Root
@@ -26,11 +26,6 @@ paren verb;  ! test lemma
 sagen verb;  ! test lemma
 vezen verb;  ! test lemma
 pʰenden verb; ! test lemma
-kadden verb;  ! unimorph only
-! -- test for generalisability --
-pačen verb;  ! dictionary only
-čayen verb;  ! dictionary only
-maren verb;  ! dictionary only
 
 LEXICON verb
 %+V infinitive;
