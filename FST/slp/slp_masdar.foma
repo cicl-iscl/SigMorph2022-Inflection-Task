@@ -1,0 +1,9 @@
+read lexc morph_slp_masdar.lexc
+define morph
+
+# Nasals
+define N [ ə̃ | ũ | ĩ ];
+
+define NInsertion [..] -> n || N "^" = _ a ʔ ;
+
+regex morph .o. NInsertion;

@@ -1,0 +1,19 @@
+Multichar_Symbols
+%+ADJ
+%+SPRL
+
+LEXICON Root
+metə adjective;
+okĩ adjective;
+wuʔũ adjective;
+ləmeʔ adjective;
+gehə̃ adjective;
+knə̃ʔə̃ adjective;
+briŋĩ adjective;
+blara adjective;
+gələ adjective;
+krəkũ adjective;
+pə̃ũpə̃ũ adjective;
+
+LEXICON adjective
+%+ADJ%+SPRL:^=aʔ #;

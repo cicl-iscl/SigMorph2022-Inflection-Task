@@ -1,0 +1,70 @@
+Multichar_Symbols
+%+V.PTCP
+%+LGSPEC01
+%+LGSPEC02
+%+SPRL
+
+LEXICON Root
+baʔa participle;
+taʔa participle;
+kvaʔi participle;
+lereʔ participle;
+belǝʔ participle;
+mǝkoʔ participle;
+kpǝsuʔ participle;
+blahaʔ participle;
+kleaʔ participle;
+mara participle;
+buraʔ participle;
+meʔa participle;
+blega participle;
+krubu participle;
+gə̃ participle;
+milə̃ participle;
+sǝnə̃ participle;
+briŋĩ participle;
+belə̃ʔ participle;
+blahaʔ participle;
+kreʔ participle;
+baʔa participle;
+bloloʔ participle;
+beləʔ participle;
+kpǝsuʔ participle;
+lereʔ participle;
+nureʔ participle;
+mara participle;
+sǝna participle;
+mǝkoʔ participle;
+meʔa participle;
+buraʔ participle;
+taʔa participle;
+blǝma participle;
+klea participle;
+kwaʔi participle;
+koboroto participle;
+ktǝgǝ participle;
+kmelu participle;
+plate participle;
+loʔi participle;
+bera participle;
+milə participle;
+blega participle;
+knipu participle;
+gə̃ participle;
+wə̃hə̃ participle;
+sǝnə̃ participle;
+
+LEXICON participle
+%+V.PTCP:0 lgspec-bare;
+%+V.PTCP:0 spatial;
+
+LEXICON lgspec-bare;
+%+LGSPEC01 #;
+%+LGSPEC02 #;
+
+LEXICON spatial
+%SPRL:0 lgspec-spatial;
+
+LEXICON lgspec-spatial;
+%+LGSPEC01 #;
+%+LGSPEC02 #;

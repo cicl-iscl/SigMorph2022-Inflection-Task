@@ -1,0 +1,8 @@
+read lexc morph_slp_noun.lexc
+define morph
+
+define NasalChange [ u | ə | i | a | o | e ] -> [ ũ | ə̃ | ĩ | ə̃ | õ | ẽ ] || _ ʔ* "^" nasalchange ;
+
+define Cleanup [ "^" | nasalchange ] -> 0 ;
+
+regex morph .o. NasalChange .o. Cleanup;

@@ -1,0 +1,65 @@
+Multichar_Symbols
+%+N
+%+ALN+PSS3S
+%+NALN+PSS3S
+%nasalchange
+
+LEXICON Root
+laŋoʔ noun;
+moʔa noun;
+oka noun;
+kaka noun;
+ari noun;
+ba noun;
+ǝmə̃ noun;
+wae noun;
+mame noun;
+opu noun;
+bine noun;
+kwae noun;
+klake noun;
+tarǝ noun;
+nuro noun;
+hepe noun;
+tua noun;
+gula noun;
+doi noun;
+uma noun;
+aho noun;
+oto noun;
+tǝmǝ noun;
+puhũ noun;
+wai noun;
+vave noun;
+ikə̃ noun;
+kiku noun;
+banǝ noun;
+wewe noun;
+ipǝ noun;
+iru noun;
+wuli noun;
+loto noun;
+uti noun;
+rata noun;
+hǝnǝ noun;
+koro noun;
+tuho noun;
+hiku noun;
+klǝkǝ noun;
+keli noun;
+lei noun;
+tae noun;
+uǝ noun;
+luvu noun;
+keko noun;
+lima noun;
+mǝna noun;
+mata noun;
+anaʔ noun;
+
+LEXICON noun
+%+N:0 alienability;
+
+LEXICON alienability
+%+NALN+PSS3S:^nasalchange #;
+%+ALN+PSS3S:^=kə̃ #;
