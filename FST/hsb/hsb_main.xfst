@@ -1,15 +1,15 @@
 clear stack
-source /Users/tatiana/Desktop/hsb/foma_hsb_noun.foma
-define /Users/tatiana/Desktop/hsb/hsb_noun.a
+source foma_hsb_noun.foma
+define noun
 
-source /Users/tatiana/Desktop/hsb/foma_hsb_verb.foma
-define /Users/tatiana/Desktop/hsb/hsb_verb.a
+source foma_hsb_verb.foma
+define verb
 
-source /Users/tatiana/Desktop/hsb/foma_hsb_adj.foma
-define /Users/tatiana/Desktop/hsb/hsb_adj.a
+source foma_hsb_adj.foma
+define adj
 
+regex @"noun.a"|@"verb.a"|@"adj.a";
 
-regex @"/Users/tatiana/Desktop/hsb/hsb_noun.a" | @"/Users/tatiana/Desktop/hsb/hsb_verb.a" | @"/Users/tatiana/Desktop/hsb/hsb_adj.a";
+!regex noun|verb|adj;
 
-
-save stack /Users/tatiana/Desktop/hsb/hsb.bin
+save stack hsb.bin

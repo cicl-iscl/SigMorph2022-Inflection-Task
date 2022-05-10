@@ -1,9 +1,9 @@
-read lexc /Users/tatiana/Desktop/hsb/morph_hsb_verb.lexc
+read lexc morph_hsb_verb.lexc
 define morphs
 
-source /Users/tatiana/Desktop/hsb/phon_hsb_verb.xfst
+source phon_hsb_verb.xfst
 define phons
 
 regex morphs .o. phons .o. alls;
 
-save stack /Users/tatiana/Desktop/hsb/hsb_verb.a
+save stack verb.a

@@ -1,14 +1,14 @@
-define end1 [e ć|y ć|i ć|ě ć];
+define end1 [e ć|y ć|ě ć];
 
 define endPTCP [e ć|i ć|y ć|a ć];
 
-define del a ć -> a n || _ "^",, end1 -> 0 || _ "^";
+define del a ć -> a l i || _ "^",, {bydlić} -> {bydla} || _ "^",, end1 -> 0 || _ "^",, {měć} -> {maja} || _ "^",, {źeć} -> {źa} || _ "^",, {jic} -> {ja} || _ "^";
 
 define delPL PL1 y ć -> e || _ "*",, i ć -> i || _ "*",, o w a ć -> u j e || _ "*";
 
 define delSG3 SG3 o w a ć -> u j e || _ "?",, [e ć|a ć] -> a || _ "?",, i ć -> i || _ "?";
 
-define delC ć -> 0 || _ "+";
+define delC ć -> 0 || _ "+",, {móc} -> {móh} || _ "+";
 
 define delPTCP endPTCP -> 0 || _ ")";
 
@@ -22,9 +22,13 @@ define delPST3SG y ć -> y || _ ".",, a ć -> a j e š e || _ ".";
 
 define exp m ě ć -> z m ě j a || _ "¿",, b y ć -> b u d ź e || _ "¿",, h l a d a ć -> h l a d a j o || _ "¿";
 
+define imp {hić} -> {dźi} || _ "`";
 
-define clean ["^"|"="|"."|"*"|"?"|"!"|"/"|"\"|"+"|")"|"("|"§"|"&"|"`"|"¿"] -> 0;
-define alls del .o. delPL .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem .o. exp .o. clean;
+define advs {serbski} -> {serbsce} || _ "'";
+
+
+define clean ["^"|"="|"."|"*"|"?"|"!"|"/"|"\"|"+"|")"|"("|"§"|"&"|"`"|"¿"|"'"] -> 0;
+define alls del .o. delPL .o. imp .o. advs .o. delSG3 .o. delC .o. delPST2 .o. delPST3SG .o. delPTCP .o. delPTCPGen .o. delPTCPFem .o. exp .o. clean;
 
 regex %+V -> 0,,
         %+NFIN -> 0,,

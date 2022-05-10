@@ -1,160 +1,82 @@
-zdać+V+PL+3+PRS	zdana
+cuzy+ADJ+ACC+MASC+SG	cuza
 
-potencial+N+GEN+PL	potencialow
+stejišćo+N+GEN+PL	stejišćow
 
-wosobinski+ADJ+INS+MASC+SG	wosobinskim
+bydlić+V+PL+3+PRS	bydla
 
-předskok+N+ACC+SG	předskok
+rěčeć+V+SG+1+PRS	rěču
 
-biografija+N+ACC+SG	biografiju
+spytać+V+PL+3+PRS	spytali
 
-měć+V+PL+3+FUT	změja
+budyšin+N+LOC+SG	budyšinje
 
-łužica+N+ACC+SG	łužicu
+šula+N+LOC+SG	šuli
 
-wšelaki+ADJ+GEN+FEM+SG	wšelakeje
+tajny+ADJ+GEN+PL	tajnych
 
-region+N+LOC+SG	regionje
+hósć+N+INS+SG	hosćom
 
-přizamknyć+V+SG+3+PST	přizamkny
+lěpšina+N+ACC+SG	lěpšiny
 
-přiwzać+V+PL+PST	přiwzali
+wědźeć+V+PL+3+PRS	wědźa
+wědźeć+V+PL+3+PRS	wědź
 
-strona+N+GEN+PL	stronow
+běłohródski+ADJ+GEN+PL	běłohródskich
 
-měć+V+SG+2+PST	měješe
+intensiwny+ADJ+INS+MASC+SG	intensiwnym
 
-měć+V+DU+1+PRS	mimoj
+měć+V+PL+3+PRS	maja
+měć+V+PL+3+PRS	m
 
-kedźbliwje+ADV	kedźbliwje
+droga+N+LOC+SG	droze
 
-prawy+ADJ+GEN+PL	prawych
+serbski+ADV	serbsce
 
-organizować+V+PL+3+PRS	+?
+pasionski+ADJ+GEN+PL	pasionskich
 
-dźěło+N+ACC+SG	dźěło
+element+N+GEN+PL	elementow
 
-naš+ADJ+GEN+PL	našch
+dub+N+INS+SG	dubom
 
-šuler+N+GEN+PL	šulerow
+swój+ADJ+ACC+MASC+SG	swój
 
-twarskoprawnisce+ADV	twarskoprawnisce
+wulkosć+N+ACC+SG	wulkosć
 
-dźěłać+V+PL+3+PRS	dźěłana
+potrjeba+N+INS+SG	potrjebu
 
-přisadźić+V+MASC+SG+PST	přisadźił
+moderna+N+INS+SG	modernu
 
-tradicija+N+INS+SG	tradiciju
+swójba+N+GEN+PL	swójbow
 
-wón+ADJ+GEN+FEM+SG	jeje
+ideja+N+GEN+PL	idejach
 
-přihłosować+V+PL+3+PRS	+?
+dalši+ADJ+NOM+SG	dalše
 
-sobustawstwo+N+INS+SG	sobustawstwom
+prajic+V+PL+3+PRS	praja
 
-wokrjes+N+GEN+PL	wokrjesa
+čitanje+N+ACC+SG	čitanja
 
-zaměr+N+GEN+PL	zaměrow
+hnězdo+N+LOC+SG	hnězdźe
 
-partyjowy+ADJ+GEN+PL	+?
+popadnyć+V.PTCP+NOM+FEM+SG+PASS	popadnjena
 
-Lubijski+ADJ+LOC+FEM+SG	Lubijskej
+přehrać+V+FEM+SG+PST	přehrała
 
-naprawa+N+ACC+SG	naprawy
+wuradźować+V+NEUT+SG+PST	wuradźowało
 
-serbski+ADJ+INS+MASC+SG	serbskim
+dwanaće+ADJ+NOM+MASC	dwanaćo
 
-poskićeć+V+PL+3+PRS	poskića
+hić+V+IMP+SG+2	dźi
 
-kónčina+N+GEN+PL	kónčin
+předwidźeć+V.PTCP+GEN+MASC+PL+ACT	předwidźanych
 
-być+V+SG+1+PRS	bu
+zwisować+V.PTCP+ACC+SG+ACT	zwisowace
 
-skupina+N+GEN+PL	skupinow
+móc+V+NEUT+SG+PST	móhło
 
-kolij+N+GEN+PL	kolijow
+fachowy+ADJ+GEN+FEM+PL	fachowych
 
-namakać+V+PL+2+PRS	namakaće
+šokować+V.PTCP+NOM+FEM+SG+PASS	šokowana
 
-sobota+N+ACC+SG	sobotu
-
-pochadźeć+V+PL+3+PRS	pochadźa
-
-nowotwar+N+INS+SG	+?
-
-přeprošenje+N+ACC+SG	přeprošenje
-
-wien+N+LOC+SG	wienje
-
-wukrajny+ADJ+GEN+PL	wukrajnych
-
-tutón+ADJ+GEN+MASC+PL	tutych
-
-wón+ADJ+NOM+SG	wóna
-
-prašenje+N+DAT+PL	prašenjam
-
-dobry+ADJ+ACC+NEUT+SG	dobre
-
-zakładna+N+GEN+PL	zakładnych
-
-myslić+V+SG+2+PST	mysleše
-
-zhromadny+ADJ+ACC+NEUT+SG	zhromadne
-
-ptačecy+N+GEN+PL	ptačec
-
-spale+N+GEN+PL	spalow
-
-niwow+N+INS+SG	+?
-
-němska+ADJ+GEN+PL	němskach
-
-wjacory+ADJ+ACC+NEUT+SG	wjacore
-
-azylowy+ADJ+ACC+MASC+SG	+?
-
-kraj+N+LOC+SG	kraju
-
-nańć+V+MASC+SG+PST	nańł
-
-hladać+V.CVB+PRS	hladajo
-
-knježerstwo+N+LOC+SG	knježerstwje
-
-chwalić+V+PL+PST	chwalili
-
-prajić+V+PL+2+PRS	prajiće
-
-dźěža+N+INS+SG	dźěžu
-
-zwisk+N+LOC+SG	zwisku
-
-muzej+N+LOC+SG	muzeju
-
-poskićić+V+DU+1+PRS	poskićimoj
-
-němski+ADV	němski
-
-być+V+SG+3+FUT	budźe
-
-móc+V+PL+3+PRS	móca
-
-wysoki+ADJ+GEN+MASC+PL	wyšich
-
-partner+N+GEN+PL	partnerow
-
-měrc+N+LOC+SG	měrcu
-
-euro+N+GEN+PL	eurow
-
-zajimc+N+GEN+PL	zajimcow
-
-nora+N+LOC+SG	norje
-
-ropot+N+NOM+SG	ropot
-
-žiwy+ADJ+ACC+PL	žiwe
-
-wopytowar+N+NOM+PL	+?
+wusměrić+V.PTCP+ACC+NEUT+SG+PASS	wusměrjene
 

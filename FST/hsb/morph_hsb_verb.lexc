@@ -105,7 +105,7 @@ popisać	 Vptcpinf;
 hladać	 Vptcpinf;
 
 LEXICON Advinf
-%+ADV:0   #;
+%+ADV:'0   #;
 
 LEXICON Verbinf
 %+V%+CVB%+PRS:+jo #;
@@ -115,7 +115,7 @@ LEXICON Verbinf
 %+V%+PL%+1%+PRS:*my  #;        ! соед гласные
 %+V%+PL%+2%+PRS:=e  #; !check
 
-%+V%+PL%+3%+PRS:^a  #; !write exceptions!
+%+V%+PL%+3%+PRS:^  #; !write exceptions!
 %+V%+SG%+3%+PRS:?a   #; !write exceptions!
 %+V%+PL%+PST:+li #; ! works
 %+V%+SG%+2%+PST:\0   #; !check
