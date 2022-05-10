@@ -2,13 +2,14 @@ define end1 [e ć|y ć|ě ć];
 
 define endPTCP [e ć|i ć|y ć|a ć];
 
-define del a ć -> a l i || _ "^",, {bydlić} -> {bydla} || _ "^",, end1 -> 0 || _ "^",, {měć} -> {maja} || _ "^",, {źeć} -> {źa} || _ "^",, {jic} -> {ja} || _ "^";
+define del end1 -> 0 || _ "^",, {być} -> {sym} || _ "^",, {měć} -> {me} || _ "^",, 
+"^" -> u || end1 _;
 
 define delPL PL1 y ć -> e || _ "*",, i ć -> i || _ "*",, o w a ć -> u j e || _ "*";
 
 define delSG3 SG3 o w a ć -> u j e || _ "?",, [e ć|a ć] -> a || _ "?",, i ć -> i || _ "?";
 
-define delC ć -> 0 || _ "+",, {móc} -> {móh} || _ "+";
+define delC {nańć} -> {našo} || _ "+",, ć -> 0 || _ "+",, {móc} -> {móh} || _ "+";
 
 define delPTCP endPTCP -> 0 || _ ")";
 
@@ -24,7 +25,7 @@ define exp m ě ć -> z m ě j a || _ "¿",, b y ć -> b u d ź e || _ "¿",, h 
 
 define imp {hić} -> {dźi} || _ "`";
 
-define advs {serbski} -> {serbsce} || _ "'";
+define advs {serbski} -> {serbsce} || _ "'",, {móc} -> {móža} || _ "'",,{wědźeć} -> {wědźa} || _ "'",, ž e ć -> ž a || _ "'",, {ćeć} -> {ćeja} || _ "'",, {sować} -> {suja} || _ "'",, {sować} -> {suja} || _ "'",, {zdać} -> {zdadźa} || _ "'",, {ować} -> {uje}|| _ "'",, {bydlić} -> {bydla} || _ "'",, {spytać} -> {spytali} || _ "'",, {měć} -> {maja} || _ "'",, {prajic} -> {praja} || _ "'",, {dźěłać} -> {dźěłaja} || _ "'",, {němski} -> {němsce} || _ "'" ;
 
 
 define clean ["^"|"="|"."|"*"|"?"|"!"|"/"|"\"|"+"|")"|"("|"§"|"&"|"`"|"¿"|"'"] -> 0;

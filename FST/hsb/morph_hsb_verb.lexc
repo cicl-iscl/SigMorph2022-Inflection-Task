@@ -110,12 +110,12 @@ LEXICON Advinf
 LEXICON Verbinf
 %+V%+CVB%+PRS:+jo #;
 %+V%+NFIN:0  #;
-%+V%+SG%+1%+PRS:^u  #;
-%+V%+DU%+1%+PRS:^imoj #;
+%+V%+SG%+1%+PRS:^  #;
+%+V%+DU%+1%+PRS:^moj #;
 %+V%+PL%+1%+PRS:*my  #;        ! соед гласные
 %+V%+PL%+2%+PRS:=e  #; !check
 
-%+V%+PL%+3%+PRS:^  #; !write exceptions!
+%+V%+PL%+3%+PRS:'  #; !write exceptions!
 %+V%+SG%+3%+PRS:?a   #; !write exceptions!
 %+V%+PL%+PST:+li #; ! works
 %+V%+SG%+2%+PST:\0   #; !check

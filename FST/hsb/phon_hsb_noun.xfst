@@ -21,9 +21,9 @@ define genSG "§" -> a || cons _,,"§" -> a || [s|d] _,,
 define vocSG "$" -> o || [k|l] _,, "$" -> o || [k|l] _,, h -> ž o || _ "$",,
              z -> ž e || _ "$",, t -> ć e || _ "$",, d -> d ź e || _ "$";
 
-define nomLP "%" -> y || [s|z|c|p] _,, o -> i || _ "%",,
+define nomLP  {towar} -> {towarjo} || _ "%",, "%" -> y || [s|z|c|p] _,, o -> i || _ "%",,
              "%" -> o j o || o n _,, y -> y j e || _ "%",,
-             "%" -> j o || [r|n] _,, "%" -> i || k _,, t -> ć a || _ "%";
+             "%" -> i || k _,, t -> ć a || _ "%";
 
 
 define locSG [t o|t] -> ć e || _ "&",, "&" -> j e || i n _,, g a -> z e || _ "&",,

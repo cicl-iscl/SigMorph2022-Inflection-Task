@@ -19,14 +19,12 @@ hósć+N+INS+SG	hosćom
 lěpšina+N+ACC+SG	lěpšiny
 
 wědźeć+V+PL+3+PRS	wědźa
-wědźeć+V+PL+3+PRS	wědź
 
 běłohródski+ADJ+GEN+PL	běłohródskich
 
 intensiwny+ADJ+INS+MASC+SG	intensiwnym
 
 měć+V+PL+3+PRS	maja
-měć+V+PL+3+PRS	m
 
 droga+N+LOC+SG	droze
 
