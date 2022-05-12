@@ -12,19 +12,20 @@ peter noun;
 kozoro noun;
 zayfā noun;
 mers noun;
+miri noun;
 kotoro noun;
 gārbo noun;
+fil noun;
+gazzi noun;
 gohro noun;
+āno noun;
 čuki noun;
+tʰal noun;
+olu noun;
 viyāv noun;
 ambo noun;
-olu noun;  ! dev
-fil noun;  ! dev
-gazzi noun;  ! dev
-miri noun;  ! test only
-āno noun;  ! test only
-tʰal noun;  ! test only
-tāffo noun;  ! unimorph
+tāffo noun;
+
 
 LEXICON noun
 %+N noun_case;

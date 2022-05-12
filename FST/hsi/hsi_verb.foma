@@ -4,51 +4,73 @@ define morph
 source phonetize_hsi_verb.xfst
 define phon
 
-define exceptions x ā y e n -> x ā n|| _ "^" %<imperfstem (?)+ %+PST,,
-    a č e n -> ā v|| _ "^" %<perfstem %+M [%+A|%+B] %+PRS,,
-    a č e n -> ā || _ "^" %<perfstem %+M %+C %+PRS,,
-    a č e n -> ā || _ "^" %<perfstem %+W [%+A|%+B|%+C] %+PRS,,
-    a č e n -> ā v|| _ "^" %<perfstem [%+M|%+W] [%+D|%+E|%+F] %+PRS,,
-    v a n e n -> v i y || _ "^" %<perfstem %+M (?)+ %+PRS,,
-    v a n e n -> v e y || _ "^" %<perfstem %+W (?)+ %+PRS,,
-    k a r e n -> k || _ "^" %<perfstem (?)+ %+PST,,
-    d i y e n -> d || _ "^" %<perfstem (?)+ %+PST,,
-    l i y e n -> l || _ "^" %<perfstem (?)+ %+PST,,
-    x ā y e n -> x ā v|| _ "^" %<perfstem (?)+ %+PST;
+define exceptions x ā y e n -> x ā || _ "^" "progstem",,
+	x ā y e n -> x ā n|| _ "^" %<imperfstem (?)+ %+PST,,
+	a č e n -> ā v|| _ "^" %<perfstem %+M [%+A|%+B] %+PRS,,
+	a č e n -> ā || _ "^" %<perfstem %+M %+C %+PRS,,
+	a č e n -> ā || _ "^" %<perfstem %+W [%+A|%+B|%+C] %+PRS,,
+	a č e n -> ā v|| _ "^" %<perfstem [%+M|%+W] [%+D|%+E|%+F] %+PRS,,
+	s e m e n -> s ā t t || _ "^" %<perfstem [%+M|%+W] (?)+ %+PRS,,
+	v a n e n -> v i y || _ "^" %<perfstem %+M (?)+ %+PRS,,
+	v a n e n -> v e y || _ "^" %<perfstem %+W (?)+ %+PRS,,
+	k a r e n -> k || _ "^" %<perfstem (?)+ %+PST,,
+	d i y e n -> d || _ "^" %<perfstem (?)+ %+PST,,
+	l i y e n -> l || _ "^" %<perfstem (?)+ %+PST,,
+	x ā y e n -> x ā v|| _ "^" %<perfstem (?)+ %+PST,,
+	p ʰ e n d e n -> p ʰ i n d|| _ "^" %<perfstem (?)+ %+PST,,
+	č ʰ i y e n -> č ʰ e n|| _ "^" %<perfstem (?)+ %+PST;
+
+define prog [vowel - ā] -> e || _ (consonant)+ e n "^" "progstem" ,, e n -> e || _ "^" "progstem";
+define suffix %+progsuffix -> may;
 
 define stem e n -> 0 || _ "^" [%<imperfstem|%<imperfstem2] (?)+ %+PRS,,
-    e n -> 0 || .#. ~[a č] _ "^" %<imperfstem (?)+ %+PST,,
-    e n -> 0 || _ "^" %<perfstem (?)+ [%+PRS|%+PST],,
-    e n -> 0 || _ "^" %<sbjvstem (?)+ %+PRS;
+	e n -> 0 || .#. ~[a č] _ "^" %<imperfstem (?)+ %+PST,,
+	e n -> 0 || _ "^" %<perfstem (?)+ %+PRS,,
+	e n -> 0 || .#. ~[č ʰ] _ "^" %<perfstem (?)+ %+PST,,
+	e n -> 0 || _ "^" %<sbjvstem (?)+ %+PRS;
 
 define inflect %+A-> i || %<imperfstem _ %+PRS,,
-    %<imperfstem -> %<imperfstem2, %+C-> a w|| _ %+C %+PRS, %<imperfstem _ %+PRS,,
-    %+D-> ā || %<imperfstem _ %+PRS,,
-    %+F-> e n || %<imperfstem _ %+PRS,,
-    %+B-> d i y u || %<imperfstem [%+M|%+W] _ %+PST,,
-    %+C-> d u || %<imperfstem [%+M|%+W] _ %+PST,,
-    %+D-> d e s a i y a v|| %<imperfstem [%+M|%+W] _ %+PST,,
-    %+E-> d ā s u || %<imperfstem [%+M|%+W] _ %+PST,,
-    %+F-> d a i y a v || %<imperfstem [%+M|%+W] _ %+PST,,
-    %+A-> i y ā s || %<perfstem [%+M|%+W] _ %+PRS,,
-    %+B-> e || %<perfstem [%+M|%+W] _ %+PRS,,
-    %+C-> o||%<perfstem %+M _ %+PRS,,
-    %+C-> i||%<perfstem %+W _ %+PRS,,
-    %+D-> e s ā || %<perfstem [%+M|%+W] _ %+PRS,,
-    %+E-> ā s || %<perfstem [%+M|%+W] _ %+PRS,,
-    %+F-> ā || %<perfstem [%+M|%+W] _ %+PRS,,
-    %+A-> ā y || "^" %<perfstem _ %+PST,,
-    %+C-> a y i||%<perfstem _ %+PST,,
-    %+D-> ā m|| %<perfstem _ %+PST,,
-    %+F-> ā v a n|| %<perfstem _ %+PST,,
-    %+D-> o i y a || %<sbjvstem _ %+PRS,,
-    %+E-> i s i y a || %<sbjvstem _ %+PRS;
+	%+B-> e || %<imperfstem _ %+PRS,,
+	%<imperfstem -> %<imperfstem2, %+C-> a w|| _ %+C %+PRS, %<imperfstem _ %+PRS,,
+	%+D-> ā || %<imperfstem _ %+PRS,,
+	%+E-> e s || %<imperfstem _ %+PRS,,
+	%+F-> e n || %<imperfstem _ %+PRS,,
+	%+A-> d u s u || %<imperfstem %+M _ %+PST,,
+	%+A-> d i y o s u || %<imperfstem %+W _ %+PST,,
+	%+B-> d i y u || %<imperfstem [%+M|%+W] _ %+PST,,
+	%+C-> d u || %<imperfstem %+M _ %+PST,,
+	%+C-> d i y u || %<imperfstem %+W _ %+PST,,
+	%+D-> d e s a i y a v|| %<imperfstem [%+M|%+W] _ %+PST,,
+	%+E-> d ā s u || %<imperfstem [%+M|%+W] _ %+PST,,
+	%+F-> d a i y a v || %<imperfstem [%+M|%+W] _ %+PST,,
+	%+A-> o s || %<perfstem %+M _ %+PRS,,
+	%+A-> i y ā s || %<perfstem %+W _ %+PRS,,
+	%+B-> e || %<perfstem %+M _ %+PRS,,
+	%+B-> i || %<perfstem %+W _ %+PRS,,
+	%+C-> o||%<perfstem %+M _ %+PRS,,
+	%+C-> i||%<perfstem %+W _ %+PRS,,
+	%+D-> e s ā || %<perfstem [%+M|%+W] _ %+PRS,,
+	%+E-> ā s || %<perfstem [%+M|%+W] _ %+PRS,,
+	%+F-> ā || %<perfstem [%+M|%+W] _ %+PRS,,
+	%+A-> o y || .#. ~[k] "^" %<perfstem _ %+PST,,
+	%+A-> ā y || k "^" %<perfstem _ %+PST,,
+	%+B-> o v || %<perfstem _ %+PST,,
+	s a g e n-> s e g, %+C-> a y i||_ "^" %<perfstem %+C %+PST, %<perfstem _ %+PST,,
+	%+D-> ā m|| %<perfstem _ %+PST,,
+	%+E-> ā m || %<perfstem _ %+PST,,
+	%+F-> ā v a n|| %<perfstem _ %+PST,,
+	x ā y e n -> x ā , %+A-> i y a || _ "^" %<sbjvstem %+A %+PRS, %<sbjvstem _ %+PRS,,
+	%+B-> e y a || %<sbjvstem _ %+PRS,,
+	k a r e n -> k e r, %+C-> a i y a|| _ "^" %<sbjvstem %+C %+PRS, %<sbjvstem _ %+PRS,,
+	%+D-> o i y a || %<sbjvstem _ %+PRS,,
+	%+E-> i s i y a || %<sbjvstem _ %+PRS,,
+	%+F-> a y a || %<sbjvstem _ %+PRS;
 
 define changeV [vowel - ā] -> e || _ (consonant)+ "^" %<imperfstem2;
 
 define cleanC d d d -> d d;
-define clean ["^"|%<imperfstem|%<imperfstem2|%<perfstem|%<sbjvstem|%+M|%+W|%+PST|%+PRS|%+A|%+B|%+C|%+D|%+E|%+F] -> 0;
+define clean [progstem|"^"|%<imperfstem|%<imperfstem2|%<perfstem|%<sbjvstem|%+M|%+W|%+PST|%+PRS] -> 0;
 
-regex morph .o. phon .o. exceptions .o. inflect .o. stem .o. changeV .o. clean .o. cleanC;
+regex morph .o. phon .o. exceptions .o. prog .o. suffix .o. inflect .o. stem .o. changeV .o. clean .o. cleanC;
 
 save stack hsi_verb.a

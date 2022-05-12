@@ -2,17 +2,19 @@ define vowel ā|a|e|i|o|u;
 define consonant b|c|č|d|f|g|h|j|k|l|m|n|p|q|r|ṛ|s|š|t|ʰ|v|w|x|y|z;
 
 regex %+V -> "^",,
-    %+NFIN -> 0,,
-    %+SBJV -> %<sbjvstem,,
-    %+PFV %+IND -> %<perfstem,,
-    %+IPFV %+IND -> %<imperfstem,,
-    %+PFV %+MASC %+IND -> %<perfstem %+M,,
-    %+PFV %+FEM %+IND -> %<perfstem %+W,,
-    %+IPFV %+MASC %+IND -> %<imperfstem %+M,,
-    %+IPFV %+FEM %+IND -> %<imperfstem %+W,,
-    %+SG %+1 -> %+A,,
-    %+SG %+2 -> %+B,,
-    %+SG %+3 -> %+C,,
-    %+PL %+1 -> %+D,,
-    %+PL %+2 -> %+E,,
-    %+PL %+3 -> %+F;
+	%+NFIN -> 0,,
+	%+PROG %+IND %+PRS -> progstem %+progsuffix|| _ .#.,,
+	%+SBJV -> %<sbjvstem,,
+	%+PFV %+IND -> %<perfstem,,
+	%+IPFV %+IND -> %<imperfstem,,
+	%+PFV %+MASC %+IND -> %<perfstem %+M,,
+	%+PFV %+FEM %+IND -> %<perfstem %+W,,
+	%+IPFV %+MASC %+IND -> %<imperfstem %+M,,
+	%+IPFV %+FEM %+IND -> %<imperfstem %+W,,
+	%+SG %+1 -> %+A,,
+	%+SG %+2 -> %+B,,
+	%+SG %+3 -> %+C,,
+	%+PL %+1 -> %+D,,
+	%+PL %+2 -> %+E,,
+	%+PL %+3 -> %+F;
+
