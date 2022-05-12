@@ -1,7 +1,7 @@
 мури	мурик	PRO;ESS;PL;1
 руԓтык	гэруԓтԓи	V;PFV;IND;SG;3;PST
 гыԓгын	гыԓгын	N;COM;PSSD
-ковԓёвԓьоԓьын	+?	V.PTCP;FOC;SG
+ковԓёвԓьоԓьын	ковԓёвԓьоԓьын	V.PTCP;FOC;SG
 тараӈык	гэтараӈԓи	V;PFV;IND;SG;3;PST
 ытԓён	ытԓёнк	PRO;ESS;SG;3
 гэкэӈыԓьын	гэкэӈыԓьыт	N;ABS;PL
@@ -17,7 +17,7 @@
 ԓьук	ԓьугъэ	V;ARGAB3P+ARGER3P;IND;PST
 гитэк	гитэӈӈоат	V;ARGAB3P+ARGER1S;PFV;IND;PST
 ёпатык	ёпатыгъэ	V;ARGAB3S+ARGER1S;PFV;IND;PST
-чаёк	+?	V.MSDR;ESS
+чаёк	чаёк	V.MSDR;ESS
 бригадир	бригадиро	N;EQTV;SG
 эʼԓьэԓ	эʼԓьэԓт	N;ABS;PL
 тумгытум	тумгытумт	N;ABS;PL
@@ -31,7 +31,7 @@
 пэԓятык	гэпэԓятԓи	V;PFV;IND;SG;3;PRS
 ӄытык	гэӄытԓи	V;PFV;IND;SG;3;PST
 эймэвык	гээймэвԓи	V;PFV;IND;SG;3;PST
-ԓёӈръэтатыԓьын	+?	V.PTCP;ABS;SG;NEG
+ԓёӈръэтатыԓьын	ԓёӈръэтатыԓьын	V.PTCP;ABS;SG;NEG
 каԓеткоран	аԓетора	V;ITER;DAT
 йъок	йъо	V;ARGAB1S+ARGER1P;PFV;IND;PST
 ԓьук	ԓьуӈӈоат	V;ARGAB3P+ARGER1S;PRF;IND
