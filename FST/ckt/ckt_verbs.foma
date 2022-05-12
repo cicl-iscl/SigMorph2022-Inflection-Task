@@ -87,12 +87,13 @@ define Assert ы к -> 0 || в _ "^" н и н;
 define Opport к -> 0 || _ "^" г ъ э н;
 
 define Sellt н -> 0 || _ "^" к;
+
 #Define k Deletion
 define KDeletion ы к -> 0 || _ "^" г ъ э к;
 
 define Kretention [..] -> ы || ӈ _ "^" ԓ и н;
 
-define PreSufix [..] -> н || .#. _ ?* г ъ э н .#.;
+define PreSufix [..] -> м ы || .#. _ ?* г ъ э н .#.;
 
 define PreSufixComb [..] -> т ы ԓ || .#. _ ?* ӈ ӈ о н а т .#.;
 

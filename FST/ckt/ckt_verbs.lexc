@@ -90,7 +90,7 @@ LEXICON Vinf
 %+V%+PFV%+IND%+SG%+1%+PST:^гъэк   #;
 %+V%+ARGAB3S%+ARGER3S%+IND%+PRS:^нин   #;
 %+V%+ARGAB3S%+ARGER3S%+PFV%+IND%+PST:^нин    #;
-%+V%+ARGAB3S%+ARGER3S%+IPFV%+IND%+PRS:^нин    #;
+%+V%+ARGAB3S%+ARGER3S%+IPFV%+IND%+PRS:^ркынин    #;
 %+V%+ARGAB3S%+ARGER3S%+IND:^нин      #;
 %+V%+ARGAB3P%+ARGER1P%+IND%+PST:^нэт    #;
 %+V%+ITER%+DAT:^к      #;
