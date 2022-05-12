@@ -1,4 +1,4 @@
-Multichar_Symbols %+SG %+PL %+ANIM %+DAT %+ABS %+GEN %+ESS %+ABL %+PROPN %+INS %+PRO %+2 %+1 %+3
+Multichar_Symbols %+SG %+PL %+ANIM %+DAT %+DET %+INS %+ABS %+GEN %+ESS %+ABL %+PROPN %+INS %+PRO %+2 %+1 %+3
 
 
 LEXICON Root
@@ -60,6 +60,7 @@ LEXICON Pronouns
 омваам     Prinf;
 гыт        Prinf;
 Ԓетынтаграв Prinf;
+ынӄэн        Prinf;
 
 LEXICON Prinf
 
@@ -76,7 +77,7 @@ LEXICON Prinf
 %+PRO%+ABS%+PL%+1:0     #;
 %+PRO%+DAT%+SG%+2:^гты    #;
 %+PRO%+GEN%+SG%+3:^нин  #;
-%+PRO%+INS%+SG%+1:0    #;
-%+DET%+INS%+SG:0      #;
+%+PRO%+INS%+SG%+1:^нан    #;
+%+DET%+INS%+SG:^атаӈ      #;
 
 

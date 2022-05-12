@@ -56,6 +56,8 @@ define Alternat г -> э || Cns "^" _;
 # Define Deletion
 define Protdel ԓ г ы н -> 0 || _ "^" т;   
 
+define Dev т ԓ ё н -> 0 || _ "^" н и н;	
+
 # Define Elision
 define Elision ы н -> 0 || _ "^" э т ы ,,
                  к -> 0 || _ "^" т и н э;
@@ -78,6 +80,7 @@ define Grammar Lexicon       .o.
       	       Elision       .o.
 	           Protdel       .o.
 	           Proalt        .o.
+               Dev           .o.
 	           Cleanup;
 
 regex Grammar;
