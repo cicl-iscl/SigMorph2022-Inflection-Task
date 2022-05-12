@@ -128,7 +128,7 @@ LEXICON Ninf
 %+N%+DAT%+SG:^гты  #;
 %+N%+ABS%+SG:0     #;
 %+N%+ANIM%+ABS%+SG:0   #;
-%+N%+ANIM%+INS%+SG:^э   #;
-%+N%+ANIM%+INS:^э   #;
+%+N%+ANIM%+INS%+SG:^нан   #;
+%+N%+ANIM%+INS:^нан   #;
 %+N%+ANIM%+DAT%+SG:^гты  #;
 %+N%+COM%+PSSD:0       #;
