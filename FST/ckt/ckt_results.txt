@@ -1,44 +1,92 @@
-танӈын+N+ABS+PL	танӈыт
+мури+PRO+ESS+PL+1	мурик
 
-гым+PRO+SG+1	гымо
+руԓтык+V+PFV+IND+SG+3+PST	гэруԓтԓин
 
-ымым+PRO+SG+1	гым
+гыԓгын+N+COM+PSSD	гыԓгын
 
-ӈирэӄычьын+ADJ+DAT	ӈэраӄычьэты
+ковԓёвԓьоԓьын+V.PTCP+FOC+SG	ковԓёвԓьоԓьын
 
-ӄорагынрэтыԓьын+N+EQTV+SG	ӄорагынрэтыԓьо
+тараӈык+V+PFV+IND+SG+3+PST	гэтараӈыԓин
 
-эԓек+N+ESS	эԓек
+ытԓён+PRO+ESS+SG+3	ытԓёнк
 
-панрэватык+V+PFV+IND+SG+3+PST	гэпанрэватԓин
+гэкэӈыԓьын+N+ABS+PL	гэкэӈыԓьыт
 
-рыпыткынтэвык+V+PFV+IND+SG+3+PST	гэрыпыткынтэвԓин
+тури+PRO+DAT+PL+2	туриэты
 
-тэԓпык+V+PFV+IND+SG+3+PST	гэтэԓпԓин
+ӄорагынрэтыԓьын+N+ABS+PL	ӄорагынрэтыԓьыт
 
-энаръэк+V+ARGAB3P+ARGER3S+PFV+IND+PST	энаръэнэнат
+омваам+PROPN+ABL+SG	омваам
 
-яраӈы+N+ESS	ярак
+ыʼԓьыԓ+N+ESS	ыʼԓьыԓ
 
-гыргочайпы+ADP+ABL	гыргочайпы
+рывэтгавык+V+ARGAB3S+ARGER3S+IND+PRS	рывэтгавынин
 
-ытԓён+PRO+ABS+SG+3	ытԓён
+тумгытум+N+ANIM+INS+SG	тумгытумнан
 
-ӄырирык+V+ARGAB3P+ARGER1S+IND	тыԓӄырирыӈӈонат
+миӈкы+ADV+ESS	миӈкы
 
-ытԓён+PRO+GEN+SG+3	ынин
+мытнэрэтъэн+V+PFV+IND+PL+3+PST	гэмытнэрэтъэнԓин
 
-ԓьук+V+PFV+IND+SG+3	гэԓьукԓин
+эпэ+N+ANIM+INS	эпэнан
 
-рывык+V+PFV+IND+SG+3	гэрывԓин
+ԓьук+V+ARGAB3P+ARGER3P+IND+PST	мыԓьугъэн
 
-гыръоӈавыръэнутэт+V+ABS+PL	гыръоӈавыръэнутэт
+гитэк+V+ARGAB3P+ARGER1S+PFV+IND+PST	тыԓгитэӈӈонат
 
-гым+PRO+INS+SG+1	гымнан
+ёпатык+V+ARGAB3S+ARGER1S+PFV+IND+PST	мыёпатыгъэн
 
-тивык+V+ARGAB3S+ARGER3S+IPFV+IND+PRS	тивыркынин
+чаёк+V.MSDR+ESS	чаёк
 
-ынӄэн+DET+INS+SG	ынӄэнатаӈ
+бригадир+N+EQTV+SG	бригадиро
 
-тэйкык+V+ARGAB3S+ARGER1S+SBJV	мытэйкыгъэн
+эʼԓьэԓ+N+ABS+PL	эʼԓьэԓт
+
+тумгытум+N+ABS+PL	тумгытумт
+
+тэнӈыткук+V+STAT+ITER+SG+3	тэнӈыткукк
+
+тэнкэвӈык+V+ARGAB3S+ARGER2S+SBJV	тэнкэвӈык
+
+ытԓыгын+N+ANIM+INS+SG	ытԓыгыннан
+
+оонъыԓгын+N+ABS+PL	оонъыԓгыт
+
+пинтыӄэтык+V+PFV+IND+SG+3+PST	гэпинтыӄэтԓин
+
+рэмкичик+V+PFV+IND+SG+3+PST	гэрэмкичкԓин
+
+маравчетык+V+PFV+IND+PL+3+PST	гэмаравчетԓин
+
+пэԓятык+V+PFV+IND+SG+3+PRS	гэпэԓятԓин
+
+ӄытык+V+PFV+IND+SG+3+PST	гэӄытԓин
+
+эймэвык+V+PFV+IND+SG+3+PST	гээймэвԓин
+
+ԓёӈръэтатыԓьын+V.PTCP+ABS+SG+NEG	ԓёӈръэтатыԓьын
+
+каԓеткоран+V+ITER+DAT	каԓеткорак
+
+йъок+V+ARGAB1S+ARGER1P+PFV+IND+PST	йъок
+
+ԓьук+V+ARGAB3P+ARGER1S+PRF+IND	тыԓԓьуӈӈонат
+
+ӈэвъэн+N+ANIM+INS	ӈэвъэннан
+
+мынгытычьын+ADJ+DAT	мынгытычьэты
+
+ӄԓявыԓ+N+ANIM+INS	ӄԓявыԓнан
+
+чакыгэт+N+ANIM+DAT+SG	чакыгэтэты
+
+мури+PRO+ABS+PL+1	мури
+
+каԓеткогыргын+V+ITER+ABS+SG	каԓеткогыргык
+
+гыт+PRO+DAT+SG+2	гытэты
+
+гитэк+V+ARGAB3S+ARGER1S+IND+PRS	мыгитэгъэн
+
+Ԓетынтаграв+PROPN+ABS+SG	Ԓетынтаграв
 
