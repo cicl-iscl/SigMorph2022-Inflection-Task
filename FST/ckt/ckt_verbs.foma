@@ -103,8 +103,13 @@ define SufixHt [..] -> м ы т || .#. _ ?* н э т .#.;
                  
 define MoreKelisions к -> 0 || _ "^" н э т;
 
+define Ind к -> р к ы н и н || _ "$" ;
+
+define IndPst к -> н э н а т || _ "/" ;
+
+
 # Cleanup: remove morpheme boundaries
-define Cleanup "^" -> 0;
+define Cleanup ["^"|"$"|"/"] -> 0;
 
 read lexc ckt_verbs.lexc
 define Lexicon
@@ -129,6 +134,8 @@ define Grammar Lexicon       .o.
 		   Assert        .o.
 		   Opport        .o.
 		   Sellt         .o.
+		   Ind 					 .o.	
+		   IndPst				 .o.	
 	       Cleanup;   
 
 regex Grammar;

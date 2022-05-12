@@ -90,7 +90,7 @@ LEXICON Vinf
 %+V%+PFV%+IND%+SG%+1%+PST:^гъэк   #;
 %+V%+ARGAB3S%+ARGER3S%+IND%+PRS:^нин   #;
 %+V%+ARGAB3S%+ARGER3S%+PFV%+IND%+PST:^нин    #;
-%+V%+ARGAB3S%+ARGER3S%+IPFV%+IND%+PRS:^ркынин    #;
+%+V%+ARGAB3S%+ARGER3S%+IPFV%+IND%+PRS:$    #;
 %+V%+ARGAB3S%+ARGER3S%+IND:^нин      #;
 %+V%+ARGAB3P%+ARGER1P%+IND%+PST:^нэт    #;
 %+V%+ITER%+DAT:^к      #;
@@ -116,11 +116,11 @@ LEXICON Vinf
 %+V%+ARGAB3S%+ARGER3P%+PFV%+IND%+PST:^гъэн       #;
 %+V%+ARGAB3P%+ARGER1S:^нэт         #;
 %+V%+PFV%+SG%+3%+PST%+INV:^оԓен	   #;
-%+V%+ARGAB3P%+ARGER3S%+PFV%+IND%+PST:^нэнат      #;
+%+V%+ARGAB3P%+ARGER3S%+PFV%+IND%+PST:/    #;
 %+V%+ARGAB3P%+ARGER1S%+IND:^ӈӈонат     #;
 %+V%+ARGAB3S%+ARGER1S%+SBJV:^гъэн        #;
 %+V.MSDR%+ESS:0     #;
 %+V%+ARGAB3S%+ARGER2S%+SBJV:0     #;
-%+V%+PTCP%+ABS%+SG%+NEG:0    #;
+%+V.PTCP%+ABS%+SG%+NEG:0    #;
 %+V%+ARGAB1S%+ARGER1P%+PFV%+IND%+PST:0    #;
 %+V.PTCP%+FOC%+SG:0     #;

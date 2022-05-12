@@ -56,16 +56,18 @@ define Alternat г -> э || Cns "^" _;
 # Define Vowel Elision
 define Elision ы н -> 0 || _ "^" э т ы;
 
+define BeginNi ӈ и р э -> ӈ э р а || .#. _;
+
 
 # Cleanup: remove morpheme boundaries
-define Cleanup "^" -> 0;
+define Cleanup ["^"|"&"] -> 0;
 
 read lexc ckt_adj.lexc
 define Lexicon
 
  define Grammar Lexicon       .o.
                 Alternat      .o.
-		Elision       .o.
+		Elision       .o. BeginNi .o.
 		Cleanup;
 
  regex Grammar;
