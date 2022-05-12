@@ -78,11 +78,15 @@ define Prefixu [..] -> г э || .#. _ ?* ԓ и н .#.;
 define PrefixF [..] -> т || .#. _ ?* г ъ э к .#.;
 
 # Define Suffixation
-define SuffixIND к -> 0 || "^" н и н ,,
-               ы к -> 0 || ԓ _ "^" н и н ,,
-               ы к -> 0 || в _ "^" н и н ,,
-                   к -> 0 || "^" г ъ э н ,, 
- 		           н -> 0 || "^" к;
+define SuffixIND к -> 0 || _ "^" н и н;
+
+define Insert ы к -> 0 || ԓ _ "^" н и н;
+
+define Assert ы к -> 0 || в _ "^" н и н;
+
+define Opport к -> 0 || _ "^" г ъ э н;
+
+define Sellt н -> 0 || _ "^" к;
 #Define k Deletion
 define KDeletion ы к -> 0 || _ "^" г ъ э к;
 
@@ -92,11 +96,11 @@ define PreSufix [..] -> н || .#. _ ?* г ъ э н .#.;
 
 define PreSufixComb [..] -> т ы ԓ || .#. _ ?* ӈ ӈ о н а т .#.;
 
-define KElision к -> 0 || "^" ӈ ӈ о н а т;
+define KElision к -> 0 || _ "^" ӈ ӈ о н а т;
 
 define SufixHt [..] -> м ы т || .#. _ ?* н э т .#.;
                  
-define MoreKelisions к -> 0 || "^" н э т;
+define MoreKelisions к -> 0 || _ "^" н э т;
 
 # Cleanup: remove morpheme boundaries
 define Cleanup "^" -> 0;
@@ -106,7 +110,7 @@ define Lexicon
 
 define Grammar Lexicon       .o.
 	       Elision       .o.
-               Proalt        .o.
+           Proalt        .o.
 	       PrefixP       .o.
 	       PrefixC       .o.
 	       BuffA         .o.
@@ -120,9 +124,10 @@ define Grammar Lexicon       .o.
 	       KElision      .o.
 	       SufixHt       .o.
 	       MoreKelisions .o.
-	       Cleanup;
+		   Insert        .o.
+		   Assert        .o.
+		   Opport        .o.
+		   Sellt         .o.
+	       Cleanup;   
 
 regex Grammar;
-
-#define Prefixu [..] -> г э || .#. _ ?* ԓ и н .#.;		
-#regex Prefixu .o. Grammar;
