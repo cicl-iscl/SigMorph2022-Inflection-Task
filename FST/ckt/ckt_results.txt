@@ -1,0 +1,92 @@
+мури+PRO+ESS+PL+1	мурик
+
+руԓтык+V+PFV+IND+SG+3+PST	гэруԓтԓин
+
+гыԓгын+N+COM+PSSD	гыԓгын
+
+ковԓёвԓьоԓьын+V.PTCP+FOC+SG	ковԓёвԓьоԓьын
+
+тараӈык+V+PFV+IND+SG+3+PST	гэтараӈыԓин
+
+ытԓён+PRO+ESS+SG+3	ытԓёнк
+
+гэкэӈыԓьын+N+ABS+PL	гэкэӈыԓьыт
+
+тури+PRO+DAT+PL+2	туриэты
+
+ӄорагынрэтыԓьын+N+ABS+PL	ӄорагынрэтыԓьыт
+
+омваам+PROPN+ABL+SG	омваам
+
+ыʼԓьыԓ+N+ESS	ыʼԓьыԓ
+
+рывэтгавык+V+ARGAB3S+ARGER3S+IND+PRS	рывэтгавынин
+
+тумгытум+N+ANIM+INS+SG	тумгытумнан
+
+миӈкы+ADV+ESS	миӈкы
+
+мытнэрэтъэн+V+PFV+IND+PL+3+PST	гэмытнэрэтъэнԓин
+
+эпэ+N+ANIM+INS	эпэнан
+
+ԓьук+V+ARGAB3P+ARGER3P+IND+PST	мыԓьугъэн
+
+гитэк+V+ARGAB3P+ARGER1S+PFV+IND+PST	тыԓгитэӈӈонат
+
+ёпатык+V+ARGAB3S+ARGER1S+PFV+IND+PST	мыёпатыгъэн
+
+чаёк+V.MSDR+ESS	чаёк
+
+бригадир+N+EQTV+SG	бригадиро
+
+эʼԓьэԓ+N+ABS+PL	эʼԓьэԓт
+
+тумгытум+N+ABS+PL	тумгытумт
+
+тэнӈыткук+V+STAT+ITER+SG+3	тэнӈыткукк
+
+тэнкэвӈык+V+ARGAB3S+ARGER2S+SBJV	тэнкэвӈык
+
+ытԓыгын+N+ANIM+INS+SG	ытԓыгыннан
+
+оонъыԓгын+N+ABS+PL	оонъыԓгыт
+
+пинтыӄэтык+V+PFV+IND+SG+3+PST	гэпинтыӄэтԓин
+
+рэмкичик+V+PFV+IND+SG+3+PST	гэрэмкичкԓин
+
+маравчетык+V+PFV+IND+PL+3+PST	гэмаравчетԓин
+
+пэԓятык+V+PFV+IND+SG+3+PRS	гэпэԓятԓин
+
+ӄытык+V+PFV+IND+SG+3+PST	гэӄытԓин
+
+эймэвык+V+PFV+IND+SG+3+PST	гээймэвԓин
+
+ԓёӈръэтатыԓьын+V.PTCP+ABS+SG+NEG	+?
+
+каԓеткоран+V+ITER+DAT	каԓеткорак
+
+йъок+V+ARGAB1S+ARGER1P+PFV+IND+PST	йъок
+
+ԓьук+V+ARGAB3P+ARGER1S+PRF+IND	тыԓԓьуӈӈонат
+
+ӈэвъэн+N+ANIM+INS	ӈэвъэннан
+
+мынгытычьын+ADJ+DAT	мынгытычьэты
+
+ӄԓявыԓ+N+ANIM+INS	ӄԓявыԓнан
+
+чакыгэт+N+ANIM+DAT+SG	чакыгэтэты
+
+мури+PRO+ABS+PL+1	мури
+
+каԓеткогыргын+V+ITER+ABS+SG	каԓеткогыргык
+
+гыт+PRO+DAT+SG+2	гытэты
+
+гитэк+V+ARGAB3S+ARGER1S+IND+PRS	мыгитэгъэн
+
+Ԓетынтаграв+PROPN+ABS+SG	Ԓетынтаграв
+

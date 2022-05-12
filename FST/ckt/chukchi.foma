@@ -57,7 +57,7 @@ define Lexicon;
 #define ӈDel ӈ [ Cns | Vow ] -> 0 | _ "^" k;
 
 # Define H deletion
-define HDel ӈ Vow -> k || _ "^" t;
+define HDel ӈ Vow -> к || _ "^" t;
 	 
 
 define HDelete н -> 0 || _ "^" [ т | к | й п ы ];

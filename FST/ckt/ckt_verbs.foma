@@ -63,7 +63,7 @@ define Proalt ы м ы м -> 0 || _ "^" о ,,
               о -> г ы м || ы м ы м "^" _;
 
 # Define Suffix Anim
-#define SuffixAnim k -> 0 || _ "^" т и н э;
+#define SuffixAnim к -> 0 || _ "^" т и н э;
 
 # Define Prefixation
 define PrefixP [..] -> м ы || .#. _ р Vd;
