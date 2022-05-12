@@ -75,5 +75,8 @@ LEXICON Prinf
 %+PRO%+DAT%+SG%+2:^эты	#;
 %+PRO%+ABS%+PL%+1:0     #;
 %+PRO%+DAT%+SG%+2:^гты    #;
+%+PRO%+GEN%+SG%+3:^нин  #;
+%+PRO%+INS%+SG%+1:0    #;
+%+DET%+INS%+SG:0      #;
 
 
